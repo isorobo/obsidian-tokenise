@@ -255,6 +255,7 @@ async function loadFromHandle(handle) {
 
 function boot(forecasts, realised) {
   connectScreen.hidden = true; view.hidden = false;
+  const esc = vaultLoader.escapeHTML;
 
   // Forecasts in trillions; realised in billions.
   const maxT = Math.max(...forecasts.forecasts.map(f => f.headline_bull_usd_trillions || f.headline_usd_trillions));
@@ -263,9 +264,9 @@ function boot(forecasts, realised) {
     const v = f.headline_bull_usd_trillions || f.headline_usd_trillions;
     const pct = (v / maxT) * 100;
     fBars.insertAdjacentHTML('beforeend', `
-      <div class="label">${f.source}<small>${f.scope || ''}</small></div>
-      <div class="track"><div class="fill" style="width:${pct}%">$${v}T</div></div>
-      <div class="yr">${f.horizon_year}</div>
+      <div class="label">${esc(f.source)}<small>${esc(f.scope || '')}</small></div>
+      <div class="track"><div class="fill" style="width:${pct}%">$${esc(v)}T</div></div>
+      <div class="yr">${esc(f.horizon_year)}</div>
     `);
   }
 
@@ -274,9 +275,9 @@ function boot(forecasts, realised) {
   for (const r of realised.instruments) {
     const pct = (r.aum_usd_billions / maxR) * 100;
     rBars.insertAdjacentHTML('beforeend', `
-      <div class="label">${r.instrument}<small>${r.issuer || ''} · ${r.kind || ''}</small></div>
-      <div class="track"><div class="fill realised" style="width:${pct}%">$${r.aum_usd_billions}B</div></div>
-      <div class="yr">${r.as_of}</div>
+      <div class="label">${esc(r.instrument)}<small>${esc(r.issuer || '')} · ${esc(r.kind || '')}</small></div>
+      <div class="track"><div class="fill realised" style="width:${pct}%">$${esc(r.aum_usd_billions)}B</div></div>
+      <div class="yr">${esc(r.as_of)}</div>
     `);
   }
 
@@ -284,9 +285,9 @@ function boot(forecasts, realised) {
   for (const p of realised.live_pilots) {
     pHost.insertAdjacentHTML('beforeend', `
       <div class="pilot">
-        <h4>${p.name}</h4>
-        <div class="meta">${p.as_of}</div>
-        <p>${p.scale}</p>
+        <h4>${esc(p.name)}</h4>
+        <div class="meta">${esc(p.as_of)}</div>
+        <p>${esc(p.scale)}</p>
       </div>
     `);
   }
@@ -294,7 +295,7 @@ function boot(forecasts, realised) {
   const sHost = document.getElementById('sceptics');
   for (const s of realised.sceptical_signals) {
     sHost.insertAdjacentHTML('beforeend', `
-      <li>${s.claim}<span class="src">— ${s.source}</span></li>
+      <li>${esc(s.claim)}<span class="src">— ${esc(s.source)}</span></li>
     `);
   }
 

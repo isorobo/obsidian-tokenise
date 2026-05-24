@@ -200,6 +200,12 @@
     return last.trim();
   }
 
+  function escapeHTML(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+    }[c]));
+  }
+
   window.vaultLoader = {
     apiAvailable,
     connect,
@@ -211,6 +217,7 @@
     parseFrontmatter,
     extractLinks,
     resolveLink,
+    escapeHTML,
   };
 
   // Auto-banner: if the page is not served from http://localhost (file:// or a

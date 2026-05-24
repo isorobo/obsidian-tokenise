@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>wiki-tokenise · realised vs projected</title>
+<link rel="stylesheet" href="_shared.css">
+<style>
+  main { max-width: 1100px; margin: 0 auto; padding: var(--s-5); }
+  .intro { max-width: 70ch; color: var(--ink-mid); margin: 0 0 var(--s-5); }
+  .intro b { color: var(--ink-strong); font-weight: 600; }
+
+  .scale {
+    margin: var(--s-5) 0;
+  }
+  .scale-axis {
+    position: relative;
+    height: 32px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  .scale-tick {
+    position: absolute; top: 0; bottom: 0; width: 1px;
+    background: var(--rule);
+    font-family: var(--font-mono); font-size: 10px;
+    color: var(--ink-soft);
+  }
+  .scale-tick span {
+    position: absolute; bottom: -18px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+  }
+
+  .bars {
+    display: grid;
+    grid-template-columns: 240px 1fr 100px;
+    gap: var(--s-2) var(--s-3);
+    align-items: center;
+    margin-top: var(--s-5);
+  }
+  .bars .head {
+    font-family: var(--font-mono); font-size: var(--t-cap);
+    color: var(--ink-soft);
+    padding-bottom: var(--s-2);
+    border-bottom: 1px solid var(--rule);
+  }
+  .bars .label { font-size: 14px; color: var(--ink-strong); }
+  .bars .label small { display: block; color: var(--ink-soft); font-size: 11px; font-family: var(--font-mono); }
+  .bars .track { background: var(--bg-page); height: 24px; position: relative; }
+  .bars .fill {
+    height: 100%; background: var(--accent-soft);
+    border-right: 2px solid var(--accent);
+    display: flex; align-items: center; padding-left: var(--s-2);
+    font-family: var(--font-mono); font-size: 11px; color: var(--ink-strong);
+  }
+  .bars .fill.realised { background: var(--accent); color: var(--bg-paper); }
+  .bars .yr {
+    font-family: var(--font-mono); font-size: 11px; color: var(--ink-soft); text-align: right;
+  }
+
+  .section-h {
+    font-family: var(--font-display);
+    font-size: var(--t-h2); font-weight: 600;
+    margin: var(--s-7) 0 var(--s-3);
+    letter-spacing: -0.01em;
+  }
+  .section-h small {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: var(--t-cap); color: var(--ink-soft);
+    font-weight: 400;
+    text-transform: uppercase; letter-spacing: 0.1em;
+    margin-top: 2px;
+  }
+
+  .pilots {
+    display: grid; grid-template-columns: 1fr; gap: 1px;
+    background: var(--rule); border: 1px solid var(--rule);
+  }
+  @media (min-width: 720px) {
+    .pilots { grid-template-columns: 1fr 1fr 1fr; }
+  }
+  .pilot {
+    background: var(--bg-paper);
+    padding: var(--s-4);
+  }
+  .pilot h4 {
+    margin: 0 0 var(--s-2);
+    font-family: var(--font-display); font-size: var(--t-h3); font-weight: 600;
+  }
+  .pilot .meta { font-family: var(--font-mono); font-size: 11px; color: var(--ink-soft); margin-bottom: var(--s-2); }
+  .pilot p { margin: 0; font-size: 14px; color: var(--ink-mid); }
+
+  .sceptics {
+    border-top: 1px solid var(--rule);
+    margin-top: var(--s-6);
+    padding-top: var(--s-5);
+  }
+  .sceptics ol {
+    padding-left: 1.2em;
+    max-width: 70ch;
+  }
+  .sceptics li { margin-bottom: var(--s-3); line-height: 1.55; }
+  .sceptics li .src {
+    font-family: var(--font-mono); font-size: 11px; color: var(--ink-soft);
+    display: block; margin-top: 2px;
+  }
+
+  .gap {
+    margin-top: var(--s-6);
+    padding: var(--s-4);
+    background: var(--bg-page);
+    border-left: 3px solid var(--accent);
+  }
+  .gap b { color: var(--accent); }
+  .gap .n {
+    font-family: var(--font-mono); font-size: 36px; font-weight: 700;
+    color: var(--ink-strong); display: block; line-height: 1;
+  }
+  .gap p { margin: var(--s-2) 0 0; color: var(--ink-mid); }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <span class="crumb"><b>wiki-tokenise</b> · realised vs projected</span>
+  <nav>
+    <a href="index.html">index</a>
+    <a href="graph.html">graph</a>
+    <a href="convergence.html">convergence</a>
+    <a href="timeline.html">timeline</a>
+    <a href="realised.html" class="active">realised</a>
+    <a href="compare.html">compare</a>
+    <a href="#" id="themeBtn" title="Toggle theme">●</a>
+  </nav>
+</header>
+
+<main>
+  <div id="connectScreen" class="connect-screen">
+    <div class="connect-card">
+      <h2>Connect vault</h2>
+      <p>Reads <code>99_Meta/forecasts.json</code> and <code>99_Meta/realised.json</code>. Hand-maintained.</p>
+      <div class="connect-actions">
+        <button id="connectBtn" class="primary">Connect vault</button>
+        <button id="reconnectBtn" hidden>Reconnect</button>
+        <button id="forgetBtn" hidden>Forget vault</button>
+      </div>
+      <p id="connectErr" class="error" hidden></p>
+      <p class="connect-meta">Read-only · Chrome 86+ · Edge 86+</p>
+    </div>
+  </div>
+
+  <div id="view" hidden>
+    <p class="intro">
+      <b>The honest accounting.</b> Bull-case sizing forecasts beside realised AUM and live pilots.
+      The gap between them is itself an analytical object.
+    </p>
+
+    <div class="gap" id="gap" hidden>
+      <span style="font-family:var(--font-mono); font-size:11px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:0.1em;">Projection-to-realisation gap</span>
+      <span class="n" id="gapN">—</span>
+      <p id="gapTxt">—</p>
+    </div>
+
+    <h2 class="section-h">Forecasts <small>(bull case)</small></h2>
+    <div class="bars" id="forecastBars">
+      <div class="head">Source</div>
+      <div class="head">USD trillions</div>
+      <div class="head">Horizon</div>
+    </div>
+
+    <h2 class="section-h">Realised <small>(as at mid-2026)</small></h2>
+    <div class="bars" id="realisedBars">
+      <div class="head">Instrument</div>
+      <div class="head">USD billions</div>
+      <div class="head">As of</div>
+    </div>
+
+    <h2 class="section-h">Live pilots</h2>
+    <div class="pilots" id="pilots"></div>
+
+    <div class="sceptics">
+      <h2 class="section-h">Sceptical signals</h2>
+      <ol id="sceptics"></ol>
+    </div>
+  </div>
+</main>
+
+<script src="vault-store.js"></script>
+<script src="_vault-loader.js"></script>
+<script>
+const root = document.documentElement;
+(function () {
+  const saved = localStorage.getItem('wt-theme');
+  if (saved === 'dark' || saved === 'light') root.dataset.theme = saved;
+})();
+document.getElementById('themeBtn').addEventListener('click', (e) => {
+  e.preventDefault();
+  const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+  root.dataset.theme = next;
+  localStorage.setItem('wt-theme', next);
+});
+
+const connectScreen = document.getElementById('connectScreen');
+const view = document.getElementById('view');
+const errBox = document.getElementById('connectErr');
+const reconnectBtn = document.getElementById('reconnectBtn');
+const forgetBtn = document.getElementById('forgetBtn');
+
+document.getElementById('connectBtn').addEventListener('click', async () => {
+  errBox.hidden = true;
+  try { await connectAndBoot(); }
+  catch (e) { errBox.textContent = e.message || String(e); errBox.hidden = false; }
+});
+reconnectBtn.addEventListener('click', async () => {
+  const handle = await vaultStore.loadHandle();
+  if (!handle) return;
+  const perm = await vaultStore.requestPermission(handle);
+  if (perm !== 'granted') { errBox.textContent = 'Permission denied.'; errBox.hidden = false; return; }
+  await loadFromHandle(handle);
+});
+forgetBtn.addEventListener('click', async () => { await vaultLoader.forget(); location.reload(); });
+
+(async function init() {
+  const handle = await vaultStore.loadHandle();
+  if (!handle) return;
+  let perm = await vaultStore.verifyPermission(handle);
+  if (perm !== 'granted') {
+    // Best-effort silent re-request; falls through to 'denied' if no
+    // navigation gesture is available.
+    perm = await vaultStore.requestPermission(handle);
+  }
+  if (perm === 'granted') {
+    await loadFromHandle(handle);
+  } else {
+    reconnectBtn.hidden = false; forgetBtn.hidden = false;
+    vaultLoader.autoReconnectOnClick(handle, () => loadFromHandle(handle));
+  }
+})();
+
+async function connectAndBoot() {
+  const handle = await window.showDirectoryPicker({ mode: 'read' });
+  await vaultStore.saveHandle(handle);
+  await loadFromHandle(handle);
+}
+
+async function loadFromHandle(handle) {
+  const meta = await handle.getDirectoryHandle('99_Meta');
+  const f1 = await (await (await meta.getFileHandle('forecasts.json')).getFile()).text();
+  const f2 = await (await (await meta.getFileHandle('realised.json')).getFile()).text();
+  const forecasts = JSON.parse(f1);
+  const realised = JSON.parse(f2);
+  boot(forecasts, realised);
+}
+
+function boot(forecasts, realised) {
+  connectScreen.hidden = true; view.hidden = false;
+
+  // Forecasts in trillions; realised in billions.
+  const maxT = Math.max(...forecasts.forecasts.map(f => f.headline_bull_usd_trillions || f.headline_usd_trillions));
+  const fBars = document.getElementById('forecastBars');
+  for (const f of forecasts.forecasts) {
+    const v = f.headline_bull_usd_trillions || f.headline_usd_trillions;
+    const pct = (v / maxT) * 100;
+    fBars.insertAdjacentHTML('beforeend', `
+      <div class="label">${f.source}<small>${f.scope || ''}</small></div>
+      <div class="track"><div class="fill" style="width:${pct}%">$${v}T</div></div>
+      <div class="yr">${f.horizon_year}</div>
+    `);
+  }
+
+  const maxR = Math.max(...realised.instruments.map(r => r.aum_usd_billions));
+  const rBars = document.getElementById('realisedBars');
+  for (const r of realised.instruments) {
+    const pct = (r.aum_usd_billions / maxR) * 100;
+    rBars.insertAdjacentHTML('beforeend', `
+      <div class="label">${r.instrument}<small>${r.issuer || ''} · ${r.kind || ''}</small></div>
+      <div class="track"><div class="fill realised" style="width:${pct}%">$${r.aum_usd_billions}B</div></div>
+      <div class="yr">${r.as_of}</div>
+    `);
+  }
+
+  const pHost = document.getElementById('pilots');
+  for (const p of realised.live_pilots) {
+    pHost.insertAdjacentHTML('beforeend', `
+      <div class="pilot">
+        <h4>${p.name}</h4>
+        <div class="meta">${p.as_of}</div>
+        <p>${p.scale}</p>
+      </div>
+    `);
+  }
+
+  const sHost = document.getElementById('sceptics');
+  for (const s of realised.sceptical_signals) {
+    sHost.insertAdjacentHTML('beforeend', `
+      <li>${s.claim}<span class="src">— ${s.source}</span></li>
+    `);
+  }
+
+  // Gap calc: largest forecast in B, vs total realised AUM in B
+  const biggestForecastB = maxT * 1000;
+  const totalRealisedB = realised.instruments.reduce((a, b) => a + (b.aum_usd_billions || 0), 0);
+  const ratio = Math.round((biggestForecastB / totalRealisedB));
+  document.getElementById('gap').hidden = false;
+  document.getElementById('gapN').textContent = ratio + 'x';
+  document.getElementById('gapTxt').textContent =
+    `The headline bull-case forecast (USD ${maxT}T by ${forecasts.forecasts.find(f => (f.headline_bull_usd_trillions || f.headline_usd_trillions) === maxT).horizon_year}) is ${ratio}x the realised tokenised-RWA AUM tallied below.`;
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+{
+  "_meta": {
+    "purpose": "Bull-case sizing forecasts for the tokenised real-world-assets market. Read by .workspace/realised.html. Hand-maintained.",
+    "updated": "2026-05-24"
+  },
+  "forecasts": [
+    {
+      "source": "Standard Chartered + Synpulse",
+      "source_slug": "Standard-Chartered-Synpulse-RWA-30T-2024",
+      "report": "Real-World Asset Tokenisation: A Game Changer for Global Trade",
+      "published": "2024-06",
+      "headline_usd_trillions": 30.1,
+      "horizon_year": 2034,
+      "scope": "Tokenised RWA market, excluding stablecoins",
+      "url": "https://www.sc.com/en/press-release/trade-finance-to-play-substantial-role-in-usd-30-1-trillion-tokenised-real-world-assets-market-by-2034/"
+    },
+    {
+      "source": "Boston Consulting Group + ADDX",
+      "source_slug": "BCG-ADDX-On-Chain-Asset-Tokenization-2022",
+      "report": "Relevance of On-Chain Asset Tokenization in Crypto Winter",
+      "published": "2022",
+      "headline_usd_trillions": 16.0,
+      "horizon_year": 2030,
+      "scope": "Tokenised illiquid assets across all categories",
+      "url": ""
+    },
+    {
+      "source": "McKinsey",
+      "source_slug": "McKinsey-From-Ripples-to-Waves-2024",
+      "report": "From Ripples to Waves: The Transformational Power of Tokenizing Assets",
+      "published": "2024-06",
+      "headline_usd_trillions": 2.0,
+      "headline_bull_usd_trillions": 4.0,
+      "horizon_year": 2030,
+      "scope": "Tokenised market cap, excluding cryptocurrencies and stablecoins",
+      "url": ""
+    },
+    {
+      "source": "Citi GPS",
+      "source_slug": "Citi-GPS-Money-Tokens-Games-2023",
+      "report": "Money, Tokens and Games: Blockchain's Next Billion Users and Trillions in Value",
+      "published": "2023-03",
+      "headline_usd_trillions": 4.5,
+      "horizon_year": 2030,
+      "scope": "Tokenised securities, trade finance, and private fund assets",
+      "url": ""
+    }
+  ]
+}

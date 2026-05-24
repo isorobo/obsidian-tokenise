@@ -1,0 +1,126 @@
+/* =============================================================
+   wiki-tokenise.css
+   Design tokens shared between Obsidian (Minimal theme) and the
+   browser artefacts under .workspace/.
+   Editorial-typographic register: tinted-neutral background,
+   oxblood accent, iA Writer family.
+   ============================================================= */
+
+/* ---- self-hosted iA Writer fonts (variable) ---------------- */
+
+@font-face {
+  font-family: 'iA Writer Quattro V';
+  src: url('../../80_Attachments/fonts/iAWriterQuattroV.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'iA Writer Quattro V';
+  src: url('../../80_Attachments/fonts/iAWriterQuattroV-Italic.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'iA Writer Duo V';
+  src: url('../../80_Attachments/fonts/iAWriterDuoV.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'iA Writer Mono V';
+  src: url('../../80_Attachments/fonts/iAWriterMonoV.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---- design tokens ---------------------------------------- */
+
+.theme-light {
+  --bg-paper:    oklch(98.5% 0.005 80);
+  --bg-page:     oklch(96.5% 0.008 80);
+  --bg-sunken:   oklch(94%   0.010 80);
+  --ink-strong:  oklch(20%   0.010 260);
+  --ink-mid:     oklch(40%   0.012 260);
+  --ink-soft:    oklch(60%   0.012 260);
+  --accent:      oklch(38%   0.120 25);
+  --accent-soft: oklch(78%   0.060 25);
+  --rule:        oklch(88%   0.010 260);
+}
+.theme-dark {
+  --bg-paper:    oklch(18%   0.008 80);
+  --bg-page:     oklch(21%   0.010 80);
+  --bg-sunken:   oklch(15%   0.010 80);
+  --ink-strong:  oklch(96%   0.005 80);
+  --ink-mid:     oklch(78%   0.010 80);
+  --ink-soft:    oklch(58%   0.012 80);
+  --accent:      oklch(72%   0.120 25);
+  --accent-soft: oklch(45%   0.080 25);
+  --rule:        oklch(32%   0.010 80);
+}
+
+/* ---- Minimal theme overrides ------------------------------ */
+
+body {
+  --font-text-theme:    'iA Writer Quattro V', 'iA Writer Quattro', ui-sans-serif, system-ui;
+  --font-interface-theme: 'iA Writer Quattro V', ui-sans-serif, system-ui;
+  --font-monospace-theme: 'iA Writer Mono V', 'iA Writer Mono', ui-monospace, SFMono-Regular;
+
+  --background-primary:   var(--bg-paper);
+  --background-secondary: var(--bg-page);
+  --background-modifier-border: var(--rule);
+  --text-normal:          var(--ink-strong);
+  --text-muted:           var(--ink-mid);
+  --text-faint:           var(--ink-soft);
+  --text-accent:          var(--accent);
+  --text-accent-hover:    var(--accent);
+  --interactive-accent:   var(--accent);
+  --link-color:           var(--accent);
+  --link-color-hover:     var(--accent);
+}
+
+/* Cap reading column for body text */
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-contentContainer {
+  max-width: 70ch;
+}
+
+/* Inline tag and wikilink hover - oxblood accent, no underline */
+.tag, .cm-hashtag, a.tag {
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--accent-soft);
+  border-radius: 2px;
+  padding: 0 4px;
+  font-weight: 500;
+}
+a.internal-link:hover {
+  text-decoration: none;
+  background: oklch(from var(--accent-soft) l c h / 0.4);
+  border-radius: 2px;
+}
+
+/* Headings - slightly tighter scale than Minimal default */
+.markdown-preview-view h1 { font-weight: 700; letter-spacing: -0.01em; }
+.markdown-preview-view h2 { font-weight: 600; letter-spacing: -0.005em; margin-top: 2em; }
+.markdown-preview-view h3 { font-weight: 600; color: var(--ink-mid); }
+
+/* Tables - data-dense, no zebra by default */
+.markdown-preview-view table {
+  font-family: var(--font-monospace-theme);
+  font-size: 0.92em;
+  border-collapse: collapse;
+}
+.markdown-preview-view th {
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 2px solid var(--ink-mid);
+  padding: 6px 12px 6px 0;
+}
+.markdown-preview-view td {
+  border-bottom: 1px solid var(--rule);
+  padding: 4px 12px 4px 0;
+}

@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>wiki-tokenise · timeline</title>
+<link rel="stylesheet" href="_shared.css">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+<style>
+  main { padding: var(--s-5); }
+  .intro { max-width: 70ch; color: var(--ink-mid); margin: 0 0 var(--s-5); }
+  .intro b { color: var(--ink-strong); font-weight: 600; }
+  .controls {
+    display: flex; gap: var(--s-3); align-items: center; flex-wrap: wrap;
+    margin-bottom: var(--s-4);
+    font-family: var(--font-mono); font-size: var(--t-cap);
+  }
+  .controls label { color: var(--ink-soft); }
+  .controls select {
+    background: var(--bg-page); color: var(--ink-strong);
+    border: 1px solid var(--rule);
+    font-family: var(--font-mono); font-size: var(--t-cap);
+    padding: 4px 8px;
+  }
+  .count { margin-left: auto; color: var(--ink-soft); }
+  #stage {
+    border: 1px solid var(--rule);
+    background: var(--bg-page);
+    padding: var(--s-3);
+    overflow-x: auto;
+  }
+  svg.tl { display: block; width: 100%; min-height: 460px; }
+  .lane-bg { fill: var(--bg-paper); }
+  .lane-rule { stroke: var(--rule); stroke-dasharray: 2 4; }
+  .lane-label {
+    font-family: var(--font-mono); font-size: 11px;
+    fill: var(--ink-soft);
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+  .year-tick { stroke: var(--rule); }
+  .year-label { font-family: var(--font-mono); font-size: 11px; fill: var(--ink-soft); }
+  .ev { cursor: pointer; transition: transform var(--dur) var(--ease); }
+  .ev:hover { transform: scale(1.4); transform-origin: center center; }
+  .ev-label {
+    font-family: var(--font-mono); font-size: 10px;
+    fill: var(--ink-mid); pointer-events: none;
+  }
+  .ev.hl .ev-label, .ev:hover .ev-label { fill: var(--ink-strong); font-weight: 600; }
+
+  .tip {
+    position: fixed;
+    background: var(--bg-paper);
+    border: 1px solid var(--rule);
+    padding: var(--s-2) var(--s-3);
+    pointer-events: none;
+    font-family: var(--font-mono);
+    font-size: var(--t-cap);
+    max-width: 320px;
+    opacity: 0; transition: opacity 100ms;
+    z-index: 100;
+  }
+  .tip.show { opacity: 1; }
+  .tip b { color: var(--ink-strong); }
+  .tip .src { color: var(--ink-mid); font-size: 11px; display: block; margin-top: 4px; }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <span class="crumb"><b>wiki-tokenise</b> · timeline</span>
+  <nav>
+    <a href="index.html">index</a>
+    <a href="graph.html">graph</a>
+    <a href="convergence.html">convergence</a>
+    <a href="timeline.html" class="active">timeline</a>
+    <a href="realised.html">realised</a>
+    <a href="compare.html">compare</a>
+    <a href="#" id="themeBtn" title="Toggle theme">●</a>
+  </nav>
+</header>
+
+<main>
+  <div id="connectScreen" class="connect-screen">
+    <div class="connect-card">
+      <h2>Connect vault</h2>
+      <p>The timeline plots every source with a <code>year</code> or <code>date_published</code>, in lanes by inferred kind.</p>
+      <div class="connect-actions">
+        <button id="connectBtn" class="primary">Connect vault</button>
+        <button id="reconnectBtn" hidden>Reconnect</button>
+        <button id="forgetBtn" hidden>Forget vault</button>
+      </div>
+      <p id="connectErr" class="error" hidden></p>
+      <p class="connect-meta">Read-only · Chrome 86+ · Edge 86+</p>
+    </div>
+  </div>
+
+  <div id="view" hidden>
+    <p class="intro">
+      <b>Lanes:</b> Regulation, Pilot, Academic, Industry. Node colour by source type, size by link
+      degree. The shape of the field, year by year.
+    </p>
+    <div class="controls">
+      <label>From</label>
+      <select id="fromYr"></select>
+      <label>To</label>
+      <select id="toYr"></select>
+      <label>Jurisdiction</label>
+      <select id="jurFilter"><option value="">all</option></select>
+      <span class="count" id="count">—</span>
+    </div>
+    <div id="stage">
+      <svg id="svg" class="tl"></svg>
+    </div>
+  </div>
+</main>
+<div id="tip" class="tip"></div>
+
+<script src="vault-store.js"></script>
+<script src="_vault-loader.js"></script>
+<script>
+const root = document.documentElement;
+(function () {
+  const saved = localStorage.getItem('wt-theme');
+  if (saved === 'dark' || saved === 'light') root.dataset.theme = saved;
+})();
+document.getElementById('themeBtn').addEventListener('click', (e) => {
+  e.preventDefault();
+  const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+  root.dataset.theme = next;
+  localStorage.setItem('wt-theme', next);
+});
+
+const LANES = ['Regulation', 'Pilot', 'Academic', 'Industry'];
+function laneOf(s) {
+  const t = s.fm.source_type || '';
+  if (['statute', 'regulation', 'guidance'].includes(t)) return 'Regulation';
+  if (['pilot-doc', 'press-release', 'dataset'].includes(t)) return 'Pilot';
+  if (['paper', 'book'].includes(t)) return 'Academic';
+  return 'Industry';
+}
+function colourOf(s) {
+  const t = s.fm.source_type || '';
+  if (['statute', 'regulation', 'guidance'].includes(t)) return getCss('--accent');
+  if (['paper', 'book'].includes(t)) return getCss('--node-concept');
+  if (['pilot-doc', 'press-release'].includes(t)) return getCss('--node-institution');
+  return getCss('--node-meta');
+}
+function getCss(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+
+const connectScreen = document.getElementById('connectScreen');
+const view = document.getElementById('view');
+const errBox = document.getElementById('connectErr');
+const reconnectBtn = document.getElementById('reconnectBtn');
+const forgetBtn = document.getElementById('forgetBtn');
+
+document.getElementById('connectBtn').addEventListener('click', async () => {
+  errBox.hidden = true;
+  try { const { notes } = await vaultLoader.connect(); boot(notes); }
+  catch (e) { errBox.textContent = e.message || String(e); errBox.hidden = false; }
+});
+reconnectBtn.addEventListener('click', async () => {
+  const handle = await vaultStore.loadHandle();
+  if (!handle) return;
+  const notes = await vaultLoader.requestAfterGesture(handle);
+  if (!notes) { errBox.textContent = 'Permission was not granted.'; errBox.hidden = false; return; }
+  boot(notes);
+});
+forgetBtn.addEventListener('click', async () => { await vaultLoader.forget(); location.reload(); });
+
+(async function init() {
+  const r = await vaultLoader.reconnect();
+  if (!r) return;
+  if (r.needsPermission) {
+    reconnectBtn.hidden = false; forgetBtn.hidden = false;
+    vaultLoader.autoReconnectOnClick(r.handle, boot);
+    return;
+  }
+  boot(r.notes);
+})();
+
+let SOURCES = [];
+
+function boot(notes) {
+  connectScreen.hidden = true; view.hidden = false;
+  SOURCES = notes
+    .filter(n => n.fm.type === 'source')
+    .map(s => {
+      const dp = s.fm.date_published || '';
+      let y = null;
+      if (dp && /^\d{4}/.test(dp)) y = parseInt(dp.slice(0, 4), 10);
+      else if (s.fm.year) y = parseInt(s.fm.year, 10);
+      return { ...s, _year: y };
+    })
+    .filter(s => s._year && s._year >= 1990 && s._year <= 2030);
+
+  // Populate filters
+  const years = Array.from(new Set(SOURCES.map(s => s._year))).sort((a, b) => a - b);
+  const fromSel = document.getElementById('fromYr');
+  const toSel = document.getElementById('toYr');
+  for (const y of years) {
+    fromSel.appendChild(new Option(y, y));
+    toSel.appendChild(new Option(y, y));
+  }
+  fromSel.value = years[0]; toSel.value = years[years.length - 1];
+
+  const jurs = new Set();
+  for (const s of SOURCES) {
+    const js = Array.isArray(s.fm.jurisdiction) ? s.fm.jurisdiction : (s.fm.jurisdiction ? [s.fm.jurisdiction] : []);
+    js.forEach(j => jurs.add(j));
+  }
+  const jurSel = document.getElementById('jurFilter');
+  for (const j of Array.from(jurs).sort()) jurSel.appendChild(new Option(j, j));
+
+  for (const el of [fromSel, toSel, jurSel]) el.addEventListener('change', draw);
+  window.addEventListener('resize', () => requestAnimationFrame(draw));
+  draw();
+}
+
+function draw() {
+  const from = parseInt(document.getElementById('fromYr').value);
+  const to = parseInt(document.getElementById('toYr').value);
+  const jur = document.getElementById('jurFilter').value;
+
+  let items = SOURCES.filter(s => s._year >= from && s._year <= to);
+  if (jur) {
+    items = items.filter(s => {
+      const js = Array.isArray(s.fm.jurisdiction) ? s.fm.jurisdiction : (s.fm.jurisdiction ? [s.fm.jurisdiction] : []);
+      return js.includes(jur);
+    });
+  }
+  document.getElementById('count').textContent = `${items.length} events`;
+
+  const svg = d3.select('#svg');
+  const width = svg.node().clientWidth || 1200;
+  const margin = { top: 30, right: 30, bottom: 40, left: 100 };
+  const laneH = 90;
+  const height = margin.top + LANES.length * laneH + margin.bottom;
+  svg.attr('height', height).selectAll('*').remove();
+
+  const xScale = d3.scaleLinear()
+    .domain([from - 0.5, to + 0.5])
+    .range([margin.left, width - margin.right]);
+
+  // Lanes
+  const g = svg.append('g');
+  LANES.forEach((lane, i) => {
+    const y0 = margin.top + i * laneH;
+    g.append('rect').attr('class', 'lane-bg')
+     .attr('x', margin.left).attr('y', y0)
+     .attr('width', width - margin.left - margin.right)
+     .attr('height', laneH - 8);
+    g.append('text').attr('class', 'lane-label')
+     .attr('x', 12).attr('y', y0 + laneH / 2 + 4)
+     .text(lane);
+    g.append('line').attr('class', 'lane-rule')
+     .attr('x1', margin.left).attr('x2', width - margin.right)
+     .attr('y1', y0 + laneH - 8).attr('y2', y0 + laneH - 8);
+  });
+
+  // Year ticks
+  for (let y = from; y <= to; y++) {
+    const x = xScale(y);
+    g.append('line').attr('class', 'year-tick')
+     .attr('x1', x).attr('x2', x)
+     .attr('y1', margin.top).attr('y2', height - margin.bottom);
+    g.append('text').attr('class', 'year-label')
+     .attr('x', x).attr('y', height - margin.bottom + 16)
+     .attr('text-anchor', 'middle')
+     .text(y);
+  }
+
+  // Events
+  const tip = document.getElementById('tip');
+  const grouped = d3.group(items, s => `${laneOf(s)}|${s._year}`);
+  for (const [key, arr] of grouped) {
+    const [lane, yrStr] = key.split('|');
+    const yr = parseInt(yrStr, 10);
+    const li = LANES.indexOf(lane);
+    if (li < 0) continue;
+    const baseY = margin.top + li * laneH + laneH / 2 - 4;
+    const x = xScale(yr);
+    arr.forEach((s, idx) => {
+      const offY = baseY + (idx - (arr.length - 1) / 2) * 14;
+      const r = 4 + Math.min(6, (s.links?.length || 0) * 0.5);
+      const node = g.append('g').attr('class', 'ev')
+                    .attr('transform', `translate(${x},${offY})`);
+      node.append('circle').attr('r', r).attr('fill', colourOf(s)).attr('stroke', 'var(--bg-paper)').attr('stroke-width', 1.5);
+      const label = (s.fm.title || s.slug).slice(0, 30);
+      node.append('text').attr('class', 'ev-label')
+          .attr('x', r + 4).attr('y', 3).text(label);
+      node.on('mousemove', (e) => {
+        tip.classList.add('show');
+        tip.style.left = (e.clientX + 12) + 'px';
+        tip.style.top = (e.clientY + 12) + 'px';
+        tip.innerHTML = `<b>${(s.fm.title || s.slug)}</b><span class="src">${s.fm.source_type || ''} · ${s.fm.organisation || (s.fm.authors || []).join(', ')} · ${s._year}</span>`;
+      });
+      node.on('mouseleave', () => tip.classList.remove('show'));
+    });
+  }
+}
+</script>
+</body>
+</html>

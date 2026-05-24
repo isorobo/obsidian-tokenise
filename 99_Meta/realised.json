@@ -1,0 +1,91 @@
+{
+  "_meta": {
+    "purpose": "Realised AUM and live-use snapshots for tokenised RWA. Read by .workspace/realised.html. Hand-maintained.",
+    "updated": "2026-05-24",
+    "currency": "USD"
+  },
+  "instruments": [
+    {
+      "instrument": "BlackRock BUIDL",
+      "issuer": "BlackRock + Securitize",
+      "kind": "tokenised-money-market-fund",
+      "aum_usd_billions": 2.5,
+      "as_of": "2026-05",
+      "url": "https://messari.io/project/blackrock-usd-institutional-digital-liquidity-fund",
+      "note": "Largest tokenised US Treasury fund; on Ethereum, Arbitrum, Avalanche, Polygon, Optimism."
+    },
+    {
+      "instrument": "Tokenised US Treasury sector (total)",
+      "issuer": "Multiple",
+      "kind": "tokenised-treasury",
+      "aum_usd_billions": 11.0,
+      "as_of": "2026-05",
+      "url": "",
+      "note": "Total across BUIDL, BENJI, USDY, hashnote, etc."
+    },
+    {
+      "instrument": "RWA market (excl. stablecoins)",
+      "issuer": "Multiple",
+      "kind": "rwa-tokenised",
+      "aum_usd_billions": 35.78,
+      "as_of": "2025-12",
+      "url": "",
+      "note": "Per Columbia 2025 RWA survey; includes treasuries, private credit, real estate, commodities."
+    },
+    {
+      "instrument": "Franklin Templeton BENJI / FOBXX",
+      "issuer": "Franklin Templeton",
+      "kind": "tokenised-money-market-fund",
+      "aum_usd_billions": 0.7,
+      "as_of": "2026-05",
+      "url": "",
+      "note": "First US-registered fund using a public blockchain for record-keeping."
+    },
+    {
+      "instrument": "Coinbase x402 (agent payments)",
+      "issuer": "Coinbase",
+      "kind": "agent-payment-rail",
+      "aum_usd_billions": 0.05,
+      "as_of": "2026-04",
+      "url": "https://docs.cdp.coinbase.com/x402/welcome",
+      "note": "~69,000 active agents; ~165M transactions; ~USD 50M total volume."
+    }
+  ],
+  "live_pilots": [
+    {
+      "name": "MAS Project Guardian",
+      "as_of": "2025-11",
+      "scale": "40+ industry participants; tokenised funds, fixed income, FX",
+      "url": "https://www.mas.gov.sg/schemes-and-initiatives/project-guardian"
+    },
+    {
+      "name": "HKMA Project Ensemble / EnsembleTX",
+      "as_of": "2025-11",
+      "scale": "Pilot phase launched Nov 2025; real-value tokenised deposits via HKD RTGS",
+      "url": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251113-3/"
+    },
+    {
+      "name": "BIS Project Agora",
+      "as_of": "2026-H1",
+      "scale": "7 central banks + 40+ commercial banks; prototype phase",
+      "url": "https://www.bis.org/about/bisih/topics/fmis/agora.htm"
+    }
+  ],
+  "sceptical_signals": [
+    {
+      "claim": "Institutional tokenisation stalls on legal-enforceability ambiguity, liquidity fragmentation across chains, and custodial-cost overhang.",
+      "source": "Oraclizer Research - Why Institutional Tokenization Stalls",
+      "source_slug": "Oraclizer-Why-Institutional-Tokenization-Stalls"
+    },
+    {
+      "claim": "Tokenisation introduces run-risk, interconnectedness, and settlement-risk transmission channels not present in legacy infrastructure.",
+      "source": "Federal Reserve - Tokenization: Overview and Financial Stability Implications",
+      "source_slug": "Fed-Tokenization-Financial-Stability"
+    },
+    {
+      "claim": "Real estate is not the optimal RWA candidate: low velocity, jurisdictional fragmentation of title, weak fractional secondary-market liquidity.",
+      "source": "Michael Sonnenshein (interview, 2024)",
+      "source_slug": ""
+    }
+  ]
+}

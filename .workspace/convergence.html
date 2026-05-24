@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>wiki-tokenise · convergence</title>
+<link rel="stylesheet" href="_shared.css">
+<style>
+  main { padding: var(--s-5); }
+  .intro {
+    max-width: 70ch;
+    color: var(--ink-mid);
+    margin: 0 0 var(--s-5);
+  }
+  .intro b { color: var(--ink-strong); font-weight: 600; }
+
+  .controls {
+    display: flex; gap: var(--s-3); align-items: center; flex-wrap: wrap;
+    margin-bottom: var(--s-4);
+    font-family: var(--font-mono); font-size: var(--t-cap);
+  }
+  .controls label { color: var(--ink-soft); }
+  .controls select {
+    background: var(--bg-page); color: var(--ink-strong);
+    border: 1px solid var(--rule);
+    font-family: var(--font-mono); font-size: var(--t-cap);
+    padding: 4px 8px;
+  }
+  .count {
+    margin-left: auto;
+    color: var(--ink-soft);
+  }
+
+  table.matrix {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    table-layout: fixed;
+  }
+  table.matrix th, table.matrix td {
+    border-right: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: var(--s-3);
+    vertical-align: top;
+    text-align: left;
+  }
+  table.matrix thead th {
+    background: var(--bg-page);
+    font-weight: 600; color: var(--ink-strong);
+    position: sticky; top: 0; z-index: 1;
+    font-size: var(--t-cap);
+  }
+  table.matrix tbody th {
+    background: var(--bg-page);
+    font-weight: 700; color: var(--ink-strong);
+    width: 90px;
+    position: sticky; left: 0; z-index: 1;
+  }
+  table.matrix .empty {
+    color: var(--ink-soft);
+    font-style: italic;
+  }
+  table.matrix .pip {
+    display: inline-block;
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+    vertical-align: 1px;
+  }
+  table.matrix a {
+    color: var(--ink-strong);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--ink-soft);
+  }
+  table.matrix a:hover { color: var(--accent); border-color: var(--accent); }
+  table.matrix .doc-tag {
+    display: inline-block;
+    color: var(--accent);
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+  table.matrix .src-title {
+    color: var(--ink-mid);
+    display: block;
+    margin-top: 2px;
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <span class="crumb"><b>wiki-tokenise</b> · convergence</span>
+  <nav>
+    <a href="index.html">index</a>
+    <a href="graph.html">graph</a>
+    <a href="convergence.html" class="active">convergence</a>
+    <a href="timeline.html">timeline</a>
+    <a href="realised.html">realised</a>
+    <a href="compare.html">compare</a>
+    <a href="#" id="themeBtn" title="Toggle theme">●</a>
+  </nav>
+</header>
+
+<main>
+  <div id="connectScreen" class="connect-screen">
+    <div class="connect-card">
+      <h2>Connect vault</h2>
+      <p>The convergence matrix reads <code>jurisdiction</code> and <code>doctrine</code> frontmatter from sources under <code>10_Sources/</code>.</p>
+      <div class="connect-actions">
+        <button id="connectBtn" class="primary">Connect vault</button>
+        <button id="reconnectBtn" hidden>Reconnect</button>
+        <button id="forgetBtn" hidden>Forget vault</button>
+      </div>
+      <p id="connectErr" class="error" hidden></p>
+      <p class="connect-meta">Read-only · Chrome 86+ · Edge 86+</p>
+    </div>
+  </div>
+
+  <div id="view" hidden>
+    <p class="intro">
+      Where three jurisdictions and the international standard-setter land on the load-bearing
+      doctrines of tokenised property. <b>Empty cells are not absence of law;</b> they are absence
+      of sources in the vault. Add the source, the cell fills.
+    </p>
+
+    <div class="controls">
+      <label>Domain</label>
+      <select id="domainFilter">
+        <option value="">all</option>
+      </select>
+      <label>Source type</label>
+      <select id="typeFilter">
+        <option value="">all</option>
+      </select>
+      <span class="count" id="count">—</span>
+    </div>
+
+    <div style="overflow-x: auto;">
+      <table class="matrix" id="matrix"></table>
+    </div>
+  </div>
+</main>
+
+<script src="vault-store.js"></script>
+<script src="_vault-loader.js"></script>
+<script>
+const root = document.documentElement;
+(function () {
+  const saved = localStorage.getItem('wt-theme');
+  if (saved === 'dark' || saved === 'light') root.dataset.theme = saved;
+})();
+document.getElementById('themeBtn').addEventListener('click', (e) => {
+  e.preventDefault();
+  const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+  root.dataset.theme = next;
+  localStorage.setItem('wt-theme', next);
+});
+
+const JURISDICTIONS = ['US', 'UK', 'EU', 'INTL', 'SG', 'HK', 'JP', 'NZ'];
+const DOCTRINES = [
+  'property-category',
+  'control',
+  'take-free-purchaser',
+  'secured-transactions',
+  'choice-of-law',
+  'insolvency',
+  'singleness-of-money',
+  'licensing',
+];
+
+const connectScreen = document.getElementById('connectScreen');
+const view = document.getElementById('view');
+const errBox = document.getElementById('connectErr');
+const reconnectBtn = document.getElementById('reconnectBtn');
+const forgetBtn = document.getElementById('forgetBtn');
+
+document.getElementById('connectBtn').addEventListener('click', async () => {
+  errBox.hidden = true;
+  try { const { notes } = await vaultLoader.connect(); boot(notes); }
+  catch (e) { errBox.textContent = e.message || String(e); errBox.hidden = false; }
+});
+reconnectBtn.addEventListener('click', async () => {
+  const handle = await vaultStore.loadHandle();
+  if (!handle) return;
+  const notes = await vaultLoader.requestAfterGesture(handle);
+  if (!notes) { errBox.textContent = 'Permission was not granted.'; errBox.hidden = false; return; }
+  boot(notes);
+});
+forgetBtn.addEventListener('click', async () => { await vaultLoader.forget(); location.reload(); });
+
+(async function init() {
+  const r = await vaultLoader.reconnect();
+  if (!r) return;
+  if (r.needsPermission) {
+    reconnectBtn.hidden = false; forgetBtn.hidden = false;
+    vaultLoader.autoReconnectOnClick(r.handle, boot);
+    return;
+  }
+  boot(r.notes);
+})();
+
+let ALL_SOURCES = [];
+
+function boot(notes) {
+  connectScreen.hidden = true; view.hidden = false;
+  ALL_SOURCES = notes.filter(n => n.fm.type === 'source');
+  populateFilters(ALL_SOURCES);
+  redraw();
+}
+
+function populateFilters(sources) {
+  const domains = new Set();
+  const types = new Set();
+  for (const s of sources) {
+    const d = s.fm.domain;
+    if (Array.isArray(d)) d.forEach(x => domains.add(x));
+    else if (typeof d === 'string') domains.add(d);
+    if (s.fm.source_type) types.add(s.fm.source_type);
+  }
+  const domSel = document.getElementById('domainFilter');
+  for (const d of Array.from(domains).sort()) {
+    const o = document.createElement('option'); o.value = d; o.textContent = d;
+    domSel.appendChild(o);
+  }
+  const typSel = document.getElementById('typeFilter');
+  for (const t of Array.from(types).sort()) {
+    const o = document.createElement('option'); o.value = t; o.textContent = t;
+    typSel.appendChild(o);
+  }
+  domSel.addEventListener('change', redraw);
+  typSel.addEventListener('change', redraw);
+}
+
+function redraw() {
+  const dom = document.getElementById('domainFilter').value;
+  const typ = document.getElementById('typeFilter').value;
+  const filtered = ALL_SOURCES.filter(s => {
+    if (dom) {
+      const d = s.fm.domain;
+      const ds = Array.isArray(d) ? d : (d ? [d] : []);
+      if (!ds.includes(dom)) return false;
+    }
+    if (typ && s.fm.source_type !== typ) return false;
+    return true;
+  });
+
+  // Build cell index: jurisdiction -> doctrine -> [sources]
+  const idx = {};
+  for (const j of JURISDICTIONS) {
+    idx[j] = {};
+    for (const d of DOCTRINES) idx[j][d] = [];
+  }
+  for (const s of filtered) {
+    const js = Array.isArray(s.fm.jurisdiction) ? s.fm.jurisdiction : (s.fm.jurisdiction ? [s.fm.jurisdiction] : []);
+    const ds = Array.isArray(s.fm.doctrine) ? s.fm.doctrine : (s.fm.doctrine ? [s.fm.doctrine] : []);
+    if (!js.length || !ds.length) continue;
+    for (const j of js) {
+      if (!idx[j]) continue;
+      for (const d of ds) {
+        if (!idx[j][d]) continue;
+        idx[j][d].push(s);
+      }
+    }
+  }
+
+  document.getElementById('count').textContent =
+    `${filtered.length} sources · ${filtered.filter(s => s.fm.jurisdiction && s.fm.doctrine).length} with jurisdiction × doctrine`;
+
+  const table = document.getElementById('matrix');
+  table.innerHTML = '';
+  const thead = document.createElement('thead');
+  const trHead = document.createElement('tr');
+  trHead.appendChild(document.createElement('th'));
+  for (const d of DOCTRINES) {
+    const th = document.createElement('th');
+    th.textContent = d;
+    trHead.appendChild(th);
+  }
+  thead.appendChild(trHead);
+  table.appendChild(thead);
+
+  const tbody = document.createElement('tbody');
+  for (const j of JURISDICTIONS) {
+    const tr = document.createElement('tr');
+    const th = document.createElement('th'); th.textContent = j; tr.appendChild(th);
+    for (const d of DOCTRINES) {
+      const td = document.createElement('td');
+      const cell = idx[j][d];
+      if (cell.length === 0) {
+        td.innerHTML = '<span class="empty">—</span>';
+      } else {
+        td.innerHTML = '';
+        for (const s of cell.slice(0, 3)) {
+          const wrap = document.createElement('div');
+          wrap.style.marginBottom = '6px';
+          const title = (s.fm.title || s.slug).slice(0, 60);
+          wrap.innerHTML = `<span class="pip" style="background:var(--accent)"></span><a href="#" data-path="${s.path}">${title}</a>`;
+          td.appendChild(wrap);
+        }
+        if (cell.length > 3) {
+          const more = document.createElement('div');
+          more.className = 'src-title';
+          more.textContent = `+${cell.length - 3} more`;
+          td.appendChild(more);
+        }
+      }
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  }
+  table.appendChild(tbody);
+
+  // Click-through: open the source note in the graph view.
+  table.querySelectorAll('a[data-path]').forEach(a => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const path = a.getAttribute('data-path');
+      // For now, alert the path; future: deep-link to graph.html?focus=<path>
+      // Or open the file with Obsidian advanced URI.
+      const ob = `obsidian://open?vault=wiki-tokenise&file=${encodeURIComponent(path.replace(/\.md$/, ''))}`;
+      window.open(ob, '_self');
+    });
+  });
+}
+</script>
+</body>
+</html>

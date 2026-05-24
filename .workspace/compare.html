@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>wiki-tokenise · compare</title>
+<link rel="stylesheet" href="_shared.css">
+<style>
+  main { padding: var(--s-5); }
+  .intro { max-width: 70ch; color: var(--ink-mid); margin: 0 0 var(--s-5); }
+  .intro b { color: var(--ink-strong); font-weight: 600; }
+
+  .pickers {
+    display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-4);
+    margin-bottom: var(--s-5);
+  }
+  .pickers label {
+    display: block;
+    font-family: var(--font-mono); font-size: var(--t-cap); color: var(--ink-soft);
+    margin-bottom: var(--s-2);
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+  .pickers input {
+    width: 100%;
+    background: var(--bg-page); color: var(--ink-strong);
+    border: 1px solid var(--rule);
+    padding: var(--s-3);
+    font-family: var(--font-mono); font-size: 14px;
+  }
+  .pickers input:focus { outline: 2px solid var(--accent-soft); border-color: var(--accent); }
+
+  .suggest {
+    position: relative;
+  }
+  .suggest .list {
+    position: absolute; left: 0; right: 0; top: 100%;
+    background: var(--bg-paper);
+    border: 1px solid var(--rule);
+    max-height: 240px; overflow-y: auto;
+    z-index: 10;
+    display: none;
+  }
+  .suggest .list.show { display: block; }
+  .suggest .item {
+    padding: var(--s-2) var(--s-3);
+    cursor: pointer;
+    font-family: var(--font-mono); font-size: 13px;
+  }
+  .suggest .item:hover, .suggest .item.active { background: var(--accent-tint); }
+  .suggest .item .t { color: var(--ink-strong); }
+  .suggest .item .p { color: var(--ink-soft); font-size: 11px; }
+
+  .panels {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
+    background: var(--rule); border: 1px solid var(--rule);
+  }
+  .panel {
+    background: var(--bg-paper);
+    padding: var(--s-5);
+  }
+  .panel h3 {
+    margin: 0 0 var(--s-3);
+    font-family: var(--font-display); font-size: var(--t-h3); font-weight: 700;
+    letter-spacing: -0.005em;
+  }
+  .panel .meta {
+    font-family: var(--font-mono); font-size: 11px; color: var(--ink-soft);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    margin-bottom: var(--s-3);
+  }
+
+  table.fm {
+    font-family: var(--font-mono); font-size: 12px;
+    border-collapse: collapse; width: 100%;
+    margin-bottom: var(--s-5);
+  }
+  table.fm tr { border-bottom: 1px solid var(--rule); }
+  table.fm tr.diff { background: var(--accent-tint); }
+  table.fm tr.same td { color: var(--ink-mid); }
+  table.fm td.k {
+    width: 130px; color: var(--ink-soft);
+    vertical-align: top; padding: 4px 8px 4px 0;
+  }
+  table.fm td.v {
+    color: var(--ink-strong);
+    padding: 4px 0;
+  }
+
+  .body {
+    color: var(--ink-mid); font-size: 14px; line-height: 1.6;
+    max-width: 60ch;
+  }
+  .body p { margin: 0 0 var(--s-3); }
+  .body h2, .body h3 {
+    font-family: var(--font-display); font-weight: 600;
+    color: var(--ink-strong); letter-spacing: -0.005em;
+    margin-top: var(--s-4);
+  }
+
+  .legend {
+    font-family: var(--font-mono); font-size: 11px;
+    color: var(--ink-soft);
+    margin: var(--s-2) 0 var(--s-4);
+    display: flex; gap: var(--s-4);
+  }
+  .legend .sw { display: inline-block; width: 12px; height: 12px; vertical-align: -2px; margin-right: 6px; }
+
+  .empty-panel {
+    color: var(--ink-soft); font-style: italic;
+    padding: var(--s-7) 0; text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <span class="crumb"><b>wiki-tokenise</b> · compare</span>
+  <nav>
+    <a href="index.html">index</a>
+    <a href="graph.html">graph</a>
+    <a href="convergence.html">convergence</a>
+    <a href="timeline.html">timeline</a>
+    <a href="realised.html">realised</a>
+    <a href="compare.html" class="active">compare</a>
+    <a href="#" id="themeBtn" title="Toggle theme">●</a>
+  </nav>
+</header>
+
+<main>
+  <div id="connectScreen" class="connect-screen">
+    <div class="connect-card">
+      <h2>Connect vault</h2>
+      <p>Pick any two notes; the frontmatter aligns; the body shows side by side. Try <i>MiCA vs GENIUS</i>, <i>UCC Article 12 vs UK Property Act</i>, <i>BUIDL vs BENJI</i>.</p>
+      <div class="connect-actions">
+        <button id="connectBtn" class="primary">Connect vault</button>
+        <button id="reconnectBtn" hidden>Reconnect</button>
+        <button id="forgetBtn" hidden>Forget vault</button>
+      </div>
+      <p id="connectErr" class="error" hidden></p>
+      <p class="connect-meta">Read-only · Chrome 86+ · Edge 86+</p>
+    </div>
+  </div>
+
+  <div id="view" hidden>
+    <p class="intro">
+      Two notes, one alignment. Differing frontmatter values are highlighted. <b>The point is the diff,
+      not the symmetry.</b>
+    </p>
+
+    <div class="pickers">
+      <div class="suggest">
+        <label>Note A</label>
+        <input id="inpA" placeholder="type a title or slug...">
+        <div id="listA" class="list"></div>
+      </div>
+      <div class="suggest">
+        <label>Note B</label>
+        <input id="inpB" placeholder="type a title or slug...">
+        <div id="listB" class="list"></div>
+      </div>
+    </div>
+
+    <div class="legend">
+      <span><span class="sw" style="background:var(--accent-tint);border:1px solid var(--accent-soft);"></span>differs</span>
+      <span><span class="sw" style="background:var(--bg-page);border:1px solid var(--rule);"></span>same</span>
+    </div>
+
+    <div class="panels">
+      <div class="panel" id="panelA">
+        <div class="empty-panel">Pick a note.</div>
+      </div>
+      <div class="panel" id="panelB">
+        <div class="empty-panel">Pick a note.</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script src="vault-store.js"></script>
+<script src="_vault-loader.js"></script>
+<script>
+const root = document.documentElement;
+(function () {
+  const saved = localStorage.getItem('wt-theme');
+  if (saved === 'dark' || saved === 'light') root.dataset.theme = saved;
+})();
+document.getElementById('themeBtn').addEventListener('click', (e) => {
+  e.preventDefault();
+  const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+  root.dataset.theme = next;
+  localStorage.setItem('wt-theme', next);
+});
+
+const connectScreen = document.getElementById('connectScreen');
+const view = document.getElementById('view');
+const errBox = document.getElementById('connectErr');
+const reconnectBtn = document.getElementById('reconnectBtn');
+const forgetBtn = document.getElementById('forgetBtn');
+
+document.getElementById('connectBtn').addEventListener('click', async () => {
+  errBox.hidden = true;
+  try { const { notes } = await vaultLoader.connect(); boot(notes); }
+  catch (e) { errBox.textContent = e.message || String(e); errBox.hidden = false; }
+});
+reconnectBtn.addEventListener('click', async () => {
+  const handle = await vaultStore.loadHandle();
+  if (!handle) return;
+  const notes = await vaultLoader.requestAfterGesture(handle);
+  if (!notes) { errBox.textContent = 'Permission was not granted.'; errBox.hidden = false; return; }
+  boot(notes);
+});
+forgetBtn.addEventListener('click', async () => { await vaultLoader.forget(); location.reload(); });
+
+(async function init() {
+  const r = await vaultLoader.reconnect();
+  if (!r) return;
+  if (r.needsPermission) {
+    reconnectBtn.hidden = false; forgetBtn.hidden = false;
+    vaultLoader.autoReconnectOnClick(r.handle, boot);
+    return;
+  }
+  boot(r.notes);
+})();
+
+let NOTES = [];
+let CHOICE = { A: null, B: null };
+
+function boot(notes) {
+  connectScreen.hidden = true; view.hidden = false;
+  NOTES = notes.sort((a, b) => (a.fm.title || a.slug).localeCompare(b.fm.title || b.slug));
+  wirePicker('A', 'inpA', 'listA', 'panelA');
+  wirePicker('B', 'inpB', 'listB', 'panelB');
+}
+
+function wirePicker(side, inpId, listId, panelId) {
+  const inp = document.getElementById(inpId);
+  const list = document.getElementById(listId);
+  let active = -1;
+
+  function search(q) {
+    q = q.toLowerCase();
+    return NOTES.filter(n =>
+      (n.fm.title || '').toLowerCase().includes(q) ||
+      n.slug.toLowerCase().includes(q) ||
+      n.path.toLowerCase().includes(q)
+    ).slice(0, 18);
+  }
+  function render(items) {
+    list.innerHTML = '';
+    items.forEach((n, i) => {
+      const el = document.createElement('div');
+      el.className = 'item' + (i === active ? ' active' : '');
+      el.innerHTML = `<div class="t">${(n.fm.title || n.slug)}</div><div class="p">${n.path}</div>`;
+      el.addEventListener('mousedown', (e) => { e.preventDefault(); pick(n); });
+      list.appendChild(el);
+    });
+    list.classList.toggle('show', items.length > 0);
+  }
+  function pick(n) {
+    CHOICE[side] = n;
+    inp.value = n.fm.title || n.slug;
+    list.classList.remove('show');
+    refresh();
+  }
+  inp.addEventListener('focus', () => render(search(inp.value)));
+  inp.addEventListener('input', () => { active = -1; render(search(inp.value)); });
+  inp.addEventListener('blur', () => setTimeout(() => list.classList.remove('show'), 120));
+  inp.addEventListener('keydown', (e) => {
+    const items = list.querySelectorAll('.item');
+    if (e.key === 'ArrowDown') { active = Math.min(items.length - 1, active + 1); items.forEach((el, i) => el.classList.toggle('active', i === active)); e.preventDefault(); }
+    if (e.key === 'ArrowUp')   { active = Math.max(0, active - 1); items.forEach((el, i) => el.classList.toggle('active', i === active)); e.preventDefault(); }
+    if (e.key === 'Enter' && active >= 0) { items[active].dispatchEvent(new MouseEvent('mousedown')); }
+    if (e.key === 'Escape') list.classList.remove('show');
+  });
+}
+
+function refresh() {
+  const A = CHOICE.A, B = CHOICE.B;
+  const pa = document.getElementById('panelA'), pb = document.getElementById('panelB');
+  pa.innerHTML = A ? renderPane(A, B) : '<div class="empty-panel">Pick a note.</div>';
+  pb.innerHTML = B ? renderPane(B, A) : '<div class="empty-panel">Pick a note.</div>';
+}
+
+function renderPane(n, other) {
+  const keys = ['type', 'source_type', 'organisation', 'authors', 'year', 'date_published',
+                'jurisdiction', 'domain', 'doctrine', 'instrument', 'venue', 'register_section', 'nlm_id', 'status'];
+  const rows = keys.map(k => {
+    const a = n.fm[k]; const b = other ? other.fm[k] : undefined;
+    if (a == null || (Array.isArray(a) && a.length === 0)) return null;
+    const differs = other && !same(a, b);
+    return `<tr class="${differs ? 'diff' : 'same'}"><td class="k">${k}</td><td class="v">${esc(fmt(a))}</td></tr>`;
+  }).filter(Boolean).join('');
+  const body = mdToHTML(extractBody(n.body));
+  return `
+    <div class="meta">${n.path}</div>
+    <h3>${esc(n.fm.title || n.fm.name || n.slug)}</h3>
+    <table class="fm">${rows}</table>
+    <div class="body">${body}</div>
+  `;
+}
+function same(a, b) {
+  if (a == null && b == null) return true;
+  if (Array.isArray(a) && Array.isArray(b)) return a.length === b.length && a.every((x, i) => x === b[i]);
+  return a === b;
+}
+function fmt(v) {
+  if (Array.isArray(v)) return v.join(', ');
+  return String(v);
+}
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+}
+function extractBody(body) {
+  // Drop the H1 title; keep the rest.
+  const lines = (body || '').split(/\r?\n/);
+  const out = []; let skippedH1 = false;
+  for (const ln of lines) {
+    if (!skippedH1 && ln.startsWith('# ')) { skippedH1 = true; continue; }
+    out.push(ln);
+  }
+  return out.join('\n').slice(0, 3000);
+}
+function mdToHTML(text) {
+  // Tiny markdown: headings, paragraphs, bullets, inline code, **bold**, *italic*, [[wikilinks]].
+  let html = '';
+  const paras = text.split(/\n\n+/);
+  for (const p of paras) {
+    if (!p.trim()) continue;
+    if (p.startsWith('## ')) {
+      html += `<h2>${esc(p.slice(3))}</h2>`;
+    } else if (p.startsWith('### ')) {
+      html += `<h3>${esc(p.slice(4))}</h3>`;
+    } else if (p.startsWith('> ')) {
+      html += `<blockquote>${esc(p.replace(/^>\s?/gm, ''))}</blockquote>`;
+    } else if (/^[-*]\s/.test(p)) {
+      const items = p.split(/\n/).filter(l => /^[-*]\s/.test(l))
+        .map(l => `<li>${inline(l.replace(/^[-*]\s/, ''))}</li>`).join('');
+      html += `<ul>${items}</ul>`;
+    } else {
+      html += `<p>${inline(p)}</p>`;
+    }
+  }
+  return html;
+}
+function inline(s) {
+  s = esc(s)
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g, '<em>$1</em>')
+    .replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, p, alias) => `<a href="#">${alias || p}</a>`);
+  return s;
+}
+</script>
+</body>
+</html>

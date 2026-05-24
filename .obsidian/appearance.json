@@ -1,0 +1,11 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "baseFontSize": 16,
+  "interfaceFontFamily": "iA Writer Quattro V",
+  "textFontFamily": "iA Writer Quattro V",
+  "monospaceFontFamily": "iA Writer Mono V",
+  "enabledCssSnippets": [
+    "wiki-tokenise"
+  ]
+}

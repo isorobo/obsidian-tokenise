@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>wiki-tokenise</title>
+<link rel="stylesheet" href="_shared.css">
+<style>
+  main { max-width: 76ch; margin: 0 auto; padding: var(--s-7) var(--s-5); }
+  h1 {
+    font-family: var(--font-display);
+    font-size: var(--t-h1); font-weight: 700;
+    margin: 0; letter-spacing: -0.02em;
+  }
+  .tag-line {
+    color: var(--ink-mid); font-size: var(--t-cap);
+    text-transform: uppercase; letter-spacing: 0.12em;
+    margin: var(--s-2) 0 var(--s-6);
+  }
+  .lede {
+    font-family: var(--font-display);
+    font-size: 21px; line-height: 1.5;
+    color: var(--ink-mid);
+    margin: 0 0 var(--s-6);
+    max-width: 60ch;
+  }
+  .lede em { color: var(--accent); font-style: normal; font-weight: 600; }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1px;
+    background: var(--rule);
+    border: 1px solid var(--rule);
+    margin-top: var(--s-5);
+  }
+  @media (min-width: 720px) {
+    .cards { grid-template-columns: 1fr 1fr; }
+    .card.span-2 { grid-column: 1 / -1; }
+  }
+  .card {
+    background: var(--bg-paper);
+    padding: var(--s-5) var(--s-5);
+    text-decoration: none;
+    color: inherit;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    gap: var(--s-2);
+    transition: background var(--dur) var(--ease);
+  }
+  .card:hover { background: var(--bg-page); }
+  .card .num {
+    font-family: var(--font-mono);
+    color: var(--ink-soft);
+    font-size: var(--t-cap);
+  }
+  .card h3 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: var(--t-h3); font-weight: 600;
+    letter-spacing: -0.005em;
+  }
+  .card p {
+    margin: 0; color: var(--ink-mid);
+    font-size: 15px;
+  }
+  .card .arrow {
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-size: var(--t-cap);
+    align-self: end;
+    justify-self: end;
+  }
+
+  footer {
+    margin-top: var(--s-7);
+    padding-top: var(--s-4);
+    border-top: 1px solid var(--rule);
+    color: var(--ink-soft);
+    font-size: var(--t-cap);
+    display: flex; justify-content: space-between; align-items: baseline; gap: var(--s-4);
+  }
+  footer .pill {
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+    font-family: var(--font-mono);
+  }
+</style>
+</head>
+<body>
+<header class="app-header">
+  <span class="crumb"><b>wiki-tokenise</b> · workspace</span>
+  <nav>
+    <a href="index.html" class="active">index</a>
+    <a href="graph.html">graph</a>
+    <a href="convergence.html">convergence</a>
+    <a href="timeline.html">timeline</a>
+    <a href="realised.html">realised</a>
+    <a href="compare.html">compare</a>
+    <a href="#" id="themeBtn" title="Toggle theme">●</a>
+  </nav>
+</header>
+
+<main>
+  <h1>wiki-tokenise</h1>
+  <p class="tag-line">tokenisation of real-world assets · workspace</p>
+
+  <p class="lede">
+    A read-only console over the vault. Five artefacts. <em>One asks where the graph is dense.</em>
+    The other four turn the schema into questions: how the law converges, when the events landed,
+    whether the forecasts have shipped, and what two sources say side by side.
+  </p>
+
+  <div class="cards">
+    <a class="card" href="graph.html">
+      <span class="num">01</span>
+      <h3>Graph</h3>
+      <p>Force-directed graph of every wikilink in the vault. Hover for a one-line summary; click for the side panel.</p>
+      <span class="arrow">→</span>
+    </a>
+    <a class="card" href="convergence.html">
+      <span class="num">02</span>
+      <h3>Convergence</h3>
+      <p>Jurisdiction × doctrine matrix. Three jurisdictions, eight doctrines; the cells are the cases where they agree, disagree, or are silent.</p>
+      <span class="arrow">→</span>
+    </a>
+    <a class="card" href="timeline.html">
+      <span class="num">03</span>
+      <h3>Timeline</h3>
+      <p>Events on a horizontal time axis, in lanes (regulation, pilot, academic, incident). The shape of the field, year by year.</p>
+      <span class="arrow">→</span>
+    </a>
+    <a class="card" href="realised.html">
+      <span class="num">04</span>
+      <h3>Realised vs Projected</h3>
+      <p>Bull-case sizing forecasts beside realised AUM. Honest accounting of what shipped, what didn't, and what the sceptics say.</p>
+      <span class="arrow">→</span>
+    </a>
+    <a class="card span-2" href="compare.html">
+      <span class="num">05</span>
+      <h3>Compare</h3>
+      <p>Pick any two notes. The frontmatter aligns on the left, the body panels align on the right. For MiCA vs GENIUS, UCC Art 12 vs UK Property Act, BUIDL vs BENJI.</p>
+      <span class="arrow">→</span>
+    </a>
+  </div>
+
+  <footer>
+    <span>Read-only. No writes. No Claude API calls. Local server only.</span>
+    <span class="pill">localhost:8766</span>
+  </footer>
+</main>
+
+<script src="vault-store.js"></script>
+<script src="_vault-loader.js"></script>
+<script>
+  // Theme toggle (persists in localStorage)
+  const root = document.documentElement;
+  const saved = localStorage.getItem('wt-theme');
+  if (saved === 'dark' || saved === 'light') root.dataset.theme = saved;
+  document.getElementById('themeBtn').addEventListener('click', (e) => {
+    e.preventDefault();
+    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = next;
+    localStorage.setItem('wt-theme', next);
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>wiki-tokenise · graph</title>
+<link rel="stylesheet" href="_shared.css">
+<script src="https://cdn.jsdelivr.net/npm/d3@7.8.5/dist/d3.min.js"></script>
+<style>
+  body { display: grid; grid-template-rows: auto 1fr; height: 100vh; overflow: hidden; }
+  .stage { position: relative; overflow: hidden; background: var(--bg-paper); }
+  svg.graph { width: 100%; height: 100%; cursor: grab; }
+  svg.graph:active { cursor: grabbing; }
+  .node circle {
+    stroke-width: 1.5px;
+    stroke: oklch(35% 0.020 260);
+    transition: r var(--dur) var(--ease);
+  }
+  .node text {
+    font-family: var(--font-mono); font-size: 12px; font-weight: 500;
+    fill: var(--ink-strong);
+    paint-order: stroke;
+    stroke: var(--bg-paper); stroke-width: 3px; stroke-linejoin: round;
+    pointer-events: none; user-select: none;
+  }
+  .node.hover text { fill: var(--ink-strong); font-weight: 600; }
+  .link { stroke: var(--rule); stroke-opacity: 0.7; }
+  .link.hover { stroke: var(--accent); stroke-opacity: 1; }
+
+  aside.panel {
+    position: absolute; top: 0; right: 0; bottom: 0;
+    width: 380px; max-width: 90vw;
+    background: var(--bg-page);
+    border-left: 1px solid var(--rule);
+    padding: var(--s-5);
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform var(--dur) var(--ease);
+  }
+  aside.panel.open { transform: translateX(0); }
+  aside.panel header { display: flex; justify-content: space-between; align-items: baseline; }
+  aside.panel h2 { font-family: var(--font-display); font-size: var(--t-h3); font-weight: 600; margin: 0; }
+  aside.panel .close { font-family: var(--font-mono); cursor: pointer; color: var(--ink-soft); border: 0; background: transparent; }
+  aside.panel dl { font-family: var(--font-mono); font-size: var(--t-cap); margin: var(--s-4) 0; }
+  aside.panel dt { color: var(--ink-soft); margin-top: var(--s-2); }
+  aside.panel dd { margin: 0 0 var(--s-1); color: var(--ink-strong); }
+  aside.panel .excerpt { color: var(--ink-mid); font-size: 14px; line-height: 1.55; }
+  aside.panel .neigh { font-size: var(--t-cap); font-family: var(--font-mono); color: var(--ink-mid); }
+  aside.panel .neigh a { color: var(--ink-strong); }
+
+  .legend {
+    position: absolute; left: var(--s-4); bottom: var(--s-4);
+    background: var(--bg-paper); border: 1px solid var(--rule);
+    padding: var(--s-3); font-size: var(--t-cap);
+    font-family: var(--font-mono);
+  }
+  .legend .lg-row { display: flex; align-items: center; gap: var(--s-2); margin: 2px 0; }
+  .legend .swatch { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+
+  .search {
+    position: absolute; right: var(--s-4); top: var(--s-4);
+    background: var(--bg-paper); border: 1px solid var(--rule);
+    display: flex; gap: var(--s-2); align-items: center;
+    padding: var(--s-1) var(--s-3);
+  }
+  .search input {
+    background: transparent; color: var(--ink-strong);
+    border: 0; outline: 0; padding: var(--s-2); width: 220px;
+    font-family: var(--font-mono); font-size: var(--t-cap);
+  }
+  .meta {
+    position: absolute; left: var(--s-4); top: var(--s-4);
+    color: var(--ink-soft); font-size: var(--t-cap); font-family: var(--font-mono);
+  }
+</style>
+</head>
+<body>
+
+<header class="app-header">
+  <span class="crumb"><b>wiki-tokenise</b> · graph</span>
+  <nav>
+    <a href="index.html">index</a>
+    <a href="graph.html" class="active">graph</a>
+    <a href="convergence.html">convergence</a>
+    <a href="timeline.html">timeline</a>
+    <a href="realised.html">realised</a>
+    <a href="compare.html">compare</a>
+    <a href="#" id="themeBtn" title="Toggle theme">●</a>
+  </nav>
+</header>
+
+<div id="stage" class="stage">
+  <!-- Connect screen -->
+  <div id="connectScreen" class="connect-screen">
+    <div class="connect-card">
+      <h2>Connect vault</h2>
+      <p>Pick the wiki-tokenise folder. The browser remembers it via IndexedDB; subsequent visits one-click reconnect.</p>
+      <div class="connect-actions">
+        <button id="connectBtn" class="primary">Connect vault</button>
+        <button id="reconnectBtn" hidden>Reconnect</button>
+        <button id="forgetBtn" hidden>Forget vault</button>
+      </div>
+      <p id="connectErr" class="error" hidden></p>
+      <p class="connect-meta">Read-only · Chrome 86+ · Edge 86+</p>
+    </div>
+  </div>
+
+  <!-- Live graph -->
+  <svg id="svg" class="graph" hidden></svg>
+  <div id="meta" class="meta" hidden></div>
+  <div id="legend" class="legend" hidden>
+    <div class="lg-row"><span class="swatch" style="background:var(--node-source)"></span>source</div>
+    <div class="lg-row"><span class="swatch" style="background:var(--node-person)"></span>person</div>
+    <div class="lg-row"><span class="swatch" style="background:var(--node-institution)"></span>institution</div>
+    <div class="lg-row"><span class="swatch" style="background:var(--node-moc)"></span>moc</div>
+    <div class="lg-row"><span class="swatch" style="background:var(--node-concept)"></span>concept</div>
+    <div class="lg-row"><span class="swatch" style="background:var(--node-meta)"></span>meta</div>
+  </div>
+  <div id="search" class="search" hidden>
+    <span style="color:var(--ink-soft);font-family:var(--font-mono);font-size:var(--t-cap);">find</span>
+    <input id="searchInput" placeholder="title or slug...">
+  </div>
+  <aside id="panel" class="panel" hidden>
+    <header>
+      <h2 id="panelTitle">—</h2>
+      <button class="close" id="panelClose">×</button>
+    </header>
+    <dl id="panelMeta"></dl>
+    <p id="panelExcerpt" class="excerpt"></p>
+    <p class="neigh">Neighbours:</p>
+    <div id="panelNeigh" class="neigh"></div>
+  </aside>
+</div>
+
+<script src="vault-store.js?v=2"></script>
+<script src="_vault-loader.js?v=2"></script>
+<script>
+window.addEventListener('error', (e) => {
+  const m = document.getElementById('meta');
+  if (m) { m.style.color = '#a00'; m.textContent = 'JS error: ' + (e.message || e.error || 'unknown'); }
+  console.error('[wiki-tokenise]', e.error || e.message);
+});
+const root = document.documentElement;
+(function () {
+  const saved = localStorage.getItem('wt-theme');
+  if (saved === 'dark' || saved === 'light') root.dataset.theme = saved;
+})();
+document.getElementById('themeBtn').addEventListener('click', (e) => {
+  e.preventDefault();
+  const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
+  root.dataset.theme = next;
+  localStorage.setItem('wt-theme', next);
+});
+
+const connectScreen = document.getElementById('connectScreen');
+const svgEl = document.getElementById('svg');
+const meta = document.getElementById('meta');
+const legend = document.getElementById('legend');
+const search = document.getElementById('search');
+const panel = document.getElementById('panel');
+const errBox = document.getElementById('connectErr');
+const reconnectBtn = document.getElementById('reconnectBtn');
+const forgetBtn = document.getElementById('forgetBtn');
+
+document.getElementById('connectBtn').addEventListener('click', async () => {
+  errBox.hidden = true;
+  try {
+    const { notes } = await vaultLoader.connect();
+    boot(notes);
+  } catch (e) {
+    errBox.textContent = e.message || String(e);
+    errBox.hidden = false;
+  }
+});
+reconnectBtn.addEventListener('click', async () => {
+  errBox.hidden = true;
+  const handle = await vaultStore.loadHandle();
+  if (!handle) return;
+  const notes = await vaultLoader.requestAfterGesture(handle);
+  if (!notes) {
+    errBox.textContent = 'Permission was not granted. Try again, or click Forget vault.';
+    errBox.hidden = false;
+    return;
+  }
+  boot(notes);
+});
+forgetBtn.addEventListener('click', async () => {
+  await vaultLoader.forget();
+  location.reload();
+});
+
+(async function init() {
+  const result = await vaultLoader.reconnect();
+  if (!result) return;
+  if (result.needsPermission) {
+    reconnectBtn.hidden = false;
+    forgetBtn.hidden = false;
+    vaultLoader.autoReconnectOnClick(result.handle, boot);
+    return;
+  }
+  boot(result.notes);
+})();
+
+function boot(notes) {
+  // MetaMask SES lockdown can freeze the `hidden` IDL setter; use
+  // removeAttribute + inline display style as the bulletproof path.
+  connectScreen.setAttribute('hidden', '');
+  connectScreen.style.display = 'none';
+  [svgEl, meta, legend, search].forEach(el => {
+    el.removeAttribute('hidden');
+    el.style.removeProperty('display');
+  });
+  svgEl.style.display = 'block';
+  svgEl.style.width = '100%';
+  svgEl.style.height = '100%';
+  meta.textContent = `${notes.length} notes loaded; rendering...`;
+  // Give the browser one frame to lay out the now-visible SVG before D3
+  // measures clientWidth / clientHeight.
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    try {
+      render(notes);
+    } catch (e) {
+      console.error('[wiki-tokenise] render failed:', e);
+      meta.style.color = '#a00';
+      meta.textContent = 'render error: ' + (e && e.message ? e.message : String(e));
+    }
+  }));
+}
+
+// SVG fill attribute. OKLCH-via-CSS-var is unreliable as an SVG attribute
+// value in current Chromium; hex equivalents render unconditionally.
+const NODE_HEX = {
+  source:      '#1a1c22',
+  person:      '#803634',
+  institution: '#946044',
+  moc:         '#a08330',
+  concept:     '#4a6470',
+  meta:        '#8d8e94',
+};
+function nodeColor(n) {
+  return NODE_HEX[n.fm.type] || NODE_HEX.meta;
+}
+function getCss(name) {
+  return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+
+function render(notes) {
+  // Build node + link arrays.
+  const byKey = new Map();
+  for (const n of notes) {
+    byKey.set(n.slug.toLowerCase(), n);
+    byKey.set(n.path.toLowerCase(), n);
+  }
+  const idFor = (n) => n.path;
+  const nodes = notes.map(n => ({ id: idFor(n), n }));
+  const idByKey = new Map();
+  for (const node of nodes) {
+    idByKey.set(node.n.slug.toLowerCase(), node.id);
+    idByKey.set(node.n.path.toLowerCase(), node.id);
+  }
+  const links = [];
+  for (const node of nodes) {
+    for (const tgt of node.n.links) {
+      const targetId = idByKey.get(tgt.toLowerCase());
+      if (targetId && targetId !== node.id) {
+        links.push({ source: node.id, target: targetId });
+      }
+    }
+  }
+
+  meta.textContent = `${nodes.length} notes  ·  ${links.length} links`;
+
+  const svg = d3.select(svgEl);
+  let width = svgEl.clientWidth || svgEl.parentElement.clientWidth || window.innerWidth;
+  let height = svgEl.clientHeight || svgEl.parentElement.clientHeight || (window.innerHeight - 60);
+  if (width < 200) width = window.innerWidth;
+  if (height < 200) height = window.innerHeight - 60;
+  // Explicit SVG dimensions: some Chromium paths fall back to the SVG
+  // default 300x150 intrinsic size unless width/height attributes are set.
+  svg.attr('width', width).attr('height', height).attr('viewBox', `0 0 ${width} ${height}`);
+  svg.selectAll('*').remove();
+
+  // Seed initial positions near the centre so nodes are visible on the
+  // first paint rather than clustered at (0, 0) where d3's default spiral
+  // initialises them.
+  nodes.forEach((n, i) => {
+    const a = i * 2.39996;
+    const r = 30 + Math.sqrt(i) * 18;
+    n.x = width / 2 + r * Math.cos(a);
+    n.y = height / 2 + r * Math.sin(a);
+  });
+
+  const g = svg.append('g');
+  const zoom = d3.zoom().scaleExtent([0.2, 6]).on('zoom', e => {
+    g.attr('transform', e.transform);
+    // Inverse-scale labels so they stay roughly the same pixel size at
+    // any zoom level. Hide them entirely when zoomed well out so the
+    // macro structure of the graph is legible.
+    const k = e.transform.k;
+    g.selectAll('.node text')
+      .style('display', k < 0.5 ? 'none' : null)
+      .attr('font-size', (12 / k) + 'px')
+      .attr('stroke-width', (3 / k) + 'px');
+  });
+  svg.call(zoom);
+
+  const link = g.append('g').attr('class', 'links').selectAll('line')
+    .data(links).join('line').attr('class', 'link').attr('stroke-width', 1);
+
+  const node = g.append('g').attr('class', 'nodes').selectAll('g.node')
+    .data(nodes, d => d.id).join('g').attr('class', 'node');
+
+  node.append('circle')
+    .attr('r', d => 9 + Math.min(18, (d.n.links?.length || 0) * 1.4))
+    .attr('fill', d => nodeColor(d.n));
+
+  node.append('text')
+    .attr('x', 8).attr('dy', '0.32em')
+    .text(d => (d.n.fm.title || d.n.fm.name || d.n.slug).slice(0, 36));
+
+  // Diagnostics
+  const createdNodes = svgEl.querySelectorAll('g.node').length;
+  const createdLinks = svgEl.querySelectorAll('line.link').length;
+  const sample = svgEl.querySelector('g.node circle');
+  console.log('[wiki-tokenise graph] svg dims =', width, 'x', height,
+              '| nodes in DOM =', createdNodes,
+              '| links in DOM =', createdLinks,
+              '| sample circle fill =', sample ? sample.getAttribute('fill') : '(none)',
+              '| sample circle r =', sample ? sample.getAttribute('r') : '(none)');
+
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(140).strength(0.35))
+    .force('charge', d3.forceManyBody().strength(-800).distanceMax(600))
+    .force('x', d3.forceX(width / 2).strength(0.02))
+    .force('y', d3.forceY(height / 2).strength(0.02))
+    .force('collide', d3.forceCollide().radius(d => 22 + Math.min(28, (d.n.links?.length || 0) * 1.6)).strength(0.9));
+
+  // Pre-tick to converge before first paint so nodes are immediately
+  // visible rather than streaking in from the spiral origin.
+  for (let i = 0; i < 200; i++) sim.tick();
+
+  function paint() {
+    link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    node.attr('transform', d => `translate(${d.x || 0},${d.y || 0})`);
+  }
+  paint();
+  sim.on('tick', paint);
+
+  node.call(d3.drag()
+    .on('start', (e, d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+    .on('drag',  (e, d) => { d.fx = e.x; d.fy = e.y; })
+    .on('end',   (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
+
+  node.on('mouseover', (e, d) => {
+    d3.select(e.currentTarget).classed('hover', true);
+    link.classed('hover', l => l.source.id === d.id || l.target.id === d.id);
+  }).on('mouseout', (e) => {
+    d3.select(e.currentTarget).classed('hover', false);
+    link.classed('hover', false);
+  }).on('click', (e, d) => openPanel(d, nodes, links));
+
+  // Search
+  const input = document.getElementById('searchInput');
+  input.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    if (!q) {
+      node.style('opacity', 1);
+      link.style('opacity', 0.7);
+      return;
+    }
+    const matchIds = new Set(nodes
+      .filter(x => (x.n.fm.title || x.n.fm.name || x.n.slug).toLowerCase().includes(q) ||
+                   x.n.slug.toLowerCase().includes(q))
+      .map(x => x.id));
+    node.style('opacity', x => matchIds.has(x.id) ? 1 : 0.18);
+    link.style('opacity', l => (matchIds.has(l.source.id) || matchIds.has(l.target.id)) ? 0.8 : 0.08);
+  });
+}
+
+function openPanel(d, nodes, links) {
+  const n = d.n;
+  document.getElementById('panelTitle').textContent = n.fm.title || n.fm.name || n.slug;
+  const dl = document.getElementById('panelMeta');
+  dl.innerHTML = '';
+  const keys = ['type', 'jurisdiction', 'domain', 'source_type', 'year', 'organisation', 'role', 'status'];
+  for (const k of keys) {
+    const v = n.fm[k];
+    if (v == null || (Array.isArray(v) && v.length === 0)) continue;
+    const dt = document.createElement('dt'); dt.textContent = k;
+    const dd = document.createElement('dd'); dd.textContent = Array.isArray(v) ? v.join(', ') : String(v);
+    dl.appendChild(dt); dl.appendChild(dd);
+  }
+  if (n.fm.url) {
+    const dt = document.createElement('dt'); dt.textContent = 'url';
+    const dd = document.createElement('dd');
+    const a = document.createElement('a');
+    a.href = n.fm.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = n.fm.url;
+    dd.appendChild(a); dl.appendChild(dt); dl.appendChild(dd);
+  }
+  const excerpt = (n.body || '').split(/\r?\n/).filter(l => l.trim() && !l.startsWith('#') && !l.startsWith('>')).slice(0, 4).join(' ');
+  document.getElementById('panelExcerpt').textContent = excerpt.slice(0, 360) + (excerpt.length > 360 ? '...' : '');
+  const neighIds = new Set();
+  for (const l of links) {
+    if (l.source.id === d.id) neighIds.add(l.target.id);
+    if (l.target.id === d.id) neighIds.add(l.source.id);
+  }
+  const neighHost = document.getElementById('panelNeigh');
+  neighHost.innerHTML = '';
+  for (const id of neighIds) {
+    const x = nodes.find(z => z.id === id);
+    if (!x) continue;
+    const a = document.createElement('a');
+    a.href = '#'; a.textContent = (x.n.fm.title || x.n.fm.name || x.n.slug);
+    a.addEventListener('click', (e) => { e.preventDefault(); openPanel(x, nodes, links); });
+    neighHost.appendChild(a); neighHost.appendChild(document.createTextNode(' · '));
+  }
+  panel.hidden = false; requestAnimationFrame(() => panel.classList.add('open'));
+}
+document.getElementById('panelClose').addEventListener('click', () => {
+  panel.classList.remove('open');
+  setTimeout(() => panel.hidden = true, 250);
+});
+</script>
+</body>
+</html>

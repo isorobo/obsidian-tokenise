@@ -1,0 +1,51 @@
+# wiki-config.yaml
+# Configuration for the /wiki MOC-builder skill on wiki-tokenise.
+# Mirrors the convention used in the sibling vault wiki-ai-thinkers.
+
+vault_name: wiki-tokenise
+vault_root: C:\Users\Simon\Documents\wiki-tokenise
+date: 2026-05-24
+
+folders:
+  inbox: 00_Inbox
+  sources: 10_Sources
+  people: 20_People
+  concepts: 30_Concepts
+  domains: 40_Domains
+  mocs: 50_MOCs
+  drafts: 60_Drafts
+  research: 70_Research
+  attachments: 80_Attachments
+  templates: 90_Templates
+  meta: 99_Meta
+
+topic: tokenisation-of-real-world-assets
+subjects:
+  - finance
+  - law
+  - carbon-credits
+  - real-estate
+  - property-rights
+  - stablecoins
+  - agentic-ai-trading
+  - blockchain-settlement
+
+moc_groups:
+  domain:
+    - Finance
+    - Law
+    - Carbon-Credits
+    - Real-Estate
+    - Property-Rights
+    - Stablecoins
+    - Agentic-AI
+    - Blockchain-Settlement
+  cross_cutting:
+    - Private-Law-Convergence
+    - Agent-Ledger-Interface
+    - Realised-vs-Projected
+
+style:
+  english: NZ
+  prefer_active_voice: true
+  hemingway: true

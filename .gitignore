@@ -1,0 +1,38 @@
+# wiki-tokenise .gitignore
+
+# Per-machine Obsidian state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/graph.json
+.obsidian/hotkeys.json
+
+# Orchestrator / agent state and logs (per-machine, regenerable)
+99_Meta/wiki-tokenise/state/
+99_Meta/wiki-tokenise/queries/
+.claudian/
+.claude/
+.remember/
+
+# Cached binaries (every source has a canonical_url - rebuild locally if needed)
+80_Attachments/PDFs/
+10_Sources/PDFs/
+10_Sources/NotebookLM-Exports/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor noise
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build / cache
+node_modules/
+__pycache__/
+*.pyc
+.cache/

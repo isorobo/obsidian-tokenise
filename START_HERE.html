@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>wiki-tokenise · start here</title>
+<style>
+  :root {
+    --bg: oklch(98.5% 0.005 80);
+    --ink: oklch(20% 0.010 260);
+    --mid: oklch(40% 0.012 260);
+    --soft: oklch(60% 0.012 260);
+    --rule: oklch(88% 0.010 260);
+    --accent: oklch(38% 0.120 25);
+    --tint: oklch(94% 0.030 25);
+    --mono: ui-monospace, 'iA Writer Mono V', SFMono-Regular, Menlo, Consolas, monospace;
+    --serif: 'iA Writer Quattro V', 'iA Writer Duo', Charter, Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: var(--serif); }
+  main { max-width: 76ch; margin: 0 auto; padding: 64px 24px; line-height: 1.55; }
+  h1 { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; margin: 0; }
+  .tag { color: var(--soft); font-family: var(--mono); font-size: 13px; text-transform: uppercase; letter-spacing: 0.12em; margin: 8px 0 32px; }
+  h2 { font-size: 18px; font-weight: 600; margin: 40px 0 8px; }
+  p { color: var(--mid); margin: 8px 0 16px; }
+  a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+  a:hover { background: var(--tint); }
+  ol, ul { color: var(--mid); padding-left: 20px; }
+  ol li, ul li { margin-bottom: 6px; }
+  code, kbd { font-family: var(--mono); font-size: 0.9em; background: oklch(96% 0.008 80); padding: 2px 6px; border: 1px solid var(--rule); }
+  .pill { display: inline-block; padding: 2px 8px; border: 1px solid var(--rule); font-family: var(--mono); font-size: 12px; color: var(--soft); margin-right: 6px; }
+  table { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 13px; margin: 16px 0; }
+  th, td { border-bottom: 1px solid var(--rule); padding: 6px 12px 6px 0; text-align: left; vertical-align: top; }
+  th { font-weight: 600; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 40px 0; }
+  footer { color: var(--soft); font-size: 12px; font-family: var(--mono); }
+</style>
+</head>
+<body>
+<main>
+
+<h1>wiki-tokenise</h1>
+<p class="tag">tokenisation of real-world assets · start here</p>
+
+<p>
+  An Obsidian vault collating authoritative sources on the tokenisation of real-world assets,
+  with five browser artefacts that read the vault directly. Sister vault: <code>wiki-ai-thinkers</code>.
+</p>
+
+<h2>Launch the browser artefacts</h2>
+
+<p>
+  The artefacts live under <code>.workspace/</code> and need a local HTTP server (Chrome refuses the
+  File System Access flow over <code>file://</code>). One Python launcher, three OS wrappers.
+</p>
+
+<table>
+  <thead><tr><th>OS</th><th>How to launch</th></tr></thead>
+  <tbody>
+    <tr><td>Windows</td><td>Open <code>.workspace/</code> in File Explorer (<kbd>Win+E</kbd>) and double-click <code>serve.bat</code>.</td></tr>
+    <tr><td>macOS / Linux</td><td><code>cd .workspace && ./serve.sh</code></td></tr>
+    <tr><td>Any platform</td><td><code>python .workspace/serve.py</code> · default port <code>8766</code></td></tr>
+  </tbody>
+</table>
+
+<p>
+  A console window opens, prints a URL, and waits. <strong>Ctrl-click the URL</strong> or paste it
+  into Chrome / Edge. The landing page (<code>index.html</code>) is the front door.
+</p>
+
+<h2>The five artefacts</h2>
+
+<table>
+  <tbody>
+    <tr><td><span class="pill">01</span></td><td><b>graph</b> · force-directed graph of every wikilink.</td></tr>
+    <tr><td><span class="pill">02</span></td><td><b>convergence</b> · jurisdiction × doctrine matrix.</td></tr>
+    <tr><td><span class="pill">03</span></td><td><b>timeline</b> · events on a horizontal time axis, in lanes.</td></tr>
+    <tr><td><span class="pill">04</span></td><td><b>realised vs projected</b> · forecasts vs realised AUM.</td></tr>
+    <tr><td><span class="pill">05</span></td><td><b>compare</b> · pick two notes, see frontmatter and body side by side.</td></tr>
+  </tbody>
+</table>
+
+<h2>Requirements</h2>
+<ul>
+  <li>Python 3 on the system PATH (Windows: <code>python</code>; macOS/Linux: <code>python3</code>).</li>
+  <li>Chrome 86+ or Edge 86+ for the File System Access API. Firefox and Safari are not supported.</li>
+  <li>iA Writer fonts (auto-installed to your user font registry on first launch via PowerShell).</li>
+</ul>
+
+<h2>Vault map</h2>
+
+<table>
+  <tbody>
+    <tr><td><code>10_Sources/</code></td><td>Categorised source notes + the master <code>SOURCE-REGISTER.md</code>.</td></tr>
+    <tr><td><code>20_People/</code></td><td>People <em>and</em> institutions, discriminated by frontmatter <code>kind</code>.</td></tr>
+    <tr><td><code>30_Concepts/</code></td><td>Atomic vocabulary.</td></tr>
+    <tr><td><code>40_Domains/</code></td><td>Finance · Law · Examples (Carbon, Real Estate, Property Rights) · Sub-Topic (Stablecoins, Agentic AI, Blockchain Settlement).</td></tr>
+    <tr><td><code>50_MOCs/</code></td><td>Twelve Maps of Content. Three are cross-cutting.</td></tr>
+    <tr><td><code>60_Drafts/</code></td><td>Long-form writing.</td></tr>
+    <tr><td><code>99_Meta/</code></td><td>Schema, design plan, NotebookLM bridge, orchestrator scaffold.</td></tr>
+    <tr><td><code>.workspace/</code></td><td>The browser artefacts.</td></tr>
+  </tbody>
+</table>
+
+<h2>Weekly refresh</h2>
+<p>
+  The <code>/wiki-tokenise weekly-refresh</code> command runs the watchlist monitor across 12 source
+  channels, syncs new sources into NotebookLM, then refreshes MOCs. Pilot channel: BIS Working Papers.
+  Scheduling guidance is in <code>99_Meta/VAULT-DESIGN.md</code> §5.4.
+</p>
+
+<hr>
+
+<footer>
+  Read-only. No writes. No Claude API calls. Local server only.
+  · Built 2026-05-24 on the wiki-ai-thinkers architecture.
+</footer>
+
+</main>
+</body>
+</html>

@@ -250,7 +250,7 @@ function wirePicker(side, inpId, listId, panelId) {
     items.forEach((n, i) => {
       const el = document.createElement('div');
       el.className = 'item' + (i === active ? ' active' : '');
-      el.innerHTML = `<div class="t">${(n.fm.title || n.slug)}</div><div class="p">${n.path}</div>`;
+      el.innerHTML = `<div class="t">${esc(n.fm.title || n.slug)}</div><div class="p">${esc(n.path)}</div>`;
       el.addEventListener('mousedown', (e) => { e.preventDefault(); pick(n); });
       list.appendChild(el);
     });
@@ -292,7 +292,7 @@ function renderPane(n, other) {
   }).filter(Boolean).join('');
   const body = mdToHTML(extractBody(n.body));
   return `
-    <div class="meta">${n.path}</div>
+    <div class="meta">${esc(n.path)}</div>
     <h3>${esc(n.fm.title || n.fm.name || n.slug)}</h3>
     <table class="fm">${rows}</table>
     <div class="body">${body}</div>

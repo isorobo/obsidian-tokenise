@@ -24,6 +24,31 @@ An Obsidian vault collating authoritative sources on the **tokenisation of real-
 2. **Compress the vocabulary, expand the graph.** Atomic concepts in `30_Concepts/` link out; everything links in.
 3. **Source notes talk about sources; source files are sources.** Source `.md` notes live in `10_Sources/<Category>/`; raw PDFs in `10_Sources/PDFs/<Category>/`.
 
+## Browser artefacts
+
+Five read-only browser artefacts live under [`.workspace/`](.workspace/) and read this vault directly via the File System Access API. From a terminal in that folder:
+
+```
+.\serve.bat        # Windows
+./serve.sh         # macOS / Linux
+python serve.py    # any platform
+```
+
+The server listens on `http://localhost:8766`. Open `index.html` for the landing page. Requires Chrome 86+ or Edge 86+. See [.workspace/README.md](.workspace/README.md) for the per-artefact contract.
+
 ## Provenance
 
 Built on 2026-05-24, drawing on (i) domain knowledge, (ii) live web searches for the freshest authoritative outputs, (iii) the existing 2 April 2026 carbon-credit research report (now at [60_Drafts/](60_Drafts/)), and (iv) the user-curated NotebookLM notebook `tokenise` (46 live sources).
+
+## Licences
+
+This repo is dual-licensed.
+
+- **Content** (`10_Sources/`, `20_People/`, `30_Concepts/`, `40_Domains/`, `50_MOCs/`, `60_Drafts/`, `90_Templates/`, `99_Meta/`, and all other markdown) is released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. See [LICENSE-content.txt](LICENSE-content.txt).
+- **Code** (`.workspace/`, `serve.py`, `serve.bat`, `serve.sh`, and PowerShell scripts under `99_Meta/wiki-tokenise/state/logs/`) is released under the **MIT License**. See [LICENSE](LICENSE).
+
+Third-party bundled assets retain their original licences: iA Writer fonts under SIL Open Font License 1.1, Obsidian Minimal theme under MIT, Claudian plugin under its upstream licence.
+
+## Not a contribution project
+
+This is a personal research vault that happens to be public. Pull requests adding or modifying sources will not be merged. Fork freely and run your own watchlist.

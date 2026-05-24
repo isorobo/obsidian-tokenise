@@ -1,0 +1,37 @@
+# Force correct line endings per filetype, regardless of client autocrlf setting.
+# Windows tooling (cmd, PowerShell) requires CRLF; *nix shells require LF.
+
+# Windows scripts - must be CRLF or cmd misparses
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Unix scripts - must be LF or bash/sh refuses
+*.sh    text eol=lf
+
+# Cross-platform: let git decide. Python, JS, HTML, YAML, Markdown all
+# tolerate either; consistent LF in the repo + native checkout keeps
+# local diffs clean.
+*.py    text
+*.js    text
+*.html  text
+*.css   text
+*.json  text
+*.yml   text
+*.yaml  text
+*.md    text
+*.txt   text
+
+# Binary
+*.pdf   binary
+*.docx  binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
+*.gif   binary
+*.ttf   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+*.zip   binary

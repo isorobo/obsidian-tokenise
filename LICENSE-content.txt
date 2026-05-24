@@ -1,0 +1,67 @@
+Vault content in this repository is licensed under
+
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+================================================================================
+
+SCOPE
+
+This licence covers the *content* of the wiki-tokenise vault: the markdown
+files, YAML frontmatter, maps of content, source records, schema definitions,
+templates, and long-form drafts. Specifically:
+
+  00_Inbox/
+  10_Sources/              (annotations, register, frontmatter - NOT the
+                            cached source PDFs, which are excluded from the
+                            repo via .gitignore and remain the property of
+                            their respective publishers)
+  20_People/
+  30_Concepts/
+  40_Domains/
+  50_MOCs/
+  60_Drafts/
+  90_Templates/
+  99_Meta/                  (schema, design plan, watchlist, bridge logs)
+  README.md, START_HERE.html (at vault root)
+
+Code in this repository - the contents of `.workspace/`, `serve.py`,
+`serve.bat`, `serve.sh`, and any PowerShell scripts under
+`99_Meta/wiki-tokenise/state/logs/` - is licensed separately under the
+MIT License. See LICENSE.
+
+Third-party bundled assets (iA Writer fonts, Obsidian Minimal theme,
+Claudian plugin) retain their original licences; see LICENSE.
+
+================================================================================
+
+ATTRIBUTION
+
+When reusing content from this vault, please attribute as:
+
+    "wiki-tokenise" by isorobo,
+    https://github.com/isorobo/obsidian-tokenise,
+    licensed under CC BY 4.0.
+
+Citation metadata for primary sources (the works *cited* by this vault, not
+the vault itself) lives in the YAML frontmatter of each source markdown file
+under 10_Sources/: `authors`, `organisation`, `venue`, `year`, `url`, `doi`,
+`nlm_id`. Those primary sources remain the property of their respective
+authors and publishers. This vault's licence covers only the curated metadata,
+annotations, and structural links that make up the wiki itself.
+
+================================================================================
+
+NO WARRANTY
+
+This licence does not warrant the accuracy, completeness, or currency of
+citation metadata, annotations, or schema-derived inferences. Verify citations
+against primary sources before relying on them. The vault is a research aid,
+not legal or financial advice.
+
+The status field on each source note indicates the lifecycle stage:
+`stub`, `draft`, `review`, `permanent`, `archived`, `needs-reingest`, or
+`nlm-describe-error`. Notes flagged `needs-reingest` or `nlm-describe-error`
+have known data-quality issues documented in their annotation block.

@@ -294,7 +294,8 @@ function draw() {
         tip.classList.add('show');
         tip.style.left = (e.clientX + 12) + 'px';
         tip.style.top = (e.clientY + 12) + 'px';
-        tip.innerHTML = `<b>${(s.fm.title || s.slug)}</b><span class="src">${s.fm.source_type || ''} · ${s.fm.organisation || (s.fm.authors || []).join(', ')} · ${s._year}</span>`;
+        const esc = vaultLoader.escapeHTML;
+        tip.innerHTML = `<b>${esc(s.fm.title || s.slug)}</b><span class="src">${esc(s.fm.source_type || '')} · ${esc(s.fm.organisation || (s.fm.authors || []).join(', '))} · ${esc(s._year)}</span>`;
       });
       node.on('mouseleave', () => tip.classList.remove('show'));
     });

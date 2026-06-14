@@ -297,7 +297,7 @@ function redraw() {
           const wrap = document.createElement('div');
           wrap.style.marginBottom = '6px';
           const title = (s.fm.title || s.slug).slice(0, 60);
-          wrap.innerHTML = `<span class="pip" style="background:var(--accent)"></span><a href="#" data-path="${s.path}">${title}</a>`;
+          wrap.innerHTML = `<span class="pip" style="background:var(--accent)"></span><a href="#" data-path="${vaultLoader.escapeHTML(s.path)}">${vaultLoader.escapeHTML(title)}</a>`;
           td.appendChild(wrap);
         }
         if (cell.length > 3) {

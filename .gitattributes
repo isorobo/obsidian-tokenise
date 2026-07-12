@@ -1,6 +1,10 @@
 # Force correct line endings per filetype, regardless of client autocrlf setting.
 # Windows tooling (cmd, PowerShell) requires CRLF; *nix shells require LF.
 
+# Default: normalise every text file to LF in the repo and the working
+# tree. The specific overrides below win (later patterns take precedence).
+* text=auto eol=lf
+
 # Windows scripts - must be CRLF or cmd misparses
 *.bat   text eol=crlf
 *.cmd   text eol=crlf

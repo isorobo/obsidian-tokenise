@@ -1,0 +1,32 @@
+# Wiki skill configuration for the Tokenise vault.
+# Created 2026-06-07 to enable /wiki scan, apply, and MOC refresh.
+# The controlled Topic vocabulary derives from 99_Meta/schema.md
+# (domain, instrument, and doctrine enums).
+
+vault_name: "Tokenise"
+
+excluded_folders:
+  - ".obsidian"
+  - ".trash"
+  - ".git"
+  - ".claude"
+  - ".claudian"
+  - ".remember"
+  - ".smart-env"
+  - ".workspace"
+  - "_archived_wiki-old-structure"
+  - "storm-reports"
+  - "_wiki/_quarantine"
+  - "_wiki/_reports"
+  - "00_Inbox"
+  - "50_MOCs"
+  - "60_Drafts"
+  - "70_Research"
+  - "80_Attachments"
+  - "90_Templates"
+  - "99_Meta"
+
+confidence_threshold: 0.7
+max_topics_per_note: 3
+topic_depth: 3
+vocabulary_version: 1

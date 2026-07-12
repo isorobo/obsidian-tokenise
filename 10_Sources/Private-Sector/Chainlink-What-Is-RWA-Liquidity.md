@@ -1,18 +1,29 @@
 ---
-title: "What Is RWA Liquidity? (Chainlink)"
+title: What Is RWA Liquidity? (Chainlink)
 type: source
 nlm_id: 0ade0a78-3b69-48be-ab34-ea280a35d0a4
-url: "https://chain.link/"
+url: https://chain.link/
 organisation: Chainlink
 source_type: industry-note
 year: 2024
-jurisdiction: [INTL]
+jurisdiction:
+- INTL
 folder: Private-Sector
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/tokenisation
+- topic/blockchain-settlement
+subject:
+- subject/chainlink
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 61b6615020d47ad5d5d554c608dac1b89c7e8247aeb648265d31d688897fdeba
+wiki_role: wiki
 ---
+
 
 # What Is RWA Liquidity? (Chainlink)
 

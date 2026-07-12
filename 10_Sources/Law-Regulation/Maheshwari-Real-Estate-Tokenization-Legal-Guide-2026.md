@@ -1,20 +1,34 @@
 ---
-title: "Real Estate Tokenization: 2026 Legal Guide (Maheshwari and Co.)"
+title: 'Real Estate Tokenization: 2026 Legal Guide (Maheshwari and Co.)'
 type: source
 nlm_id: 587e4d82-d115-4277-a26c-1fb2d255e3aa
-url: "TBD"
-organisation: "Maheshwari and Co."
+url: TBD
+organisation: Maheshwari and Co.
 source_type: industry-note
 year: 2026
-jurisdiction: [IN, US, EU]
-doctrine: [licensing, property-category]
-instrument: [tokenised-real-estate]
+jurisdiction:
+- IN
+- US
+- EU
+doctrine:
+- licensing
+- property-category
+instrument:
+- tokenised-real-estate
 folder: Law-Regulation
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/real-estate
+- topic/law/property-rights
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 3c38525792043f6118fce3fb95a3d960b65221013759b97ffd2d8d4a4be4c644
+wiki_role: wiki
 ---
+
 
 # Real Estate Tokenization: 2026 Legal Guide (Maheshwari and Co.)
 

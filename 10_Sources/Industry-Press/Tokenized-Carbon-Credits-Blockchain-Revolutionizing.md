@@ -1,18 +1,29 @@
 ---
-title: "Tokenized Carbon Credits: How Blockchain Is Revolutionizing Carbon Markets"
+title: 'Tokenized Carbon Credits: How Blockchain Is Revolutionizing Carbon Markets'
 type: source
 nlm_id: b06356c7-d958-4abc-b069-ddf2a8270448
-url: "TBD"
+url: TBD
 source_type: industry-note
 year: 2024
-jurisdiction: [CA, INTL]
-instrument: [tokenised-carbon-credit]
+jurisdiction:
+- CA
+- INTL
+instrument:
+- tokenised-carbon-credit
 folder: Industry-Press
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/carbon-credits
+- topic/blockchain-settlement
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 239a769d6e64aa6794939f0b2c1a9f1d9e4c5a27c247031a574e2244b00f5667
+wiki_role: wiki
 ---
+
 
 # Tokenized Carbon Credits: How Blockchain Is Revolutionizing Carbon Markets
 

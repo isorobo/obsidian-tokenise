@@ -1,19 +1,34 @@
 ---
-title: "The Tokenisation of Real-World Assets: Financial Innovations, Legal Paradigms, and Systemic Convergence"
+title: 'The Tokenisation of Real-World Assets: Financial Innovations, Legal Paradigms,
+  and Systemic Convergence'
 type: source
 nlm_id: 1acc9ec3-162c-45a5-9a2a-f5eba0cb6911
-url: "TBD"
+url: TBD
 source_type: paper
 year: 2026
-jurisdiction: [INTL]
-doctrine: [property-category, control]
-instrument: [tokenised-real-estate, tokenised-carbon-credit, stablecoin-fiat]
+jurisdiction:
+- INTL
+doctrine:
+- property-category
+- control
+instrument:
+- tokenised-real-estate
+- tokenised-carbon-credit
+- stablecoin-fiat
 folder: Academia
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/tokenisation
+- topic/law
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 407e507846c3bc34c6862a03749e34567885637d5902ffe1b6cef63dd8b5f1ef
+wiki_role: wiki
 ---
+
 
 # The Tokenisation of Real-World Assets: Financial Innovations, Legal Paradigms, and Systemic Convergence
 

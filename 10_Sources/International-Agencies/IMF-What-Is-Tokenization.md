@@ -1,18 +1,28 @@
 ---
-title: "What Is Tokenization? (IMF)"
+title: What Is Tokenization? (IMF)
 type: source
 nlm_id: 993dcf87-f111-44f8-bf91-a65a7b7b7d74
-url: "https://www.imf.org/"
-organisation: "International Monetary Fund"
+url: https://www.imf.org/
+organisation: International Monetary Fund
 source_type: guidance
 year: 2024
-jurisdiction: [INTL]
+jurisdiction:
+- INTL
 folder: International-Agencies
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/tokenisation
+subject:
+- subject/imf
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: f2b41b5d66151cf7bace8b31d6713f65b82d6cf742e8aef8e77a48a1d2abf7e0
+wiki_role: wiki
 ---
+
 
 # What Is Tokenization? (IMF)
 

@@ -1,19 +1,31 @@
 ---
-title: "Tokenized Real Estate: The Law and Tech of Digital Deeds"
+title: 'Tokenized Real Estate: The Law and Tech of Digital Deeds'
 type: source
 nlm_id: adc6486a-e89b-4e08-8429-087c9842b037
-url: "TBD"
+url: TBD
 source_type: paper
 year: 2024
-jurisdiction: [US]
-doctrine: [property-category, take-free-purchaser]
-instrument: [tokenised-real-estate]
+jurisdiction:
+- US
+doctrine:
+- property-category
+- take-free-purchaser
+instrument:
+- tokenised-real-estate
 folder: Academia
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/real-estate
+- topic/law/property-rights
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 4e496f01ba623488aa641e838449f7d68ed4dddaec237109ec71c6f11778af20
+wiki_role: wiki
 ---
+
 
 # Tokenized Real Estate: The Law and Tech of Digital Deeds
 

@@ -1,19 +1,32 @@
 ---
-title: "UK Selects HSBC Blockchain Platform for Digital Bond Pilot (CoinGeek)"
+title: UK Selects HSBC Blockchain Platform for Digital Bond Pilot (CoinGeek)
 type: source
 nlm_id: a56666aa-4487-4d9f-9106-c25b52e75a5f
-url: "https://coingeek.com/"
+url: https://coingeek.com/
 organisation: CoinGeek
 source_type: industry-note
 year: 2025
-jurisdiction: [UK]
-instrument: [tokenised-bond]
+jurisdiction:
+- UK
+instrument:
+- tokenised-bond
 folder: Industry-Press
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/blockchain-settlement
+- topic/finance/market-infrastructure
+subject:
+- subject/hsbc
+- subject/uk
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 03e12caf04464139bc1c0ab00d0da93bf3c9e684b6931d439e3af5ae7d6ac497
+wiki_role: wiki
 ---
+
 
 # UK Selects HSBC Blockchain Platform for Digital Bond Pilot (CoinGeek)
 

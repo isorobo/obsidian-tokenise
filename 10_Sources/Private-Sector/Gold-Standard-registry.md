@@ -1,19 +1,30 @@
 ---
-title: "Gold Standard (registry)"
+title: Gold Standard (registry)
 type: source
 nlm_id: c679a846-8e0d-4cb0-885e-f8edf8057267
-url: "https://www.goldstandard.org/"
-organisation: "Gold Standard"
+url: https://www.goldstandard.org/
+organisation: Gold Standard
 source_type: guidance
 year: 2024
-jurisdiction: [INTL]
-instrument: [tokenised-carbon-credit]
+jurisdiction:
+- INTL
+instrument:
+- tokenised-carbon-credit
 folder: Private-Sector
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/carbon-credits
+subject:
+- subject/gold-standard
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 64ce0e7d6885ad6e3f4f5149eeda8dc0c7ab7dcc26f650531401a006678ae065
+wiki_role: wiki
 ---
+
 
 # Gold Standard (registry)
 

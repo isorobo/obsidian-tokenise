@@ -1,19 +1,31 @@
 ---
-title: "Tokenization Momentum Spreads to Deposits (GARP)"
+title: Tokenization Momentum Spreads to Deposits (GARP)
 type: source
 nlm_id: 41c4d755-217f-431c-8e01-863f22467f77
-url: "https://www.garp.org/"
-organisation: "Global Association of Risk Professionals"
+url: https://www.garp.org/
+organisation: Global Association of Risk Professionals
 source_type: industry-note
 year: 2025
-jurisdiction: [INTL]
-instrument: [tokenised-deposit]
+jurisdiction:
+- INTL
+instrument:
+- tokenised-deposit
 folder: Think-Tanks
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/finance/tokenised-deposits
+- topic/finance/stablecoins
+subject:
+- subject/garp
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: f11c504c49597bdd8c3f7c149bc9e5328a4d3ef1967a2d20f63b7bb23ea62db9
+wiki_role: wiki
 ---
+
 
 # Tokenization Momentum Spreads to Deposits (GARP)
 

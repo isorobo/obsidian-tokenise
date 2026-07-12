@@ -1,18 +1,28 @@
 ---
-title: "Tokenized Carbon Credits: Bringing Climate Assets Onchain"
+title: 'Tokenized Carbon Credits: Bringing Climate Assets Onchain'
 type: source
 nlm_id: 3a502061-c2cf-45b3-be36-a5694a41b2af
-url: "TBD"
+url: TBD
 source_type: industry-note
 year: 2024
-jurisdiction: [INTL]
-instrument: [tokenised-carbon-credit]
+jurisdiction:
+- INTL
+instrument:
+- tokenised-carbon-credit
 folder: Industry-Press
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/carbon-credits
+- topic/blockchain-settlement
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 1664d3d6b73235a4281e5913db09b5c5b103e53a8d20c12336e36d7b021dcafe
+wiki_role: wiki
 ---
+
 
 # Tokenized Carbon Credits: Bringing Climate Assets Onchain
 

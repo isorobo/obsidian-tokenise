@@ -1,19 +1,34 @@
 ---
-title: "UK Jurisdiction Taskforce - Report on Control of Digital Assets (Mayer Brown)"
+title: UK Jurisdiction Taskforce - Report on Control of Digital Assets (Mayer Brown)
 type: source
 nlm_id: 0910c16f-7249-4c33-8a07-98cb5ec4fd29
-url: "https://www.mayerbrown.com/"
-organisation: "UK Jurisdiction Taskforce"
+url: https://www.mayerbrown.com/
+organisation: UK Jurisdiction Taskforce
 source_type: guidance
 year: 2023
-jurisdiction: [UK]
-doctrine: [control, property-category, custody]
+jurisdiction:
+- UK
+doctrine:
+- control
+- property-category
+- custody
 folder: Law-Regulation
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/law/digital-assets
+- topic/law/property-rights
+subject:
+- subject/ukjt
+- subject/uk
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: ab5e37911be7646975d2d09b9467bdb2230a7c4dea99ebc4918b0f1507311211
+wiki_role: wiki
 ---
+
 
 # UK Jurisdiction Taskforce - Report on Control of Digital Assets (Mayer Brown)
 

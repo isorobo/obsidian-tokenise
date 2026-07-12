@@ -1,20 +1,33 @@
 ---
-title: "Verra Addresses Crypto Instruments and Tokens"
+title: Verra Addresses Crypto Instruments and Tokens
 type: source
 nlm_id: 7a038c03-13c2-4180-b402-93b23615d938
-url: "https://verra.org/"
+url: https://verra.org/
 organisation: Verra
 source_type: guidance
 year: 2022
-jurisdiction: [INTL]
-doctrine: [licensing]
-instrument: [tokenised-carbon-credit]
+jurisdiction:
+- INTL
+doctrine:
+- licensing
+instrument:
+- tokenised-carbon-credit
 folder: Private-Sector
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/carbon-credits
+- topic/law
+subject:
+- subject/verra
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 9b75dde4d64994d85658a963d03a628033514acc60d4849b499fb498392ccf6f
+wiki_role: wiki
 ---
+
 
 # Verra Addresses Crypto Instruments and Tokens
 

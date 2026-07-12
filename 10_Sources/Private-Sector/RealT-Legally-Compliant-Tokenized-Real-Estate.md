@@ -1,20 +1,34 @@
 ---
-title: "Legally Compliant Ownership of Tokenized Real Estate (RealT)"
+title: Legally Compliant Ownership of Tokenized Real Estate (RealT)
 type: source
 nlm_id: b0b33ce3-331a-42da-ae53-cca3134d3cab
-url: "https://realt.co/"
+url: https://realt.co/
 organisation: RealT
 source_type: industry-note
 year: 2023
-jurisdiction: [US]
-doctrine: [property-category, custody]
-instrument: [tokenised-real-estate]
+jurisdiction:
+- US
+doctrine:
+- property-category
+- custody
+instrument:
+- tokenised-real-estate
 folder: Private-Sector
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/real-estate
+- topic/law/property-rights
+subject:
+- subject/realt
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: ca9f5b2b871f98389be8dc877fa8804cfeb6e8a06dfbda9003ff4b69aa18a09c
+wiki_role: wiki
 ---
+
 
 # Legally Compliant Ownership of Tokenized Real Estate (RealT)
 

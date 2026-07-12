@@ -1,19 +1,34 @@
 ---
-title: "UCC Article 12: Digital Assets and CER Rules (Wolters Kluwer)"
+title: 'UCC Article 12: Digital Assets and CER Rules (Wolters Kluwer)'
 type: source
 nlm_id: ed22f066-5d5a-43ce-ac43-51ff5e951d6a
-url: "https://www.wolterskluwer.com/"
-organisation: "Wolters Kluwer"
+url: https://www.wolterskluwer.com/
+organisation: Wolters Kluwer
 source_type: industry-note
 year: 2022
-jurisdiction: [US]
-doctrine: [property-category, control, take-free-purchaser, secured-transactions]
+jurisdiction:
+- US
+doctrine:
+- property-category
+- control
+- take-free-purchaser
+- secured-transactions
 folder: Law-Regulation
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/law/digital-assets
+- topic/law/securities
+subject:
+- subject/ucc-article-12
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 49680c7a7f53a1f74aae868aa79fc11ee2cc6a512434c129a33e189d55c93ee4
+wiki_role: wiki
 ---
+
 
 # UCC Article 12: Digital Assets and CER Rules (Wolters Kluwer)
 

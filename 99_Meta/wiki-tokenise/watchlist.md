@@ -1,3 +1,13 @@
+---
+title: wiki-tokenise Channel Watchlist
+type: metadata
+date: 2026-06-30
+tags:
+  - metadata
+  - monitor-config
+  - wiki-tokenise
+---
+
 # Watchlist
 
 Living watchlist of source channels the `/wiki-tokenise` orchestrator
@@ -22,18 +32,18 @@ runs on each weekly refresh. The orchestrator reads this table on every
 
 | channel | name | category | cadence | target_per_run | status |
 |---|---|---|---|---|---|
-| bis-working-papers | BIS Working Papers | International-Agencies | weekly | 5 | pilot |
-| imf-fintech-notes | IMF FinTech Notes | International-Agencies | monthly | 4 | pending |
-| fsb-publications | FSB Publications | International-Agencies | monthly | 4 | pending |
-| iosco-publications | IOSCO Publications | International-Agencies | monthly | 4 | pending |
-| unidroit-news | UNIDROIT News and Publications | International-Agencies | irregular | 3 | pending |
-| mas-news | MAS News and Initiatives | Central-Banks | weekly | 6 | pending |
-| hkma-press | HKMA Press Releases | Central-Banks | weekly | 6 | pending |
-| fed-staff-papers | Federal Reserve Staff Working Papers | Central-Banks | monthly | 4 | pending |
-| esma-news | ESMA News and Reports | Central-Banks | weekly | 5 | pending |
-| arxiv-q-fin-rwa | arXiv q-fin filtered for tokenisation / RWA | Academia | weekly | 6 | pending |
-| verra-policy | Verra Crypto and Tokenisation Policy | Private-Sector | irregular | 3 | pending |
-| ledger-insights | Ledger Insights (RWA + tokenisation tags) | Industry-Press | daily | 8 | pending |
+| bis-working-papers | BIS Working Papers | International-Agencies | weekly | 5 | active |
+| imf-fintech-notes | IMF FinTech Notes | International-Agencies | monthly | 4 | active |
+| fsb-publications | FSB Publications | International-Agencies | monthly | 4 | active |
+| iosco-publications | IOSCO Publications | International-Agencies | monthly | 4 | active |
+| unidroit-news | UNIDROIT News and Publications | International-Agencies | irregular | 3 | active |
+| mas-news | MAS News and Initiatives | Central-Banks | weekly | 6 | active |
+| hkma-press | HKMA Press Releases | Central-Banks | weekly | 6 | active |
+| fed-staff-papers | Federal Reserve Staff Working Papers | Central-Banks | monthly | 4 | active |
+| esma-news | ESMA News and Reports | Central-Banks | weekly | 5 | active |
+| arxiv-q-fin-rwa | arXiv q-fin filtered for tokenisation / RWA | Academia | weekly | 6 | active |
+| verra-policy | Verra Crypto and Tokenisation Policy | Private-Sector | irregular | 3 | active |
+| ledger-insights | Ledger Insights (RWA + tokenisation tags) | Industry-Press | daily | 8 | active |
 
 ## Promote to active
 

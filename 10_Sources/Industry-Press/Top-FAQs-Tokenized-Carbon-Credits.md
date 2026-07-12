@@ -1,19 +1,28 @@
 ---
-title: "Top FAQs on Tokenized Carbon Credits"
+title: Top FAQs on Tokenized Carbon Credits
 type: source
 nlm_id: 7bc439d0-0e7e-47f6-b23a-f6d341255220
-url: "TBD"
+url: TBD
 organisation: Zoniqx
 source_type: industry-note
 year: 2024
-jurisdiction: [INTL]
-instrument: [tokenised-carbon-credit]
+jurisdiction:
+- INTL
+instrument:
+- tokenised-carbon-credit
 folder: Industry-Press
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/carbon-credits
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 0c5e941a39c234ba6a07ec3e8c2261225d6e1dfc1c82a6dc3f562d2250080c77
+wiki_role: wiki
 ---
+
 
 # Top FAQs on Tokenized Carbon Credits
 

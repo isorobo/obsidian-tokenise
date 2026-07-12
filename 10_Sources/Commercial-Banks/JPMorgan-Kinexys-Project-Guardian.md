@@ -1,19 +1,34 @@
 ---
-title: "Project Guardian Asset Tokenization (Kinexys by JPMorgan)"
+title: Project Guardian Asset Tokenization (Kinexys by JPMorgan)
 type: source
 nlm_id: a6c68046-df19-4d9c-bdd4-a40ddd64cd27
-url: "https://www.jpmorgan.com/kinexys/project-guardian"
+url: https://www.jpmorgan.com/kinexys/project-guardian
 organisation: JPMorgan
 source_type: industry-note
 year: 2024
-jurisdiction: [SG, US]
-instrument: [tokenised-fund, tokenised-private-credit]
+jurisdiction:
+- SG
+- US
+instrument:
+- tokenised-fund
+- tokenised-private-credit
 folder: Commercial-Banks
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/blockchain-settlement
+- topic/finance
+subject:
+- subject/jpmorgan
+- subject/project-guardian
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: f9151dcd6f35e87515cbce738fceff924f527eb6d4a2859a1fd999850699560e
+wiki_role: wiki
 ---
+
 
 # Project Guardian Asset Tokenization (Kinexys by JPMorgan)
 

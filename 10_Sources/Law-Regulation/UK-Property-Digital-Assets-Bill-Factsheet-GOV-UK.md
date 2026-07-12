@@ -1,19 +1,32 @@
 ---
-title: "Property (Digital Assets Etc.) Bill - Factsheet (GOV.UK)"
+title: Property (Digital Assets Etc.) Bill - Factsheet (GOV.UK)
 type: source
 nlm_id: 3d5a5d9b-c387-43af-8287-2ede2f9d541c
-url: "https://www.gov.uk/"
-organisation: "HM Government"
+url: https://www.gov.uk/
+organisation: HM Government
 source_type: guidance
 year: 2024
-jurisdiction: [UK]
-doctrine: [property-category]
+jurisdiction:
+- UK
+doctrine:
+- property-category
 folder: Law-Regulation
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/law/property-rights
+- topic/law/digital-assets
+subject:
+- subject/property-digital-assets-act
+- subject/uk
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 15ef5884a97a92aafad4d76cae74cc61b045711ec737e48ac0b317c39aa0c66b
+wiki_role: wiki
 ---
+
 
 # Property (Digital Assets Etc.) Bill - Factsheet (GOV.UK)
 

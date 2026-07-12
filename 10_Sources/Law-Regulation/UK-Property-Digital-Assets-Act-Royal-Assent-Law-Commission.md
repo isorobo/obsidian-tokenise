@@ -1,19 +1,33 @@
 ---
-title: "The Property (Digital Assets etc) Act 2025 - Royal Assent (Law Commission)"
+title: The Property (Digital Assets etc) Act 2025 - Royal Assent (Law Commission)
 type: source
 nlm_id: cdd1af03-7101-49c4-b975-2a674197d728
-url: "https://lawcom.gov.uk/news/the-property-digital-assets-etc-act-2025-has-received-royal-assent/"
-organisation: "Law Commission of England and Wales"
+url: https://lawcom.gov.uk/news/the-property-digital-assets-etc-act-2025-has-received-royal-assent/
+organisation: Law Commission of England and Wales
 source_type: statute
 year: 2025
-jurisdiction: [UK]
-doctrine: [property-category, control]
+jurisdiction:
+- UK
+doctrine:
+- property-category
+- control
 folder: Law-Regulation
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/law/property-rights
+- topic/law/digital-assets
+subject:
+- subject/property-digital-assets-act
+- subject/uk
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: af7f54069f2e4d00fd003a82ae0cc1ba9cef0adc3c4feb70f405a31c99949980
+wiki_role: wiki
 ---
+
 
 # The Property (Digital Assets etc) Act 2025 - Royal Assent (Law Commission)
 

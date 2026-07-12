@@ -1,19 +1,33 @@
 ---
-title: "Kinexys by JPMorgan (Aave)"
+title: Kinexys by JPMorgan (Aave)
 type: source
 nlm_id: ac1347dc-dd35-45a6-8173-1895aa6dbe3e
-url: "https://aave.com/"
+url: https://aave.com/
 organisation: JPMorgan
 source_type: industry-note
 year: 2024
-jurisdiction: [US, SG]
-instrument: [tokenised-deposit]
+jurisdiction:
+- US
+- SG
+instrument:
+- tokenised-deposit
 folder: Commercial-Banks
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/blockchain-settlement
+- topic/finance
+subject:
+- subject/jpmorgan
+- subject/aave
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 2ad22be5d2f5780b9fd367bad30fc7c6dd06df0dbaecf6f9ebabfaaf36638d57
+wiki_role: wiki
 ---
+
 
 # Kinexys by JPMorgan (Aave)
 

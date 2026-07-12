@@ -1,18 +1,27 @@
 ---
-title: "Agent-Blockchain Interoperability (Emergent Mind)"
+title: Agent-Blockchain Interoperability (Emergent Mind)
 type: source
 nlm_id: f29e5e48-d406-4264-a48e-841b572c9156
-url: "https://www.emergentmind.com/"
-organisation: "Emergent Mind"
+url: https://www.emergentmind.com/
+organisation: Emergent Mind
 source_type: industry-note
 year: 2025
-jurisdiction: [INTL]
+jurisdiction:
+- INTL
 folder: Industry-Press
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/agentic-ai
+- topic/blockchain-settlement
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 4029a839411851aa38839bc4cd7c30316a619266fc717112a290b18cda2200e7
+wiki_role: wiki
 ---
+
 
 # Agent-Blockchain Interoperability (Emergent Mind)
 

@@ -1,20 +1,34 @@
 ---
-title: "Tokenization of Securities (Morgan Lewis)"
+title: Tokenization of Securities (Morgan Lewis)
 type: source
 nlm_id: b51c200c-b868-473f-9338-1a24c17fcff7
-url: "https://www.morganlewis.com/"
-organisation: "Morgan Lewis"
+url: https://www.morganlewis.com/
+organisation: Morgan Lewis
 source_type: industry-note
 year: 2024
-jurisdiction: [US]
-doctrine: [custody, transfer, prospectus]
-instrument: [security-token, tokenised-fund]
+jurisdiction:
+- US
+doctrine:
+- custody
+- transfer
+- prospectus
+instrument:
+- security-token
+- tokenised-fund
 folder: Law-Regulation
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/law/securities
+- topic/tokenisation
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 4cb019528cdf92e8bb8e9617d0e08444befd2ba157498262c9ca1bfd7d94d3e6
+wiki_role: wiki
 ---
+
 
 # Tokenization of Securities (Morgan Lewis)
 

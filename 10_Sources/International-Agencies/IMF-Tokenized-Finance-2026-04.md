@@ -1,20 +1,35 @@
 ---
-title: "Tokenized Finance (IMF Notes No. 26-01, April 2026)"
+title: Tokenized Finance (IMF Notes No. 26-01, April 2026)
 type: source
 nlm_id: 278bc97d-bc9a-4dfc-a3fb-04df05c0715d
-url: "https://www.imf.org/"
-organisation: "International Monetary Fund"
+url: https://www.imf.org/
+organisation: International Monetary Fund
 source_type: report
 year: 2026
-jurisdiction: [INTL]
-doctrine: [singleness-of-money]
-instrument: [stablecoin-fiat, tokenised-deposit, cbdc-wholesale]
+jurisdiction:
+- INTL
+doctrine:
+- singleness-of-money
+instrument:
+- stablecoin-fiat
+- tokenised-deposit
+- cbdc-wholesale
 folder: International-Agencies
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/tokenisation
+- topic/finance
+subject:
+- subject/imf
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 834f96cd1a80bab9e071092cb69aa6dab20bfd72654849012a560fec1197333a
+wiki_role: wiki
 ---
+
 
 # Tokenized Finance (IMF Notes No. 26-01, April 2026)
 

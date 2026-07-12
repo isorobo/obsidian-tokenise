@@ -1,19 +1,31 @@
 ---
-title: "HSBC Orion Blockchain Platform"
+title: HSBC Orion Blockchain Platform
 type: source
 nlm_id: 9afc727f-39ac-4570-b1b8-91c40b6a5547
-url: "https://www.about.hsbc.com.hk/"
+url: https://www.about.hsbc.com.hk/
 organisation: HSBC
 source_type: industry-note
 year: 2023
-jurisdiction: [UK]
-instrument: [tokenised-bond]
+jurisdiction:
+- UK
+instrument:
+- tokenised-bond
 folder: Commercial-Banks
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/blockchain-settlement
+- topic/finance/market-infrastructure
+subject:
+- subject/hsbc
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: f3355c33e464cc35fe62ca26e5c8f0e1579c25053abffc3477a079c22883a677
+wiki_role: wiki
 ---
+
 
 # HSBC Orion Blockchain Platform
 

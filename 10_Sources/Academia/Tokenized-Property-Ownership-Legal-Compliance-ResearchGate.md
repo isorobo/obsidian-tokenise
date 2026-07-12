@@ -1,19 +1,31 @@
 ---
-title: "Tokenized Property Ownership: Legal Recognition and Compliance Framework (ResearchGate)"
+title: 'Tokenized Property Ownership: Legal Recognition and Compliance Framework (ResearchGate)'
 type: source
 nlm_id: 99fbfbd9-4544-4637-9f06-08a431062071
-url: "https://www.researchgate.net/"
+url: https://www.researchgate.net/
 source_type: paper
 year: 2024
-jurisdiction: [INTL]
-doctrine: [property-category, licensing]
-instrument: [tokenised-real-estate]
+jurisdiction:
+- INTL
+doctrine:
+- property-category
+- licensing
+instrument:
+- tokenised-real-estate
 folder: Academia
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/real-estate
+- topic/law/property-rights
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: a388dc3c7c2b2409cf84aac345d725e63b7f3e08df2f7711576d94171f599d22
+wiki_role: wiki
 ---
+
 
 # Tokenized Property Ownership: Legal Recognition and Compliance Framework (ResearchGate)
 

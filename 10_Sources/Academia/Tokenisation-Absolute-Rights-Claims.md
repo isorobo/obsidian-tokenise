@@ -1,19 +1,33 @@
 ---
-title: "Tokenisation of Absolute Rights and Claims"
+title: Tokenisation of Absolute Rights and Claims
 type: source
 nlm_id: 5c43636a-03e1-4f5b-bdca-cd491c535d22
-url: "TBD"
+url: TBD
 organisation: Verstappen
 source_type: paper
 year: 2024
-jurisdiction: [EU]
-doctrine: [property-category, transfer, choice-of-law]
+jurisdiction:
+- EU
+doctrine:
+- property-category
+- transfer
+- choice-of-law
 folder: Academia
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/law/property-rights
+- topic/law/digital-assets
+subject:
+- subject/token-container-model
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 54a9e59dd76c0ff6e3834d2d0f8945b3fed552b1d52703bcd522d1c43dd818f8
+wiki_role: wiki
 ---
+
 
 # Tokenisation of Absolute Rights and Claims
 

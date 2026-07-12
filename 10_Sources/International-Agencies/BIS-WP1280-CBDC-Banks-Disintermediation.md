@@ -1,42 +1,51 @@
 ---
 type: source
-title: "CBDC and banks: disintermediating fast and slow"
+title: 'CBDC and banks: disintermediating fast and slow'
 authors:
-  - Rhys Bidder
-  - Timothy Jackson
-  - Matthias Rottner
-organisation: "Bank for International Settlements"
+- Rhys Bidder
+- Timothy Jackson
+- Matthias Rottner
+organisation: Bank for International Settlements
 source_type: paper
-venue: "BIS Working Papers"
+venue: BIS Working Papers
 year: 2025
-date_published: "2025-07-08"
-url: "https://www.bis.org/publ/work1280.htm"
-doi: ""
+date_published: '2025-07-08'
+url: https://www.bis.org/publ/work1280.htm
+doi: ''
 jurisdiction:
-  - INTL
-  - EU
+- INTL
+- EU
 domain:
-  - cbdc
-  - monetary-policy
-  - market-infrastructure
-  - finance
+- cbdc
+- monetary-policy
+- market-infrastructure
+- finance
 doctrine: []
 instrument:
-  - cbdc-retail
-  - tokenised-deposit
-register_section: ""
-nlm_id: ""
+- cbdc-retail
+- tokenised-deposit
+register_section: ''
+nlm_id: a5b79ca4-250e-41ea-969e-023312e10f55
 nlm_skip: false
 status: draft
 created: 2026-05-24
 tags:
-  - cbdc
-  - bank-runs
-  - disintermediation
-  - financial-stability
-  - bis-working-paper
+- cbdc
+- bank-runs
+- disintermediation
+- financial-stability
+- bis-working-paper
 watchlist_channel: bis-working-papers
+topic:
+- topic/finance/cbdc
+- topic/finance/tokenised-deposits
+subject:
+- subject/bis
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 31049e0abe75a531bdc92d9618b56a6752554f915ead651041dac3129a6496c8
+wiki_role: wiki
 ---
+
 
 # CBDC and banks: disintermediating fast and slow
 

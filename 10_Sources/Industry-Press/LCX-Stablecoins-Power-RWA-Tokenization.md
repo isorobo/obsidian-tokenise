@@ -1,19 +1,30 @@
 ---
-title: "How Stablecoins Power Real-World Asset Tokenization (LCX Exchange)"
+title: How Stablecoins Power Real-World Asset Tokenization (LCX Exchange)
 type: source
 nlm_id: 1ee8a386-e240-45ff-bf1e-65e3c20d2d5c
-url: "https://www.lcx.com/"
-organisation: "LCX Exchange"
+url: https://www.lcx.com/
+organisation: LCX Exchange
 source_type: industry-note
 year: 2024
-jurisdiction: [EU]
-instrument: [stablecoin-fiat, stablecoin-rwa-backed]
+jurisdiction:
+- EU
+instrument:
+- stablecoin-fiat
+- stablecoin-rwa-backed
 folder: Industry-Press
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/finance/stablecoins
+- topic/tokenisation
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 524c107425172fd476fa77bdfc6223375f25af0b5af9c308841b8db0c6694d3a
+wiki_role: wiki
 ---
+
 
 # How Stablecoins Power Real-World Asset Tokenization (LCX Exchange)
 

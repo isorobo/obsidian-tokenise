@@ -1,19 +1,30 @@
 ---
-title: "Transforming Traditional Finance: RWA, Stablecoins, and the Rise of WaaS (WEPIN)"
+title: 'Transforming Traditional Finance: RWA, Stablecoins, and the Rise of WaaS (WEPIN)'
 type: source
 nlm_id: 5ab71bca-7f5c-49ef-87a2-6722e400edad
-url: "https://wepin.io/"
+url: https://wepin.io/
 organisation: WEPIN
 source_type: industry-note
 year: 2024
-jurisdiction: [INTL]
-instrument: [stablecoin-fiat, stablecoin-rwa-backed]
+jurisdiction:
+- INTL
+instrument:
+- stablecoin-fiat
+- stablecoin-rwa-backed
 folder: Industry-Press
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/finance/stablecoins
+- topic/tokenisation
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 76d49b0fec5a14935ae432d15cee35caab5354d9712b311a03ce29dfa8138d1f
+wiki_role: wiki
 ---
+
 
 # Transforming Traditional Finance: RWA, Stablecoins, and the Rise of WaaS (WEPIN)
 

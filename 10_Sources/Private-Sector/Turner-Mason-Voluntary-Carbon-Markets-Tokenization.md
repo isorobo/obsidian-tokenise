@@ -1,19 +1,29 @@
 ---
-title: "Voluntary Carbon Markets and Tokenization (Turner, Mason and Company)"
+title: Voluntary Carbon Markets and Tokenization (Turner, Mason and Company)
 type: source
 nlm_id: 206a2438-a280-49a8-8e79-53c329e500e3
-url: "https://turnermason.com/"
-organisation: "Turner, Mason and Company"
+url: https://turnermason.com/
+organisation: Turner, Mason and Company
 source_type: industry-note
 year: 2023
-jurisdiction: [US]
-instrument: [tokenised-carbon-credit]
+jurisdiction:
+- US
+instrument:
+- tokenised-carbon-credit
 folder: Private-Sector
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/carbon-credits
+- topic/blockchain-settlement
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 57030cbaad6eced0cb56a20951df077269a5d50ef36f9c00ea177f3523afaad7
+wiki_role: wiki
 ---
+
 
 # Voluntary Carbon Markets and Tokenization (Turner, Mason and Company)
 

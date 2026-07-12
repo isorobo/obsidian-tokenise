@@ -1,40 +1,49 @@
 ---
 type: source
-title: "Stablecoins and safe asset prices"
+title: Stablecoins and safe asset prices
 authors:
-  - Rashad Ahmed
-  - Iñaki Aldasoro
-organisation: "Bank for International Settlements"
+- Rashad Ahmed
+- Iñaki Aldasoro
+organisation: Bank for International Settlements
 source_type: paper
-venue: "BIS Working Papers"
+venue: BIS Working Papers
 year: 2025
-date_published: "2025-05-28"
-url: "https://www.bis.org/publ/work1270.htm"
-doi: ""
+date_published: '2025-05-28'
+url: https://www.bis.org/publ/work1270.htm
+doi: ''
 jurisdiction:
-  - INTL
-  - US
+- INTL
+- US
 domain:
-  - stablecoins
-  - monetary-policy
-  - market-infrastructure
-  - settlement
+- stablecoins
+- monetary-policy
+- market-infrastructure
+- settlement
 doctrine: []
 instrument:
-  - stablecoin-fiat
-  - tokenised-treasury
-register_section: ""
-nlm_id: ""
+- stablecoin-fiat
+- tokenised-treasury
+register_section: ''
+nlm_id: f10d09d5-955a-40cf-8475-2110a1b10912
 nlm_skip: false
 status: draft
 created: 2026-05-24
 tags:
-  - stablecoin
-  - safe-assets
-  - Treasury
-  - bis-working-paper
+- stablecoin
+- safe-assets
+- Treasury
+- bis-working-paper
 watchlist_channel: bis-working-papers
+topic:
+- topic/finance/stablecoins
+- topic/finance/market-infrastructure
+subject:
+- subject/bis
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 398bfce89b7ffb3633cba73b200add84086835b7aa73e08b51425a778c95ec95
+wiki_role: wiki
 ---
+
 
 # Stablecoins and safe asset prices
 

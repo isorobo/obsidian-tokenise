@@ -1,20 +1,36 @@
 ---
-title: "The Tokenisation Continuum (BIS)"
+title: The Tokenisation Continuum (BIS)
 type: source
 nlm_id: 80293ddc-59d5-47d2-912e-28ea6012a2a3
-url: "https://www.bis.org/"
-organisation: "Bank for International Settlements"
+url: https://www.bis.org/
+organisation: Bank for International Settlements
 source_type: report
 year: 2024
-jurisdiction: [INTL]
-doctrine: [property-category, control, singleness-of-money]
-instrument: [tokenised-deposit, tokenised-bond]
+jurisdiction:
+- INTL
+doctrine:
+- property-category
+- control
+- singleness-of-money
+instrument:
+- tokenised-deposit
+- tokenised-bond
 folder: International-Agencies
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/tokenisation
+- topic/finance/market-infrastructure
+subject:
+- subject/bis
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: a1b9a941181911b50129fd31ef5dad1deeebe663c8c9ca55ccec6106bc79e6fb
+wiki_role: wiki
 ---
+
 
 # The Tokenisation Continuum (BIS)
 

@@ -1,20 +1,35 @@
 ---
-title: "Project Guardian (Monetary Authority of Singapore)"
+title: Project Guardian (Monetary Authority of Singapore)
 type: source
 nlm_id: 4e481add-faae-45e3-be73-8e2a9b8a6c4a
-url: "https://www.mas.gov.sg/schemes-and-initiatives/project-guardian"
-organisation: "Monetary Authority of Singapore"
+url: https://www.mas.gov.sg/schemes-and-initiatives/project-guardian
+organisation: Monetary Authority of Singapore
 source_type: pilot-doc
 year: 2022
-jurisdiction: [SG]
-instrument: [tokenised-fund, tokenised-bond, tokenised-deposit]
+jurisdiction:
+- SG
+instrument:
+- tokenised-fund
+- tokenised-bond
+- tokenised-deposit
 folder: Central-Banks
 status: needs-reingest
 nlm_last_sync: 2026-05-24
 nlm_reingest_reason: error-page-service-unavailable
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/tokenisation
+- topic/finance/market-infrastructure
+subject:
+- subject/mas
+- subject/project-guardian
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 6950af44a41a60553ee9cd3aa6fbc3331e64f0629c21ceddecfe238864b575d8
+wiki_role: wiki
 ---
+
 
 # Project Guardian (Monetary Authority of Singapore)
 

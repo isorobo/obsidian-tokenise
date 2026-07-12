@@ -1,19 +1,28 @@
 ---
-title: "Why Institutional Tokenization Stalls (Oraclizer Research)"
+title: Why Institutional Tokenization Stalls (Oraclizer Research)
 type: source
 nlm_id: efe4a168-ba40-4eb3-97fb-382de3424936
-url: "TBD"
-organisation: "Oraclizer Research"
+url: TBD
+organisation: Oraclizer Research
 source_type: industry-note
 year: 2025
-jurisdiction: [INTL]
+jurisdiction:
+- INTL
 folder: Think-Tanks
 status: needs-reingest
 nlm_last_sync: 2026-05-24
 nlm_reingest_reason: error-page-cloudflare
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/tokenisation
+- topic/finance/market-infrastructure
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: dce98a1c5b46fb615bb5c9f37c58f6b6f3a655b67ceef23902fc50e9f157b868
+wiki_role: wiki
 ---
+
 
 # Why Institutional Tokenization Stalls (Oraclizer Research)
 

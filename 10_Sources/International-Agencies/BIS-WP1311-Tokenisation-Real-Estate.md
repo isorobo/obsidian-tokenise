@@ -1,40 +1,50 @@
 ---
 type: source
-title: "When bricks meet bytes: does tokenisation fill gaps in traditional real estate markets?"
+title: 'When bricks meet bytes: does tokenisation fill gaps in traditional real estate
+  markets?'
 authors:
-  - Giulio Cornelli
-organisation: "Bank for International Settlements"
+- Giulio Cornelli
+organisation: Bank for International Settlements
 source_type: paper
-venue: "BIS Working Papers"
+venue: BIS Working Papers
 year: 2025
-date_published: "2025-11-28"
-url: "https://www.bis.org/publ/work1311.htm"
-doi: ""
+date_published: '2025-11-28'
+url: https://www.bis.org/publ/work1311.htm
+doi: ''
 jurisdiction:
-  - INTL
-  - US
+- INTL
+- US
 domain:
-  - real-estate
-  - blockchain-settlement
-  - market-infrastructure
-  - finance
+- real-estate
+- blockchain-settlement
+- market-infrastructure
+- finance
 doctrine: []
 instrument:
-  - tokenised-real-estate
-  - security-token
-register_section: ""
-nlm_id: ""
+- tokenised-real-estate
+- security-token
+register_section: ''
+nlm_id: ab0579ca-81d3-4a44-b931-02bf12867a38
 nlm_skip: false
 status: draft
 created: 2026-05-24
 tags:
-  - tokenisation
-  - real-estate
-  - liquidity
-  - financial-inclusion
-  - bis-working-paper
+- tokenisation
+- real-estate
+- liquidity
+- financial-inclusion
+- bis-working-paper
 watchlist_channel: bis-working-papers
+topic:
+- topic/real-estate
+- topic/tokenisation
+subject:
+- subject/bis
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: fd2613df222461190328d8335e13fc822d9f827ee2b48494c4c903c977652764
+wiki_role: wiki
 ---
+
 
 # When bricks meet bytes: does tokenisation fill gaps in traditional real estate markets?
 

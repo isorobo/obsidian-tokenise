@@ -36,3 +36,9 @@ node_modules/
 __pycache__/
 *.pyc
 .cache/
+
+
+
+
+# Ignore Smart Environment folder
+.smart-env

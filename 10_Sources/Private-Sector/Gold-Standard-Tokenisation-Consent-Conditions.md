@@ -1,20 +1,33 @@
 ---
-title: "Conditions for Consenting to Tokenisation of Gold Standard-issued Credits"
+title: Conditions for Consenting to Tokenisation of Gold Standard-issued Credits
 type: source
 nlm_id: 7ca3869d-6ec4-4718-a357-455d8f8fbbac
-url: "https://www.goldstandard.org/"
-organisation: "Gold Standard"
+url: https://www.goldstandard.org/
+organisation: Gold Standard
 source_type: guidance
 year: 2023
-jurisdiction: [INTL]
-doctrine: [licensing]
-instrument: [tokenised-carbon-credit]
+jurisdiction:
+- INTL
+doctrine:
+- licensing
+instrument:
+- tokenised-carbon-credit
 folder: Private-Sector
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/carbon-credits
+- topic/law
+subject:
+- subject/gold-standard
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: bf2217c40656ba605647b59a47a368cce1534487dc81ffe7384dda5857f2b8b9
+wiki_role: wiki
 ---
+
 
 # Conditions for Consenting to Tokenisation of Gold Standard-issued Credits
 

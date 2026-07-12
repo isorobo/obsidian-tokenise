@@ -1,18 +1,33 @@
 ---
-title: "The Third Category of Property - Digital Assets Bill Becomes Law in England and Wales"
+title: The Third Category of Property - Digital Assets Bill Becomes Law in England
+  and Wales
 type: source
 nlm_id: a6705520-ee99-4e6a-bbc1-4441e7dce791
-url: "TBD"
+url: TBD
 source_type: industry-note
 year: 2025
-jurisdiction: [UK]
-doctrine: [property-category, control]
+jurisdiction:
+- UK
+doctrine:
+- property-category
+- control
 folder: Law-Regulation
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/law/property-rights
+- topic/law/digital-assets
+subject:
+- subject/property-digital-assets-act
+- subject/uk
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 7c283353e06a3f0b839dcc49a446fff476aa3896bd57dd03a823efed85927b46
+wiki_role: wiki
 ---
+
 
 # The Third Category of Property - Digital Assets Bill Becomes Law in England and Wales
 

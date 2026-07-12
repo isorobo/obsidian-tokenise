@@ -1,18 +1,30 @@
 ---
-title: "The Agent Economy: A Blockchain-Based Foundation for Autonomous AI Agents (arXiv)"
+title: 'The Agent Economy: A Blockchain-Based Foundation for Autonomous AI Agents
+  (arXiv)'
 type: source
 nlm_id: c904c9cf-292b-44ea-91b1-9dee2e0abdd2
-url: "https://arxiv.org/"
+url: https://arxiv.org/
 organisation: arXiv
 source_type: paper
 year: 2025
-jurisdiction: [INTL]
+jurisdiction:
+- INTL
 folder: Academia
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/agentic-ai
+- topic/blockchain-settlement
+subject:
+- subject/agent-economy
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 16105552990ab518a810697f502e208d1bfa03c7fc4c3dd37d085ae2d7a9639f
+wiki_role: wiki
 ---
+
 
 # The Agent Economy: A Blockchain-Based Foundation for Autonomous AI Agents (arXiv)
 

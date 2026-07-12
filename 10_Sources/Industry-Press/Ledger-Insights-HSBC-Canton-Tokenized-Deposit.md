@@ -1,19 +1,33 @@
 ---
-title: "HSBC Tokenized Deposit Pilot on Canton Network (Ledger Insights)"
+title: HSBC Tokenized Deposit Pilot on Canton Network (Ledger Insights)
 type: source
 nlm_id: 9e2decad-9370-435c-97a5-9c05e4ac5779
-url: "https://www.ledgerinsights.com/"
-organisation: "Ledger Insights"
+url: https://www.ledgerinsights.com/
+organisation: Ledger Insights
 source_type: industry-note
 year: 2025
-jurisdiction: [UK, US]
-instrument: [tokenised-deposit]
+jurisdiction:
+- UK
+- US
+instrument:
+- tokenised-deposit
 folder: Industry-Press
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/finance/tokenised-deposits
+- topic/blockchain-settlement
+subject:
+- subject/hsbc
+- subject/canton
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 5b1a90be9a9afee65bdd1b306ffd3598a40df0329a131d0e1a92e054716ce9ff
+wiki_role: wiki
 ---
+
 
 # HSBC Tokenized Deposit Pilot on Canton Network (Ledger Insights)
 

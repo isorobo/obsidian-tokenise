@@ -1,3 +1,15 @@
+---
+title: Tokenisation of Real-World Assets — The Carbon Credit Imperative
+type: research
+date: 2026-04-02
+tags:
+  - research
+  - carbon-credits
+  - tokenisation
+  - rwa
+status: draft
+---
+
 # Tokenisation of Real-World Assets: The Carbon Credit Imperative
 
 **A McKinsey-Style Research Report**

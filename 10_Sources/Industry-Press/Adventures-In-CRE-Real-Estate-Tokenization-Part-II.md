@@ -1,19 +1,30 @@
 ---
-title: "Real Estate Tokenization Part II: From Concept to Execution (Adventures in CRE)"
+title: 'Real Estate Tokenization Part II: From Concept to Execution (Adventures in
+  CRE)'
 type: source
 nlm_id: 2fdf2932-0426-4c38-b5f0-5adf7d5d4a32
-url: "https://www.adventuresincre.com/"
-organisation: "Adventures in CRE"
+url: https://www.adventuresincre.com/
+organisation: Adventures in CRE
 source_type: industry-note
 year: 2024
-jurisdiction: [US]
-instrument: [tokenised-real-estate]
+jurisdiction:
+- US
+instrument:
+- tokenised-real-estate
 folder: Industry-Press
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/real-estate
+- topic/tokenisation
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 71e0faa4f61747c0e2104b6f15602eabbb389879a2a00e6edec579591e0d5cba
+wiki_role: wiki
 ---
+
 
 # Real Estate Tokenization Part II: From Concept to Execution (Adventures in CRE)
 

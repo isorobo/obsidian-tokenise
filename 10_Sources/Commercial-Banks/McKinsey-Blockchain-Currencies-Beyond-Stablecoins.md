@@ -1,19 +1,33 @@
 ---
-title: "Blockchain Currencies: Moving Beyond Stablecoins (McKinsey)"
+title: 'Blockchain Currencies: Moving Beyond Stablecoins (McKinsey)'
 type: source
 nlm_id: f6af092f-8f87-423c-ba50-4964fe88cfeb
-url: "https://www.mckinsey.com/"
+url: https://www.mckinsey.com/
 organisation: McKinsey
 source_type: report
 year: 2025
-jurisdiction: [INTL]
-instrument: [stablecoin-fiat, tokenised-deposit, cbdc-wholesale]
+jurisdiction:
+- INTL
+instrument:
+- stablecoin-fiat
+- tokenised-deposit
+- cbdc-wholesale
 folder: Commercial-Banks
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/finance/tokenised-deposits
+- topic/finance/stablecoins
+subject:
+- subject/mckinsey
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 775cacaefd8cc398a51f06bd1a4612425a56f8f4dfea2db1df1e50addaa6df75
+wiki_role: wiki
 ---
+
 
 # Blockchain Currencies: Moving Beyond Stablecoins (McKinsey)
 

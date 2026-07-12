@@ -1,39 +1,48 @@
 ---
 type: source
-title: "Tokenomics and blockchain fragmentation"
+title: Tokenomics and blockchain fragmentation
 authors:
-  - Hyun Song Shin
-organisation: "Bank for International Settlements"
+- Hyun Song Shin
+organisation: Bank for International Settlements
 source_type: paper
-venue: "BIS Working Papers"
+venue: BIS Working Papers
 year: 2026
-date_published: "2026-03-10"
-url: "https://www.bis.org/publ/work1335.htm"
-doi: ""
+date_published: '2026-03-10'
+url: https://www.bis.org/publ/work1335.htm
+doi: ''
 jurisdiction:
-  - INTL
+- INTL
 domain:
-  - blockchain-settlement
-  - stablecoins
-  - market-structure
-  - monetary-policy
+- blockchain-settlement
+- stablecoins
+- market-structure
+- monetary-policy
 doctrine: []
 instrument:
-  - stablecoin-fiat
-  - stablecoin-algorithmic
-register_section: ""
-nlm_id: ""
+- stablecoin-fiat
+- stablecoin-algorithmic
+register_section: ''
+nlm_id: 74fed6e3-1a5e-429b-b3ed-ce4ce17a4d17
 nlm_skip: false
 status: draft
 created: 2026-05-24
 tags:
-  - tokenomics
-  - blockchain
-  - fragmentation
-  - validator-incentives
-  - bis-working-paper
+- tokenomics
+- blockchain
+- fragmentation
+- validator-incentives
+- bis-working-paper
 watchlist_channel: bis-working-papers
+topic:
+- topic/blockchain-settlement
+- topic/finance/stablecoins
+subject:
+- subject/bis
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: d4992db72d6660bf76a3326416564fbe4b0ab4bb717e7555cfbaaf951addcc67
+wiki_role: wiki
 ---
+
 
 # Tokenomics and blockchain fragmentation
 

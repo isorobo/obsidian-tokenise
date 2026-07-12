@@ -1,44 +1,53 @@
 ---
 type: source
-title: "Competing digital monies"
+title: Competing digital monies
 authors:
-  - Jon Frost
-  - Jean-Charles Rochet
-  - Hyun Song Shin
-  - Marianne Verdier
-organisation: "Bank for International Settlements"
+- Jon Frost
+- Jean-Charles Rochet
+- Hyun Song Shin
+- Marianne Verdier
+organisation: Bank for International Settlements
 source_type: paper
-venue: "BIS Working Papers"
+venue: BIS Working Papers
 year: 2025
-date_published: "2025-11-11"
-url: "https://www.bis.org/publ/work1301.htm"
-doi: ""
+date_published: '2025-11-11'
+url: https://www.bis.org/publ/work1301.htm
+doi: ''
 jurisdiction:
-  - INTL
+- INTL
 domain:
-  - cbdc
-  - stablecoins
-  - market-structure
-  - finance
+- cbdc
+- stablecoins
+- market-structure
+- finance
 doctrine: []
 instrument:
-  - cbdc-retail
-  - stablecoin-fiat
-  - tokenised-deposit
-register_section: ""
-nlm_id: ""
+- cbdc-retail
+- stablecoin-fiat
+- tokenised-deposit
+register_section: ''
+nlm_id: 8c334349-0c3a-44de-830d-607c8c02bbbf
 nlm_skip: false
 status: draft
 created: 2026-05-24
 tags:
-  - cbdc
-  - stablecoin
-  - digital-money
-  - two-sided-markets
-  - interoperability
-  - bis-working-paper
+- cbdc
+- stablecoin
+- digital-money
+- two-sided-markets
+- interoperability
+- bis-working-paper
 watchlist_channel: bis-working-papers
+topic:
+- topic/finance/cbdc
+- topic/finance/stablecoins
+subject:
+- subject/bis
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 7f52fb8e5d7d7855475e856c997be3ac1ce5a2267d0817187b68688297927999
+wiki_role: wiki
 ---
+
 
 # Competing digital monies
 

@@ -1,19 +1,29 @@
 ---
-title: "What Are RWA Stablecoins? A New Class of Stablecoins (Transak)"
+title: What Are RWA Stablecoins? A New Class of Stablecoins (Transak)
 type: source
 nlm_id: 65d5982c-d983-49e5-b98d-5fd8f4c54109
-url: "https://transak.com/"
+url: https://transak.com/
 organisation: Transak
 source_type: industry-note
 year: 2024
-jurisdiction: [INTL]
-instrument: [stablecoin-rwa-backed]
+jurisdiction:
+- INTL
+instrument:
+- stablecoin-rwa-backed
 folder: Industry-Press
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/finance/stablecoins
+- topic/tokenisation
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: 5c3784974c878c05227e00775a404fd02e4afe2d4ffb1683e0073906fbd014e7
+wiki_role: wiki
 ---
+
 
 # What Are RWA Stablecoins? A New Class of Stablecoins (Transak)
 

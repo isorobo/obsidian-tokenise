@@ -1,19 +1,32 @@
 ---
-title: "Tokenization: Overview and Financial Stability Implications (Federal Reserve)"
+title: 'Tokenization: Overview and Financial Stability Implications (Federal Reserve)'
 type: source
 nlm_id: 64b66422-41af-408d-b87b-c06f7e263a31
-url: "https://www.federalreserve.gov/"
-organisation: "Federal Reserve Board"
+url: https://www.federalreserve.gov/
+organisation: Federal Reserve Board
 source_type: paper
 year: 2023
-jurisdiction: [US]
-instrument: [tokenised-treasury, stablecoin-fiat]
+jurisdiction:
+- US
+instrument:
+- tokenised-treasury
+- stablecoin-fiat
 folder: Central-Banks
 status: draft
 nlm_last_sync: 2026-05-24
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/tokenisation
+- topic/finance/market-infrastructure
+subject:
+- subject/federal-reserve
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: fa818136e7d375a81efd77ab78674771abee2197ddc1091e699058f03549c124
+wiki_role: wiki
 ---
+
 
 # Tokenization: Overview and Financial Stability Implications (Federal Reserve)
 

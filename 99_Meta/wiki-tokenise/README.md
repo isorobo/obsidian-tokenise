@@ -1,3 +1,13 @@
+---
+title: wiki-tokenise Infrastructure
+type: system
+date: 2026-06-30
+tags:
+  - system
+  - infrastructure
+  - wiki-tokenise
+---
+
 # wiki-tokenise infrastructure
 
 This folder holds state and rollups for the **wiki-tokenise** orchestrator

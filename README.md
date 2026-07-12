@@ -1,3 +1,12 @@
+---
+title: wiki-tokenise — Vault Overview
+type: system
+date: 2026-06-30
+tags:
+  - system
+  - vault-overview
+---
+
 # wiki-tokenise
 
 An Obsidian vault collating authoritative sources on the **tokenisation of real-world assets**, sitting at the intersection of **finance**, **law**, and three worked examples: **carbon credits**, **real estate**, and **property rights**. A sub-topic strand traces the correlation between RWA tokenisation, **stablecoins**, **agentic AI / LLM trading**, and the underlying **blockchain settlement** layer.

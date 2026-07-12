@@ -1,20 +1,33 @@
 ---
-title: "Tokenization and Financial Market Inefficiencies (IMF FinTech Notes 2025-001)"
+title: Tokenization and Financial Market Inefficiencies (IMF FinTech Notes 2025-001)
 type: source
 nlm_id: 6ffc39f6-b708-4632-a446-77353e63c7ad
-url: "https://www.elibrary.imf.org/"
-organisation: "International Monetary Fund"
+url: https://www.elibrary.imf.org/
+organisation: International Monetary Fund
 source_type: report
 year: 2025
-jurisdiction: [INTL]
-instrument: [tokenised-bond, tokenised-fund]
+jurisdiction:
+- INTL
+instrument:
+- tokenised-bond
+- tokenised-fund
 folder: International-Agencies
 status: needs-reingest
 nlm_last_sync: 2026-05-24
 nlm_reingest_reason: error-page-403
 created: 2026-05-24
-tags: [source]
+tags:
+- source
+topic:
+- topic/tokenisation
+- topic/finance/market-infrastructure
+subject:
+- subject/imf
+wiki_indexed: '2026-06-07T09:00:00Z'
+wiki_hash: b1602c40a79a4472fbd3ad0dcb438987980f71d702b7a7c142cae195f2740d93
+wiki_role: wiki
 ---
+
 
 # Tokenization and Financial Market Inefficiencies (IMF FinTech Notes 2025-001)
 

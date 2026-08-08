@@ -37,8 +37,7 @@ tags:
 watchlist_channel: law-regulation
 topic:
 - topic/finance/stablecoins
-- topic/finance/payment-systems
-- topic/regulation/federal-us
+- topic/finance
 - topic/law
 subject:
 - subject/congress

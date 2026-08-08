@@ -42,7 +42,7 @@ tags:
 watchlist_channel: imf-fintech-notes
 topic:
 - topic/finance/market-infrastructure
-- topic/finance/blockchain-settlement
+- topic/blockchain-settlement
 subject:
 - subject/imf
 wiki_indexed: '2026-07-12T00:00:00Z'

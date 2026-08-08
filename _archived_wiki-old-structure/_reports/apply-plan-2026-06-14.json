@@ -1,0 +1,20 @@
+{
+  "vault": "C:/Users/Simon/Documents/wiki-tokenise",
+  "changes": [
+    {
+      "path": "10_Sources/International-Agencies/BIS-WP1359-Anatomy-Stablecoin-Transactions.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/bis",
+        "subject/ethereum"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "7c1980e06fed104fff214a13e3f4ec24e9242b17a7c91ce8f32988600619328b",
+      "wiki_indexed": "2026-06-13T18:11:00Z"
+    }
+  ]
+}

@@ -32,7 +32,7 @@ tags:
 - project-mindforge
 watchlist_channel: mas-news
 topic:
-- topic/finance/agentic-ai
+- topic/agentic-ai
 - topic/finance/market-infrastructure
 subject:
 - subject/mas

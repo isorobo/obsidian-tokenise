@@ -1,0 +1,120 @@
+{
+  "vault": "C:/Users/Simon/Documents/wiki-tokenise",
+  "changes": [
+    {
+      "path": "10_Sources/Academia/arXiv-2608-01341-402Pilot-x402-Agent-Micropayments.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "ce6b183a57f840c339738e64e012441e1b3d32ddfb88a0225b2a93f64633b8ae",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2608-02311-AI-Governance-Institutional-Readiness-Finance.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "d100fbf11b5075e63b25132b189fa4ee78790060e755e8220ca31ebab6cdf624",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/mas-parliamentary-reply-agentic-ai-2026.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "091a1f43cce0c773fac7e2df5a7c1a3a2b7900ce038800c3cbc9a2f5d46531ab",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/mas-parliamentary-reply-vasp-aml-2026.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "912ad50afece10d35452c172058ad13dad182c4ecfd8bbf3152c790ccc01abf2",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Bank-of-Korea-Tokenization-Task-Force.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "b4a0fc1e4223dc3eb7532ca85d3b378fdbf52541fd00e12279d854979d02c3ed",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-BlackRock-European-Tokenized-MMFs.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "ebb9117855c4300974986a3b1fd8273f7aa8a41c1e12a085061f13dd4d54961f",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-ECB-Project-Pontes-Go-Live.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "0a4abed377702caf8bd477ef682b54b213faad0b948bee6948ed5905dabe2229",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-SBI-Nodeinfra-Project-Musubi-PvP.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "fa5b927de93c8a9bf0b6952d69e6e57e2d3203701fe27038ba93b59a484b2abe",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Schroders-Tokenized-MMF-Ireland.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "02882e2dfe962fd2ba8af3ee0e9c0fda325dfc2cb293dd5a234f0282b9308c4e",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-SEBI-Tokenization-DLT-Corporate-Bonds.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "53ad383252e9a5ee6b13875af32d4c7d0f5dc8b221667062fea377b9ff199aa7",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Treasury-TBAC-DLT-Intraday-Repo.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "28f1bc2d6b0306c06d6a32a187dde6f460a78c6b0245224d95cace304b944922",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Wells-Fargo-Tokenized-Deposit.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "a8bde788eb0f64581bd68e3ac8daa37b3fe251d93e480b092a4efb64bffe4371",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-Speech-2026-08-Katz-Stablecoins-Emerging-Markets.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "42df8fd2537bad45ee19f98ef3cfb7b824c1f6dcab59792d3f8176c22fcfe165",
+      "wiki_indexed": "2026-08-09T00:00:00Z"
+    }
+  ]
+}

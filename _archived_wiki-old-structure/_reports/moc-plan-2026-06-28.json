@@ -1,0 +1,72 @@
+{
+  "vault": "C:/Users/Simon/Documents/wiki-tokenise",
+  "topics": [
+    {
+      "topic": "topic/tokenisation",
+      "related": [
+        "topic/finance",
+        "topic/law",
+        "topic/real-estate",
+        "topic/carbon-credits",
+        "topic/blockchain-settlement"
+      ]
+    },
+    {
+      "topic": "topic/finance",
+      "children": [
+        "topic/finance/stablecoins",
+        "topic/finance/cbdc",
+        "topic/finance/tokenised-deposits",
+        "topic/finance/market-infrastructure"
+      ]
+    },
+    {
+      "topic": "topic/finance/stablecoins",
+      "parent": "topic/finance"
+    },
+    {
+      "topic": "topic/finance/cbdc",
+      "parent": "topic/finance"
+    },
+    {
+      "topic": "topic/finance/tokenised-deposits",
+      "parent": "topic/finance"
+    },
+    {
+      "topic": "topic/finance/market-infrastructure",
+      "parent": "topic/finance"
+    },
+    {
+      "topic": "topic/law",
+      "children": [
+        "topic/law/property-rights",
+        "topic/law/securities",
+        "topic/law/digital-assets"
+      ]
+    },
+    {
+      "topic": "topic/law/property-rights",
+      "parent": "topic/law"
+    },
+    {
+      "topic": "topic/law/securities",
+      "parent": "topic/law"
+    },
+    {
+      "topic": "topic/law/digital-assets",
+      "parent": "topic/law"
+    },
+    {
+      "topic": "topic/carbon-credits"
+    },
+    {
+      "topic": "topic/real-estate"
+    },
+    {
+      "topic": "topic/blockchain-settlement"
+    },
+    {
+      "topic": "topic/agentic-ai"
+    }
+  ]
+}

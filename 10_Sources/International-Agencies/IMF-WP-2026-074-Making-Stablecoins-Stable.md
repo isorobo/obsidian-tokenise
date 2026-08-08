@@ -42,10 +42,11 @@ topic:
 - topic/finance/market-infrastructure
 subject:
 - subject/imf
-wiki_indexed: '2026-06-28T00:00:00Z'
-wiki_hash: 8dc499a090a5bb1e129334f570d84539129c6130f95f4e4ba8593898d15ce5a9
+wiki_indexed: '2026-07-19T00:00:00Z'
+wiki_hash: e2f8cdddd40bd27d7eceb4608683311f61878ae44fc628bd8349a65cba9a32b6
 wiki_role: wiki
 ---
+
 
 
 # Making Stablecoins Stable
@@ -93,3 +94,4 @@ Using a Diamond-Dybvig bank-run model, this IMF working paper shows that unregul
 - [[10_Sources/International-Agencies/IMF-DP-2025-09-Understanding-Stablecoins]] - companion IMF overview of stablecoin markets and risks
 - [[10_Sources/International-Agencies/IMF-Tokenized-Finance-2026-04]] - broader tokenisation architecture context
 - [[10_Sources/International-Agencies/BIS-WP1355-Making-Stablecoins-Stable-Regulation]] - BIS regulatory companion on stablecoin stability
+- [[10_Sources/International-Agencies/IMF-WP-2026-144-Stablecoins-Fixed-Exchange-Rate-Fragility]] - companion IMF paper on demand-side currency-run risk in fixed exchange-rate regimes

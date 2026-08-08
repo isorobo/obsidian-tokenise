@@ -1,0 +1,257 @@
+{
+  "vault": "C:/Users/Simon/Documents/wiki-tokenise",
+  "changes": [
+    {
+      "path": "10_Sources/Academia/arXiv-2607-10286-TradeLens-Agentic-Trading-Viability.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "d218443af28f5ce986e9c00f44c4094daed8aa8d0f42c9fa4203ab2c037dbb79",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2607-12575-How-Agentic-Is-Agentic-Commerce-x402.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/agentic-ai"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "ca64384407161b71a04d400c4261a57c61d106ddc46842f4aa28a4f4ac5bdb05",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-mica-register-second-post-deadline-update-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/securities"
+      ],
+      "subject": [
+        "subject/esma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "2a0e195e34239c136e1c69db1f315bd526797a5af8074e3b246b3e2e06b9cbec",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/FEDS-2026-011-Contrasting-Ledgers-Interbank-Payment-Systems.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "8a864b97e6bf4e10f990a4ba5847bc3456f51e3e4592e0e945de3eecb17e6d1e",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/FEDS-Note-2026-02-Brief-History-Bank-Notes-Stablecoins.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "31f262e4ad9bc176220789835c044d32789698e610142d4de398a4446a071c43",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/FEDS-Note-2026-07-Fifth-Conference-International-Dollar-Stablecoins.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "bb494c24669be145b5e15a4b3fa26570fc789922706054947968734ac599491a",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/HKMA-HKEX-eHKD-Derivatives-Margin-Pilot-2026.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "73e2b1874b25dd7f6de8d051727e3e1c2f3419e56cbe50149adf4f041b9bee1d",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Commercial-Banks/AWS-Bedrock-AgentCore-Payments.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "c4de7917255d91ae1b771806406bcc4e9ffa224628ac6f0b27f561805c8c70b3",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-BlackRock-Digital-Asset-Strategy.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "937e255909cb263ca737686069f5619b707810e529cd8486ebd67a61ba97ac5f",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-CFTC-MMF-Collateral-Rule-Change.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/law/property-rights"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "23f0efb125acbd764e7247ea245932cdec4b189c5e3a847719ea871e9197cb7f",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-DTCC-Live-Tokenization-JPMorgan-CME-BNP.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/law/securities"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "1fd6ef28446deb8b7f46bea73e81cb82e19142938d9e95c559de30e1e1cfd2b1",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-HK-SFC-Baillie-Gifford-Tokenized-Fund-Approval.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "db75642336ded313cf83ecff974db573df2259279f2eb395c3d50a2afecb5aee",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-HSBC-Digital-Securities-Sandbox-LSEG-Gilt.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "970949c41ec709d4a3f48d2bd654cee567f7bb2efcc71f4edfe05d23368973c7",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Tokenized-Deposits-Why-Not-Faster.md",
+      "topic": [
+        "topic/finance/tokenised-deposits",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "b22eca6c2c6089d630219bee6f0d546c1165f0361726a2bc875d44c6d208dc90",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-UK-US-Transatlantic-Taskforce-Stablecoins.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "3fa5c18d6433ba8e16f5dd0b53f3a0600db68b8708940a2eb4d644f9b580ee54",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Visa-Stablecoin-Platform-Launch.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "b3d6cb465eee9fff4afefd3b1b25ffa6ed6415893924221665306c7e707347e8",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/GL1-Programmable-Compliance-Whitepaper-2026.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "8ea15129a1595fd86f06c2094a26f61d47925ff0dcca5f9558a512d97321e3f8",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-WP-2026-074-Making-Stablecoins-Stable.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "e2f8cdddd40bd27d7eceb4608683311f61878ae44fc628bd8349a65cba9a32b6",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-WP-2026-144-Stablecoins-Fixed-Exchange-Rate-Fragility.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "364da1ea706281ded4510c0af2b5bc572b4007f6a591f396968fc7098a2f8bd2",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-VCC-Consultation-Launch-Press-Release-2026.md",
+      "topic": [
+        "topic/carbon-credits",
+        "topic/law/property-rights"
+      ],
+      "subject": [
+        "subject/unidroit"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "ca367f6585019237bbc0c8df7c3b1c8e54afa3c656ec672f8d6e03872943a7c8",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-VCC-Draft-Principles-Commentary-WG9-Doc3.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "f6095782fd764fd302db2890975343905df1746a24265b95078e4c060130b5ff",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-VCC-Draft-Principles-Consultation-Text-2026.md",
+      "topic": [
+        "topic/law/property-rights",
+        "topic/carbon-credits"
+      ],
+      "subject": [
+        "subject/unidroit"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "bd8566f4fdd153f1d3b209c8ca02fb7a384237e544a4982acc09929cd9b670fc",
+      "wiki_indexed": "2026-07-19T00:00:00Z"
+    }
+  ]
+}

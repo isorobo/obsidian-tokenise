@@ -1,0 +1,19 @@
+{
+  "vault": "C:/Users/Simon/Documents/wiki-tokenise",
+  "topics": [
+    {"topic": "topic/tokenisation", "parent": "root", "children": [], "related": ["topic/finance", "topic/law", "topic/blockchain-settlement"]},
+    {"topic": "topic/finance", "parent": "root", "children": ["topic/finance/stablecoins", "topic/finance/cbdc", "topic/finance/tokenised-deposits", "topic/finance/market-infrastructure"], "related": ["topic/tokenisation"]},
+    {"topic": "topic/finance/stablecoins", "parent": "topic/finance", "children": [], "related": ["topic/finance/cbdc", "topic/finance/tokenised-deposits"]},
+    {"topic": "topic/finance/cbdc", "parent": "topic/finance", "children": [], "related": ["topic/finance/stablecoins", "topic/finance/tokenised-deposits"]},
+    {"topic": "topic/finance/tokenised-deposits", "parent": "topic/finance", "children": [], "related": ["topic/finance/stablecoins", "topic/finance/cbdc"]},
+    {"topic": "topic/finance/market-infrastructure", "parent": "topic/finance", "children": [], "related": ["topic/blockchain-settlement"]},
+    {"topic": "topic/law", "parent": "root", "children": ["topic/law/property-rights", "topic/law/securities", "topic/law/digital-assets"], "related": ["topic/tokenisation"]},
+    {"topic": "topic/law/property-rights", "parent": "topic/law", "children": [], "related": ["topic/law/digital-assets", "topic/real-estate"]},
+    {"topic": "topic/law/securities", "parent": "topic/law", "children": [], "related": ["topic/law/digital-assets"]},
+    {"topic": "topic/law/digital-assets", "parent": "topic/law", "children": [], "related": ["topic/law/property-rights", "topic/law/securities"]},
+    {"topic": "topic/carbon-credits", "parent": "root", "children": [], "related": ["topic/blockchain-settlement"]},
+    {"topic": "topic/real-estate", "parent": "root", "children": [], "related": ["topic/law/property-rights"]},
+    {"topic": "topic/blockchain-settlement", "parent": "root", "children": [], "related": ["topic/agentic-ai", "topic/finance/market-infrastructure"]},
+    {"topic": "topic/agentic-ai", "parent": "root", "children": [], "related": ["topic/blockchain-settlement"]}
+  ]
+}

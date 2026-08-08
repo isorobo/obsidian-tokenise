@@ -1,0 +1,126 @@
+{
+  "vault": "C:/Users/Simon/Documents/wiki-tokenise",
+  "changes": [
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-BNY-247-Treasury-Settlement-Tokenization.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "0ff0a1fd38814b399bbda2faf8ad631a6ee775e64a467cb1570c6d62b8111bb3",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-ECB-Cipollone-Digital-Euro-Stablecoin-Shield.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "a1c746d473dc8b32f664d70eaa1bcee484ea621fc002d03d53e57be36cfe7fa0",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Hanwha-Largest-Investor-Securitize.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/law/securities"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "c8a379aaa0c68974152d59608f6e9ce9c22007d5b8a232dda9ac6f71af9493c6",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-JPYC-Japanese-Logistics-Driver-Payments.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "b59e2a9141667e4ca45aaa287262eaf9a5169bd03253424fe2881d4f231ca335",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Mubadala-Capital-KAIO-Tokenized-Private-Markets.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "23f34c32540fa73bd73262241680443f6144fed3c61d077aeaaaf2c027b5daa2",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-SEC-Peirce-DeFi-Vault-Curators-Securities-Law.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "a4d0be8f567bc54eed46043ebdb0aadad511cdfe5953e7caebd0b568d2c83b21",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-StanChart-Shinhan-Backers-Digital-Asset-Canton.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "fd2501112f3df05334d8c10df352903a1466542cef24655ee647dc1a6f2df0f4",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-xStocks-Expands-Tokenized-Stocks-Outside-US.md",
+      "topic": [
+        "topic/law/securities"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "2263dfbdda69e7b4b09661fb57d31434e3483034b35d99a91ad76531777baed7",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/BIS-WP1370-Dollarisation-Monetary-Control-Stablecoins.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "9e781a26cb13c012f16d502a800b1c36f1790fbf33b3e831b9a8b1ae9da719ab",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-Adrian-AI-Financial-Stability-Blog-2026-07.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "647a124de8828bb493447c2483ba2e0af11f4d978189d2d222de83c2d66f2a28",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-VCC-ISDA-Presentation-Press-Release-2026.md",
+      "topic": [
+        "topic/carbon-credits",
+        "topic/law/property-rights"
+      ],
+      "subject": [
+        "subject/unidroit"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "b4ca30e8a7158649b5a1770538d388882910dfc60ac80ad9c7e7eab56879d94e",
+      "wiki_indexed": "2026-07-26T00:00:00Z"
+    }
+  ]
+}

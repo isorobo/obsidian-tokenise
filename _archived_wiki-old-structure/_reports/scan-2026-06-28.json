@@ -1,0 +1,2155 @@
+{
+  "vault": "C:\\Users\\Simon\\Documents\\wiki-tokenise",
+  "scanned_at": "2026-06-27T18:37:11Z",
+  "config": {
+    "vault_name": "Tokenise",
+    "excluded_folders": [
+      ".obsidian",
+      ".trash",
+      ".git",
+      ".claude",
+      ".remember",
+      ".workspace",
+      "_wiki/_quarantine",
+      "_wiki/_reports",
+      "00_Inbox",
+      "50_MOCs",
+      "60_Drafts",
+      "70_Research",
+      "80_Attachments",
+      "90_Templates",
+      "99_Meta"
+    ],
+    "confidence_threshold": 0.7,
+    "max_topics_per_note": 3,
+    "topic_depth": 3,
+    "vocabulary_version": 1
+  },
+  "stats": {
+    "total_notes": 166,
+    "fresh": 112,
+    "modified": 0,
+    "unchanged": 54,
+    "orphans": 0,
+    "quarantined": 0,
+    "unique_topics": 14,
+    "unique_subjects": 23
+  },
+  "notes": [
+    {
+      "path": "10_Sources\\Academia\\arXiv-2506-17622-SoK-Stablecoin-LEGO.md",
+      "hash": "242b431981e792f8c9ad89e1b028e06e4a563d5b268e51a0b052d6856c7f6c73",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3751,
+      "body_preview": "# SoK: Stablecoin Designs, Risks, and the Stablecoin LEGO\n\n## Citation\n\nLing, Shengchen, Yuefeng Du, Yajin Zhou, Lei Wu, Cong Wang, Xiaohua Jia, and Houmin Yan. \"SoK: Stablecoin Designs, Risks, and the Stablecoin LEGO\". arXiv:2506.17622 (cs.CR), 21 June 2025. https://arxiv.org/abs/2506.17622.\n\n## One-line summary\n\nSynthesising 157 studies, 95 active stablecoins, and 44 security incidents, the paper finds that stablecoin stability is an emergent, fragile property rather than a guaranteed design f"
+    },
+    {
+      "path": "10_Sources\\Academia\\arXiv-2601-04583-Autonomous-Agents-Blockchains.md",
+      "hash": "4d448e2c723ee1eb2b7a51ba08e4a0cb8d7929a5e3772a9dc83b326aca60c0f4",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/agentic-ai",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [
+        "subject/autonomous-agents"
+      ],
+      "existing_hash": "4d448e2c723ee1eb2b7a51ba08e4a0cb8d7929a5e3772a9dc83b326aca60c0f4",
+      "body_chars": 682,
+      "body_preview": "# Autonomous Agents on Blockchains: Standards, Execution Models, and Trust Boundaries (arXiv 2601.04583)\n\n**Source:** [https://arxiv.org/abs/2601.04583](https://arxiv.org/abs/2601.04583)\n**NotebookLM:** `a5a899b0-ee99-4e6a-bbc1-4441e7dce791` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM source_describe returned an internal error on two retries. The source itself is present in the note"
+    },
+    {
+      "path": "10_Sources\\Academia\\arXiv-2605-29689-Beyond-TVL-RWA-Risk-Scoring.md",
+      "hash": "acf01b3fc9589769bde5529f15e5430103c10c5ce16ac0a20ce34890679586e4",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3321,
+      "body_preview": "# Beyond TVL: An Explainable Risk Scoring Framework for Tokenized Real-World Assets\n\n## Citation\n\nMafrur, Rischan, and Khadijah. \"Beyond TVL: An Explainable Risk Scoring Framework for Tokenized Real-World Assets\". arXiv:2605.29689 (cs.CE; q-fin.CP), 28 May 2026. https://arxiv.org/abs/2605.29689.\n\n## One-line summary\n\nThe paper presents the first empirical, data-driven framework for ranking RWA tokens by observable liquidity, concentration, and market-quality risk, finding that TVL conceals high "
+    },
+    {
+      "path": "10_Sources\\Academia\\arXiv-2606-01131-Tokenized-Illiquid-RWA-Markets.md",
+      "hash": "683ec32717e25fc92f6d6288234a73e8e190a8eb81db67f0fb7532f59ab538dd",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3028,
+      "body_preview": "# Tokenized but Illiquid? Evidence from Real-World Asset Markets\n\n## Citation\n\nMafrur, Rischan. \"Tokenized but Illiquid? Evidence from Real-World Asset Markets\". arXiv:2606.01131 (cs.CE; q-fin.CP), 31 May 2026. https://arxiv.org/abs/2606.01131.\n\n## One-line summary\n\nUsing an Ethereum-based monthly panel of nine non-stablecoin RWA tokens across Treasury, gold, and private credit categories, the paper finds that on-chain representation does not produce liquid secondary markets, and that holder bre"
+    },
+    {
+      "path": "10_Sources\\Academia\\arXiv-2606-08534-Taxonomy-RWA-Tokenization.md",
+      "hash": "037ccd42baee34b4dc1cb7f8e8e4f171d644fe28a5728d604a2a35843fa3b55b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3779,
+      "body_preview": "# A Taxonomy of Real-World Asset Tokenization for Blockchain-Based Financial Infrastructure\n\n## Citation\n\nVella, Giorgio, Luca Pennella, and Mark C. Ballandies. \"A Taxonomy of Real-World Asset Tokenization for Blockchain-Based Financial Infrastructure\". arXiv:2606.08534 (econ.GN; cs.CY), 7 June 2026. https://arxiv.org/abs/2606.08534.\n\n## One-line summary\n\nThe paper classifies twenty major RWA tokenisation systems across 23 dimensions, finding that all rely on hybrid architectures where on-chain "
+    },
+    {
+      "path": "10_Sources\\Academia\\arXiv-Agent-Economy-Blockchain-Foundation.md",
+      "hash": "16105552990ab518a810697f502e208d1bfa03c7fc4c3dd37d085ae2d7a9639f",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/agentic-ai",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [
+        "subject/agent-economy"
+      ],
+      "existing_hash": "16105552990ab518a810697f502e208d1bfa03c7fc4c3dd37d085ae2d7a9639f",
+      "body_chars": 1505,
+      "body_preview": "# The Agent Economy: A Blockchain-Based Foundation for Autonomous AI Agents (arXiv)\n\n**Source:** [https://arxiv.org/](https://arxiv.org/)\n**NotebookLM:** `c904c9cf-292b-44ea-91b1-9dee2e0abdd2` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe provided source outlines a vision for the **Agent Economy**, a digital landscape where AI systems transition from simple tools to **autonomous economic peer"
+    },
+    {
+      "path": "10_Sources\\Academia\\decentralised-multi-manager-fund-2025.md",
+      "hash": "69d7b56a358356f10e2f342694bdbd1138a49bc00db84f17e3c7390618eb94d5",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2406,
+      "body_preview": "# Decentralised Multi-Manager Fund Framework\n\n## Citation\n\nAbgaryan, Arman, Utkarsh Sharma, and Joshua Tobkin. \"Decentralised Multi-Manager Fund Framework\". arXiv q-fin.GN, 2025-07-01. https://arxiv.org/abs/2507.00978.\n\n## One-line summary\n\nA four-layer on-chain framework enables permissionless multi-strategy capital allocation through tokenised vaults that issue V-Tokens as fractional ownership claims, accommodating both human and AI participants as capital allocators and strategy developers.\n\n"
+    },
+    {
+      "path": "10_Sources\\Academia\\Frontiers-Blockchain-VCM-Network-Structure-2025.md",
+      "hash": "04f9c0a8a109710d19da5760b49791361d9bdde72b27de54052d6a0e6b1f90af",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3378,
+      "body_preview": "# Blockchain-based voluntary carbon market: strategic insights into network structure\n\n## Citation\n\nBassi, Eleonóra, Michael Lustenberger, and Srebrenka Letina. \"Blockchain-based voluntary carbon market: strategic insights into network structure\". *Frontiers in Blockchain*, Vol. 8, 2025-07-21. https://doi.org/10.3389/fbloc.2025.1603695.\n\n## One-line summary\n\nNetwork analysis of the blockchain-based voluntary carbon market finds a sparse, fragmented ecosystem where legacy tokenisation approaches "
+    },
+    {
+      "path": "10_Sources\\Academia\\Ledger-Journal-Tokenized-Carbon-Credits.md",
+      "hash": "0569ad034fd61192b74bea6ce5d6ca628fbd0963b65c2838dc90cfe0f4aee17c",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/carbon-credits",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "0569ad034fd61192b74bea6ce5d6ca628fbd0963b65c2838dc90cfe0f4aee17c",
+      "body_chars": 507,
+      "body_preview": "# Tokenized Carbon Credits (Ledger journal)\n\n**Source:** [https://ledgerjournal.org/](https://ledgerjournal.org/)\n**NotebookLM:** `74c2c7a2-c7a2-4cab-87ab-c34a8011e000` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM source_describe returned an internal error. Verify the nlm_id in frontmatter matches the live notebook source; if so, retry source_describe later.)\n\n## See also\n\n- [[MOC - "
+    },
+    {
+      "path": "10_Sources\\Academia\\Real-Estate-Tokenization-Alternative-Investment-ResearchGate.md",
+      "hash": "5de97086820b7baf0a470993340c88ec14ad08ed58399c2165ea33f83e0698c0",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/real-estate",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "5de97086820b7baf0a470993340c88ec14ad08ed58399c2165ea33f83e0698c0",
+      "body_chars": 536,
+      "body_preview": "# Real Estate Tokenization as an Alternative Investment Solution (ResearchGate)\n\n**Source:** [https://www.researchgate.net/](https://www.researchgate.net/)\n**NotebookLM:** `315654f1-2ce1-4ce0-9bb7-43937cca4c45` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM captured the ResearchGate access-denied page rather than the underlying paper. Re-ingest by uploading the PDF directly to Notebook"
+    },
+    {
+      "path": "10_Sources\\Academia\\rwa-liquidity-challenges-2025.md",
+      "hash": "07a7dfb96c10f01d466bf863fa354bec3b5adb6ac356d490a2ec4166bf1c53be",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2551,
+      "body_preview": "# Tokenize Everything, But Can You Sell It? RWA Liquidity Challenges and the Road Ahead\n\n## Citation\n\nMafrur, Rischan. \"Tokenize Everything, But Can You Sell It? RWA Liquidity Challenges and the Road Ahead\". arXiv q-fin.GN, 2025-08-03. https://arxiv.org/abs/2508.11651.\n\n## One-line summary\n\nDespite $25 billion in on-chain tokenised RWAs by 2025, most tokens trade at negligible volumes, and structural barriers including regulatory gating, custodial concentration, and valuation opacity prevent gen"
+    },
+    {
+      "path": "10_Sources\\Academia\\sok-rwa-tokenization-2026.md",
+      "hash": "e98d7440f5ef5348270d01e346d58bf6e864c4db674577a4ffc301e4bb5822d0",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2869,
+      "body_preview": "# SoK of RWA Tokenization: A Systematization of Concepts, Architectures, and Legal Interoperability\n\n## Citation\n\nLuo, Junliang, Xihan Xiong, Zonglun Li, Hong Kang, Xue Liu, William J Knottenbelt, and Katrin Tinn. \"SoK of RWA Tokenization: A Systematization of Concepts, Architectures, and Legal Interoperability\". arXiv q-fin.GN, 2026-04-08. https://arxiv.org/abs/2604.06608.\n\n## One-line summary\n\nA comprehensive systematisation of real-world asset tokenisation that maps the full lifecycle from le"
+    },
+    {
+      "path": "10_Sources\\Academia\\sok-stablecoins-retail-payments-2026.md",
+      "hash": "f999e6fa879e7a2a2a9d71715b61dae21d83afa2e4932e0fcbc313927a98ba86",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2756,
+      "body_preview": "# SoK: Stablecoins in Retail Payments\n\n## Citation\n\nLi, Yuquan, Yuexin Xiang, Qin Wang, Tsz Hon Yuen, Andreas Deppeler, and Jiangshan Yu. \"SoK: Stablecoins in Retail Payments\". arXiv q-fin.GN, 2026-01-01. https://arxiv.org/abs/2601.00196.\n\n## One-line summary\n\nA systematic comparison of stablecoin payment systems against card networks using the CLEAR framework finds stablecoins hold a conditional advantage in closed-loop and cross-border contexts but remain structurally weaker as open-loop retai"
+    },
+    {
+      "path": "10_Sources\\Academia\\stablecoin-discount-tether-tbills-2025.md",
+      "hash": "2958b0cb888e3ec7c1057ad181a6a3fa431b3cc613803ace82149ee568d655c3",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2668,
+      "body_preview": "# The Stablecoin Discount: Evidence of Tether's U.S. Treasury Bill Market Share in Lowering Yields\n\n## Citation\n\nAnte, Lennart, Aman Saggu, and Ingo Fiedler. \"The Stablecoin Discount: Evidence of Tether's U.S. Treasury Bill Market Share in Lowering Yields\". arXiv q-fin.GN, 2025-05-18. https://arxiv.org/abs/2505.12413.\n\n## One-line summary\n\nThreshold regression analysis shows that Tether's $98.5 billion T-bill portfolio -- representing 1.6% of outstanding U.S. Treasury bills -- suppresses short-t"
+    },
+    {
+      "path": "10_Sources\\Academia\\stablecoins-hybrid-monetary-ecosystems-2025.md",
+      "hash": "4067ce9093cd483919c855aef13f1b5f93f4fe6fcc2f026999a3df3960a326c4",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2742,
+      "body_preview": "# Stablecoins and the Emerging Hybrid Monetary Ecosystems\n\n## Citation\n\nWen, Hongzhe, Songbai Li, R. S. M. Lau, and Jamie Zhang. \"Stablecoins and the Emerging Hybrid Monetary Ecosystems\". arXiv q-fin.GN, 2025-05-16. https://arxiv.org/abs/2505.10997.\n\n## One-line summary\n\nEconometric modelling of the $250 billion stablecoin market demonstrates strong peg stability and supports a two-layer hybrid monetary architecture where private stablecoin issuers hold central bank reserves, with the 2023 SVB-U"
+    },
+    {
+      "path": "10_Sources\\Academia\\Tokenisation-Absolute-Rights-Claims.md",
+      "hash": "54a9e59dd76c0ff6e3834d2d0f8945b3fed552b1d52703bcd522d1c43dd818f8",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/law/property-rights",
+        "topic/law/digital-assets"
+      ],
+      "existing_subjects": [
+        "subject/token-container-model"
+      ],
+      "existing_hash": "54a9e59dd76c0ff6e3834d2d0f8945b3fed552b1d52703bcd522d1c43dd818f8",
+      "body_chars": 1343,
+      "body_preview": "# Tokenisation of Absolute Rights and Claims\n\n**Source:** [TBD](TBD)\n**NotebookLM:** `5c43636a-03e1-4f5b-bdca-cd491c535d22` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis academic article by Jasper Verstappen investigates the **token container model** to determine if current **European private law** can accommodate the transfer of property rights via blockchain technology. The author explores"
+    },
+    {
+      "path": "10_Sources\\Academia\\Tokenisation-RWA-Financial-Innovations-Legal-Paradigms-Convergence.md",
+      "hash": "407e507846c3bc34c6862a03749e34567885637d5902ffe1b6cef63dd8b5f1ef",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation",
+        "topic/law"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "407e507846c3bc34c6862a03749e34567885637d5902ffe1b6cef63dd8b5f1ef",
+      "body_chars": 1753,
+      "body_preview": "# The Tokenisation of Real-World Assets: Financial Innovations, Legal Paradigms, and Systemic Convergence\n\n**Source:** [TBD](TBD)\n**NotebookLM:** `1acc9ec3-162c-45a5-9a2a-f5eba0cb6911` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe source explores the technological shift from legacy database systems to **tokenised asset infrastructures**, where property rights and financial logic are embedded "
+    },
+    {
+      "path": "10_Sources\\Academia\\Tokenized-Property-Ownership-Legal-Compliance-ResearchGate.md",
+      "hash": "a388dc3c7c2b2409cf84aac345d725e63b7f3e08df2f7711576d94171f599d22",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/real-estate",
+        "topic/law/property-rights"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "a388dc3c7c2b2409cf84aac345d725e63b7f3e08df2f7711576d94171f599d22",
+      "body_chars": 1125,
+      "body_preview": "# Tokenized Property Ownership: Legal Recognition and Compliance Framework (ResearchGate)\n\n**Source:** [https://www.researchgate.net/](https://www.researchgate.net/)\n**NotebookLM:** `99fbfbd9-4544-4637-9f06-08a431062071` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis document serves as a **scholarly publication** focused on the intersection of **digital assets and real estate law**. The prima"
+    },
+    {
+      "path": "10_Sources\\Academia\\Tokenized-Real-Estate-Law-Tech-Digital-Deeds.md",
+      "hash": "4e496f01ba623488aa641e838449f7d68ed4dddaec237109ec71c6f11778af20",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/real-estate",
+        "topic/law/property-rights"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "4e496f01ba623488aa641e838449f7d68ed4dddaec237109ec71c6f11778af20",
+      "body_chars": 1363,
+      "body_preview": "# Tokenized Real Estate: The Law and Tech of Digital Deeds\n\n**Source:** [TBD](TBD)\n**NotebookLM:** `adc6486a-e89b-4e08-8429-087c9842b037` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis legal essay investigates the feasibility of **real estate tokenisation**, a process where digital assets like NFTs are used to represent and transfer ownership of physical property. The authors identify a **sta"
+    },
+    {
+      "path": "10_Sources\\Academia\\Wharton-WIFPR-Tokenizing-RWA-Cong-Mayer-Rabetti-2026.md",
+      "hash": "51441cf29ba5370279734df0dba4af7eec009912ce7d3ebc48bd5e2a6f8a0f6d",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4324,
+      "body_preview": "# Tokenizing Real-World Assets\n\n## Citation\n\nCong, Lin William, Simon Mayer, and Daniel Rabetti. \"Tokenizing Real-World Assets\". WIFPR White Paper, Wharton Initiative on Financial Policy and Regulation, University of Pennsylvania, May 2026. https://wifpr.wharton.upenn.edu/wp-content/uploads/2026/05/WIFPR-Tokenizing-Real-World-Assets-Cong-Mayer-and-Rabetti.pdf.\n\n## One-line summary\n\nThe paper proposes the speed-matching principle -- that a tokenised claim should trade no faster than its underlyin"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\esma-2026-annual-work-programme.md",
+      "hash": "3621588f1f3be7d6488fb011be37294901537397e468ec5681f11b8d6c303ee6",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2953,
+      "body_preview": "# ESMA 2026 Annual Work Programme\n\n## Citation\n\nEuropean Securities and Markets Authority. \"ESMA 2026 Annual Work Programme.\" ESMA Publications, 3 October 2025. https://www.esma.europa.eu/sites/default/files/2025-10/ESMA22-50751485-1604_Annual_Work_Programme_2026.pdf.\n\n## One-line summary\n\nESMA sets out its 2026 regulatory and supervisory priorities, with tokenisation monitoring, the DLT Pilot Regime review, and integrated MiCA market surveillance as explicit commitments.\n\n## Key claims\n\n- ESMA "
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\esma-2027-2029-programming-document.md",
+      "hash": "8bb3c73bc2b643f11691f6e2dd4ec82ffb3c77396216395fa4192257bd361dae",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2760,
+      "body_preview": "# ESMA 2027-2029 Programming Document\n\n## Citation\n\nEuropean Securities and Markets Authority (ESMA). \"ESMA 2027-2029 Programming Document\". ESMA, 29 January 2026. https://www.esma.europa.eu/sites/default/files/2026-02/ESMA22-50751485-1625_-_2027-2029_Programming_Document.pdf.\n\n## One-line summary\n\nESMA's medium-term plan commits to integrating DLT and tokenisation into the EU regulatory framework, advancing MiCA supervisory convergence, and supporting the Savings and Investments Union through 2"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\esma-dlt-pilot-regime-review-2025.md",
+      "hash": "c36b88aca674cf4f63cb28f61c825411080d0867aeec9b61d071c71b9c8759f6",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2957,
+      "body_preview": "# Report on the Functioning and Review of the DLT Pilot Regime\n\n## Citation\n\nEuropean Securities and Markets Authority. \"Report on the Functioning and Review of the DLT Pilot Regime.\" ESMA Publications, 25 June 2025. https://www.esma.europa.eu/sites/default/files/2025-06/ESMA75-117376770-460_Report_on_the_functioning_and_review_of_the_DLTR_-_Art.14.pdf.\n\n## One-line summary\n\nESMA's Article 14 review of the DLT Pilot Regime finds modest uptake but recommends making the regime permanent with expan"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\esma-mica-data-standards-statement-2025.md",
+      "hash": "8912e1fbc84c07f23d7ac1fd5c13a017f8b71aa85649baa4ae0684e574d73a25",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3101,
+      "body_preview": "# Statement to Support the Smooth Implementation of MiCA Standards and Format Requirements\n\n## Citation\n\nEuropean Securities and Markets Authority. \"Statement to Support the Smooth Implementation of MiCA Standards and Format Requirements.\" ESMA Publications, 28 November 2025. https://www.esma.europa.eu/sites/default/files/2025-11/ESMA75-1303207761-6284_Statement_to_support_the_smooth_implementation_of_MiCA_standards_and_format.pdf.\n\n## One-line summary\n\nESMA sets out the mandatory data standards"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\esma-mica-end-transitional-periods-statement-2026.md",
+      "hash": "f4086bc3f33ba117b27cf67c9dbffc46a12239daa5c850c1593c3f7457939666",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3050,
+      "body_preview": "# Statement on the End of Transitional Periods under MiCA\n\n## Citation\n\nEuropean Securities and Markets Authority (ESMA). \"Statement on the End of Transitional Periods under MiCA\". ESMA, 17 April 2026. https://www.esma.europa.eu/sites/default/files/2026-04/ESMA75-113276571-1679_Statement_on_the_end_of_transitional_periods_under_MiCA.pdf.\n\n## One-line summary\n\nESMA sets binding supervisory expectations for orderly wind-down by unauthorised CASPs and confirms no extension of the 1 July 2026 MiCA d"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\esma-mica-knowledge-competence-guidelines-2025.md",
+      "hash": "a3002f9bf0e16dcc6924273a87986b4545711537f21a794ef247fd60f3c14044",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2846,
+      "body_preview": "# Final Report on the Guidelines for the Criteria on the Assessment of Knowledge and Competence under MiCA\n\n## Citation\n\nEuropean Securities and Markets Authority. \"Final Report on the Guidelines for the Criteria on the Assessment of Knowledge and Competence under MiCA.\" ESMA Publications, 11 July 2025. https://www.esma.europa.eu/sites/default/files/2025-07/ESMA35-1872330276-2380_Final_Report_on_MiCA_Guidelines_on_knowledge_and_competence.pdf.\n\n## One-line summary\n\nESMA specifies the minimum kno"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\esma-mica-knowledge-competence-guidelines-2026.md",
+      "hash": "33064fa7ea48ce1031dce91889e593d30d4940c975a61db03cee61f44b8fcc3b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2459,
+      "body_preview": "# Guidelines for the Criteria on the Assessment of Knowledge and Competence under MiCA\n\n## Citation\n\nEuropean Securities and Markets Authority (ESMA). \"Guidelines for the Criteria on the Assessment of Knowledge and Competence under MiCA\". ESMA, 28 January 2026. https://www.esma.europa.eu/sites/default/files/2026-01/ESMA35-24871704-2922_Guidelines_for_the_criteria_on_the_assessment_of_knowledge_and_competence_under_MiCA.pdf.\n\n## One-line summary\n\nESMA publishes final guidelines specifying the kno"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\esma-mica-market-abuse-guidelines-2025.md",
+      "hash": "55ec53d2b6ce3fe199d8a8df3fe75157998eb3a287cad053d8b260e5dbdef67a",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3113,
+      "body_preview": "# Guidelines on Supervisory Practices to Prevent and Detect Market Abuse under MiCA\n\n## Citation\n\nEuropean Securities and Markets Authority. \"Guidelines on Supervisory Practices to Prevent and Detect Market Abuse under MiCA.\" ESMA Publications, 9 July 2025. https://www.esma.europa.eu/sites/default/files/2025-07/ESMA75-453128700-1039_Guidelines_on_supervisory_practices_to_prevent_and_detect_market_abuse__MiCA_.pdf.\n\n## One-line summary\n\nESMA sets binding supervisory standards for national compete"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\esma-mica-transitional-measures-statement-2025.md",
+      "hash": "e1a528b0dff7b76648d970c5e8d8c19b477cba8a383cfc7d1fdb4002a4266198",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2690,
+      "body_preview": "# Statement on MiCA Transitional Measures\n\n## Citation\n\nEuropean Securities and Markets Authority (ESMA). \"Statement on MiCA Transitional Measures\". ESMA, 4 December 2025. https://www.esma.europa.eu/sites/default/files/2025-12/ESMA75-113276571-1631_Statement_on_end_of_MiCA_transitional_periods.pdf.\n\n## One-line summary\n\nESMA sets out supervisory expectations for unauthorised crypto-asset service providers operating under national grandfathering arrangements ahead of the 1 July 2026 MiCA deadline"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\esma-mica-transitional-period-ends-public-statement-2026.md",
+      "hash": "0c5b2305514898c181a98ae6dbe1c7d401b64096e7e70a2f094e8b18300345b4",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3011,
+      "body_preview": "# Public Statement: MiCA Transitional Period Ends\n\n## Citation\n\nEuropean Securities and Markets Authority (ESMA). \"Public Statement: MiCA Transitional Period Ends\". ESMA, 23 June 2026. https://www.esma.europa.eu/sites/default/files/2026-06/ESMA75-113276571-1710_Public_Statement_MiCA_transitional_period_ends.pdf.\n\n## One-line summary\n\nEight days before the 1 July 2026 deadline, ESMA calls on unauthorised CASPs to wind down EU services immediately and warns retail investors of risks from using unl"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\fed-banks-age-stablecoins-deposits-credit-2025.md",
+      "hash": "afecde71ea24a819531407eb71014ae7d89f5e5a8c46a927186181f991d29384",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3371,
+      "body_preview": "# Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation\n\n## Citation\n\nWang, Jessie Jiaxu. \"Banks in the Age of Stablecoins: Some Possible Implications for Deposits, Credit, and Financial Intermediation\". FEDS Notes, Federal Reserve Board, 17 December 2025. https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-implications-for-deposits-credit-and-financial-intermediation-20251217.html.\n\n## One-line summary\n"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\fed-framework-vulnerabilities-money-like-products-2026.md",
+      "hash": "ac09a33ccacea0e3534bc7d7a017cd60e7b089ac25708a82b8d1478681e30747",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3343,
+      "body_preview": "# A Framework for Understanding the Vulnerabilities of New Money-Like Products\n\n## Citation\n\nAnadu, Kenechukwu, Patrick McCabe, JP Perez-Sangimino, and Nathan Swem. \"A Framework for Understanding the Vulnerabilities of New Money-Like Products\". Finance and Economics Discussion Series (FEDS) 2026-002, Federal Reserve Board, 6 January 2026. https://doi.org/10.17016/FEDS.2026.002.\n\n## One-line summary\n\nTokenised money market funds, money market ETFs, and stablecoins share five structural vulnerabil"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\fed-harvest-now-decrypt-later-dlt-2025.md",
+      "hash": "4f94999dffcc87a475624af4b9b0d2d1900e56df28f18522bfc42d09d6273a5b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3101,
+      "body_preview": "# \"Harvest Now Decrypt Later\": Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks\n\n## Citation\n\nMascelli, Jillian, and Megan Rodden. \"'Harvest Now Decrypt Later': Examining Post-Quantum Cryptography and the Data Privacy Risks for Distributed Ledger Networks\". Finance and Economics Discussion Series (FEDS) 2025-093, Federal Reserve Board, September 2025. https://doi.org/10.17016/FEDS.2025.093.\n\n## One-line summary\n\nQuantum computers will be able to decr"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\fed-svb-shadow-bank-runs-stablecoins-2025.md",
+      "hash": "c430cd154e6f69c64b3867dca1d0f5248625ad75707521c90829cdca8eff5f3c",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3146,
+      "body_preview": "# In the Shadow of Bank Runs: Lessons from the Silicon Valley Bank Failure and Its Impact on Stablecoins\n\n## Citation\n\nDu, Chuan, Ria Sonawane, and Cy Watsky. \"In the Shadow of Bank Runs: Lessons from the Silicon Valley Bank Failure and Its Impact on Stablecoins\". FEDS Notes, Federal Reserve Board, 17 December 2025. https://www.federalreserve.gov/econres/notes/feds-notes/in-the-shadow-of-bank-run-lessons-from-the-silicon-valley-bank-failure-and-its-impact-on-stablecoins-20251217.html.\n\n## One-li"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\Fed-Tokenization-Financial-Stability.md",
+      "hash": "fa818136e7d375a81efd77ab78674771abee2197ddc1091e699058f03549c124",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation",
+        "topic/finance/market-infrastructure"
+      ],
+      "existing_subjects": [
+        "subject/federal-reserve"
+      ],
+      "existing_hash": "fa818136e7d375a81efd77ab78674771abee2197ddc1091e699058f03549c124",
+      "body_chars": 1320,
+      "body_preview": "# Tokenization: Overview and Financial Stability Implications (Federal Reserve)\n\n**Source:** [https://www.federalreserve.gov/](https://www.federalreserve.gov/)\n**NotebookLM:** `64b66422-41af-408d-b87b-c06f7e263a31` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis Federal Reserve discussion paper provides a comprehensive overview of **tokenisation**, the process of creating **digital representat"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\FEDS-2026-037-Fragility-Perfectly-Safe-Digital-Money.md",
+      "hash": "ab5aaf11eb69106c673123ffdc964ba141051e5590304f15c32bfc5acdabc64a",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3392,
+      "body_preview": "# The Fragility of Perfectly Safe Digital Money\n\n## Citation\n\nKlee, Elizabeth C., Arazi Lubis, Chase P. Ross, Sharon Y. Ross, and Alexandros P. Vardoulakis. \"The Fragility of Perfectly Safe Digital Money\". Finance and Economics Discussion Series 2026-037, Federal Reserve Board, 2 June 2026. https://doi.org/10.17016/FEDS.2026.037.\n\n## One-line summary\n\nDigital money backed by perfectly safe reserves can still suffer runs because network effects and congestion-based gas fees create strategic compl"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\FEDS-Note-2026-03-Payment-Stablecoins-Cross-Border-Payments.md",
+      "hash": "b682a76c59b10504087f500961c4641119566f004be905ea6683d047f69fadbb",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3058,
+      "body_preview": "# Payment Stablecoins and Cross Border Payments: Benefits and Implications for Monetary Policy Implementation\n\n## Citation\n\nKim, Kyungmin, Romina Ruprecht, and Mary-Frances Styczynski. \"Payment Stablecoins and Cross Border Payments: Benefits and Implications for Monetary Policy Implementation\". FEDS Notes, Federal Reserve Board, 30 March 2026. https://www.federalreserve.gov/econres/notes/feds-notes/payment-stablecoins-and-cross-border-payments-benefits-and-implications-for-monetary-policy-202603"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\FEDS-Note-2026-04-Stablecoins-in-2025-Financial-Stability.md",
+      "hash": "509ce79d1d010659caac63aac57b9d03955633b181eb908dbac3714828a44abb",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3039,
+      "body_preview": "# Stablecoins in 2025: Developments and Financial Stability Implications\n\n## Citation\n\nCarapella, Francesca, Arazi Lubis, and Alexandros Vardoulakis. \"Stablecoins in 2025: Developments and Financial Stability Implications\". FEDS Notes, Federal Reserve Board, 8 April 2026. https://www.federalreserve.gov/econres/notes/feds-notes/stablecoins-in-2025-developments-and-financial-stability-implications-20260408.html.\n\n## One-line summary\n\nThe stablecoin market grew 50% in 2025 to $317 billion, but comp"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\FEDS-Note-2026-05-Banks-Age-Stablecoins-Historical-Lessons.md",
+      "hash": "ca08696c6ab35f900a2de2d0f848eb4bfa90fcf86457a851f6eb456e35890fb4",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3359,
+      "body_preview": "# Banks in the Age of Stablecoins: Lessons from Their Historical Responses to Financial Innovations\n\n## Citation\n\nHempel, Sam, JP Perez-Sangimino, and Jessie Jiaxu Wang. \"Banks in the Age of Stablecoins: Lessons from Their Historical Responses to Financial Innovations\". FEDS Notes, Federal Reserve Board, 1 May 2026. https://www.federalreserve.gov/econres/notes/feds-notes/banks-in-the-age-of-stablecoins-lessons-from-their-historical-responses-to-financial-innovations-20260501.html.\n\n## One-line s"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\HKMA-Corporate-Treasury-Tokenisation-Seminar-2026.md",
+      "hash": "1e0d1ed891f4816497928bb12a16fdbc90a9a279f5e8f04cf88ac876017ffb21",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2452,
+      "body_preview": "# HKMA demonstrates potential of tokenisation to corporate treasury community\n\n## Citation\n\nHong Kong Monetary Authority. \"HKMA demonstrates potential of tokenisation to corporate treasury community\". HKMA Press Releases, 10 June 2026. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/06/20260610-5/.\n\n## One-line summary\n\nThe HKMA held its first seminar for corporate treasurers on tokenisation, attracting over 150 participants from 50 corporates and 30 financial institutions, and co"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\hkma-digital-green-bond-2025.md",
+      "hash": "82efdee21a2d25a53934ce79e181c80ced05fcf37c74b5ab9c0df36c46a95d49",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2677,
+      "body_preview": "# HKSAR Government's Third Digital Green Bonds Offering\n\n## Citation\n\nHong Kong Monetary Authority. \"HKSAR Government's Third Digital Green Bonds Offering\". HKMA Press Releases, 11 November 2025. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251111-6/.\n\n## One-line summary\n\nHong Kong issued the world's largest digital bond at approximately HK$10 billion across four currencies, integrating e-HKD and e-CNY tokenised central bank money in settlement for the first time globally"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\hkma-ehkd-pilot-programme-complete-2025.md",
+      "hash": "9b8c974ac7277caca8a70c5b6e72e08e2485ed678a305d8398d1465433d0112d",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2473,
+      "body_preview": "# HKMA completes e-HKD Pilot Programme and outlines future direction of e-HKD\n\n## Citation\n\nHong Kong Monetary Authority. \"HKMA completes e-HKD Pilot Programme and outlines future direction of e-HKD\". HKMA Press Releases, 28 October 2025. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/10/20251028-4/.\n\n## One-line summary\n\nAfter two phases of piloting, the HKMA deprioritises retail e-HKD deployment and pivots to wholesale payments and tokenisation ecosystem support as the primary "
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\hkma-ensemble-tx-launch-2025.md",
+      "hash": "97465950e05dce57f182812b18bd042d71ccf07b6bf4e97bc3ebe67b37f21628",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2680,
+      "body_preview": "# HKMA announces the new phase of Project Ensemble to support real-value transactions in tokenised deposits and digital assets\n\n## Citation\n\nHong Kong Monetary Authority. \"HKMA announces the new phase of Project Ensemble to support real-value transactions in tokenised deposits and digital assets\". HKMA Press Releases, 13 November 2025. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251113-3/.\n\n## One-line summary\n\nThe HKMA launched EnsembleTX, moving Project Ensemble from sa"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\hkma-fintech-2030-2025.md",
+      "hash": "682adbc7dea8b9d479cbffb5540d7f65620e246bbf3032e20c8f89b03204a405",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2631,
+      "body_preview": "# The HKMA Unveils \"Fintech 2030\" at the Hong Kong FinTech Week 2025\n\n## Citation\n\nHong Kong Monetary Authority. \"The HKMA Unveils 'Fintech 2030' at the Hong Kong FinTech Week 2025\". HKMA Press Releases, 3 November 2025. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251103-3/.\n\n## One-line summary\n\nThe HKMA announced Fintech 2030, a five-year strategy built on four DART pillars that commits Hong Kong to tokenising government bonds, launching Project Ensemble's live pilot, a"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\HKMA-Fintech-Promotion-Blueprint-2026.md",
+      "hash": "4a413cc46b4ba50df660f31944dbad5668a1967c294cf4811f9049379a2743fe",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2596,
+      "body_preview": "# HKMA unveils Fintech Promotion Blueprint: From adoption to advancement\n\n## Citation\n\nHong Kong Monetary Authority. \"HKMA unveils Fintech Promotion Blueprint: From adoption to advancement\". HKMA Press Releases, 3 February 2026. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/02/20260203-3/.\n\n## One-line summary\n\nThe HKMA released the Fintech Promotion Blueprint, a multi-pillar plan under the Fintech 2030 strategy targeting DLT and AI applications, quantum preparedness, and fintec"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\HKMA-Stablecoin-Issuer-Licences-2026.md",
+      "hash": "0f75a334816ae82d2f61561a14549840806c414e6e995ac6d72a07dd76742cbd",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2222,
+      "body_preview": "# Granting of stablecoin issuer licences\n\n## Citation\n\nHong Kong Monetary Authority. \"Granting of stablecoin issuer licences\". HKMA Press Releases, 10 April 2026. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260410-4/.\n\n## One-line summary\n\nThe HKMA granted Hong Kong's first stablecoin issuer licences under the Stablecoins Ordinance to Anchorpoint Financial Limited and The Hongkong and Shanghai Banking Corporation Limited.\n\n## Key claims\n\n- Both licences took effect on 10 "
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\hkma-stablecoin-ordinance-implementation-2025.md",
+      "hash": "f78e1ecfec8da90363a6450bb9b8f8b40fdd11f6e5ee994d887983db27d71880",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2564,
+      "body_preview": "# Implementation of regulatory regime for stablecoin issuers\n\n## Citation\n\nHong Kong Monetary Authority. \"Implementation of regulatory regime for stablecoin issuers\". HKMA Press Releases, 29 July 2025. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/07/20250729-4/.\n\n## One-line summary\n\nThe HKMA confirmed the Stablecoins Ordinance commences on 1 August 2025, published four regulatory documents, and warned the public that no licence had yet been issued.\n\n## Key claims\n\n- The Stable"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\HKMA-Stablecoin-Token-Fraud-Warning-2026.md",
+      "hash": "40671a2a040726670539ee4109a6aa55d258702b5572ab61137fed4640dfb937",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2612,
+      "body_preview": "# Beware of tokens purported to be associated with licensed stablecoin issuers\n\n## Citation\n\nHong Kong Monetary Authority. \"Beware of tokens purported to be associated with licensed stablecoin issuers\". HKMA Press Releases, 28 April 2026. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/04/20260428-5/.\n\n## One-line summary\n\nWithin weeks of the first stablecoin licences taking effect, the HKMA warned the public about fraudulent tokens bearing the tickers \"HKDAP\" and \"HSBC\" that neit"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\hkma-stablecoins-bill-passage-2025.md",
+      "hash": "9eb7e3517218f284dfe37350a7ce2e6d01ae8550e3c491ac7cf0dbbba5c8d72e",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2493,
+      "body_preview": "# Government welcomes passage of the Stablecoins Bill\n\n## Citation\n\nHong Kong Monetary Authority. \"Government welcomes passage of the Stablecoins Bill\". HKMA Press Releases, 21 May 2025. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/05/20250521-3/.\n\n## One-line summary\n\nThe Hong Kong Legislative Council passed the Stablecoins Bill, establishing a mandatory licensing regime for fiat-referenced stablecoin issuers under HKMA supervision.\n\n## Key claims\n\n- The Stablecoins Ordinance "
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\HKMA-Tokenised-Bond-Expert-Group-2026.md",
+      "hash": "b7f7aa4643e1e23d8f988f0b45578c0ee9102785eb30bdcac0f04abca3479ff1",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2425,
+      "body_preview": "# HKMA establishes Tokenised Bond Expert Group\n\n## Citation\n\nHong Kong Monetary Authority. \"HKMA establishes Tokenised Bond Expert Group\". HKMA Press Releases, 5 June 2026. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/06/20260605-3/.\n\n## One-line summary\n\nThe HKMA established a multi-stakeholder Tokenised Bond Expert Group to drive policy, legal, and market-practice reform to scale Hong Kong's tokenised bond market.\n\n## Key claims\n\n- The Expert Group first convened in May 2026 "
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\HKMC-Digital-Bond-HK12B-2026.md",
+      "hash": "bd0c19f2b73198233979578f19570b3fafbffe854fa8e3442c647baa50a4dc5e",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2435,
+      "body_preview": "# HKMC's HK$12 billion inaugural public digital bond issuance\n\n## Citation\n\nHong Kong Mortgage Corporation Limited / Hong Kong Monetary Authority. \"HKMC's HK$12 billion inaugural public digital bond issuance\". HKMA Press Releases, 11 June 2026. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/06/20260611-3/.\n\n## One-line summary\n\nThe Hong Kong Mortgage Corporation Limited priced HK$12 billion equivalent in inaugural digital bonds across three tranches, setting a record as the large"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\mas-bloom-initiative-2025.md",
+      "hash": "b81f13ba849ddebc755d9a8e011c8d179ae2dbacce27db0dafbe6f8fcac13ed9",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2549,
+      "body_preview": "# MAS Launches BLOOM Initiative to Extend Settlement Capabilities\n\n## Citation\n\nMonetary Authority of Singapore. \"MAS Launches BLOOM Initiative to Extend Settlement Capabilities\". MAS Media Releases, 16 October 2025. https://www.mas.gov.sg/news/media-releases/2025/mas-launches-bloom-initiative-to-extend-settlement-capabilities.\n\n## One-line summary\n\nMAS launched BLOOM (Borderless, Liquid, Open, Online, Multi-currency) to enable wholesale settlement in tokenised bank liabilities and regulated sta"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\mas-chia-creating-future-of-finance-2025.md",
+      "hash": "d0f58d357695a783666bdc0d72f879d08c0b166fd3984c7f434ac668c14a4709",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3187,
+      "body_preview": "# Creating the Future of Finance: A Journey of Innovation and Collaboration\n\n## Citation\n\nChia Der Jiun. \"Creating the Future of Finance: A Journey of Innovation and Collaboration\". Remarks at the Singapore FinTech Festival 2025, 13 November 2025. https://www.mas.gov.sg/news/speeches/2025/creating-the-future-of-finance. Also reproduced at: https://www.bis.org/review/r251117e.htm.\n\n## One-line summary\n\nMAS Managing Director set out MAS's dual agenda of responsible AI adoption and a tokenised fina"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\mas-future-of-finance-institute-2026.md",
+      "hash": "b10ba8e000d7d6e4e84197c53c4064104611dc74112885dc4dbfa5f589d2c461",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3586,
+      "body_preview": "# MAS Establishes Future of Finance Institute to Scale Financial Innovation\n\n## Citation\n\nMonetary Authority of Singapore. \"MAS Establishes Future of Finance Institute to Scale Financial Innovation\". MAS Media Releases, 25 June 2026. https://www.mas.gov.sg/news/media-releases/2026/mas-establishes-future-of-finance-institute-to-scale-financial-innovation.\n\n## One-line summary\n\nMAS established the Future of Finance Institute (FFI) on 25 June 2026 to move AI and tokenisation from pilot to broad-bas"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\mas-guardian-fx-workstream-tokenised-bank-liabilities-2025.md",
+      "hash": "995244bfc02697dbd68c55910ff83c2ab0ab70660ed178f7869135f2c012d93f",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3182,
+      "body_preview": "# Use of Tokenised Bank Liabilities for FX Settlement and Cross-Border Payments Under Project Guardian\n\n## Citation\n\nISDA; Ant International; Monetary Authority of Singapore. \"Use of Tokenised Bank Liabilities for FX Settlement and Cross-Border Payments Under Project Guardian\". Project Guardian FX Workstream, 3 July 2025. https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/guardian/project-guardian-fx-workstream-transaction-banking.pdf.\n\n## One-line summary\n\nThe Project Guardian"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\mas-leong-layer-one-summit-2025.md",
+      "hash": "ecc6f8e87b5bcf963df14cc02dbd0b00409464c1a99ac34f131d0ede7c4378d9",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2787,
+      "body_preview": "# Towards Achieving Trusted Open and Interoperable Networks\n\n## Citation\n\nLeong Sing Chiong. \"Towards Achieving Trusted Open and Interoperable Networks\". Welcome remarks at the Layer One Summit, Singapore FinTech Festival, 12 November 2025. https://www.mas.gov.sg/news/speeches/2025/towards-achieving-trusted-open-and-interoperable-networks.\n\n## One-line summary\n\nMAS's Deputy Managing Director argued that scaling digital assets requires trusted, open, and interoperable networks, and announced Proj"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\mas-mou-bundesbank-tokenisation-2025.md",
+      "hash": "11b4320ead522ca1bbaeb49796b603e652f1520b89e881c9c50cda00ab0fa932",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3028,
+      "body_preview": "# MAS and Deutsche Bundesbank Sign MoU on Tokenisation and Cross-Border Settlement\n\n## Citation\n\nMonetary Authority of Singapore; Deutsche Bundesbank. \"MAS and Deutsche Bundesbank Sign MoU on Tokenisation and Cross-Border Settlement\". MAS Media Releases, 13 November 2025. https://www.mas.gov.sg/news/media-releases/2025/mas-and-deutsche-bundesbank-sign-mou-on-tokenisation-and-cross-border-settlement.\n\n## One-line summary\n\nMAS and Deutsche Bundesbank formalised bilateral cooperation to develop cro"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\mas-parliamentary-reply-genius-act-2025.md",
+      "hash": "a93338043e0d23342696f093ae9b11c01f9071f44972b0d3b14335f67b39e0dc",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2757,
+      "body_preview": "# Written Reply to Parliamentary Question on Impact of US GENIUS Act on Singapore's Competitiveness for Regulated Digital Assets\n\n## Citation\n\nMonetary Authority of Singapore. \"Written Reply to Parliamentary Question on Impact of US GENIUS Act on Singapore's Competitiveness for Regulated Digital Assets\". Singapore Parliament, 24 September 2025. https://www.mas.gov.sg/news/parliamentary-replies/2025/written-reply-to-parliamentary-question-on-stablecoins.\n\n## One-line summary\n\nMAS assessed the US "
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\MAS-Partners-Asset-Tokenisation.md",
+      "hash": "e1f8e7f3f963ebeeadd5e162c89f6c44c9b4d370ca19a7384e35372714b14c4c",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation",
+        "topic/finance"
+      ],
+      "existing_subjects": [
+        "subject/mas",
+        "subject/project-guardian"
+      ],
+      "existing_hash": "e1f8e7f3f963ebeeadd5e162c89f6c44c9b4d370ca19a7384e35372714b14c4c",
+      "body_chars": 535,
+      "body_preview": "# MAS Partners Financial Industry to Expand Asset Tokenisation Initiatives\n\n**Source:** [https://www.mas.gov.sg/](https://www.mas.gov.sg/)\n**NotebookLM:** `782b3d9f-9571-44f6-b66d-d3670c6b626e` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM captured a service-unavailable notice rather than the MAS press release on the tokenisation partnerships. Re-ingest via the cached press release UR"
+    },
+    {
+      "path": "10_Sources\\Central-Banks\\MAS-Project-Guardian.md",
+      "hash": "6950af44a41a60553ee9cd3aa6fbc3331e64f0629c21ceddecfe238864b575d8",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation",
+        "topic/finance/market-infrastructure"
+      ],
+      "existing_subjects": [
+        "subject/mas",
+        "subject/project-guardian"
+      ],
+      "existing_hash": "6950af44a41a60553ee9cd3aa6fbc3331e64f0629c21ceddecfe238864b575d8",
+      "body_chars": 609,
+      "body_preview": "# Project Guardian (Monetary Authority of Singapore)\n\n**Source:** [https://www.mas.gov.sg/schemes-and-initiatives/project-guardian](https://www.mas.gov.sg/schemes-and-initiatives/project-guardian)\n**NotebookLM:** `4e481add-faae-45e3-be73-8e2a9b8a6c4a` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM captured a service-unavailable notice from mas.gov.sg rather than the Project Guardian pa"
+    },
+    {
+      "path": "10_Sources\\Commercial-Banks\\HSBC-Orion-Blockchain-Platform.md",
+      "hash": "f3355c33e464cc35fe62ca26e5c8f0e1579c25053abffc3477a079c22883a677",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "existing_subjects": [
+        "subject/hsbc"
+      ],
+      "existing_hash": "f3355c33e464cc35fe62ca26e5c8f0e1579c25053abffc3477a079c22883a677",
+      "body_chars": 1280,
+      "body_preview": "# HSBC Orion Blockchain Platform\n\n**Source:** [https://www.about.hsbc.com.hk/](https://www.about.hsbc.com.hk/)\n**NotebookLM:** `9afc727f-39ac-4570-b1b8-91c40b6a5547` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nHSBC Orion is a specialised **institutional distributed-ledger platform** designed to manage the entire lifecycle of **digitally native bonds**, from their initial issuance to final redem"
+    },
+    {
+      "path": "10_Sources\\Commercial-Banks\\JPMorgan-Kinexys-Project-Guardian.md",
+      "hash": "f9151dcd6f35e87515cbce738fceff924f527eb6d4a2859a1fd999850699560e",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/blockchain-settlement",
+        "topic/finance"
+      ],
+      "existing_subjects": [
+        "subject/jpmorgan",
+        "subject/project-guardian"
+      ],
+      "existing_hash": "f9151dcd6f35e87515cbce738fceff924f527eb6d4a2859a1fd999850699560e",
+      "body_chars": 1352,
+      "body_preview": "# Project Guardian Asset Tokenization (Kinexys by JPMorgan)\n\n**Source:** [https://www.jpmorgan.com/kinexys/project-guardian](https://www.jpmorgan.com/kinexys/project-guardian)\n**NotebookLM:** `a6c68046-df19-4d9c-bdd4-a40ddd64cd27` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nProject Guardian is a collaborative financial initiative led by the Monetary Authority of Singapore that explores how **bl"
+    },
+    {
+      "path": "10_Sources\\Commercial-Banks\\Kinexys-by-JPMorgan-Aave.md",
+      "hash": "2ad22be5d2f5780b9fd367bad30fc7c6dd06df0dbaecf6f9ebabfaaf36638d57",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/blockchain-settlement",
+        "topic/finance"
+      ],
+      "existing_subjects": [
+        "subject/jpmorgan",
+        "subject/aave"
+      ],
+      "existing_hash": "2ad22be5d2f5780b9fd367bad30fc7c6dd06df0dbaecf6f9ebabfaaf36638d57",
+      "body_chars": 1194,
+      "body_preview": "# Kinexys by JPMorgan (Aave)\n\n**Source:** [https://aave.com/](https://aave.com/)\n**NotebookLM:** `ac1347dc-dd35-45a6-8173-1895aa6dbe3e` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThrough a collaborative initiative known as Project Guardian, financial leaders explored how **decentralised finance** can be adapted for regulated, institutional use cases. By testing a modified version of the Aave p"
+    },
+    {
+      "path": "10_Sources\\Commercial-Banks\\McKinsey-Blockchain-Currencies-Beyond-Stablecoins.md",
+      "hash": "775cacaefd8cc398a51f06bd1a4612425a56f8f4dfea2db1df1e50addaa6df75",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/tokenised-deposits",
+        "topic/finance/stablecoins"
+      ],
+      "existing_subjects": [
+        "subject/mckinsey"
+      ],
+      "existing_hash": "775cacaefd8cc398a51f06bd1a4612425a56f8f4dfea2db1df1e50addaa6df75",
+      "body_chars": 1367,
+      "body_preview": "# Blockchain Currencies: Moving Beyond Stablecoins (McKinsey)\n\n**Source:** [https://www.mckinsey.com/](https://www.mckinsey.com/)\n**NotebookLM:** `f6af092f-8f87-423c-ba50-4964fe88cfeb` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis McKinsey report details a shift in digital finance where **tokenised bank deposits** are surpassing stablecoins in institutional utility and transaction volume. Wh"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Adventures-In-CRE-Real-Estate-Tokenization-Part-II.md",
+      "hash": "71e0faa4f61747c0e2104b6f15602eabbb389879a2a00e6edec579591e0d5cba",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/real-estate",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "71e0faa4f61747c0e2104b6f15602eabbb389879a2a00e6edec579591e0d5cba",
+      "body_chars": 1446,
+      "body_preview": "# Real Estate Tokenization Part II: From Concept to Execution (Adventures in CRE)\n\n**Source:** [https://www.adventuresincre.com/](https://www.adventuresincre.com/)\n**NotebookLM:** `2fdf2932-0426-4c38-b5f0-5adf7d5d4a32` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis resource serves as a practical blueprint for **real estate tokenisation**, detailing the transition from a theoretical concept to"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\CoinGeek-UK-HSBC-Digital-Bond-Pilot.md",
+      "hash": "03e12caf04464139bc1c0ab00d0da93bf3c9e684b6931d439e3af5ae7d6ac497",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "existing_subjects": [
+        "subject/hsbc",
+        "subject/uk"
+      ],
+      "existing_hash": "03e12caf04464139bc1c0ab00d0da93bf3c9e684b6931d439e3af5ae7d6ac497",
+      "body_chars": 1254,
+      "body_preview": "# UK Selects HSBC Blockchain Platform for Digital Bond Pilot (CoinGeek)\n\n**Source:** [https://coingeek.com/](https://coingeek.com/)\n**NotebookLM:** `a56666aa-4487-4d9f-9106-c25b52e75a5f` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe United Kingdom has appointed HSBC to facilitate a landmark pilot program known as **DIGIT**, which explores the issuance of **sovereign debt using blockchain tech"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Emergent-Mind-Agent-Blockchain-Interoperability.md",
+      "hash": "4029a839411851aa38839bc4cd7c30316a619266fc717112a290b18cda2200e7",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/agentic-ai",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "4029a839411851aa38839bc4cd7c30316a619266fc717112a290b18cda2200e7",
+      "body_chars": 1454,
+      "body_preview": "# Agent-Blockchain Interoperability (Emergent Mind)\n\n**Source:** [https://www.emergentmind.com/](https://www.emergentmind.com/)\n**NotebookLM:** `f29e5e48-d406-4264-a48e-841b572c9156` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis text provides a comprehensive overview of **Agent-Blockchain Interoperability**, a field dedicated to integrating **autonomous software agents** with **distributed l"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\FinTech-Magazine-HSBC-UK-Tokenisation-Goals.md",
+      "hash": "18e1d36018023174db7f986b59ffdcccac8348a34df13335a50688a43f38b56f",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation",
+        "topic/finance"
+      ],
+      "existing_subjects": [
+        "subject/hsbc",
+        "subject/uk"
+      ],
+      "existing_hash": "18e1d36018023174db7f986b59ffdcccac8348a34df13335a50688a43f38b56f",
+      "body_chars": 545,
+      "body_preview": "# How Will HSBC Boost the UK Government Tokenisation Goals (FinTech Magazine)\n\n**Source:** [https://fintechmagazine.com/](https://fintechmagazine.com/)\n**NotebookLM:** `b3b52edc-3530-4f3c-8eb5-c8d561b73f6c` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM captured a Cloudflare security checkpoint rather than the FinTech Magazine article. Re-ingest by saving the page HTML and uploading to"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\LCX-Stablecoins-Power-RWA-Tokenization.md",
+      "hash": "524c107425172fd476fa77bdfc6223375f25af0b5af9c308841b8db0c6694d3a",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "524c107425172fd476fa77bdfc6223375f25af0b5af9c308841b8db0c6694d3a",
+      "body_chars": 1276,
+      "body_preview": "# How Stablecoins Power Real-World Asset Tokenization (LCX Exchange)\n\n**Source:** [https://www.lcx.com/](https://www.lcx.com/)\n**NotebookLM:** `1ee8a386-e240-45ff-bf1e-65e3c20d2d5c` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe provided text examines how **stablecoins** serve as the essential financial infrastructure for converting physical property and financial instruments into **digital to"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-Baillie-Gifford-Tokenised-Bond-Fund.md",
+      "hash": "e74b2d4014a2d23717505ab4e13efc7a5599ec21763a54e69529e89eb22f5df6",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2457,
+      "body_preview": "# Baillie Gifford Launches $BAGEY Tokenized Bond Fund on Ethereum, Solana\n\n## Citation\n\nLedger Insights. \"Baillie Gifford Launches $BAGEY Tokenized Bond Fund on Ethereum, Solana\". Ledger Insights, 2026-06-22. https://www.ledgerinsights.com/baillie-gifford-launches-bagey-tokenized-bond-fund-on-ethereum-solana/.\n\n## One-line summary\n\nBaillie Gifford launched $BAGEY, a natively issued short-duration corporate bond fund on Ethereum and Solana, making it the UK asset manager's first publicly availabl"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-BIS-Stablecoin-Gaps.md",
+      "hash": "b22390c1687ea26975f6e04e544deb2ab4f3016c2d6078ffc994036db84cdac7",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2272,
+      "body_preview": "# BIS Identifies Stablecoin Gaps. Regulation and Innovations Are Already Closing Them\n\n## Citation\n\nLedger Insights. \"BIS Identifies Stablecoin Gaps. Regulation and Innovations Are Already Closing Them\". Ledger Insights, 2026-06-23. https://www.ledgerinsights.com/bis-identifies-stablecoin-gaps-regulation-and-innovations-are-already-closing-them/.\n\n## One-line summary\n\nLedger Insights argues that the BIS's updated stablecoin critique identifies five shortcomings that private-sector innovations an"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-Coinbase-Tokenised-Stocks-Offshore.md",
+      "hash": "ebd190ec81521cbc3e446378d1435b5bbca4fd5d4bd208f98ae9a23356341ba8",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2069,
+      "body_preview": "# Coinbase to Launch Tokenized Stocks Offshore\n\n## Citation\n\nLedger Insights. \"Coinbase to Launch Tokenized Stocks Offshore\". Ledger Insights, 2026-06-16. https://www.ledgerinsights.com/coinbase-to-launch-tokenized-stocks-offshore/.\n\n## One-line summary\n\nCoinbase announced 24/7 offshore tokenised stock trading with full ownership and dividend rights, targeting non-US markets while domestic regulations remain incomplete.\n\n## Key claims\n\n- Coinbase will launch tokenised stock trading offshore on t"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-DBS-Tokenised-Gold-Singapore.md",
+      "hash": "242a79b111dee8b23c62df9cc16eaac95f161e5fce00649466e9d0e153f99c88",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2249,
+      "body_preview": "# DBS to Launch Tokenized Physical Gold for Singapore Retail Investors\n\n## Citation\n\nLedger Insights. \"DBS to Launch Tokenized Physical Gold for Singapore Retail Investors\". Ledger Insights, 2026-06-11. https://www.ledgerinsights.com/dbs-to-launch-tokenized-physical-gold-for-singapore-retail-investors/.\n\n## One-line summary\n\nDBS will offer Singapore's first tokenised physical gold product to retail investors via its digibank app in H2 2026, with each token backed by one gram of gold held in a Si"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-DTC-Stellar-Tokenisation.md",
+      "hash": "9d1853bd29285b50f45e3eaf8a0cb7fa96b1943abe5ffcc05d2dec00b3f8baa3",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2596,
+      "body_preview": "# DTC Tokenization Service to Add Stellar as Second Public Blockchain\n\n## Citation\n\nLedger Insights. \"DTC Tokenization Service to Add Stellar as Second Public Blockchain\". Ledger Insights, 2026-05-27. https://www.ledgerinsights.com/dtc-tokenization-service-to-add-stellar-as-second-public-blockchain/.\n\n## Key claims\n\n- The DTCC and Stellar Development Foundation plan to enable tokenised assets on the Stellar network, with availability expected in H1 2027.\n- Stellar becomes the second public block"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-Euroclear-SocGen-USDCV-Stablecoin-Settlement.md",
+      "hash": "1dc396bc42faa424278c00efbf7ae14033098fec57db4186f2cf2aae902daf8b",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2478,
+      "body_preview": "# Euroclear to Adopt SocGen USDCV Stablecoin for Commercial Paper Settlement\n\n## Citation\n\nLedger Insights. \"Euroclear to Adopt SocGen USDCV Stablecoin for Commercial Paper Settlement\". Ledger Insights, 25 June 2026. https://www.ledgerinsights.com/euroclear-to-adopt-socgen-usdcv-stablecoin-for-commercial-paper-settlement/.\n\n## One-line summary\n\nEuroclear will use Societe Generale-FORGE's MiCA-compliant USDCV stablecoin as a secondary settlement instrument for dollar-denominated commercial paper "
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-Fidelity-Stablecoin-Reserve-MMF.md",
+      "hash": "718c652985739b3933a74803cbcace2baa7357d84a18e4127a0e7d27d3ec0e77",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2198,
+      "body_preview": "# Fidelity Launches Stablecoin Reserve MMF\n\n## Citation\n\nLedger Insights. \"Fidelity Launches Stablecoin Reserve MMF\". Ledger Insights, 2026-06-18. https://www.ledgerinsights.com/fidelity-launches-stablecoin-reserve-mmf/.\n\n## One-line summary\n\nFidelity launched the Fidelity Reserves Digital Fund, a money market fund targeting stablecoin issuers as reserve asset holders, joining at least eight other major institutions in a rapidly crowded market.\n\n## Key claims\n\n- Fidelity launched the Fidelity Re"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-HSBC-Canton-Tokenized-Deposit.md",
+      "hash": "5b1a90be9a9afee65bdd1b306ffd3598a40df0329a131d0e1a92e054716ce9ff",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/tokenised-deposits",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [
+        "subject/hsbc",
+        "subject/canton"
+      ],
+      "existing_hash": "5b1a90be9a9afee65bdd1b306ffd3598a40df0329a131d0e1a92e054716ce9ff",
+      "body_chars": 1264,
+      "body_preview": "# HSBC Tokenized Deposit Pilot on Canton Network (Ledger Insights)\n\n**Source:** [https://www.ledgerinsights.com/](https://www.ledgerinsights.com/)\n**NotebookLM:** `9e2decad-9370-435c-97a5-9c05e4ac5779` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe banking giant HSBC has successfully tested the transfer of **tokenised deposits** on the public Canton Network, signalling a major step in the **di"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-Invesco-Tokenized-Stablecoin-Reserve-Fund.md",
+      "hash": "92f556f7d987d4fc2e86c98932f62e42a63a21816cf8162a03cb40d4fc6ead34",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2572,
+      "body_preview": "# Invesco to Launch Tokenized Stablecoin Reserve Fund\n\n## Citation\n\nLedger Insights. \"Invesco to Launch Tokenized Stablecoin Reserve Fund\". Ledger Insights, 28 June 2026. https://www.ledgerinsights.com/invesco-to-launch-tokenized-stablecoin-reserve-fund/.\n\n## One-line summary\n\nInvesco has filed with the SEC to register a tokenised money market fund targeting stablecoin issuers, issuing shares directly as tokens on a public blockchain under GENIUS Act reserve requirements.\n\n## Key claims\n\n- Inves"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-Nomura-Circle-Cross-Border-FX-Stablecoin.md",
+      "hash": "39c765c26aa903ebf76df9ad2c731e228d9dfa71446083337f02ae8c101314ad",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2295,
+      "body_preview": "# Nomura Plans to Partner Stablecoin Issuer Circle for Cross-Border FX\n\n## Citation\n\nLedger Insights. \"Nomura Plans to Partner Stablecoin Issuer Circle for Cross-Border FX\". Ledger Insights, 25 June 2026. https://www.ledgerinsights.com/nomura-plans-to-partner-stablecoin-issuer-circle-for-cross-border-fx/.\n\n## One-line summary\n\nNomura plans to use Circle's USDC stablecoin to compress FX settlement times for Japanese corporates from half a day to near-instant, while retaining its traditional role "
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-Ripple-RLUSD-Japan-Launch.md",
+      "hash": "2d79c04a88c3793abb1d8a45684454cd7a423f3845ce0ccce48d570428c1ea36",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2170,
+      "body_preview": "# Ripple's RLUSD Stablecoin Launches in Japan\n\n## Citation\n\nLedger Insights. \"Ripple's RLUSD Stablecoin Launches in Japan\". Ledger Insights, 25 June 2026. https://www.ledgerinsights.com/ripples-rlusd-stablecoin-launches-in-japan/.\n\n## One-line summary\n\nJapan's Financial Services Agency has approved Ripple's RLUSD stablecoin for distribution through SBI VC Trade on Ethereum, subject to a ¥1 million holding cap, marking the first regulated US-dollar stablecoin launch in Japan from a non-bank issue"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-SBI-Bitbank-Acquisition-Stablecoin-Strategy.md",
+      "hash": "22712133b449a0e6d2a2840df348825d5f25de17af39541f980d5d8c03867d5a",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2753,
+      "body_preview": "# Why SBI Is Buying Bitbank, and Why Korean Banks Are Piling into Crypto Exchanges\n\n## Citation\n\nLedger Insights. \"Why SBI Is Buying Bitbank, and Why Korean Banks Are Piling into Crypto Exchanges\". Ledger Insights, 26 June 2026. https://www.ledgerinsights.com/why-sbi-is-buying-bitbank-and-why-korean-banks-are-piling-into-crypto-exchanges/.\n\n## One-line summary\n\nSBI Holdings' ¥46.7 billion acquisition of Bitbank positions the combined entity as Japan's largest exchange by custody assets, with SBI"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-SEC-NMS-Rules-Tokenised-Stock.md",
+      "hash": "7974a8dba2bae524301fb3295a062953b7438412c88d0a07fa10971ccf3aac52",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2372,
+      "body_preview": "# SEC Plans to Scrap Two NMS Rules That Hinder Tokenized Stock Trading via DeFi AMMs\n\n## Citation\n\nLedger Insights. \"SEC Plans to Scrap Two NMS Rules That Hinder Tokenized Stock Trading via DeFi AMMs\". Ledger Insights, 2026-06-12. https://www.ledgerinsights.com/sec-plans-to-scrap-two-nms-rules-that-hinder-tokenized-stock-trading-via-defi-amms/.\n\n## One-line summary\n\nThe SEC proposed rescinding Regulation NMS Rules 611 and 610(e), removing the order-protection barrier that prevents tokenised stoc"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-Tokenized-Deposits-Threat-Fix.md",
+      "hash": "a3f4f4207566f7ba499bb867d0db0ba596cdd49f4d602de4ffd80212d47261e5",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2579,
+      "body_preview": "# Tokenized Deposits: The Threat and the Fix You Probably Missed\n\n## Citation\n\nLedger Insights. \"Tokenized Deposits: The Threat and the Fix You Probably Missed\". Ledger Insights, 26 June 2026. https://www.ledgerinsights.com/tokenized-deposits-the-threat-and-the-fix-you-probably-missed/.\n\n## One-line summary\n\nTwo underreported developments — Ant International's sweep from tokenised deposits to tokenised MMFs and the Hazel Network's stablecoin bridge — address the network-fragmentation problem tha"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-UBS-Permissionless-Blockchain-Compliance.md",
+      "hash": "7ca66fad14e3271a693ef59d772131c5d6443cfff44f40e6c7009a76d71ed21a",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2306,
+      "body_preview": "# UBS Demos Permissionless Blockchain Compliance at Infrastructure Level\n\n## Citation\n\nLedger Insights. \"UBS Demos Permissionless Blockchain Compliance at Infrastructure Level\". Ledger Insights, 2026-06-23. https://www.ledgerinsights.com/ubs-demos-permissionless-blockchain-compliance-at-infrastructure-level/.\n\n## One-line summary\n\nUBS and Nethermind demonstrated two proofs of concept on Ethereum Sepolia showing that banks can embed compliance controls at the block-production layer rather than on"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Ledger-Insights-UMBFS-Corastone-DLT-Private-Markets.md",
+      "hash": "c81954a0a660679e39c387a620ab30446d485217f2fceb05fd0d65f5953ba678",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2594,
+      "body_preview": "# UMBFS to Integrate with Corastone DLT for Private Markets\n\n## Citation\n\nLedger Insights. \"UMBFS to Integrate with Corastone DLT for Private Markets\". Ledger Insights, 26 June 2026. https://www.ledgerinsights.com/umbfs-to-integrate-with-corastone-dlt-for-private-markets/.\n\n## One-line summary\n\nUMB Fund Services will integrate with the Corastone permissioned DLT platform to provide a shared golden record of investor and transaction data for private markets funds, with StepStone as the first adop"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Tokenized-Carbon-Credits-Blockchain-Revolutionizing.md",
+      "hash": "239a769d6e64aa6794939f0b2c1a9f1d9e4c5a27c247031a574e2244b00f5667",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/carbon-credits",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "239a769d6e64aa6794939f0b2c1a9f1d9e4c5a27c247031a574e2244b00f5667",
+      "body_chars": 1247,
+      "body_preview": "# Tokenized Carbon Credits: How Blockchain Is Revolutionizing Carbon Markets\n\n**Source:** [TBD](TBD)\n**NotebookLM:** `b06356c7-d958-4abc-b069-ddf2a8270448` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis article examines how **blockchain technology** is transforming environmental finance by converting traditional **carbon credits into digital tokens**. By moving these assets onto a secure, dec"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Tokenized-Carbon-Credits-Climate-Assets-Onchain.md",
+      "hash": "1664d3d6b73235a4281e5913db09b5c5b103e53a8d20c12336e36d7b021dcafe",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/carbon-credits",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "1664d3d6b73235a4281e5913db09b5c5b103e53a8d20c12336e36d7b021dcafe",
+      "body_chars": 1248,
+      "body_preview": "# Tokenized Carbon Credits: Bringing Climate Assets Onchain\n\n**Source:** [TBD](TBD)\n**NotebookLM:** `3a502061-c2cf-45b3-be36-a5694a41b2af` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis source provides a comprehensive overview of how **tokenised carbon credits** serve as a technological bridge between traditional environmental offsets and the digital economy. The text outlines a structural tr"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Top-FAQs-Tokenized-Carbon-Credits.md",
+      "hash": "0c5e941a39c234ba6a07ec3e8c2261225d6e1dfc1c82a6dc3f562d2250080c77",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/carbon-credits"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "0c5e941a39c234ba6a07ec3e8c2261225d6e1dfc1c82a6dc3f562d2250080c77",
+      "body_chars": 1401,
+      "body_preview": "# Top FAQs on Tokenized Carbon Credits\n\n**Source:** [TBD](TBD)\n**NotebookLM:** `7bc439d0-0e7e-47f6-b23a-f6d341255220` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis resource provides a comprehensive guide to **tokenised carbon credits**, explaining how blockchain technology can transform environmental offsets into **programmable digital assets** to enhance market liquidity and transparency. T"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\Transak-What-Are-RWA-Stablecoins.md",
+      "hash": "5c3784974c878c05227e00775a404fd02e4afe2d4ffb1683e0073906fbd014e7",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "5c3784974c878c05227e00775a404fd02e4afe2d4ffb1683e0073906fbd014e7",
+      "body_chars": 1277,
+      "body_preview": "# What Are RWA Stablecoins? A New Class of Stablecoins (Transak)\n\n**Source:** [https://transak.com/](https://transak.com/)\n**NotebookLM:** `65d5982c-d983-49e5-b98d-5fd8f4c54109` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis article explores the evolution of digital currency into **RWA stablecoins**, a sophisticated asset class backed by **tangible off-chain holdings** such as gold and govern"
+    },
+    {
+      "path": "10_Sources\\Industry-Press\\WEPIN-RWA-Stablecoins-Rise-of-WaaS.md",
+      "hash": "76d49b0fec5a14935ae432d15cee35caab5354d9712b311a03ce29dfa8138d1f",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "76d49b0fec5a14935ae432d15cee35caab5354d9712b311a03ce29dfa8138d1f",
+      "body_chars": 1372,
+      "body_preview": "# Transforming Traditional Finance: RWA, Stablecoins, and the Rise of WaaS (WEPIN)\n\n**Source:** [https://wepin.io/](https://wepin.io/)\n**NotebookLM:** `5ab71bca-7f5c-49ef-87a2-6722e400edad` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe source explores how the financial industry is evolving through the **tokenisation of Real World Assets (RWA)**, which converts physical holdings into digital b"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\BIS-Tokenisation-Continuum.md",
+      "hash": "a1b9a941181911b50129fd31ef5dad1deeebe663c8c9ca55ccec6106bc79e6fb",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation",
+        "topic/finance/market-infrastructure"
+      ],
+      "existing_subjects": [
+        "subject/bis"
+      ],
+      "existing_hash": "a1b9a941181911b50129fd31ef5dad1deeebe663c8c9ca55ccec6106bc79e6fb",
+      "body_chars": 1436,
+      "body_preview": "# The Tokenisation Continuum (BIS)\n\n**Source:** [https://www.bis.org/](https://www.bis.org/)\n**NotebookLM:** `80293ddc-59d5-47d2-912e-28ea6012a2a3` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis BIS Bulletin provides a comprehensive primer on the **tokenisation of traditional assets**, exploring how converting claims into digital tokens on a **common programmable platform** can modernise the "
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\BIS-WP1270-Stablecoins-Safe-Asset-Prices.md",
+      "hash": "398bfce89b7ffb3633cba73b200add84086835b7aa73e08b51425a778c95ec95",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "existing_subjects": [
+        "subject/bis"
+      ],
+      "existing_hash": "398bfce89b7ffb3633cba73b200add84086835b7aa73e08b51425a778c95ec95",
+      "body_chars": 2404,
+      "body_preview": "# Stablecoins and safe asset prices\n\n## Citation\n\nAhmed, Rashad, and Iñaki Aldasoro. \"Stablecoins and safe asset prices\". BIS Working Papers No 1270, 28 May 2025. https://www.bis.org/publ/work1270.htm.\n\n## One-line summary\n\nDollar-backed stablecoin inflows reduce short-term US Treasury bill yields by 2.5 to 3.5 basis points per two-standard-deviation shock, with larger effects during bill scarcity.\n\n## Key claims\n\n- As of March 2025, dollar-backed stablecoins held over $200 billion in assets, ex"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\BIS-WP1280-CBDC-Banks-Disintermediation.md",
+      "hash": "31049e0abe75a531bdc92d9618b56a6752554f915ead651041dac3129a6496c8",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/cbdc",
+        "topic/finance/tokenised-deposits"
+      ],
+      "existing_subjects": [
+        "subject/bis"
+      ],
+      "existing_hash": "31049e0abe75a531bdc92d9618b56a6752554f915ead651041dac3129a6496c8",
+      "body_chars": 2466,
+      "body_preview": "# CBDC and banks: disintermediating fast and slow\n\n## Citation\n\nBidder, Rhys, Timothy Jackson, and Matthias Rottner. \"CBDC and banks: disintermediating fast and slow\". BIS Working Papers No 1280, 8 July 2025. https://www.bis.org/publ/work1280.htm.\n\n## One-line summary\n\nA retail CBDC with no holding limits would reduce financial stability because it provides a convenient, scalable exit from bank deposits during crises, a risk holding limits can mitigate.\n\n## Key claims\n\n- German household survey "
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\BIS-WP1301-Competing-Digital-Monies.md",
+      "hash": "7f52fb8e5d7d7855475e856c997be3ac1ce5a2267d0817187b68688297927999",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/cbdc",
+        "topic/finance/stablecoins"
+      ],
+      "existing_subjects": [
+        "subject/bis"
+      ],
+      "existing_hash": "7f52fb8e5d7d7855475e856c997be3ac1ce5a2267d0817187b68688297927999",
+      "body_chars": 2685,
+      "body_preview": "# Competing digital monies\n\n## Citation\n\nFrost, Jon, Jean-Charles Rochet, Hyun Song Shin, and Marianne Verdier. \"Competing digital monies\". BIS Working Papers No 1301, 11 November 2025. https://www.bis.org/publ/work1301.htm.\n\n## One-line summary\n\nTwo-sided market theory shows that fast payment systems and CBDCs both achieve interoperability among competing digital monies, improving financial inclusion more than unregulated market competition.\n\n## Key claims\n\n- Payment systems operating as isolat"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\BIS-WP1311-Tokenisation-Real-Estate.md",
+      "hash": "fd2613df222461190328d8335e13fc822d9f827ee2b48494c4c903c977652764",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/real-estate",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [
+        "subject/bis"
+      ],
+      "existing_hash": "fd2613df222461190328d8335e13fc822d9f827ee2b48494c4c903c977652764",
+      "body_chars": 2898,
+      "body_preview": "# When bricks meet bytes: does tokenisation fill gaps in traditional real estate markets?\n\n## Citation\n\nCornelli, Giulio. \"When bricks meet bytes: does tokenisation fill gaps in traditional real estate markets?\". BIS Working Papers No 1311, 28 November 2025. https://www.bis.org/publ/work1311.htm.\n\n## One-line summary\n\nEmpirical analysis of US tokenised real estate platforms (2019-2025) finds tokenisation targets underserved low-price, low-liquidity markets and delivers a 35% liquidity increase a"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\BIS-WP1335-Tokenomics-Blockchain-Fragmentation.md",
+      "hash": "d4992db72d6660bf76a3326416564fbe4b0ab4bb717e7555cfbaaf951addcc67",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/blockchain-settlement",
+        "topic/finance/stablecoins"
+      ],
+      "existing_subjects": [
+        "subject/bis"
+      ],
+      "existing_hash": "d4992db72d6660bf76a3326416564fbe4b0ab4bb717e7555cfbaaf951addcc67",
+      "body_chars": 2699,
+      "body_preview": "# Tokenomics and blockchain fragmentation\n\n## Citation\n\nShin, Hyun Song. \"Tokenomics and blockchain fragmentation\". BIS Working Papers No 1335, 10 March 2026. https://www.bis.org/publ/work1335.htm.\n\n## One-line summary\n\nA global-games model of blockchain validator incentives shows that decentralised consensus irreducibly fragments the monetary landscape, undermining the network effects that money requires.\n\n## Key claims\n\n- Decentralised consensus carries an irreducible cost: the more secure the"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\BIS-WP1340-Stablecoin-Flows-FX-Markets.md",
+      "hash": "3498ac370cce89e7a24bcb002d3d599931956dc504e42f335a085a90461e87c6",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/stablecoins"
+      ],
+      "existing_subjects": [
+        "subject/bis"
+      ],
+      "existing_hash": "3498ac370cce89e7a24bcb002d3d599931956dc504e42f335a085a90461e87c6",
+      "body_chars": 595,
+      "body_preview": "# Stablecoin Flows and Spillovers to FX Markets\n\n**Source:** [BIS Working Papers No. 1340](https://www.bis.org/publ/work1340.htm)\n**NotebookLM:** `` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Citation\n\nAldasoro, Iñaki, Paula Beltrán, and Federico Grinberg. \"Stablecoin flows and spillovers to FX markets.\" *BIS Working Papers*, No. 1340, Bank for International Settlements, March 2026.\n\n## Annotation\n\nStub —"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\BIS-WP1355-Making-Stablecoins-Stable-Regulation.md",
+      "hash": "258d1d173f0ba3fcb8e5add89ac4538a96eff749bfa5f113e89190258e341696",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/stablecoins"
+      ],
+      "existing_subjects": [
+        "subject/bis"
+      ],
+      "existing_hash": "258d1d173f0ba3fcb8e5add89ac4538a96eff749bfa5f113e89190258e341696",
+      "body_chars": 1751,
+      "body_preview": "# Making Stablecoins Stable(r): Can Regulation Help?\n\n**Source:** [BIS Working Papers No. 1355](https://www.bis.org/publ/work1355.htm)\n**NotebookLM:** `` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Citation\n\nGoel, Tirupam, Ulf Lewrick, and Isha Agarwal. \"Making stablecoins stable(r): can regulation help?\" *BIS Working Papers*, No. 1355, Bank for International Settlements, June 2026.\n\n## Summary\n\nThe paper "
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\BIS-WP1359-Anatomy-Stablecoin-Transactions.md",
+      "hash": "7c1980e06fed104fff214a13e3f4ec24e9242b17a7c91ce8f32988600619328b",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "existing_subjects": [
+        "subject/bis",
+        "subject/ethereum"
+      ],
+      "existing_hash": "7c1980e06fed104fff214a13e3f4ec24e9242b17a7c91ce8f32988600619328b",
+      "body_chars": 3682,
+      "body_preview": "# The anatomy of stablecoin transactions\n\n## Citation\nKosse, Anneke, Tara Rice, Fabian Schär, Takeshi Shirakami, and Jirapat Siridhasanakul. \"The anatomy of stablecoin transactions\". BIS Working Papers, No 1359, 11 June 2026. https://www.bis.org/publ/work1359.htm.\n\n## One-line summary\nAnalysing 593 million Ethereum event logs, this paper shows that nearly 60% of stablecoin transfers are embedded in complex multi-operation transaction bundles rather than simple payments, with material implication"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\bis-wp1363-macroeconomics-of-stablecoins.md",
+      "hash": "9bfa646e7c50fc34061a403d4004b026502cdb33e643494b9529b583ffd69d41",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3058,
+      "body_preview": "# The Macroeconomics of Stablecoins\n\n## Citation\n\nHofmann, Boris, Matthias Kaldorf, and Matthias Rottner. \"The Macroeconomics of Stablecoins\". BIS Working Papers, No 1363, 23 June 2026. https://www.bis.org/publ/work1363.htm.\n\n## One-line summary\n\nA general equilibrium model calibrated to US data shows that stablecoin adoption modestly reduces long-run output because the bank lending channel outweighs the fiscal space channel.\n\n## Key claims\n\n- Stablecoins affect the economy through two opposing "
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\FSB-Annual-Report-2025.md",
+      "hash": "3e768522efe98814d338a816ef293995e4e1ca26311dc3e0df6123d5c3e01360",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2340,
+      "body_preview": "# Promoting Global Financial Stability: 2025 FSB Annual Report\n\n## Citation\n\nFinancial Stability Board. \"Promoting Global Financial Stability: 2025 FSB Annual Report\". Financial Stability Board, 24 March 2026. https://www.fsb.org/2026/03/promoting-global-financial-stability-2025-fsb-annual-report/.\n\n## One-line summary\n\nThe FSB's 2025 annual review reports on the full year's work including the crypto-asset peer review, urges consistent implementation of the 2023 crypto and stablecoin framework, "
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\FSB-Moloney-IIF-Digital-Assets-Roundtable-2025.md",
+      "hash": "8bed6d8889c288ca5f653083aa07cc3ae47b3047987e2d04054aae45bf6b62bf",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2526,
+      "body_preview": "# Remarks by Martin Moloney at the IIF Digital Assets Roundtable\n\n## Citation\n\nMoloney, Martin. \"Remarks by Martin Moloney at the IIF Digital Assets Roundtable\". Financial Stability Board / International Institute of Finance, 25 April 2025. https://www.fsb.org/2025/04/remarks-by-martin-moloney-at-the-iif-digital-assets-roundtable/.\n\n## One-line summary\n\nFSB Deputy Secretary General Martin Moloney frames tokenisation as a coordination problem rather than a financial stability threat, while charac"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\FSB-Peer-Review-Crypto-Framework-ToR-2025.md",
+      "hash": "61d48b6d5f81354ce8e3e7ce6f349cc7d0b617efb6dd63792237cdab8947cf23",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2202,
+      "body_preview": "# Thematic Peer Review on FSB Global Regulatory Framework for Crypto-asset Activities: Summary Terms of Reference\n\n## Citation\n\nFinancial Stability Board. \"Thematic Peer Review on FSB Global Regulatory Framework for Crypto-asset Activities: Summary Terms of Reference\". Financial Stability Board, 21 February 2025. https://www.fsb.org/2025/02/thematic-peer-review-on-fsb-global-regulatory-framework-for-crypto-asset-activities/.\n\n## One-line summary\n\nThe FSB sets out the scope, methodology, and four"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\FSB-Sound-Practices-AI-Adoption-Consultation-2026.md",
+      "hash": "0751761ceee42c3e707921d7719733daa30a7e17e0f7af7596364512af3a1c11",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3171,
+      "body_preview": "# Sound Practices for Responsible Adoption of Artificial Intelligence (AI): Consultation Report\n\n## Citation\n\nFinancial Stability Board. \"Sound Practices for Responsible Adoption of Artificial Intelligence (AI): Consultation Report\". Financial Stability Board, 10 June 2026. https://www.fsb.org/2026/06/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-consultation-report/.\n\n## One-line summary\n\nThe FSB proposes 12 sound practices for responsible AI adoption across financial i"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\FSB-Thematic-Review-Crypto-Framework-2025.md",
+      "hash": "b50c5efb5e474651e3b2f792b03daa0fab5c5a85012a59bfc48e8e1a7ec1b083",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2734,
+      "body_preview": "# Thematic Review on FSB Global Regulatory Framework for Crypto-asset Activities\n\n## Citation\n\nFinancial Stability Board. \"Thematic Review on FSB Global Regulatory Framework for Crypto-asset Activities\". Financial Stability Board, 16 October 2025. https://www.fsb.org/2025/10/thematic-review-on-fsb-global-regulatory-framework-for-crypto-asset-activities/.\n\n## One-line summary\n\nThe FSB peer review finds significant gaps and inconsistencies in how member jurisdictions have implemented its 2023 glob"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-Adrian-Tokenized-Finance-Money-Speech-2026-05.md",
+      "hash": "4321c47e6f476bc25d2eb19238e236afbe5636a9b19a7562e389f2fd4ee31871",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4022,
+      "body_preview": "# Tokenized Finance and Money\n\n## Citation\n\nAdrian, Tobias. \"Tokenized Finance and Money.\" Remarks at the Third Conference on Stablecoins and Tokenization, Federal Reserve Banks of Boston and New York, 2026-05-11. https://www.imf.org/en/news/articles/2026/05/11/sp051126-tokenized-finance-and-money.\n\n## One-line summary\n\nIn this keynote speech, IMF Financial Counsellor Tobias Adrian presents a five-pillar policy roadmap for tokenised finance, arguing that safe settlement assets, consistent cross-"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-DP-2025-09-Understanding-Stablecoins.md",
+      "hash": "cc64064ee421747e0d88044830576cc91a7ac1edac3badd14c63e9ae87e22c21",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4351,
+      "body_preview": "# Understanding Stablecoins\n\n## Citation\n\nAdrian, Tobias, Parma Bains, Marianne Bechara, Eugenio Cerutti, Stephanie Forte, Federico Grinberg, Alessandro Gullo, Martina Hengge, Agnija Jekabsone, Kathleen Kao, Tommaso Mancini Griffoli, Soledad Martinez Peria, Marcello Miccoli, Marco Reuter, and Nobuyasu Sugimoto. \"Understanding Stablecoins.\" IMF Departmental Paper No. 25/09, International Monetary Fund, Monetary and Capital Markets Department, December 2025. https://www.imf.org/en/publications/dep"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-FTN-2025-003-Private-Law-Token-CBDC.md",
+      "hash": "20a0eb02aedb8aa80c2a57d83e8b121dc03c7c06e356cd22746531598dbad3e6",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4242,
+      "body_preview": "# Private Law Aspects of Token-Based Central Bank Digital Currencies\n\n## Citation\n\nBechara, Marianne, Wouter Bossu, Amira Rasekh, Chia Yi Tan, and Akihiro Yoshinaga. \"Private Law Aspects of Token-Based Central Bank Digital Currencies.\" IMF FinTech Notes, NOTE/2025/003, 14 March 2025. https://www.imf.org/en/publications/fintech-notes/issues/2025/03/14/private-law-aspects-of-token-based-central-bank-digital-currencies-565165.\n\n## One-line summary\n\nThe note provides a cross-jurisdictional private l"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-FTN-2025-006-Selected-Legal-CBDC.md",
+      "hash": "c8f47da184e12807c44d520f7e2e374f76961887ffe754a1e460596ff92608e2",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3439,
+      "body_preview": "# Selected Legal Considerations for Central Bank Digital Currencies\n\n## Citation\n\nBechara, Marianne, Adrian Dumitrescu-Pasecinic, and Tomoyuki Kubota. \"Selected Legal Considerations for Central Bank Digital Currencies.\" IMF FinTech Notes, NOTE/2025/006, November 2025. https://www.imf.org/-/media/files/publications/ftn063/2025/english/ftnea2025006.pdf.\n\n## One-line summary\n\nThe note maps the public-law foundations that a retail CBDC requires, covering the central bank's mandate to issue currency,"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-FTN-2025-011-Central-Bank-Tokenized-Reserves.md",
+      "hash": "0c54be953ea60e3d74de9717bc355f4442bc07f5b45a003aede933991a4fe296",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4107,
+      "body_preview": "# Central Bank Exploration of Tokenized Reserves\n\n## Citation\n\nKunaratskul, Tansaya, Ashley Lannquist, André Reslow, and Nicolas Xuan-Yi Zhang. \"Central Bank Exploration of Tokenized Reserves.\" IMF FinTech Notes, NOTE/2025/011, November 2025. https://www.imf.org/en/publications/fintech-notes/issues/2025/11/18/central-bank-exploration-of-tokenized-reserves-571876.\n\n## One-line summary\n\nThe note defines tokenised reserves as DLT-settled wholesale central bank money, surveys four operating models a"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-Note-2026-004-Agentic-AI-Payments.md",
+      "hash": "7194bff1d47fee9adb2f7ed00446ef131b5e01ce98d7031c54827cc2aec49666",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3943,
+      "body_preview": "# How Agentic AI Will Reshape Payments\n\n## Citation\n\nDavidovic, Sonja, and Hervé Tourpe. \"How Agentic AI Will Reshape Payments.\" IMF Notes 2026/004, International Monetary Fund, Washington, DC, 2026-04-24. https://www.imf.org/en/publications/imf-notes/issues/2026/04/22/how-agentic-ai-will-reshape-payments-575560.\n\n## One-line summary\n\nThe IMF frames agentic AI in payments through a three-layer model separating intent orchestration, authorisation control, and settlement execution, arguing that pr"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-Tokenization-Financial-Market-Inefficiencies-2025.md",
+      "hash": "b1602c40a79a4472fbd3ad0dcb438987980f71d702b7a7c142cae195f2740d93",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation",
+        "topic/finance/market-infrastructure"
+      ],
+      "existing_subjects": [
+        "subject/imf"
+      ],
+      "existing_hash": "b1602c40a79a4472fbd3ad0dcb438987980f71d702b7a7c142cae195f2740d93",
+      "body_chars": 548,
+      "body_preview": "# Tokenization and Financial Market Inefficiencies (IMF FinTech Notes 2025-001)\n\n**Source:** [https://www.elibrary.imf.org/](https://www.elibrary.imf.org/)\n**NotebookLM:** `6ffc39f6-b708-4632-a446-77353e63c7ad` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM captured a 403 error page from the IMF eLibrary rather than the IMF FinTech Note itself. The PDF must be re-ingested as a file sou"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-Tokenized-Finance-2026-04.md",
+      "hash": "834f96cd1a80bab9e071092cb69aa6dab20bfd72654849012a560fec1197333a",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation",
+        "topic/finance"
+      ],
+      "existing_subjects": [
+        "subject/imf"
+      ],
+      "existing_hash": "834f96cd1a80bab9e071092cb69aa6dab20bfd72654849012a560fec1197333a",
+      "body_chars": 1345,
+      "body_preview": "# Tokenized Finance (IMF Notes No. 26-01, April 2026)\n\n**Source:** [https://www.imf.org/](https://www.imf.org/)\n**NotebookLM:** `278bc97d-bc9a-4dfc-a3fb-04df05c0715d` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis IMF Note explores how **tokenisation**, or the use of programmable ledgers to represent financial claims, is driving a **structural shift in global financial architecture**. The tex"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-What-Is-Tokenization.md",
+      "hash": "f2b41b5d66151cf7bace8b31d6713f65b82d6cf742e8aef8e77a48a1d2abf7e0",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [
+        "subject/imf"
+      ],
+      "existing_hash": "f2b41b5d66151cf7bace8b31d6713f65b82d6cf742e8aef8e77a48a1d2abf7e0",
+      "body_chars": 1229,
+      "body_preview": "# What Is Tokenization? (IMF)\n\n**Source:** [https://www.imf.org/](https://www.imf.org/)\n**NotebookLM:** `993dcf87-f111-44f8-bf91-a65a7b7b7d74` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis article explores how **tokenisation** aims to modernise the financial system by creating **programmable digital representations** of assets on shared ledgers. By integrating **code and automated execution*"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-WP-2026-052-Stablecoins-Future-Payments.md",
+      "hash": "8882d83e7a3699e12c82219329bd3cfe01a9e5e6c0596fbf38e29ee48c9cc502",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3975,
+      "body_preview": "# Stablecoins and the Future of Payments: Evidence from Financial Markets\n\n## Citation\n\nCopestake, Alexander, Cage Englander, Maria Soledad Martinez Peria, and Germán Villegas-Bauer. \"Stablecoins and the Future of Payments: Evidence from Financial Markets.\" IMF Working Paper WP/26/52, International Monetary Fund, Research Department, 2026-03-20. https://www.imf.org/en/publications/wp/issues/2026/03/20/stablecoins-and-the-future-of-payments-evidence-from-financial-markets-574831.\n\n## One-line sum"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\IMF-WP-2026-074-Making-Stablecoins-Stable.md",
+      "hash": "8dc499a090a5bb1e129334f570d84539129c6130f95f4e4ba8593898d15ce5a9",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3732,
+      "body_preview": "# Making Stablecoins Stable\n\n## Citation\n\nLi, Bo, Tommaso Mancini Griffoli, Marcello Miccoli, Brandon Tan, and Longmei Zhang. \"Making Stablecoins Stable.\" IMF Working Paper WP/26/74, International Monetary Fund, Monetary and Capital Markets Department, 2026-04-10. https://www.imf.org/en/publications/wp/issues/2026/04/10/making-stablecoins-stable-575348.\n\n## One-line summary\n\nUsing a Diamond-Dybvig bank-run model, this IMF working paper shows that unregulated stablecoin issuers hold risky assets "
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\iosco-cr-ai-capital-markets-2025.md",
+      "hash": "817d0ef6c316b8884450981dc74f5091ebed1c60332db3d98afffd98879c692e",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2934,
+      "body_preview": "# Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges\n\n## Citation\n\nIOSCO. \"Artificial Intelligence in Capital Markets: Use Cases, Risks, and Challenges\". IOSCO Consultation Report IOSCOPD788, 21 March 2025. https://www.iosco.org/library/pubdocs/pdf/IOSCOPD788.pdf.\n\n## One-line summary\n\nIOSCO's Fintech Task Force surveys how financial institutions deploy AI across capital markets, identifies five primary risk categories, and consults on whether existing securities regula"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\iosco-fr-02-2026-ai-supervisory-toolkit-capital-markets.md",
+      "hash": "66a4bc5e60a25f923ce79d13c4ae6f6c22e431c641592eb05c6a33ecfe2ec927",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3505,
+      "body_preview": "# Supervisory Toolkit for AI Use in Capital Markets\n\n## Citation\n\nIOSCO Fintech Task Force. \"Supervisory Toolkit for AI Use in Capital Markets\". IOSCO Final Report FR/02/2026 (IOSCOPD823), 25 May 2026. https://www.iosco.org/library/pubdocs/pdf/IOSCOPD823.pdf.\n\n## One-line summary\n\nIOSCO provides securities regulators with a practical, non-prescriptive toolkit for supervising AI systems across their full lifecycle, covering traditional machine learning through to generative AI and agentic AI tech"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\iosco-fr-13-25-cda-thematic-review.md",
+      "hash": "e252703305f826a684aec12a8f6314968e3617ba0bf5b3befbd2d18ef5010b89",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3364,
+      "body_preview": "# Thematic Review Assessing the Implementation of IOSCO Recommendations for Crypto and Digital Asset Markets\n\n## Citation\n\nIOSCO. \"Thematic Review Assessing the Implementation of IOSCO Recommendations for Crypto and Digital Asset Markets\". IOSCO Board Final Report FR/13/25, 16 October 2025. https://www.iosco.org/library/pubdocs/pdf/IOSCOPD801.pdf.\n\n## One-line summary\n\nIOSCO reviews how 20 jurisdictions have implemented its 2023 crypto and digital asset recommendations, finds significant progres"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\iosco-fr-17-25-tokenization-financial-assets.md",
+      "hash": "97c9ac9bba29372b29b4a9ba840af216b1c08366b7a6584d509141e2f11a9c28",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3284,
+      "body_preview": "# Tokenization of Financial Assets\n\n## Citation\n\nIOSCO. \"Tokenization of Financial Assets\". IOSCO Board Final Report FR/17/25, 11 November 2025. https://www.iosco.org/library/pubdocs/pdf/IOSCOPD809.pdf.\n\n## One-line summary\n\nIOSCO surveys how tokenisation of bonds and money market funds is developing across capital markets, identifies four risk categories specific to DLT-based issuance, and encourages regulators to apply existing crypto and DeFi frameworks under a same-activity, same-risk princi"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\iosco-fsb-joint-note-cda-implementation-oct-2025.md",
+      "hash": "7e99e02767764f6111aad5d7de7f192655dc458d5fd8bd974fae0289c67ee67a",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3032,
+      "body_preview": "# Progress towards Implementing Comprehensive Policy Frameworks for Crypto-Asset and Stablecoin Activities: FSB and IOSCO Joint Information Note\n\n## Citation\n\nIOSCO; FSB. \"Progress towards Implementing Comprehensive Policy Frameworks for Crypto-Asset and Stablecoin Activities: FSB and IOSCO Joint Information Note\". IOSCO-FSB Joint Publication, 16 October 2025. https://www.iosco.org/library/pubdocs/pdf/IOSCOPD801-joint-note.pdf.\n\n## One-line summary\n\nThe FSB and IOSCO jointly summarise progress a"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\UNIDROIT-DAPL-Implementation-Strategy-2025.md",
+      "hash": "3b6b77552bb48b95c368cc221a0e273710f032417ab506fab6bfa492b3f05cf1",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3940,
+      "body_preview": "# UNIDROIT Principles on Digital Assets and Private Law: Implementation Strategy Update 2025\n\n## Citation\n\nUNIDROIT Secretariat. \"Implementation Status and Promotion Strategy for UNIDROIT Instruments: UNIDROIT Principles on Digital Assets and Private Law\". UNIDROIT Governing Council, 105th Session (C.D. (105) 21), Rome, 20-23 May 2025. https://www.unidroit.org/wp-content/uploads/2025/04/C.D.-105-21-Implementation-Strategy-Principles-on-Digital-Assets-and-Private-Law.pdf.\n\n## One-line summary\n\nUN"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\UNIDROIT-DAPL-Implementation-Update-107th-Session.md",
+      "hash": "42ee445f3c0e69283903ff6f5b6b6f470b5f8996333744760a8ad2a254d0920e",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3094,
+      "body_preview": "# UNIDROIT Principles on Digital Assets and Private Law: Implementation and Promotion Update, 107th Governing Council Session\n\n## Citation\n\nUNIDROIT Secretariat. \"UNIDROIT Principles on Digital Assets and Private Law: Implementation and Promotion Update\". UNIDROIT 107th Governing Council Session, C.D. (107) 17, 27-29 May 2026. https://www.unidroit.org/wp-content/uploads/2026/04/C.D.-107-17-DAPL-Principles.pdf.\n\n## One-line summary\n\nThis Secretariat report to the 107th Governing Council documents"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\UNIDROIT-Tokenisation-Annexe-Memo-WG8-Doc6.md",
+      "hash": "192178a942c37c20d58e654f239ca21bc985fa72807e368db090667391898fba",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3729,
+      "body_preview": "# Memorandum on the Scope and Direction of the Tokenisation Annexe to the UNIDROIT Principles on the Legal Nature of Verified Carbon Credits\n\n## Citation\n\nTosato, Andrea. \"Memorandum on the Scope and Direction of the Tokenisation Annexe\". UNIDROIT Working Group on the Legal Nature of Verified Carbon Credits, Eighth Session, Study LXXXVI – W.G.8 – Doc. 6, Rome, 15-17 April 2026. https://www.unidroit.org/wp-content/uploads/2026/06/Study-LXXXVI-W.G.8-Doc.-6-Tokenisation-Annexe-Memo.pdf.\n\n## One-lin"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\UNIDROIT-VCC-Principles-Progress-GC105.md",
+      "hash": "e8808514651c619780db43f90b1197a82b771295b00a59cf9bb4ed8bb021868a",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 4202,
+      "body_preview": "# UNIDROIT Project on the Legal Nature of Verified Carbon Credits: Progress Update, 105th Governing Council Session\n\n## Citation\n\nUNIDROIT Secretariat. \"Legal Nature of Verified Carbon Credits: Project Update\". UNIDROIT Governing Council, 105th Session (C.D. (105) 10), Rome, 20-23 May 2025. https://www.unidroit.org/wp-content/uploads/2025/04/C.D.-105-10-Legal-Nature-of-Verified-Carbon-Credits.pdf.\n\n## One-line summary\n\nUNIDROIT's Working Group on Verified Carbon Credits has developed 24 draft Pr"
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\UNIDROIT-VCC-WG7-Secretariat-Report-Dec2025.md",
+      "hash": "2319264a627b8c4969d83301c49d0044f1012b718131ce56d0b41588a52c0207",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3747,
+      "body_preview": "# UNIDROIT Working Group on the Legal Nature of Verified Carbon Credits: Secretariat's Report, Seventh Session\n\n## Citation\n\nUNIDROIT Secretariat. \"Secretariat's Report\". UNIDROIT Working Group on the Legal Nature of Verified Carbon Credits, Seventh Session (Study LXXXVI, W.G.7, Doc. 2 rev.), Rome, 17-19 December 2025. https://www.unidroit.org/wp-content/uploads/2025/12/Study-LXXXVI-W.G.7-Doc.-2-rev.-Secretariats-Report.pdf.\n\n## One-line summary\n\nThe Secretariat's report for the seventh Working "
+    },
+    {
+      "path": "10_Sources\\International-Agencies\\UNIDROIT-VCC-WG9-Ninth-Session-Summary-Report.md",
+      "hash": "ce4c52b73dd3f3dabec26e2de574db985ae7ac83fd93c175c0aa9bd5795d0959",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3644,
+      "body_preview": "# Summary Report of the Ninth Session of the UNIDROIT Working Group on the Legal Nature of Verified Carbon Credits\n\n## Citation\n\nUNIDROIT Secretariat. \"Summary Report of the Ninth Session of the UNIDROIT Working Group on the Legal Nature of Verified Carbon Credits\". Study LXXXVI – W.G.9 – Doc. 5, Zoom, 16 June 2026. https://www.unidroit.org/wp-content/uploads/2026/06/Study-LXXXVI-W.G.9-Doc.-5-Summary-Report.pdf.\n\n## One-line summary\n\nThe ninth session adopted the \"snapshot approach\" to VCC creat"
+    },
+    {
+      "path": "10_Sources\\Law-Regulation\\ABA-2022-UCC-Revisions-Digital-Assets.md",
+      "hash": "021b942c74d8fbaf5552e5e0a0a4af33b3d9491a23ed72fb4872991efb155381",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/law/digital-assets",
+        "topic/law/securities"
+      ],
+      "existing_subjects": [
+        "subject/ucc-article-12"
+      ],
+      "existing_hash": "021b942c74d8fbaf5552e5e0a0a4af33b3d9491a23ed72fb4872991efb155381",
+      "body_chars": 532,
+      "body_preview": "# 2022 UCC Revisions Unlock Digital Assets Potential (ABA)\n\n**Source:** [https://www.americanbar.org/](https://www.americanbar.org/)\n**NotebookLM:** `93d0f6d4-2541-4d51-bdb4-1896c097a3a0` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM captured the ABA Cloudflare security checkpoint rather than the article. Re-ingest by saving the article HTML or PDF and adding to NotebookLM as a file.)"
+    },
+    {
+      "path": "10_Sources\\Law-Regulation\\Maheshwari-Real-Estate-Tokenization-Legal-Guide-2026.md",
+      "hash": "3c38525792043f6118fce3fb95a3d960b65221013759b97ffd2d8d4a4be4c644",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/real-estate",
+        "topic/law/property-rights"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "3c38525792043f6118fce3fb95a3d960b65221013759b97ffd2d8d4a4be4c644",
+      "body_chars": 1379,
+      "body_preview": "# Real Estate Tokenization: 2026 Legal Guide (Maheshwari and Co.)\n\n**Source:** [TBD](TBD)\n**NotebookLM:** `587e4d82-d115-4277-a26c-1fb2d255e3aa` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis article serves as a comprehensive legal guide for the 2026 landscape of **real estate tokenisation**, detailing how property rights are converted into **digital assets**. It explains that property is not"
+    },
+    {
+      "path": "10_Sources\\Law-Regulation\\Morgan-Lewis-Tokenization-of-Securities.md",
+      "hash": "4cb019528cdf92e8bb8e9617d0e08444befd2ba157498262c9ca1bfd7d94d3e6",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/law/securities",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "4cb019528cdf92e8bb8e9617d0e08444befd2ba157498262c9ca1bfd7d94d3e6",
+      "body_chars": 1305,
+      "body_preview": "# Tokenization of Securities (Morgan Lewis)\n\n**Source:** [https://www.morganlewis.com/](https://www.morganlewis.com/)\n**NotebookLM:** `b51c200c-b868-473f-9338-1a24c17fcff7` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis presentation by Morgan Lewis explores the **tokenisation of securities**, a transformative process that converts traditional financial instruments into **digital representatio"
+    },
+    {
+      "path": "10_Sources\\Law-Regulation\\UK-Property-Digital-Assets-Act-Royal-Assent-Law-Commission.md",
+      "hash": "af7f54069f2e4d00fd003a82ae0cc1ba9cef0adc3c4feb70f405a31c99949980",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/law/property-rights",
+        "topic/law/digital-assets"
+      ],
+      "existing_subjects": [
+        "subject/property-digital-assets-act",
+        "subject/uk"
+      ],
+      "existing_hash": "af7f54069f2e4d00fd003a82ae0cc1ba9cef0adc3c4feb70f405a31c99949980",
+      "body_chars": 1436,
+      "body_preview": "# The Property (Digital Assets etc) Act 2025 - Royal Assent (Law Commission)\n\n**Source:** [https://lawcom.gov.uk/news/the-property-digital-assets-etc-act-2025-has-received-royal-assent/](https://lawcom.gov.uk/news/the-property-digital-assets-etc-act-2025-has-received-royal-assent/)\n**NotebookLM:** `cdd1af03-7101-49c4-b975-2a674197d728` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe Property (D"
+    },
+    {
+      "path": "10_Sources\\Law-Regulation\\UK-Property-Digital-Assets-Bill-Factsheet-GOV-UK.md",
+      "hash": "15ef5884a97a92aafad4d76cae74cc61b045711ec737e48ac0b317c39aa0c66b",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/law/property-rights",
+        "topic/law/digital-assets"
+      ],
+      "existing_subjects": [
+        "subject/property-digital-assets-act",
+        "subject/uk"
+      ],
+      "existing_hash": "15ef5884a97a92aafad4d76cae74cc61b045711ec737e48ac0b317c39aa0c66b",
+      "body_chars": 1328,
+      "body_preview": "# Property (Digital Assets Etc.) Bill - Factsheet (GOV.UK)\n\n**Source:** [https://www.gov.uk/](https://www.gov.uk/)\n**NotebookLM:** `3d5a5d9b-c387-43af-8287-2ede2f9d541c` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe Property (Digital Assets Etc.) Bill is a legislative initiative designed to modernise the legal landscape by formally recognising **digital assets**, such as crypto-tokens, as a d"
+    },
+    {
+      "path": "10_Sources\\Law-Regulation\\UK-Third-Category-Property-Digital-Assets-Bill-Becomes-Law.md",
+      "hash": "7c283353e06a3f0b839dcc49a446fff476aa3896bd57dd03a823efed85927b46",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/law/property-rights",
+        "topic/law/digital-assets"
+      ],
+      "existing_subjects": [
+        "subject/property-digital-assets-act",
+        "subject/uk"
+      ],
+      "existing_hash": "7c283353e06a3f0b839dcc49a446fff476aa3896bd57dd03a823efed85927b46",
+      "body_chars": 1247,
+      "body_preview": "# The Third Category of Property - Digital Assets Bill Becomes Law in England and Wales\n\n**Source:** [TBD](TBD)\n**NotebookLM:** `a6705520-ee99-4e6a-bbc1-4441e7dce791` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe Property (Digital Assets etc) Act 2025 marks a historic shift in British law by establishing a **third category of personal property** specifically for digital holdings like crypto-t"
+    },
+    {
+      "path": "10_Sources\\Law-Regulation\\UKJT-Control-Digital-Assets-Mayer-Brown.md",
+      "hash": "ab5e37911be7646975d2d09b9467bdb2230a7c4dea99ebc4918b0f1507311211",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/law/digital-assets",
+        "topic/law/property-rights"
+      ],
+      "existing_subjects": [
+        "subject/ukjt",
+        "subject/uk"
+      ],
+      "existing_hash": "ab5e37911be7646975d2d09b9467bdb2230a7c4dea99ebc4918b0f1507311211",
+      "body_chars": 1258,
+      "body_preview": "# UK Jurisdiction Taskforce - Report on Control of Digital Assets (Mayer Brown)\n\n**Source:** [https://www.mayerbrown.com/](https://www.mayerbrown.com/)\n**NotebookLM:** `0910c16f-7249-4c33-8a07-98cb5ec4fd29` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe UK Jurisdiction Taskforce has released a pivotal report detailing how the legal concept of **factual control** applies to the management of **"
+    },
+    {
+      "path": "10_Sources\\Law-Regulation\\Wolters-Kluwer-UCC-Article-12-CER.md",
+      "hash": "49680c7a7f53a1f74aae868aa79fc11ee2cc6a512434c129a33e189d55c93ee4",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/law/digital-assets",
+        "topic/law/securities"
+      ],
+      "existing_subjects": [
+        "subject/ucc-article-12"
+      ],
+      "existing_hash": "49680c7a7f53a1f74aae868aa79fc11ee2cc6a512434c129a33e189d55c93ee4",
+      "body_chars": 1386,
+      "body_preview": "# UCC Article 12: Digital Assets and CER Rules (Wolters Kluwer)\n\n**Source:** [https://www.wolterskluwer.com/](https://www.wolterskluwer.com/)\n**NotebookLM:** `ed22f066-5d5a-43ce-ac43-51ff5e951d6a` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe provided source examines the 2022 amendments to the **Uniform Commercial Code**, specifically focusing on the introduction of **Article 12** to govern t"
+    },
+    {
+      "path": "10_Sources\\Private-Sector\\Chainlink-What-Is-RWA-Liquidity.md",
+      "hash": "61b6615020d47ad5d5d554c608dac1b89c7e8247aeb648265d31d688897fdeba",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [
+        "subject/chainlink"
+      ],
+      "existing_hash": "61b6615020d47ad5d5d554c608dac1b89c7e8247aeb648265d31d688897fdeba",
+      "body_chars": 1315,
+      "body_preview": "# What Is RWA Liquidity? (Chainlink)\n\n**Source:** [https://chain.link/](https://chain.link/)\n**NotebookLM:** `0ade0a78-3b69-48be-ab34-ea280a35d0a4` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe provided text serves as a comprehensive educational guide explaining how **asset tokenisation** unlocks **RWA liquidity** by converting physical holdings into digital blockchain tokens. It highlights t"
+    },
+    {
+      "path": "10_Sources\\Private-Sector\\Gold-Standard-registry.md",
+      "hash": "64ce0e7d6885ad6e3f4f5149eeda8dc0c7ab7dcc26f650531401a006678ae065",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/carbon-credits"
+      ],
+      "existing_subjects": [
+        "subject/gold-standard"
+      ],
+      "existing_hash": "64ce0e7d6885ad6e3f4f5149eeda8dc0c7ab7dcc26f650531401a006678ae065",
+      "body_chars": 1306,
+      "body_preview": "# Gold Standard (registry)\n\n**Source:** [https://www.goldstandard.org/](https://www.goldstandard.org/)\n**NotebookLM:** `c679a846-8e0d-4cb0-885e-f8edf8057267` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nGold Standard is an independent non-profit organisation that establishes rigorous benchmarks for **high-integrity climate action** and **sustainable development**. By providing a sophisticated su"
+    },
+    {
+      "path": "10_Sources\\Private-Sector\\Gold-Standard-Tokenisation-Consent-Conditions.md",
+      "hash": "bf2217c40656ba605647b59a47a368cce1534487dc81ffe7384dda5857f2b8b9",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/carbon-credits",
+        "topic/law"
+      ],
+      "existing_subjects": [
+        "subject/gold-standard"
+      ],
+      "existing_hash": "bf2217c40656ba605647b59a47a368cce1534487dc81ffe7384dda5857f2b8b9",
+      "body_chars": 1385,
+      "body_preview": "# Conditions for Consenting to Tokenisation of Gold Standard-issued Credits\n\n**Source:** [https://www.goldstandard.org/](https://www.goldstandard.org/)\n**NotebookLM:** `7ca3869d-6ec4-4718-a357-455d8f8fbbac` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nGold Standard is establishing a **formal framework** to regulate the **tokenisation of carbon credits**, ensuring that digital representations of "
+    },
+    {
+      "path": "10_Sources\\Private-Sector\\RealT-Legally-Compliant-Tokenized-Real-Estate.md",
+      "hash": "ca9f5b2b871f98389be8dc877fa8804cfeb6e8a06dfbda9003ff4b69aa18a09c",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/real-estate",
+        "topic/law/property-rights"
+      ],
+      "existing_subjects": [
+        "subject/realt"
+      ],
+      "existing_hash": "ca9f5b2b871f98389be8dc877fa8804cfeb6e8a06dfbda9003ff4b69aa18a09c",
+      "body_chars": 1333,
+      "body_preview": "# Legally Compliant Ownership of Tokenized Real Estate (RealT)\n\n**Source:** [https://realt.co/](https://realt.co/)\n**NotebookLM:** `b0b33ce3-331a-42da-ae53-cca3134d3cab` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nRealT introduces a sophisticated framework for the **tokenisation of real estate**, utilising a Delaware **series limited liability company** to bridge the gap between physical proper"
+    },
+    {
+      "path": "10_Sources\\Private-Sector\\Turner-Mason-Voluntary-Carbon-Markets-Tokenization.md",
+      "hash": "57030cbaad6eced0cb56a20951df077269a5d50ef36f9c00ea177f3523afaad7",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/carbon-credits",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "57030cbaad6eced0cb56a20951df077269a5d50ef36f9c00ea177f3523afaad7",
+      "body_chars": 1443,
+      "body_preview": "# Voluntary Carbon Markets and Tokenization (Turner, Mason and Company)\n\n**Source:** [https://turnermason.com/](https://turnermason.com/)\n**NotebookLM:** `206a2438-a280-49a8-8e79-53c329e500e3` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis article explores the intersection of **voluntary carbon markets and blockchain technology**, specifically focusing on the process of **tokenisation** to en"
+    },
+    {
+      "path": "10_Sources\\Private-Sector\\Verra-Crypto-Instruments-and-Tokens.md",
+      "hash": "9b75dde4d64994d85658a963d03a628033514acc60d4849b499fb498392ccf6f",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/carbon-credits",
+        "topic/law"
+      ],
+      "existing_subjects": [
+        "subject/verra"
+      ],
+      "existing_hash": "9b75dde4d64994d85658a963d03a628033514acc60d4849b499fb498392ccf6f",
+      "body_chars": 1238,
+      "body_preview": "# Verra Addresses Crypto Instruments and Tokens\n\n**Source:** [https://verra.org/](https://verra.org/)\n**NotebookLM:** `7a038c03-13c2-4180-b402-93b23615d938` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThe leading carbon-standard organisation, Verra, has issued a formal policy update regarding the intersection of **digital assets and environmental credits**. To maintain the **integrity of climat"
+    },
+    {
+      "path": "10_Sources\\Private-Sector\\Verra-Hedera-Digital-Transformation-Carbon-Markets-2025.md",
+      "hash": "3baba8afb0efbde9b2f09359112562f8bd692c7d950239ecb4a150da28a12975",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2911,
+      "body_preview": "# Verra and Hedera to Accelerate Digital Transformation of Carbon Markets\n\n## Citation\n\nVerra. \"Verra and Hedera to Accelerate Digital Transformation of Carbon Markets\". Verra.org, 2025-05-28. https://verra.org/verra-and-hedera-to-accelerate-digital-transformation-of-carbon-markets/.\n\n## One-line summary\n\nVerra and the Hedera Foundation launch a five-year partnership to integrate the open-source Hedera Guardian blockchain platform into Verra's Project Hub, enabling digital monitoring, reporting,"
+    },
+    {
+      "path": "10_Sources\\Private-Sector\\Verra-SP-Global-Next-Generation-Registry-2025.md",
+      "hash": "714fd4f6b60c5ac15901345c96bf65defc166e625a45d5a4596adfb3c652f6e7",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3144,
+      "body_preview": "# Verra and S&P Global Commodity Insights to Advance Carbon Market Integration with Next-Generation Registry\n\n## Citation\n\nVerra. \"Verra and S&P Global Commodity Insights to Advance Carbon Market Integration with Next-Generation Registry\". Verra.org, 2025-08-21. https://verra.org/verra-and-sp-global-commodity-insights-to-advance-carbon-market-integration-with-next-generation-registry/.\n\n## One-line summary\n\nVerra partners with S&P Global Commodity Insights to build a next-generation carbon regis"
+    },
+    {
+      "path": "10_Sources\\SOURCE-REGISTER.md",
+      "hash": "2a4f50a47c7fd71051e6dea41ed923716cad2b1313aae33edc6683dcac9b60ef",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 47524,
+      "body_preview": "# Source Register — Tokenisation of Real-World Assets\n\n> A categorised, annotated bibliography. Each entry states what the source argues, the evidence it brings, and why it is load-bearing for the wiki. NZ English throughout. Entries are working drafts; revise on second read.\n\n---\n\n## 1. International Agencies and Standard-Setters\n\nThe standard-setters define the conceptual vocabulary — *tokenisation*, *unified ledger*, *programmable money*, *asset-referenced token* — and shape the regulatory te"
+    },
+    {
+      "path": "10_Sources\\Think-Tanks\\GARP-Tokenization-Momentum-Deposits.md",
+      "hash": "f11c504c49597bdd8c3f7c149bc9e5328a4d3ef1967a2d20f63b7bb23ea62db9",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/finance/tokenised-deposits",
+        "topic/finance/stablecoins"
+      ],
+      "existing_subjects": [
+        "subject/garp"
+      ],
+      "existing_hash": "f11c504c49597bdd8c3f7c149bc9e5328a4d3ef1967a2d20f63b7bb23ea62db9",
+      "body_chars": 1314,
+      "body_preview": "# Tokenization Momentum Spreads to Deposits (GARP)\n\n**Source:** [https://www.garp.org/](https://www.garp.org/)\n**NotebookLM:** `41c4d755-217f-431c-8e01-863f22467f77` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis report explores the rising **institutional adoption of tokenised deposits**, positioning them as a regulated and more reliable alternative to stablecoins for modernising **interbank "
+    },
+    {
+      "path": "10_Sources\\Think-Tanks\\Oraclizer-Why-Institutional-Tokenization-Stalls.md",
+      "hash": "dce98a1c5b46fb615bb5c9f37c58f6b6f3a655b67ceef23902fc50e9f157b868",
+      "role": "wiki",
+      "state": "unchanged",
+      "existing_topics": [
+        "topic/tokenisation",
+        "topic/finance/market-infrastructure"
+      ],
+      "existing_subjects": [],
+      "existing_hash": "dce98a1c5b46fb615bb5c9f37c58f6b6f3a655b67ceef23902fc50e9f157b868",
+      "body_chars": 489,
+      "body_preview": "# Why Institutional Tokenization Stalls (Oraclizer Research)\n\n**Source:** [TBD](TBD)\n**NotebookLM:** `efe4a168-ba40-4eb3-97fb-382de3424936` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM captured a Cloudflare security checkpoint rather than the Oraclizer research note. Re-ingest by saving the article and adding to NotebookLM as a file source.)\n\n## See also\n\n- [[MOC - Root]]\n"
+    },
+    {
+      "path": "_wiki\\_taxonomy\\_pending.md",
+      "hash": "877cfdbc35b3e4fbecdfebeaa19353e36511fcfbd683308a25f354d17b5bd8be",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 267,
+      "body_preview": "# Pending Topic candidates\n\nNew Topic candidates awaiting your approval land here. Approve one by adding\nit to `topics.md`; the next `/wiki apply` may then assign it.\n\n## Pending\n\n_(none — the initial vocabulary in `topics.md` covered every note in the first pass.)_\n"
+    },
+    {
+      "path": "_wiki\\_taxonomy\\subjects.md",
+      "hash": "5cf768e4b96cc8a0ed70ca7277bd423b498a2abafe585500022d3afed93c0108",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 733,
+      "body_preview": "# Subjects — open folksonomy\n\nAuto-maintained by `/wiki apply`. Subjects name specific institutions,\ninstruments, statutes, or projects that recur across sources. Open list;\nnew values are added on each pass.\n\n## Entries\n\n- `subject/aave`\n- `subject/agent-economy`\n- `subject/autonomous-agents`\n- `subject/bis`\n- `subject/canton`\n- `subject/chainlink`\n- `subject/ethereum`\n- `subject/federal-reserve`\n- `subject/garp`\n- `subject/gold-standard`\n- `subject/hsbc`\n- `subject/imf`\n- `subject/jpmorgan`\n- "
+    },
+    {
+      "path": "_wiki\\_taxonomy\\topics.md",
+      "hash": "32a39f0085bcf86336bcf4533b01cee3b6ccd18c557e773f07aaa4fd8351a4bf",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 735,
+      "body_preview": "# Topics — controlled vocabulary\n\nEstablished 2026-06-07 during the first `/wiki` pass over the tokenise vault.\nDerived from `99_Meta/schema.md` (domain and instrument enums). New Topic\ncandidates go to `_pending.md` for approval before use. Maximum three Topics\nper note.\n\n## Hierarchy\n\n- `topic/tokenisation` — general tokenisation of real-world assets, primers, overviews\n- `topic/finance`\n  - `topic/finance/stablecoins`\n  - `topic/finance/cbdc`\n  - `topic/finance/tokenised-deposits`\n  - `topic/"
+    },
+    {
+      "path": "_wiki\\INDEX.md",
+      "hash": "e09232482d9d28b59bbcac84143362809a536091ca9f607fd071a104810f5156",
+      "role": "index",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 659,
+      "body_preview": "# Wiki Index\n\nLast updated: 2026-06-13T18:16:00Z\n\n## Topic hierarchy\n\n```dataview\nTABLE length(rows.file.link) AS \"Notes\"\nFROM \"\"\nWHERE topic\nFLATTEN topic as t\nGROUP BY t\nSORT t ASC\n```\n\n## MOCs\n\n- [[MOC - Agentic Ai]]\n- [[MOC - Blockchain Settlement]]\n- [[MOC - Carbon Credits]]\n- [[MOC - Cbdc]]\n- [[MOC - Digital Assets]]\n- [[MOC - Finance]]\n- [[MOC - Law]]\n- [[MOC - Market Infrastructure]]\n- [[MOC - Property Rights]]\n- [[MOC - Real Estate]]\n- [[MOC - Root]]\n- [[MOC - Securities]]\n- [[MOC - Sta"
+    },
+    {
+      "path": "_wiki\\MOC - Agentic Ai.md",
+      "hash": "118b3910f2d8fe3b74669c3dd4217d782e15457642cb254a4c7c1fee2b0ea41d",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 616,
+      "body_preview": "# Agentic Ai\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/agentic-ai`\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/agentic-ai\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/agentic-ai\")\nSORT file.mtime DESC\nLIMIT 10\n```\n\n---\n## User additions\n\n_(Write anything below this line — "
+    },
+    {
+      "path": "_wiki\\MOC - Blockchain Settlement.md",
+      "hash": "2695c388f8eadc6a97e8b092a9a463d1ce05dd817f9e53d5070613df015cecce",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 660,
+      "body_preview": "# Blockchain Settlement\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/blockchain-settlement`\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/blockchain-settlement\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/blockchain-settlement\")\nSORT file.mtime DESC\nLIMIT 10\n```\n\n---\n## User ad"
+    },
+    {
+      "path": "_wiki\\MOC - Carbon Credits.md",
+      "hash": "8ff3d09081bb21251fcdda65a9c1493321cc7ae110af9cf4cc605cbb65967386",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 632,
+      "body_preview": "# Carbon Credits\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/carbon-credits`\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/carbon-credits\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/carbon-credits\")\nSORT file.mtime DESC\nLIMIT 10\n```\n\n---\n## User additions\n\n_(Write anything be"
+    },
+    {
+      "path": "_wiki\\MOC - Cbdc.md",
+      "hash": "680a21429d12a254cd2d7401ee28a496b27acf7e09d3f8fc19b787115d529e30",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 646,
+      "body_preview": "# Cbdc\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/finance/cbdc`\n**Parent:** [[MOC - Finance]]\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/finance/cbdc\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/finance/cbdc\")\nSORT file.mtime DESC\nLIMIT 10\n```\n\n---\n## User additions\n\n_(Wri"
+    },
+    {
+      "path": "_wiki\\MOC - Digital Assets.md",
+      "hash": "194d5553d8d6b8f71b13444409308a2b3c50424fe53c3e1f40fa2500649249ac",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 670,
+      "body_preview": "# Digital Assets\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/law/digital-assets`\n**Parent:** [[MOC - Law]]\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/law/digital-assets\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/law/digital-assets\")\nSORT file.mtime DESC\nLIMIT 10\n```\n\n---\n"
+    },
+    {
+      "path": "_wiki\\MOC - Finance.md",
+      "hash": "2a8e517c474810539cb9a68c98e2d0e43d832aadd9b96eab3c21d9c60f40ce65",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 724,
+      "body_preview": "# Finance\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/finance`\n**Children:**\n- [[MOC - Stablecoins]]\n- [[MOC - Cbdc]]\n- [[MOC - Tokenised Deposits]]\n- [[MOC - Market Infrastructure]]\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/finance\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"t"
+    },
+    {
+      "path": "_wiki\\MOC - Law.md",
+      "hash": "8d96a4b604e863952b2e23ae8c90f06ebbd92f2ae2194b9929a6533fac2f18b4",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 680,
+      "body_preview": "# Law\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/law`\n**Children:**\n- [[MOC - Property Rights]]\n- [[MOC - Securities]]\n- [[MOC - Digital Assets]]\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/law\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/law\")\nSORT file.mtime DESC\nLIMIT 10"
+    },
+    {
+      "path": "_wiki\\MOC - Market Infrastructure.md",
+      "hash": "8e0ab252fe99399020b2fd39c4badc2e97d1a86951f47b6ebf9bc43ce408786b",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 714,
+      "body_preview": "# Market Infrastructure\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/finance/market-infrastructure`\n**Parent:** [[MOC - Finance]]\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/finance/market-infrastructure\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/finance/market-infrastructu"
+    },
+    {
+      "path": "_wiki\\MOC - Property Rights.md",
+      "hash": "2bd48ddb8510e22294ffec023b636943a837f0a818eacc4d07e1e86639b37041",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 674,
+      "body_preview": "# Property Rights\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/law/property-rights`\n**Parent:** [[MOC - Law]]\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/law/property-rights\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/law/property-rights\")\nSORT file.mtime DESC\nLIMIT 10\n```\n\n"
+    },
+    {
+      "path": "_wiki\\MOC - Real Estate.md",
+      "hash": "2a44a100722e807aa904f2eda903799d449ac49df3b12b2db98948e9ee4e9ed4",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 620,
+      "body_preview": "# Real Estate\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/real-estate`\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/real-estate\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/real-estate\")\nSORT file.mtime DESC\nLIMIT 10\n```\n\n---\n## User additions\n\n_(Write anything below this lin"
+    },
+    {
+      "path": "_wiki\\MOC - Root.md",
+      "hash": "6c5e8441bcfeaf2bb2f5f166190086616d6ed5d03c914b601407a474fd4f2871",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 228,
+      "body_preview": "# Root Map\n\n## All Topics\n\n```dataview\nTABLE length(rows.file.link) AS \"Notes\"\nFROM \"\"\nWHERE topic\nFLATTEN topic as t\nGROUP BY t\nSORT t ASC\n```\n\n## Top-level Topic MOCs\n- [[MOC - Finance]]\n- [[MOC - Law]]\n\n---\n## User additions\n"
+    },
+    {
+      "path": "_wiki\\MOC - Securities.md",
+      "hash": "42810e926e25af7f2c77d498709ecfe26726cb5360f6f1f2314c872e233ba7bc",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 654,
+      "body_preview": "# Securities\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/law/securities`\n**Parent:** [[MOC - Law]]\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/law/securities\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/law/securities\")\nSORT file.mtime DESC\nLIMIT 10\n```\n\n---\n## User addition"
+    },
+    {
+      "path": "_wiki\\MOC - Stablecoins.md",
+      "hash": "d40e6eff48799ebeaf1018ca52d4da8131f27562de783f8a30b023b230d1a4ed",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 674,
+      "body_preview": "# Stablecoins\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/finance/stablecoins`\n**Parent:** [[MOC - Finance]]\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/finance/stablecoins\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/finance/stablecoins\")\nSORT file.mtime DESC\nLIMIT 10\n```\n\n"
+    },
+    {
+      "path": "_wiki\\MOC - Tokenisation.md",
+      "hash": "d640302c4e432204d12498278a6b73709824a9cd031919a17a7e4152335137ae",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 764,
+      "body_preview": "# Tokenisation\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/tokenisation`\n\n## Related Topics\n- [[MOC - Finance]]\n- [[MOC - Law]]\n- [[MOC - Real Estate]]\n- [[MOC - Carbon Credits]]\n- [[MOC - Blockchain Settlement]]\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/tokenisation\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLI"
+    },
+    {
+      "path": "_wiki\\MOC - Tokenised Deposits.md",
+      "hash": "4d4b611199b1a9d0bc252cbcacdcc36277cf884ae5f8d5d4da8a93d1a3642277",
+      "role": "moc",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 702,
+      "body_preview": "# Tokenised Deposits\n\n> Auto-generated MOC. Edits above the \"User additions\" section will be overwritten on next `/wiki moc` run.\n\n**Topic:** `topic/finance/tokenised-deposits`\n**Parent:** [[MOC - Finance]]\n\n## Notes in this Topic\n\n```dataview\nTABLE subject AS \"Subjects\", wiki_indexed AS \"Indexed\"\nFROM \"\"\nWHERE contains(topic, \"topic/finance/tokenised-deposits\")\nSORT file.name ASC\n```\n\n## Recent additions\n\n```dataview\nLIST\nFROM \"\"\nWHERE contains(topic, \"topic/finance/tokenised-deposits\")\nSORT fi"
+    },
+    {
+      "path": "README.md",
+      "hash": "e994463307c4e73d8d9e3772bdff869cb30d1639c77fbe7055ee0abccbac0159",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3927,
+      "body_preview": "# wiki-tokenise\n\nAn Obsidian vault collating authoritative sources on the **tokenisation of real-world assets**, sitting at the intersection of **finance**, **law**, and three worked examples: **carbon credits**, **real estate**, and **property rights**. A sub-topic strand traces the correlation between RWA tokenisation, **stablecoins**, **agentic AI / LLM trading**, and the underlying **blockchain settlement** layer.\n\n## How the vault is organised\n\n| Folder | Purpose |\n|---|---|\n| `00_Inbox/` |"
+    }
+  ],
+  "orphans": [],
+  "quarantined": [],
+  "existing_vocabulary": {
+    "topics": [
+      "topic/agentic-ai",
+      "topic/blockchain-settlement",
+      "topic/carbon-credits",
+      "topic/finance",
+      "topic/finance/cbdc",
+      "topic/finance/market-infrastructure",
+      "topic/finance/stablecoins",
+      "topic/finance/tokenised-deposits",
+      "topic/law",
+      "topic/law/digital-assets",
+      "topic/law/property-rights",
+      "topic/law/securities",
+      "topic/real-estate",
+      "topic/tokenisation"
+    ],
+    "subjects": [
+      "subject/aave",
+      "subject/agent-economy",
+      "subject/autonomous-agents",
+      "subject/bis",
+      "subject/canton",
+      "subject/chainlink",
+      "subject/ethereum",
+      "subject/federal-reserve",
+      "subject/garp",
+      "subject/gold-standard",
+      "subject/hsbc",
+      "subject/imf",
+      "subject/jpmorgan",
+      "subject/mas",
+      "subject/mckinsey",
+      "subject/project-guardian",
+      "subject/property-digital-assets-act",
+      "subject/realt",
+      "subject/token-container-model",
+      "subject/ucc-article-12",
+      "subject/uk",
+      "subject/ukjt",
+      "subject/verra"
+    ]
+  }
+}

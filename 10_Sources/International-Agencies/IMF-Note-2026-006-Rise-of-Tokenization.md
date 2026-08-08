@@ -47,7 +47,7 @@ tags:
 - imf-notes
 watchlist_channel: imf-fintech-notes
 topic:
-- topic/finance/tokenisation
+- topic/tokenisation
 - topic/finance/market-infrastructure
 subject:
 - subject/imf

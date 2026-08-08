@@ -1,0 +1,1114 @@
+{
+  "vault": "C:/Users/Simon/Documents/wiki-tokenise",
+  "changes": [
+    {
+      "path": "10_Sources/Academia/arXiv-2506-17622-SoK-Stablecoin-LEGO.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "242b431981e792f8c9ad89e1b028e06e4a563d5b268e51a0b052d6856c7f6c73",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2605-29689-Beyond-TVL-RWA-Risk-Scoring.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "acf01b3fc9589769bde5529f15e5430103c10c5ce16ac0a20ce34890679586e4",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2606-01131-Tokenized-Illiquid-RWA-Markets.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "683ec32717e25fc92f6d6288234a73e8e190a8eb81db67f0fb7532f59ab538dd",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2606-08534-Taxonomy-RWA-Tokenization.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "037ccd42baee34b4dc1cb7f8e8e4f171d644fe28a5728d604a2a35843fa3b55b",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/decentralised-multi-manager-fund-2025.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "69d7b56a358356f10e2f342694bdbd1138a49bc00db84f17e3c7390618eb94d5",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/Frontiers-Blockchain-VCM-Network-Structure-2025.md",
+      "topic": [
+        "topic/carbon-credits",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "04f9c0a8a109710d19da5760b49791361d9bdde72b27de54052d6a0e6b1f90af",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/rwa-liquidity-challenges-2025.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/real-estate"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "07a7dfb96c10f01d466bf863fa354bec3b5adb6ac356d490a2ec4166bf1c53be",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/sok-rwa-tokenization-2026.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "e98d7440f5ef5348270d01e346d58bf6e864c4db674577a4ffc301e4bb5822d0",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/sok-stablecoins-retail-payments-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "f999e6fa879e7a2a2a9d71715b61dae21d83afa2e4932e0fcbc313927a98ba86",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/stablecoin-discount-tether-tbills-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "2958b0cb888e3ec7c1057ad181a6a3fa431b3cc613803ace82149ee568d655c3",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/stablecoins-hybrid-monetary-ecosystems-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/cbdc"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "4067ce9093cd483919c855aef13f1b5f93f4fe6fcc2f026999a3df3960a326c4",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/Wharton-WIFPR-Tokenizing-RWA-Cong-Mayer-Rabetti-2026.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "51441cf29ba5370279734df0dba4af7eec009912ce7d3ebc48bd5e2a6f8a0f6d",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-2026-annual-work-programme.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [
+        "subject/esma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "3621588f1f3be7d6488fb011be37294901537397e468ec5681f11b8d6c303ee6",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-2027-2029-programming-document.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "8bb3c73bc2b643f11691f6e2dd4ec82ffb3c77396216395fa4192257bd361dae",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-dlt-pilot-regime-review-2025.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/esma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "c36b88aca674cf4f63cb28f61c825411080d0867aeec9b61d071c71b9c8759f6",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-mica-data-standards-statement-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/esma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "8912e1fbc84c07f23d7ac1fd5c13a017f8b71aa85649baa4ae0684e574d73a25",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-mica-end-transitional-periods-statement-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/securities"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "f4086bc3f33ba117b27cf67c9dbffc46a12239daa5c850c1593c3f7457939666",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-mica-knowledge-competence-guidelines-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/securities"
+      ],
+      "subject": [
+        "subject/esma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "a3002f9bf0e16dcc6924273a87986b4545711537f21a794ef247fd60f3c14044",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-mica-knowledge-competence-guidelines-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/securities"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "33064fa7ea48ce1031dce91889e593d30d4940c975a61db03cee61f44b8fcc3b",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-mica-market-abuse-guidelines-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/securities"
+      ],
+      "subject": [
+        "subject/esma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "55ec53d2b6ce3fe199d8a8df3fe75157998eb3a287cad053d8b260e5dbdef67a",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-mica-transitional-measures-statement-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/securities"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "e1a528b0dff7b76648d970c5e8d8c19b477cba8a383cfc7d1fdb4002a4266198",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/esma-mica-transitional-period-ends-public-statement-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/securities"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "0c5b2305514898c181a98ae6dbe1c7d401b64096e7e70a2f094e8b18300345b4",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/fed-banks-age-stablecoins-deposits-credit-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "afecde71ea24a819531407eb71014ae7d89f5e5a8c46a927186181f991d29384",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/fed-framework-vulnerabilities-money-like-products-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "ac09a33ccacea0e3534bc7d7a017cd60e7b089ac25708a82b8d1478681e30747",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/fed-harvest-now-decrypt-later-dlt-2025.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "4f94999dffcc87a475624af4b9b0d2d1900e56df28f18522bfc42d09d6273a5b",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/fed-svb-shadow-bank-runs-stablecoins-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "c430cd154e6f69c64b3867dca1d0f5248625ad75707521c90829cdca8eff5f3c",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/FEDS-2026-037-Fragility-Perfectly-Safe-Digital-Money.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "ab5aaf11eb69106c673123ffdc964ba141051e5590304f15c32bfc5acdabc64a",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/FEDS-Note-2026-03-Payment-Stablecoins-Cross-Border-Payments.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "b682a76c59b10504087f500961c4641119566f004be905ea6683d047f69fadbb",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/FEDS-Note-2026-04-Stablecoins-in-2025-Financial-Stability.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "509ce79d1d010659caac63aac57b9d03955633b181eb908dbac3714828a44abb",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/FEDS-Note-2026-05-Banks-Age-Stablecoins-Historical-Lessons.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "ca08696c6ab35f900a2de2d0f848eb4bfa90fcf86457a851f6eb456e35890fb4",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/HKMA-Corporate-Treasury-Tokenisation-Seminar-2026.md",
+      "topic": [
+        "topic/finance/tokenised-deposits",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "1e0d1ed891f4816497928bb12a16fdbc90a9a279f5e8f04cf88ac876017ffb21",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/hkma-digital-green-bond-2025.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "82efdee21a2d25a53934ce79e181c80ced05fcf37c74b5ab9c0df36c46a95d49",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/hkma-ehkd-pilot-programme-complete-2025.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "9b8c974ac7277caca8a70c5b6e72e08e2485ed678a305d8398d1465433d0112d",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/hkma-ensemble-tx-launch-2025.md",
+      "topic": [
+        "topic/finance/tokenised-deposits",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "97465950e05dce57f182812b18bd042d71ccf07b6bf4e97bc3ebe67b37f21628",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/hkma-fintech-2030-2025.md",
+      "topic": [
+        "topic/finance/tokenised-deposits",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "682adbc7dea8b9d479cbffb5540d7f65620e246bbf3032e20c8f89b03204a405",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/HKMA-Fintech-Promotion-Blueprint-2026.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/agentic-ai"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "4a413cc46b4ba50df660f31944dbad5668a1967c294cf4811f9049379a2743fe",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/HKMA-Stablecoin-Issuer-Licences-2026.md",
+      "topic": [
+        "topic/law",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "0f75a334816ae82d2f61561a14549840806c414e6e995ac6d72a07dd76742cbd",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/hkma-stablecoin-ordinance-implementation-2025.md",
+      "topic": [
+        "topic/law",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "f78e1ecfec8da90363a6450bb9b8f8b40fdd11f6e5ee994d887983db27d71880",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/HKMA-Stablecoin-Token-Fraud-Warning-2026.md",
+      "topic": [
+        "topic/law",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "40671a2a040726670539ee4109a6aa55d258702b5572ab61137fed4640dfb937",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/hkma-stablecoins-bill-passage-2025.md",
+      "topic": [
+        "topic/law",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "9eb7e3517218f284dfe37350a7ce2e6d01ae8550e3c491ac7cf0dbbba5c8d72e",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/HKMA-Tokenised-Bond-Expert-Group-2026.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "b7f7aa4643e1e23d8f988f0b45578c0ee9102785eb30bdcac0f04abca3479ff1",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/HKMC-Digital-Bond-HK12B-2026.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "bd0c19f2b73198233979578f19570b3fafbffe854fa8e3442c647baa50a4dc5e",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/mas-bloom-initiative-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [
+        "subject/mas"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "b81f13ba849ddebc755d9a8e011c8d179ae2dbacce27db0dafbe6f8fcac13ed9",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/mas-chia-creating-future-of-finance-2025.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [
+        "subject/mas"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "d0f58d357695a783666bdc0d72f879d08c0b166fd3984c7f434ac668c14a4709",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/mas-future-of-finance-institute-2026.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [
+        "subject/mas"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "b10ba8e000d7d6e4e84197c53c4064104611dc74112885dc4dbfa5f589d2c461",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/mas-guardian-fx-workstream-tokenised-bank-liabilities-2025.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "995244bfc02697dbd68c55910ff83c2ab0ab70660ed178f7869135f2c012d93f",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/mas-leong-layer-one-summit-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [
+        "subject/mas"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "ecc6f8e87b5bcf963df14cc02dbd0b00409464c1a99ac34f131d0ede7c4378d9",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/mas-mou-bundesbank-tokenisation-2025.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "11b4320ead522ca1bbaeb49796b603e652f1520b89e881c9c50cda00ab0fa932",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/mas-parliamentary-reply-genius-act-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law"
+      ],
+      "subject": [
+        "subject/mas"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "a93338043e0d23342696f093ae9b11c01f9071f44972b0d3b14335f67b39e0dc",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Baillie-Gifford-Tokenised-Bond-Fund.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "e74b2d4014a2d23717505ab4e13efc7a5599ec21763a54e69529e89eb22f5df6",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-BIS-Stablecoin-Gaps.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "b22390c1687ea26975f6e04e544deb2ab4f3016c2d6078ffc994036db84cdac7",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Coinbase-Tokenised-Stocks-Offshore.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "ebd190ec81521cbc3e446378d1435b5bbca4fd5d4bd208f98ae9a23356341ba8",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-DBS-Tokenised-Gold-Singapore.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "242a79b111dee8b23c62df9cc16eaac95f161e5fce00649466e9d0e153f99c88",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-DTC-Stellar-Tokenisation.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "9d1853bd29285b50f45e3eaf8a0cb7fa96b1943abe5ffcc05d2dec00b3f8baa3",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Euroclear-SocGen-USDCV-Stablecoin-Settlement.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "1dc396bc42faa424278c00efbf7ae14033098fec57db4186f2cf2aae902daf8b",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Fidelity-Stablecoin-Reserve-MMF.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "718c652985739b3933a74803cbcace2baa7357d84a18e4127a0e7d27d3ec0e77",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Invesco-Tokenized-Stablecoin-Reserve-Fund.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "92f556f7d987d4fc2e86c98932f62e42a63a21816cf8162a03cb40d4fc6ead34",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Nomura-Circle-Cross-Border-FX-Stablecoin.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "39c765c26aa903ebf76df9ad2c731e228d9dfa71446083337f02ae8c101314ad",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Ripple-RLUSD-Japan-Launch.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "2d79c04a88c3793abb1d8a45684454cd7a423f3845ce0ccce48d570428c1ea36",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-SBI-Bitbank-Acquisition-Stablecoin-Strategy.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "22712133b449a0e6d2a2840df348825d5f25de17af39541f980d5d8c03867d5a",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-SEC-NMS-Rules-Tokenised-Stock.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "7974a8dba2bae524301fb3295a062953b7438412c88d0a07fa10971ccf3aac52",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Tokenized-Deposits-Threat-Fix.md",
+      "topic": [
+        "topic/finance/tokenised-deposits",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "a3f4f4207566f7ba499bb867d0db0ba596cdd49f4d602de4ffd80212d47261e5",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-UBS-Permissionless-Blockchain-Compliance.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "7ca66fad14e3271a693ef59d772131c5d6443cfff44f40e6c7009a76d71ed21a",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-UMBFS-Corastone-DLT-Private-Markets.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "c81954a0a660679e39c387a620ab30446d485217f2fceb05fd0d65f5953ba678",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/bis-wp1363-macroeconomics-of-stablecoins.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/bis"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "9bfa646e7c50fc34061a403d4004b026502cdb33e643494b9529b583ffd69d41",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/FSB-Annual-Report-2025.md",
+      "topic": [
+        "topic/law",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [
+        "subject/fsb"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "3e768522efe98814d338a816ef293995e4e1ca26311dc3e0df6123d5c3e01360",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/FSB-Moloney-IIF-Digital-Assets-Roundtable-2025.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [
+        "subject/fsb"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "8bed6d8889c288ca5f653083aa07cc3ae47b3047987e2d04054aae45bf6b62bf",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/FSB-Peer-Review-Crypto-Framework-ToR-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/fsb"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "61d48b6d5f81354ce8e3e7ce6f349cc7d0b617efb6dd63792237cdab8947cf23",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/FSB-Sound-Practices-AI-Adoption-Consultation-2026.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/fsb"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "0751761ceee42c3e707921d7719733daa30a7e17e0f7af7596364512af3a1c11",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/FSB-Thematic-Review-Crypto-Framework-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/fsb"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "b50c5efb5e474651e3b2f792b03daa0fab5c5a85012a59bfc48e8e1a7ec1b083",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-Adrian-Tokenized-Finance-Money-Speech-2026-05.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "4321c47e6f476bc25d2eb19238e236afbe5636a9b19a7562e389f2fd4ee31871",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-DP-2025-09-Understanding-Stablecoins.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "cc64064ee421747e0d88044830576cc91a7ac1edac3badd14c63e9ae87e22c21",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-FTN-2025-003-Private-Law-Token-CBDC.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/law/property-rights"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "20a0eb02aedb8aa80c2a57d83e8b121dc03c7c06e356cd22746531598dbad3e6",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-FTN-2025-006-Selected-Legal-CBDC.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/law/property-rights"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "c8f47da184e12807c44d520f7e2e374f76961887ffe754a1e460596ff92608e2",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-FTN-2025-011-Central-Bank-Tokenized-Reserves.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/finance/cbdc"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "0c54be953ea60e3d74de9717bc355f4442bc07f5b45a003aede933991a4fe296",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-Note-2026-004-Agentic-AI-Payments.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/agentic-ai"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "7194bff1d47fee9adb2f7ed00446ef131b5e01ce98d7031c54827cc2aec49666",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-WP-2026-052-Stablecoins-Future-Payments.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "8882d83e7a3699e12c82219329bd3cfe01a9e5e6c0596fbf38e29ee48c9cc502",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-WP-2026-074-Making-Stablecoins-Stable.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "8dc499a090a5bb1e129334f570d84539129c6130f95f4e4ba8593898d15ce5a9",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/iosco-cr-ai-capital-markets-2025.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/law/securities"
+      ],
+      "subject": [
+        "subject/iosco"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "817d0ef6c316b8884450981dc74f5091ebed1c60332db3d98afffd98879c692e",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/iosco-fr-02-2026-ai-supervisory-toolkit-capital-markets.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "66a4bc5e60a25f923ce79d13c4ae6f6c22e431c641592eb05c6a33ecfe2ec927",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/iosco-fr-13-25-cda-thematic-review.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/securities"
+      ],
+      "subject": [
+        "subject/iosco"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "e252703305f826a684aec12a8f6314968e3617ba0bf5b3befbd2d18ef5010b89",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/iosco-fr-17-25-tokenization-financial-assets.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/law/securities"
+      ],
+      "subject": [
+        "subject/iosco"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "97c9ac9bba29372b29b4a9ba840af216b1c08366b7a6584d509141e2f11a9c28",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/iosco-fsb-joint-note-cda-implementation-oct-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/securities"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "7e99e02767764f6111aad5d7de7f192655dc458d5fd8bd974fae0289c67ee67a",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-DAPL-Implementation-Strategy-2025.md",
+      "topic": [
+        "topic/law/property-rights",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [
+        "subject/unidroit"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "3b6b77552bb48b95c368cc221a0e273710f032417ab506fab6bfa492b3f05cf1",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-DAPL-Implementation-Update-107th-Session.md",
+      "topic": [
+        "topic/law/property-rights",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [
+        "subject/unidroit"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "42ee445f3c0e69283903ff6f5b6b6f470b5f8996333744760a8ad2a254d0920e",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-Tokenisation-Annexe-Memo-WG8-Doc6.md",
+      "topic": [
+        "topic/carbon-credits",
+        "topic/law/property-rights"
+      ],
+      "subject": [
+        "subject/unidroit"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "192178a942c37c20d58e654f239ca21bc985fa72807e368db090667391898fba",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-VCC-Principles-Progress-GC105.md",
+      "topic": [
+        "topic/law/property-rights",
+        "topic/carbon-credits"
+      ],
+      "subject": [
+        "subject/unidroit"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "e8808514651c619780db43f90b1197a82b771295b00a59cf9bb4ed8bb021868a",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-VCC-WG7-Secretariat-Report-Dec2025.md",
+      "topic": [
+        "topic/law/property-rights",
+        "topic/carbon-credits"
+      ],
+      "subject": [
+        "subject/unidroit"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "2319264a627b8c4969d83301c49d0044f1012b718131ce56d0b41588a52c0207",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-VCC-WG9-Ninth-Session-Summary-Report.md",
+      "topic": [
+        "topic/carbon-credits",
+        "topic/law/property-rights"
+      ],
+      "subject": [
+        "subject/unidroit"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "ce4c52b73dd3f3dabec26e2de574db985ae7ac83fd93c175c0aa9bd5795d0959",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Private-Sector/Verra-Hedera-Digital-Transformation-Carbon-Markets-2025.md",
+      "topic": [
+        "topic/carbon-credits",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [
+        "subject/verra"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "3baba8afb0efbde9b2f09359112562f8bd692c7d950239ecb4a150da28a12975",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Private-Sector/Verra-SP-Global-Next-Generation-Registry-2025.md",
+      "topic": [
+        "topic/carbon-credits",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/verra"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "714fd4f6b60c5ac15901345c96bf65defc166e625a45d5a4596adfb3c652f6e7",
+      "wiki_indexed": "2026-06-28T00:00:00Z"
+    }
+  ]
+}

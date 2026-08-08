@@ -1,0 +1,95 @@
+{
+  "vault": "C:/Users/Simon/Documents/wiki-tokenise",
+  "changes": [
+    {
+      "path": "10_Sources/Central-Banks/hkma-quantum-preparedness-whitepaper-2026.md",
+      "topic": [
+        "topic/blockchain-settlement"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "40fe903ef57e91617b7493b850e61a1fa6c7e13d374d87dd23e4ed321c13386e",
+      "wiki_indexed": "2026-08-02T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Aviva-Investors-Tokenized-MMF-XRP-Ledger.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "14f46a67b572bde9ca54cbed82a8e88edfa3e534cef0d653b27f144f80d3f372",
+      "wiki_indexed": "2026-08-02T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-BIS-Project-Agora-Real-Money-Trials.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "0720bfd1cef10e09ad97322e665ca2abef7196d9f7a978bb70a64c29494dfa9f",
+      "wiki_indexed": "2026-08-02T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-BPI-Stablecoin-Remittances.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "0357250aaee7c4a1f63c0c2fe5f4e2da3d882c1e87f81197273d6445f1cad4c5",
+      "wiki_indexed": "2026-08-02T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Circle-NY-Trust-Charter.md",
+      "topic": [
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "899925d06b4787acec6b5c8c8f541e7fb8591f6a8c6ee9c8324948dbbbcbaf38",
+      "wiki_indexed": "2026-08-02T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Partior-OpenAssets-Tokenized-Deposit-Clearing.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "75c5cac1752143772bbdee90c178dd70f87ce30d0e79a1912a0041c4b42876dd",
+      "wiki_indexed": "2026-08-02T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-POSCO-LG-CNS-Trade-Finance-Blockchain-Pilot.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "f703c779ce11623cb35edab17e5d6585beaa9ed40fb413425fa49767e291441f",
+      "wiki_indexed": "2026-08-02T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-RL1-Cecabank-Credit-Mutuel-Launch.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "b108f11e27938ee510def30560c874fcceeefbdb0167f447e4deabbca3d568ac",
+      "wiki_indexed": "2026-08-02T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Visa-Pismo-Stablecoin-Integration.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "e37bafeeaad5658ad42ff482feb55200b4dbc33bb1f919e5199e04a5a4f68424",
+      "wiki_indexed": "2026-08-02T00:00:00Z"
+    },
+    {
+      "path": "30_Areas/Synthesis — Agentic AI and Tokenised Settlement Infrastructure.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/blockchain-settlement",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "209c682b150df475c17aa57e413be99bd1ec1e0f601f4cf0549925ae45ff6d6c",
+      "wiki_indexed": "2026-08-02T00:00:00Z"
+    }
+  ]
+}

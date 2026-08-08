@@ -51,10 +51,11 @@ topic:
 - topic/blockchain-settlement
 subject:
 - subject/unidroit
-wiki_indexed: '2026-07-12T00:00:00Z'
-wiki_hash: ffdba7acd401d444b30cd852339e3da4b09bb4ec9f8ddeaa4554853be90ecfcc
+wiki_indexed: '2026-07-19T00:00:00Z'
+wiki_hash: f6095782fd764fd302db2890975343905df1746a24265b95078e4c060130b5ff
 wiki_role: wiki
 ---
+
 
 
 
@@ -102,3 +103,4 @@ This is the full black-letter text and commentary of the draft VCC Principles co
 
 - [[10_Sources/International-Agencies/UNIDROIT-VCC-WG9-Ninth-Session-Summary-Report]] - summary report of the session at which this text was considered
 - [[10_Sources/International-Agencies/UNIDROIT-Tokenisation-Annexe-Memo-WG8-Doc6]] - underlying tokenisation scenario taxonomy referenced in the bracketed text
+- [[10_Sources/International-Agencies/UNIDROIT-VCC-Draft-Principles-Consultation-Text-2026]] - the expanded 25-Principle text that supersedes this draft for public consultation

@@ -42,3 +42,5 @@ __pycache__/
 
 # Ignore Smart Environment folder
 .smart-env
+# Third-party Obsidian plugin code (reinstallable from the community store)
+.obsidian/plugins/

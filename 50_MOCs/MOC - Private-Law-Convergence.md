@@ -39,6 +39,10 @@ The USA, the UK, and the international private-law community have each landed on
 - [[Direct-vs-Indirect-Tokenisation]]
 - [[Control]] (the functional concept replacing common-law possession)
 
+## Added 12 July 2026
+
+- [[Synthesis — Private Law Convergence Across Jurisdictions]]
+
 ## See also
 
 - [[MOC - Law]]

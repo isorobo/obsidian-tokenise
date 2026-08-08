@@ -1,18 +1,33 @@
 ---
 type: synthesis
 date: 2026-06-30
-tags: [synthesis, agentic-AI, LLM, settlement, stablecoins, x402, agent-economy]
+tags:
+- synthesis
+- agentic-AI
+- LLM
+- settlement
+- stablecoins
+- x402
+- agent-economy
 related-sources:
-  - arXiv 2601.04583 Autonomous Agents on Blockchains
-  - Coinbase x402 Protocol (May 2025 onwards)
-  - AWS Bedrock AgentCore Payments (May 2026)
-  - "The Agent Economy" — blockchain foundation paper
-  - Emergent Mind Agent-Blockchain Interoperability
-  - McKinsey Blockchain Currencies Beyond Stablecoins
-  - FSB AI Financial Stability Implications November 2024
-  - OECD Generative AI in Finance
-  - Stellar Development Foundation x402 on Stellar
+- arXiv 2601.04583 Autonomous Agents on Blockchains
+- Coinbase x402 Protocol (May 2025 onwards)
+- AWS Bedrock AgentCore Payments (May 2026)
+- The Agent Economy — blockchain foundation paper
+- Emergent Mind Agent-Blockchain Interoperability
+- McKinsey Blockchain Currencies Beyond Stablecoins
+- FSB AI Financial Stability Implications November 2024
+- OECD Generative AI in Finance
+- Stellar Development Foundation x402 on Stellar
+topic:
+- topic/agentic-ai
+- topic/blockchain-settlement
+- topic/finance/stablecoins
+wiki_indexed: '2026-08-02T00:00:00Z'
+wiki_hash: 209c682b150df475c17aa57e413be99bd1ec1e0f601f4cf0549925ae45ff6d6c
+wiki_role: wiki
 ---
+
 
 # Synthesis — Agentic AI and Tokenised Settlement Infrastructure
 

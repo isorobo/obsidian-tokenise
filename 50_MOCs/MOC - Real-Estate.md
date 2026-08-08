@@ -30,6 +30,18 @@ created: 2026-05-24
 - [[Maheshwari-Real-Estate-Tokenization-Legal-Guide-2026]]
 - [[Adventures-In-CRE-Real-Estate-Tokenization-Part-II]]
 
+## Backlog import 6 August 2026
+
+Sources held since May 2026 that carried no MOC link. Mapped by `topic`.
+
+### International-Agencies
+
+- [[BIS-WP1311-Tokenisation-Real-Estate]]
+
+### Academia
+
+- [[rwa-liquidity-challenges-2025]]
+
 ## See also
 
 - [[MOC - Law]]

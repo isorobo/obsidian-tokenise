@@ -26,7 +26,8 @@ The schema is a deliberate extension of the sibling `wiki-ai-thinkers` schema. T
 | `10_Sources/PDFs/` | Raw binary downloads, mirroring the source-type subfolders. Excluded from version control. |
 | `10_Sources/NotebookLM-Exports/` | NotebookLM audio, slide, and brief artefacts. |
 | `20_People/<slug>/` | One folder per person *or* institution. Holds `profile.md` and optional `positions.md`, `timeline.md`. |
-| `30_Concepts/` | Atomic concept and theme pages. |
+| `30_Areas/` | Synthesis and long-form research threads. Created in practice; added to this table 9 August 2026. |
+| `30_Concepts/` | Atomic concept and theme pages. Built 9 August 2026 with 60 stubs resolving the MOC link debt. |
 | `40_Domains/` | Domain spokes: `Finance/`, `Law/`, `Examples/{Carbon-Credits,Real-Estate,Property-Rights}/`, `Sub-Topic/{Stablecoins,Agentic-AI-Trading,Blockchain-Settlement}/`. |
 | `50_MOCs/` | Maps of Content. Nine domain MOCs, three cross-cutting MOCs. |
 | `60_Drafts/` | Work-in-progress essays, reports, deep-research outputs. |
@@ -35,6 +36,18 @@ The schema is a deliberate extension of the sibling `wiki-ai-thinkers` schema. T
 | `90_Templates/` | Templater-compatible frontmatter and body templates. |
 | `99_Meta/` | Vault infrastructure: this schema, the directory proposal, the NotebookLM bridge, the watchlist for the weekly cron, `wiki-tokenise/` orchestrator state. |
 | `.workspace/` | Browser artefacts. Read-only. Local-server-only. |
+
+### 1.1 Folders designed but not yet built
+
+As at 9 August 2026 three entries above describe intent rather than state:
+
+- `00_Inbox/` and `70_Research/` do not exist. Captures land straight in
+  `10_Sources/`; research threads live in `30_Areas/`.
+- `40_Domains/` exists but holds no notes. Only the empty `Examples/` and
+  `Sub-Topic/` subfolders were created. Four MOC links pointed into a
+  `40_Domains/Finance/` tree that was never built; they now read as plain text.
+
+Create these when the need arises. Until then, treat their rows as a plan.
 
 ---
 

@@ -56,9 +56,10 @@ instrument: []               # finance sources only: tokenised-fund | tokenised-
 topic: []
 
 # --- Cross-references ---
-register_section: ""         # section of 10_Sources/SOURCE-REGISTER.md
-nlm_id: ""                   # NotebookLM source UUID
-nlm_skip: false              # true excludes this source from NotebookLM exports
+register_section: ""         # section of 10_Sources/SOURCE-REGISTER.md, e.g. "1.1"
+# nlm_id and nlm_skip are DEPRECATED (9 August 2026). The NotebookLM sync was
+# retired from the weekly cron. Do not populate them on new notes.
+# See 99_Meta/NotebookLM-bridge.md.
 
 # Do NOT hand-edit wiki_indexed, wiki_hash, wiki_role, nlm_last_sync,
 # or watchlist_channel. The /wiki skill and the orchestrator set them (§2.11).

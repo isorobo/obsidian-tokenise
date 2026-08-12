@@ -77,7 +77,7 @@ The same folder layout (`20_People/<slug>/`) holds both. The `kind` field discri
 | `affiliations` | list of strings | Current and past. |
 | `position_view` | free string | One-line stated position. Optional; used for matrix views. |
 | `key_sources` | list of wikilinks | Links to source notes authored by, issued by, or about this entity. |
-| `nlm_id` | NotebookLM source UUID | Where an entity's primary output is itself a NotebookLM source. Optional. |
+| `nlm_id` | NotebookLM source UUID | **Deprecated 9 August 2026.** Where an entity's primary output is itself a NotebookLM source. Optional. |
 
 ### 2.3 Source notes
 
@@ -97,8 +97,8 @@ The same folder layout (`20_People/<slug>/`) holds both. The `kind` field discri
 | `doctrine` | list of doctrine enums (2.8) | Where relevant (law sources). |
 | `instrument` | list of instrument enums (2.9) | Where relevant (finance sources). |
 | `register_section` | string | Cross-reference to the section of `10_Sources/SOURCE-REGISTER.md` that annotates this source. |
-| `nlm_id` | NotebookLM source UUID | Round-trip handle for `notebook_query` and `source_describe`. |
-| `nlm_skip` | bool | If true, the source is excluded from NotebookLM exports. Default false. |
+| `nlm_id` | NotebookLM source UUID | **Deprecated 9 August 2026.** Round-trip handle for `notebook_query` and `source_describe`. Retained on the 97 notes that hold one. Do not populate on new notes. |
+| `nlm_skip` | bool | **Deprecated 9 August 2026.** Excluded the source from NotebookLM exports. Default false. |
 
 ### 2.4 Concept notes
 
@@ -152,7 +152,7 @@ Set by the `/wiki` skill and the `/wiki-tokenise` orchestrator. Do not edit by h
 | `wiki_indexed` | ISO timestamp of last `/wiki apply` pass. |
 | `wiki_hash` | SHA-256 of the normalised note body. Drives idempotent re-runs. |
 | `wiki_role` | `wiki`, `meta`, `index`, `moc`, `source`, `person`, `institution`, `concept`. |
-| `nlm_last_sync` | ISO timestamp of last NotebookLM round-trip. |
+| `nlm_last_sync` | **Deprecated 9 August 2026.** ISO timestamp of last NotebookLM round-trip. No note carries a stamp later than 2026-05-24. |
 | `watchlist_channel` | Slug of the watchlist channel that surfaced this source (where applicable). |
 
 ---

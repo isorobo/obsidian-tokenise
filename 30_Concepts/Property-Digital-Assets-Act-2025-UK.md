@@ -1,15 +1,24 @@
 ---
-name: "Property Digital Assets Act 2025 UK"
+name: Property Digital Assets Act 2025 UK
 slug: Property-Digital-Assets-Act-2025-UK
 type: concept
 status: stub
 created: 2026-08-09
-domain: [law]
+domain:
+- law
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 724e6ef734580d8021236decf51dde4daab28633ebd4d24c11d3369cd2fbcafe
+wiki_role: concept
 ---
+
 
 # Property Digital Assets Act 2025 UK
 

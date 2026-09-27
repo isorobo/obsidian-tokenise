@@ -1,15 +1,24 @@
 ---
-name: "Fractional Ownership"
+name: Fractional Ownership
 slug: Fractional-Ownership
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/real-estate
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 3205e13ddc24091ed4a73d1dee381a1fd725134fdc386542fd72f39853805632
+wiki_role: concept
 ---
+
 
 # Fractional Ownership
 

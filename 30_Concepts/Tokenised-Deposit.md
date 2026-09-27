@@ -1,15 +1,24 @@
 ---
-name: "Tokenised Deposit"
+name: Tokenised Deposit
 slug: Tokenised-Deposit
 type: concept
 status: stub
 created: 2026-08-09
-domain: [finance]
+domain:
+- finance
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/finance/tokenised-deposits
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 828c23c78cc4dd88b73215f09ad9c886181d44548e907b1442c926d94e979de9
+wiki_role: concept
 ---
+
 
 # Tokenised Deposit
 

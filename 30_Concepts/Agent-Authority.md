@@ -1,15 +1,24 @@
 ---
-name: "Agent Authority"
+name: Agent Authority
 slug: Agent-Authority
 type: concept
 status: stub
 created: 2026-08-09
-domain: [sub-topic]
+domain:
+- sub-topic
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/agentic-ai
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: dd1391784c3ee8d08993170b6d891d920e9f8168113a6968434be67b08d5b7ad
+wiki_role: concept
 ---
+
 
 # Agent Authority
 

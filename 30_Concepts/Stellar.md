@@ -1,15 +1,24 @@
 ---
-name: "Stellar"
+name: Stellar
 slug: Stellar
 type: concept
 status: stub
 created: 2026-08-09
-domain: [sub-topic]
+domain:
+- sub-topic
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/blockchain-settlement
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 85f15a1d748cae4dd8d22094841ffba36a83ccfc406707e1c5a56f29601e7a15
+wiki_role: concept
 ---
+
 
 # Stellar
 

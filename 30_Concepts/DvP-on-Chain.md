@@ -1,15 +1,24 @@
 ---
-name: "DvP on Chain"
+name: DvP on Chain
 slug: DvP-on-Chain
 type: concept
 status: stub
 created: 2026-08-09
-domain: [sub-topic]
+domain:
+- sub-topic
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/blockchain-settlement
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 91b48dc9e5ec9836ab2f2c28decccbde92288da36704411630423c40a2e249e8
+wiki_role: concept
 ---
+
 
 # DvP on Chain
 

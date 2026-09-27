@@ -1,15 +1,24 @@
 ---
-name: "Singleness of Money"
+name: Singleness of Money
 slug: Singleness-of-Money
 type: concept
 status: stub
 created: 2026-08-09
-domain: [finance]
+domain:
+- finance
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/finance/stablecoins
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: b0b607fdc64cb7712b29c6e3201b23228120e19d856fbeb57d8784737408a428
+wiki_role: concept
 ---
+
 
 # Singleness of Money
 

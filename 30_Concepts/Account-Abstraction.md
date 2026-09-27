@@ -1,15 +1,24 @@
 ---
-name: "Account Abstraction"
+name: Account Abstraction
 slug: Account-Abstraction
 type: concept
 status: stub
 created: 2026-08-09
-domain: [sub-topic]
+domain:
+- sub-topic
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/agentic-ai
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 4aaa37f4b526f755ba7fb345b33707527a6fc58a4cb3aa5ad4c61686c07a7176
+wiki_role: concept
 ---
+
 
 # Account Abstraction
 

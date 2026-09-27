@@ -1,15 +1,24 @@
 ---
-name: "Singapore PSA"
+name: Singapore PSA
 slug: Singapore-PSA
 type: concept
 status: stub
 created: 2026-08-09
-domain: [law]
+domain:
+- law
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 114356add0722f7de23a93db2073f2c871efe1fe7dd9bb442101f576bbf0e562
+wiki_role: concept
 ---
+
 
 # Singapore PSA
 

@@ -1,15 +1,24 @@
 ---
-name: "Transaction Intent Schema"
+name: Transaction Intent Schema
 slug: Transaction-Intent-Schema
 type: concept
 status: stub
 created: 2026-08-09
-domain: [sub-topic]
+domain:
+- sub-topic
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/agentic-ai
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 5a07235cd9b532eb9735143b4c2fbc82832c703b807122ad289209f7f6c045da
+wiki_role: concept
 ---
+
 
 # Transaction Intent Schema
 

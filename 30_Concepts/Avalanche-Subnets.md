@@ -1,15 +1,24 @@
 ---
-name: "Avalanche Subnets"
+name: Avalanche Subnets
 slug: Avalanche-Subnets
 type: concept
 status: stub
 created: 2026-08-09
-domain: [sub-topic]
+domain:
+- sub-topic
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/blockchain-settlement
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: f76281cb2d490fe5f0e2a57361c9d929c340e57f034d4420d88922c7e1d3a846
+wiki_role: concept
 ---
+
 
 # Avalanche Subnets
 

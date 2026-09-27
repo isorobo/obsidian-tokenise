@@ -1,15 +1,26 @@
 ---
-name: "Payment Stablecoin"
+name: Payment Stablecoin
 slug: Payment-Stablecoin
 type: concept
 status: stub
 created: 2026-08-09
-domain: [finance, law]
+domain:
+- finance
+- law
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law
+- topic/finance/stablecoins
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: b6f67771c4a9a5fac77f5056e8cdbe6da5e76c5234eeac7384e9557b91bfca48
+wiki_role: concept
 ---
+
 
 # Payment Stablecoin
 

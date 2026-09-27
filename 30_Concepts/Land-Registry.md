@@ -1,15 +1,24 @@
 ---
-name: "Land Registry"
+name: Land Registry
 slug: Land-Registry
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law/property-rights
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: e1d57a6adaef24607d19b8ac1316d2c7dd66eb22ba65e3fcd13a2e91e4aeb454
+wiki_role: concept
 ---
+
 
 # Land Registry
 

@@ -1,15 +1,24 @@
 ---
-name: "Permanence"
+name: Permanence
 slug: Permanence
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/carbon-credits
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: ffa01ca1f17a06d160df2f9c3b9048ff890cfea40b15b2735774ae7dcac2a98c
+wiki_role: concept
 ---
+
 
 # Permanence
 

@@ -1,15 +1,24 @@
 ---
-name: "Control"
+name: Control
 slug: Control
 type: concept
 status: stub
 created: 2026-08-09
-domain: [law]
+domain:
+- law
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law/digital-assets
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 57276ffc6a16ba756735df34b77d152fbee4dfcb0efd1dbec81dc57dba28c82f
+wiki_role: concept
 ---
+
 
 # Control
 

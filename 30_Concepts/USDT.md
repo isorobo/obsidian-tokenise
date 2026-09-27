@@ -1,15 +1,24 @@
 ---
-name: "USDT"
+name: USDT
 slug: USDT
 type: concept
 status: stub
 created: 2026-08-09
-domain: [finance]
+domain:
+- finance
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/finance/stablecoins
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 44c9f7372b0d399742ca543a99bc537859e1de7fb5793dfad7a9bb94d0823f86
+wiki_role: concept
 ---
+
 
 # USDT
 

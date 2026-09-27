@@ -1,15 +1,24 @@
 ---
-name: "UCC Article 12"
+name: UCC Article 12
 slug: UCC-Article-12
 type: concept
 status: stub
 created: 2026-08-09
-domain: [law]
+domain:
+- law
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 174f5181372e66bd9d02c7d42129e3c2df96c2474783524f70745b7c5d9a4484
+wiki_role: concept
 ---
+
 
 # UCC Article 12
 

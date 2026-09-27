@@ -1,15 +1,24 @@
 ---
-name: "MiCA"
+name: MiCA
 slug: MiCA
 type: concept
 status: stub
 created: 2026-08-09
-domain: [law]
+domain:
+- law
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 31ef68299292a23f5abe5d88c4eaf9beee7ce81030dc7e003a4f0f7ae83ccc68
+wiki_role: concept
 ---
+
 
 # MiCA
 

@@ -1,15 +1,26 @@
 ---
-name: "Atomic Settlement"
+name: Atomic Settlement
 slug: Atomic-Settlement
 type: concept
 status: stub
 created: 2026-08-09
-domain: [finance, sub-topic]
+domain:
+- finance
+- sub-topic
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/finance
+- topic/blockchain-settlement
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 4e8e1395fea916fd3dece5552c89abf2e8b6e22e02138dd1043f157958b20a91
+wiki_role: concept
 ---
+
 
 # Atomic Settlement
 

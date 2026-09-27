@@ -1,0 +1,747 @@
+{
+  "vault": "C:/Users/Simon/Documents/wiki-tokenise",
+  "changes": [
+    {
+      "path": "10_Sources/Academia/arXiv-2608-09025-SAGE-Fin-Runtime-Governance-Financial-Agents.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "3651bd8b545799a618bb23cb80a852c03b4bc0477734f978a24815d1eec8b6c1",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2608-09378-Stablecoin-Transaction-Scaling-Laws-Ethereum.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "de1bfb23e0c0269949ea979b25c924b227b28b1ff48e09a9cd1c3b9d95f99eef",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2608-11344-Governing-Agentic-AI-FinTech.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "730e4af9c6219019661384e1983e27ef4d5a168cae92eb540d3c42387b047207",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/fed-2025-090-generative-ai-financial-stability-animal-spirits.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "e145b3d90ec15fbc8fbfca07fbb083d4266c18f288e853e6622750fd23b0f1d0",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Africa-Finance-Corporation-CHF-Digital-Bond-SIX-SDX.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "facbf5448b5b034f9c7d31b9e49b8901802c5d4687af959a1a685bf6fc8e18f5",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Brazil-24-Hour-Delay-Crypto-Stablecoin-Transfers.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "7962243ca646381c0b446001cc12dde5a7df204cce1925602d84e10ad479d9b8",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Marketnode-BNY-Funds-Stellar.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "ff36430da78eaa070907e39c5450da74f1189d3e5128f502fac809cfebe280b5",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Nasdaq-LeveL-Markets-Acquisition-Tokenization.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "85da501689f6fd685aee655b79d6512b346b4471c023361f2685a013df214e41",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-SEC-Franklin-Templeton-BENJI-Cash-Sweep.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "453e1f1f7bb1d46eaad4182a5cc3aafa116db1fe7eed2dc25ac4ab2ffe15a198",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-SEC-Postpones-Tokenized-Securities-Exemption.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "888e2971b7b4880d58f7fc0a2450554a9f9749ccec88420d227af39cdab0de02",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-StanChart-Anchorpoint-HKDAP-Stablecoin-Beta.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "33595311d793d3f07deaf422fee585bacc71eeed08ffdea61a585b4879769dbb",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-UK-FCA-Tokenized-Gold-Collateral.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/law/property-rights",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "e1499aaf33acc5534c36361529b0576c39b83fe10611f9e96ec415fb798e2c79",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Account-Abstraction.md",
+      "topic": [
+        "topic/agentic-ai"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "4aaa37f4b526f755ba7fb345b33707527a6fc58a4cb3aa5ad4c61686c07a7176",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/ACX.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "f420e0e8e4347d29e4a486686c8f1f9ee5954534e8131318637bd78fbbb8eba2",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Additionality.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "0d9ce9cbfa2cd4e0772ed9ea46297aad645dda49e96f65c11d0cf6cd6e5b662d",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Agent-Authority.md",
+      "topic": [
+        "topic/agentic-ai"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "dd1391784c3ee8d08993170b6d891d920e9f8168113a6968434be67b08d5b7ad",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Anchoring.md",
+      "topic": [
+        "topic/law/property-rights"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "cdbe4c8aecc26cd78dbbaf501daa824ee2750937bdd123c321c53e2267d90b1c",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Asset-Referenced-Token.md",
+      "topic": [
+        "topic/law",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "afb3b07171406034827f30a4a2ed73361c7a610e146a85a0ab33b44101e17c3b",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Atomic-Settlement.md",
+      "topic": [
+        "topic/finance",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "4e8e1395fea916fd3dece5552c89abf2e8b6e22e02138dd1043f157958b20a91",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Avalanche-Subnets.md",
+      "topic": [
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "f76281cb2d490fe5f0e2a57361c9d929c340e57f034d4420d88922c7e1d3a846",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Buffer-Pool.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "ad99415ad242ddbd4139d83a58272aae7ef4e102723e784ee0dfdad8daa4d650",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Canton-Network.md",
+      "topic": [
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "a4046138c4ee5c214b99617e4b77c8311ba2e817197f5fe08cc6abb64db9217c",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Carbon-Credit.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "64aefa990a5ba3f9aa4fa372f67a32a2ed71c3249878a42b9213c4423dca1fe3",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Climate-Impact-X.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "d5bd2a2b8813ff0962d3b861171bb11390ec9ea3751db40300158715af4201c8",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Control.md",
+      "topic": [
+        "topic/law/digital-assets"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "57276ffc6a16ba756735df34b77d152fbee4dfcb0efd1dbec81dc57dba28c82f",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Controllable-Electronic-Record.md",
+      "topic": [
+        "topic/law/digital-assets"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "e344be6cae1c9b57aa1e52a6144eeb8e37e746d6914b5488d5ed4e91348b61ed",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Corresponding-Adjustment.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "d8c39971759d817072f2b28722482e2092baa688f8006dc3d3d9660399c6fb61",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Direct-vs-Indirect-Tokenisation.md",
+      "topic": [
+        "topic/law/digital-assets",
+        "topic/law/property-rights"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "33f79f9f8f91ed0a93b667c8136418154d30eaf728689b8dc546e17d1b13a152",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/DvP-on-Chain.md",
+      "topic": [
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "91b48dc9e5ec9836ab2f2c28decccbde92288da36704411630423c40a2e249e8",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/E-Money-Token.md",
+      "topic": [
+        "topic/law",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "a3a8d5c174c85f77933564540af898b415cbfaeb8f580160caa0b338451f79c8",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Ethereum.md",
+      "topic": [
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "20cde49f93fe37b95ae18ca97fbbada9b1493df00cbc5b63d73a1739bb9b2a40",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/EURCV.md",
+      "topic": [
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "cbd7a4b881e115dc1af8079158baaf0c0b47f23774b66c12f4e22d4f0b03a7e8",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Fractional-Ownership.md",
+      "topic": [
+        "topic/real-estate"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "3205e13ddc24091ed4a73d1dee381a1fd725134fdc386542fd72f39853805632",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Georgia-Bitfury.md",
+      "topic": [
+        "topic/law/property-rights"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "83370f52e46f77dd38f7f8bf79d73c65f6ae6e03f4bf38ecbf5439bb8f11d9b9",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Ghana-Honduras-pilots.md",
+      "topic": [
+        "topic/law/property-rights"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "4ff0abefd01ce4ef3aa089411d4bac99ee5f0189e71212fc7d6bbf8e20e5aab4",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/HSBC-Marketnode-pilot.md",
+      "topic": [
+        "topic/real-estate"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "e00ed3c10806d50593e6437912f93437798b5aa0a6ec4c6ffac7f24af809f0fe",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Immobilisation.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "d70c658484f3746fc5102009863386c09daa2413b4b83db80909bcb6af6aa3ab",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/KlimaDAO.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "be9dfbea9eba9b459f0fb2608865151fb12896e3c89fd6d4a4a899fe1c36826f",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Land-Registry.md",
+      "topic": [
+        "topic/law/property-rights"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "e1d57a6adaef24607d19b8ac1316d2c7dd66eb22ba65e3fcd13a2e91e4aeb454",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/MEV.md",
+      "topic": [
+        "topic/agentic-ai"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "a4fc294219ef4be04b7f75ef58a95bfbed24ef2150d460716218456ff77f4f81",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/MiCA.md",
+      "topic": [
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "31ef68299292a23f5abe5d88c4eaf9beee7ce81030dc7e003a4f0f7ae83ccc68",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/MPC.md",
+      "topic": [
+        "topic/agentic-ai"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "b40ff9f3ad76105d019b6782a97b7ef3a65b824519e463030bf52cbb9eb1f245",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Payment-Stablecoin.md",
+      "topic": [
+        "topic/law",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "b6f67771c4a9a5fac77f5056e8cdbe6da5e76c5234eeac7384e9557b91bfca48",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Permanence.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "ffa01ca1f17a06d160df2f9c3b9048ff890cfea40b15b2735774ae7dcac2a98c",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Permissioned-vs-Permissionless.md",
+      "topic": [
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "197bc97f884bd2d3cd55c55006bb201871c5685c1f56d28654ac91b20ecfe135",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Polygon.md",
+      "topic": [
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "c988a3d1b89d48bb4593f86bc2ccd497ccd4797e43639109e5caa291840de81c",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Programmable-Money.md",
+      "topic": [
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "f094534dce2abc8ed4b7af82f36a47a6c6b79f8852da8a3cd7d8b66800d9fddd",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Prompt-Injection.md",
+      "topic": [
+        "topic/agentic-ai"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "9349fca16333e336ba047e63e4b7ba12a5185254632d43943a0c3141a405438c",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Property-Digital-Assets-Act-2025-UK.md",
+      "topic": [
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "724e6ef734580d8021236decf51dde4daab28633ebd4d24c11d3369cd2fbcafe",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Propy.md",
+      "topic": [
+        "topic/real-estate"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "f136048664bb3a452f57565bce32c131227f9f352eab612ad554483c6ffe1a99",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/PYUSD.md",
+      "topic": [
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "7d3a310efe215aacb03df7de6f5c27bb860cb0af1db6164fb5d410800d53e48f",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Real-Estate-Tokenisation-Model.md",
+      "topic": [
+        "topic/real-estate"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "2eef0e32d33b3ecaeed73334310b43cd5b9885a8a39ff2a0174fecaa16627a7e",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/RealT.md",
+      "topic": [
+        "topic/real-estate"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "54915b3c834b4f59b90c9d4596238f3e197f12b98ca65471c4f11f17a94a832b",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/RWA-Stablecoin.md",
+      "topic": [
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "48a00971341cc716ba2c8df482bb3c1dd24c1857e566bb9912a574eb27ebe4c4",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Singapore-PSA.md",
+      "topic": [
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "114356add0722f7de23a93db2073f2c871efe1fe7dd9bb442101f576bbf0e562",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Singleness-of-Money.md",
+      "topic": [
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "b0b607fdc64cb7712b29c6e3201b23228120e19d856fbeb57d8784737408a428",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/SPV-Token-Wrapper.md",
+      "topic": [
+        "topic/real-estate"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "e1c020ae90f56228493b4ba36a52b1a5cffc0db7955c39eb60be6736535cc82f",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Stablecoin.md",
+      "topic": [
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "6fdbd214a497a6925d40ae08f98debc6c44e1aa9471080bf1c47e334699ee381",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Stellar.md",
+      "topic": [
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "85f15a1d748cae4dd8d22094841ffba36a83ccfc406707e1c5a56f29601e7a15",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Sweden-Lantmateriet.md",
+      "topic": [
+        "topic/law/property-rights"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "ab591b0158b386642d48d52628a60e85fb289591cd307a52949e6d56e32801d8",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Third-Category-Property.md",
+      "topic": [
+        "topic/law/digital-assets"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "5598350f89b16b6887640017ba8376610bed5801389917d03f89d407a55d1a59",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Tokenisation.md",
+      "topic": [
+        "topic/tokenisation",
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "4c2dbd09a60c0d4bd8e0d622c5548aab410780f7177208c521409c98fa6e79ae",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Tokenised-Deposit.md",
+      "topic": [
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "828c23c78cc4dd88b73215f09ad9c886181d44548e907b1442c926d94e979de9",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Toucan.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "e43233f0b40cd6129e143f3a949ee3a6e01eb3e717c36e9437dca9a337e5681b",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Transaction-Intent-Schema.md",
+      "topic": [
+        "topic/agentic-ai"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "5a07235cd9b532eb9735143b4c2fbc82832c703b807122ad289209f7f6c045da",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/UCC-Article-12.md",
+      "topic": [
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "174f5181372e66bd9d02c7d42129e3c2df96c2474783524f70745b7c5d9a4484",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/UNIDROIT-Principles-2023.md",
+      "topic": [
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "e5ffde8af6643c919173c872543b3f3f1223465bfe8aca0aba1f052beb18cae7",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Unified-Ledger.md",
+      "topic": [
+        "topic/finance",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "25f367fba7850a3ca2be51ae5a67ae86f8c1d34fb1bad2739dd178188bdf49d8",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/USDC.md",
+      "topic": [
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "beee9a043457a1538cb0ba07220762df176f4d360600426ac0e929f11b283667",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/USDT.md",
+      "topic": [
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "44c9f7372b0d399742ca543a99bc537859e1de7fb5793dfad7a9bb94d0823f86",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Verra-2022-Suspension.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "dc460be3000efd959589b797cee8c811d36b3531e7b1292459e61a94809d381a",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    },
+    {
+      "path": "30_Concepts/Zombie-Credit.md",
+      "topic": [
+        "topic/carbon-credits"
+      ],
+      "subject": [],
+      "wiki_role": "concept",
+      "wiki_hash": "9b0998a4fbae583e52d4d8564ddc69de5b6aac0415d4a7bdbcb708cb5af70de5",
+      "wiki_indexed": "2026-08-17T00:00:00Z"
+    }
+  ]
+}

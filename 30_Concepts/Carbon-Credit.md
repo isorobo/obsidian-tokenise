@@ -1,15 +1,24 @@
 ---
-name: "Carbon Credit"
+name: Carbon Credit
 slug: Carbon-Credit
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/carbon-credits
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 64aefa990a5ba3f9aa4fa372f67a32a2ed71c3249878a42b9213c4423dca1fe3
+wiki_role: concept
 ---
+
 
 # Carbon Credit
 

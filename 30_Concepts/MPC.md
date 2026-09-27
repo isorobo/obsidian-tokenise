@@ -1,15 +1,24 @@
 ---
-name: "MPC"
+name: MPC
 slug: MPC
 type: concept
 status: stub
 created: 2026-08-09
-domain: [sub-topic]
+domain:
+- sub-topic
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/agentic-ai
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: b40ff9f3ad76105d019b6782a97b7ef3a65b824519e463030bf52cbb9eb1f245
+wiki_role: concept
 ---
+
 
 # MPC
 

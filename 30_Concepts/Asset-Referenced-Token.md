@@ -1,15 +1,26 @@
 ---
-name: "Asset Referenced Token"
+name: Asset Referenced Token
 slug: Asset-Referenced-Token
 type: concept
 status: stub
 created: 2026-08-09
-domain: [finance, law]
+domain:
+- finance
+- law
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law
+- topic/finance/stablecoins
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: afb3b07171406034827f30a4a2ed73361c7a610e146a85a0ab33b44101e17c3b
+wiki_role: concept
 ---
+
 
 # Asset Referenced Token
 

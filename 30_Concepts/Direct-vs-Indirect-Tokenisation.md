@@ -1,15 +1,26 @@
 ---
-name: "Direct vs Indirect Tokenisation"
+name: Direct vs Indirect Tokenisation
 slug: Direct-vs-Indirect-Tokenisation
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples, law]
+domain:
+- examples
+- law
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law/digital-assets
+- topic/law/property-rights
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 33f79f9f8f91ed0a93b667c8136418154d30eaf728689b8dc546e17d1b13a152
+wiki_role: concept
 ---
+
 
 # Direct vs Indirect Tokenisation
 

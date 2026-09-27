@@ -1,15 +1,24 @@
 ---
-name: "Ghana Honduras pilots"
+name: Ghana Honduras pilots
 slug: Ghana-Honduras-pilots
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law/property-rights
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 4ff0abefd01ce4ef3aa089411d4bac99ee5f0189e71212fc7d6bbf8e20e5aab4
+wiki_role: concept
 ---
+
 
 # Ghana Honduras pilots
 

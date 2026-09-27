@@ -1,15 +1,24 @@
 ---
-name: "MEV"
+name: MEV
 slug: MEV
 type: concept
 status: stub
 created: 2026-08-09
-domain: [sub-topic]
+domain:
+- sub-topic
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/agentic-ai
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: a4fc294219ef4be04b7f75ef58a95bfbed24ef2150d460716218456ff77f4f81
+wiki_role: concept
 ---
+
 
 # MEV
 

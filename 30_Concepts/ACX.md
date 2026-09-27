@@ -1,15 +1,24 @@
 ---
-name: "ACX"
+name: ACX
 slug: ACX
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/carbon-credits
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: f420e0e8e4347d29e4a486686c8f1f9ee5954534e8131318637bd78fbbb8eba2
+wiki_role: concept
 ---
+
 
 # ACX
 

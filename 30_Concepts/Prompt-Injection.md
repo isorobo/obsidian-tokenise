@@ -1,15 +1,24 @@
 ---
-name: "Prompt Injection"
+name: Prompt Injection
 slug: Prompt-Injection
 type: concept
 status: stub
 created: 2026-08-09
-domain: [sub-topic]
+domain:
+- sub-topic
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/agentic-ai
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 9349fca16333e336ba047e63e4b7ba12a5185254632d43943a0c3141a405438c
+wiki_role: concept
 ---
+
 
 # Prompt Injection
 

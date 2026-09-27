@@ -1,15 +1,24 @@
 ---
-name: "Verra 2022 Suspension"
+name: Verra 2022 Suspension
 slug: Verra-2022-Suspension
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/carbon-credits
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: dc460be3000efd959589b797cee8c811d36b3531e7b1292459e61a94809d381a
+wiki_role: concept
 ---
+
 
 # Verra 2022 Suspension
 

@@ -1,15 +1,24 @@
 ---
-name: "Propy"
+name: Propy
 slug: Propy
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/real-estate
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: f136048664bb3a452f57565bce32c131227f9f352eab612ad554483c6ffe1a99
+wiki_role: concept
 ---
+
 
 # Propy
 

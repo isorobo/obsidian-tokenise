@@ -1,15 +1,25 @@
 ---
-name: "E Money Token"
+name: E Money Token
 slug: E-Money-Token
 type: concept
 status: stub
 created: 2026-08-09
-domain: [law]
+domain:
+- law
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law
+- topic/finance/stablecoins
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: a3a8d5c174c85f77933564540af898b415cbfaeb8f580160caa0b338451f79c8
+wiki_role: concept
 ---
+
 
 # E Money Token
 

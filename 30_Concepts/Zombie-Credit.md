@@ -1,15 +1,24 @@
 ---
-name: "Zombie Credit"
+name: Zombie Credit
 slug: Zombie-Credit
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/carbon-credits
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 9b0998a4fbae583e52d4d8564ddc69de5b6aac0415d4a7bdbcb708cb5af70de5
+wiki_role: concept
 ---
+
 
 # Zombie Credit
 

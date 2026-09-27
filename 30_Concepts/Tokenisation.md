@@ -1,15 +1,25 @@
 ---
-name: "Tokenisation"
+name: Tokenisation
 slug: Tokenisation
 type: concept
 status: stub
 created: 2026-08-09
-domain: [finance]
+domain:
+- finance
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/tokenisation
+- topic/finance
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 4c2dbd09a60c0d4bd8e0d622c5548aab410780f7177208c521409c98fa6e79ae
+wiki_role: concept
 ---
+
 
 # Tokenisation
 

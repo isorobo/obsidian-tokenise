@@ -1,15 +1,24 @@
 ---
-name: "Georgia Bitfury"
+name: Georgia Bitfury
 slug: Georgia-Bitfury
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/law/property-rights
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: 83370f52e46f77dd38f7f8bf79d73c65f6ae6e03f4bf38ecbf5439bb8f11d9b9
+wiki_role: concept
 ---
+
 
 # Georgia Bitfury
 

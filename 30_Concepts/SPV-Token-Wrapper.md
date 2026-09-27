@@ -1,15 +1,24 @@
 ---
-name: "SPV Token Wrapper"
+name: SPV Token Wrapper
 slug: SPV-Token-Wrapper
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/real-estate
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: e1c020ae90f56228493b4ba36a52b1a5cffc0db7955c39eb60be6736535cc82f
+wiki_role: concept
 ---
+
 
 # SPV Token Wrapper
 

@@ -1,15 +1,24 @@
 ---
-name: "Immobilisation"
+name: Immobilisation
 slug: Immobilisation
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/carbon-credits
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: d70c658484f3746fc5102009863386c09daa2413b4b83db80909bcb6af6aa3ab
+wiki_role: concept
 ---
+
 
 # Immobilisation
 

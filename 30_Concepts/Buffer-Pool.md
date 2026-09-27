@@ -1,15 +1,24 @@
 ---
-name: "Buffer Pool"
+name: Buffer Pool
 slug: Buffer-Pool
 type: concept
 status: stub
 created: 2026-08-09
-domain: [examples]
+domain:
+- examples
 synonyms: []
-defined_in: ""
+defined_in: ''
 related_concepts: []
-tags: [concept, stub]
+tags:
+- concept
+- stub
+topic:
+- topic/carbon-credits
+wiki_indexed: '2026-08-17T00:00:00Z'
+wiki_hash: ad99415ad242ddbd4139d83a58272aae7ef4e102723e784ee0dfdad8daa4d650
+wiki_role: concept
 ---
+
 
 # Buffer Pool
 

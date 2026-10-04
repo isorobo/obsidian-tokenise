@@ -1,8 +1,11 @@
 # Wiki skill configuration for the Tokenise vault.
 # Created 2026-06-07 to enable /wiki scan, apply, and MOC refresh.
-# The controlled Topic vocabulary derives from 99_Meta/schema.md
-# (domain, instrument, and doctrine enums).
+# Rebuilt-engine keys added 2026-10-04 (see wiki-engine specs/wiki.md section 2.3
+# and specs/wiki-tokenise.md section 1.6). The controlled Topic vocabulary is the
+# closed set of 14 in the source template's comment block; `tk-plan` maps the
+# schema.md domain, instrument and doctrine enums onto it with the tables below.
 
+engine: wiki-tokenise
 vault_name: "Tokenise"
 
 excluded_folders:
@@ -30,3 +33,159 @@ confidence_threshold: 0.7
 max_topics_per_note: 3
 topic_depth: 3
 vocabulary_version: 1
+
+reports_dir: "99_Meta/wiki-tokenise"
+report_prefix: "wiki-"
+vocabulary_source: "90_Templates/template - source.md"
+subjects_file: null
+pending_file: "99_Meta/wiki-tokenise/wiki-pending.md"
+moc_mode: suggest
+moc_dir: "50_MOCs"
+structural_topics: [topic/meta, topic/moc, topic/people]
+tag_scope: ["10_Sources", "30_Areas", "30_Concepts"]
+tag_roles: [wiki, concept, source]
+never_write: ["10_Sources/SOURCE-REGISTER.md", "_CLAUDE.md", "README.md"]
+role_by_prefix: {"30_Concepts/": concept}
+
+# Suggest mode: target hand-curated MOC per topic. A topic with no entry falls
+# back to its parent (topic/finance/market-infrastructure -> MOC - Finance).
+topic_moc_map:
+  topic/finance: "MOC - Finance"
+  topic/finance/stablecoins: "MOC - Stablecoins"
+  topic/law: "MOC - Law"
+  topic/law/property-rights: "MOC - Property-Rights"
+  topic/law/digital-assets: "MOC - Private-Law-Convergence"
+  topic/blockchain-settlement: "MOC - Blockchain-Settlement"
+  topic/agentic-ai: "MOC - Agentic-AI"
+  topic/carbon-credits: "MOC - Carbon-Credits"
+  topic/real-estate: "MOC - Real-Estate"
+
+# Deterministic topic mapper for `wiki_tool.py tk-plan` (replaces the dated
+# build-apply-plan-*.py builders; tables carried from build-apply-plan-2026-08-17.py).
+mapper:
+  weights: {domain: 2, instrument: 2, doctrine: 1, moc: 2, concept_domain: 1}
+  top_n: 2
+  fallback_topic: topic/tokenisation
+  domain_topic:
+    finance: topic/finance
+    stablecoins: topic/finance/stablecoins
+    market-structure: topic/finance/market-infrastructure
+    market-infrastructure: topic/finance/market-infrastructure
+    blockchain-settlement: topic/blockchain-settlement
+    settlement: topic/blockchain-settlement
+    defi: topic/blockchain-settlement
+    law: topic/law
+    private-law: topic/law
+    international-private-law: topic/law
+    securities-law: topic/law/securities
+    property-rights: topic/law/property-rights
+    tokenised-deposits: topic/finance/tokenised-deposits
+    cross-border-payments: topic/finance
+    payment-systems: topic/finance
+    monetary-policy: topic/finance
+    financial-regulation: topic/law
+    cbdc: topic/finance/cbdc
+    agentic-ai: topic/agentic-ai
+    ai-governance: topic/agentic-ai
+    llm-trading: topic/agentic-ai
+    carbon-credits: topic/carbon-credits
+    environmental-markets: topic/carbon-credits
+    real-estate: topic/real-estate
+  instrument_topic:
+    stablecoin-fiat: topic/finance/stablecoins
+    stablecoin-rwa-backed: topic/finance/stablecoins
+    stablecoin-algorithmic: topic/finance/stablecoins
+    payment-stablecoin: topic/finance/stablecoins
+    e-money-token: topic/finance/stablecoins
+    asset-referenced-token: topic/finance/stablecoins
+    cbdc-wholesale: topic/finance/cbdc
+    cbdc-retail: topic/finance/cbdc
+    security-token: topic/law/securities
+    tokenised-equity: topic/law/securities
+    tokenised-deposit: topic/finance/tokenised-deposits
+    tokenised-bond: topic/finance/market-infrastructure
+    tokenised-fund: topic/finance/market-infrastructure
+    tokenised-money-market-fund: topic/finance/market-infrastructure
+    tokenised-treasury: topic/finance/market-infrastructure
+    tokenised-private-credit: topic/finance/market-infrastructure
+    tokenised-commodity: topic/finance/market-infrastructure
+    tokenised-carbon-credit: topic/carbon-credits
+    tokenised-real-estate: topic/real-estate
+  doctrine_topic:
+    property-category: topic/law/property-rights
+    transfer: topic/law/property-rights
+    secured-transactions: topic/law/property-rights
+    take-free-purchaser: topic/law/property-rights
+    control: topic/law/property-rights
+    custody: topic/law/property-rights
+    market-abuse: topic/law/securities
+    prospectus: topic/law/securities
+    mifid-equivalence: topic/law/securities
+    market-structure: topic/finance/market-infrastructure
+    singleness-of-money: topic/finance
+    licensing: topic/law
+    aml-cft: topic/law
+    disclosure: topic/law
+    consumer-protection: topic/law
+    intermediation: topic/law
+    choice-of-law: topic/law
+    insolvency: topic/law
+    reserve-requirements: topic/law
+    stablecoin-regulation: topic/finance/stablecoins
+    federal-preemption: topic/law
+  # Concept stubs: topics from the hand MOCs each stub links to.
+  moc_topic:
+    "MOC - Carbon-Credits": topic/carbon-credits
+    "MOC - Agent-Ledger-Interface": topic/agentic-ai
+    "MOC - Agentic-AI": topic/agentic-ai
+    "MOC - Property-Rights": topic/law/property-rights
+    "MOC - Private-Law-Convergence": topic/law/digital-assets
+    "MOC - Finance": topic/finance
+    "MOC - Law": topic/law
+    "MOC - Blockchain-Settlement": topic/blockchain-settlement
+    "MOC - Stablecoins": topic/finance/stablecoins
+    "MOC - Real-Estate": topic/real-estate
+  # Institutional issuers -> publisher subject. Press and aggregators excluded.
+  org_subject:
+    BIS: subject/bis
+    Bank for International Settlements: subject/bis
+    ESMA: subject/esma
+    European Securities and Markets Authority: subject/esma
+    European Securities and Markets Authority (ESMA): subject/esma
+    IMF: subject/imf
+    International Monetary Fund: subject/imf
+    FSB: subject/fsb
+    Financial Stability Board: subject/fsb
+    IOSCO: subject/iosco
+    HKMA: subject/hkma
+    Hong Kong Monetary Authority: subject/hkma
+    HKMC: subject/hkmc
+    MAS: subject/mas
+    Monetary Authority of Singapore: subject/mas
+    Federal Reserve: subject/federal-reserve
+    Federal Reserve Board: subject/federal-reserve
+    Board of Governors of the Federal Reserve System: subject/federal-reserve
+    UNIDROIT: subject/unidroit
+    Verra: subject/verra
+    United States Congress: subject/congress
+  # 30_Areas notes carry no enum frontmatter; classified by hand. Keys are
+  # filename substrings; the first match wins (overrides before note_overrides).
+  overrides:
+    "Storm Research": [topic/blockchain-settlement, topic/finance/stablecoins]
+    "Carbon Credits as Tokenisation Test Bed": [topic/carbon-credits, topic/tokenisation]
+    "Interoperability and Cross-Chain Fragmentation": [topic/blockchain-settlement, topic/finance/market-infrastructure]
+    "Private Law Convergence Across Jurisdictions": [topic/law/property-rights, topic/law/digital-assets]
+    "Regulatory Pathways by Jurisdiction": [topic/law, topic/tokenisation]
+    "Settlement Efficiency and Cost Reduction": [topic/blockchain-settlement, topic/finance/market-infrastructure]
+    "Stablecoin Architecture Evolution": [topic/finance/stablecoins, topic/tokenisation]
+    "Tokenised Securities vs Real-World Assets": [topic/law/securities, topic/tokenisation]
+    "Agentic AI and Tokenised Settlement Infrastructure": [topic/agentic-ai, topic/blockchain-settlement, topic/finance/stablecoins]
+  note_overrides:
+    "hkma-quantum-preparedness-whitepaper-2026": [topic/blockchain-settlement]
+    "Ledger-Insights-Circle-NY-Trust-Charter": [topic/law]
+    "IMF-Speech-2026-08-Katz-Stablecoins-Emerging-Markets": [topic/finance/stablecoins, topic/finance]
+    "30_Concepts/Tokenisation.md": [topic/tokenisation, topic/finance]
+    "30_Concepts/Tokenised-Deposit.md": [topic/finance/tokenised-deposits]
+    "30_Concepts/E-Money-Token.md": [topic/law, topic/finance/stablecoins]
+    "30_Concepts/Asset-Referenced-Token.md": [topic/law, topic/finance/stablecoins]
+  quarantine: []

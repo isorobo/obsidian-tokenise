@@ -38,8 +38,11 @@ by the orchestrator and the monitor.
    under `10_Sources/<Category>/`, and updates state.
 3. `/wiki-tokenise status` reads every `state/*.json` and rewrites
    `index.md`.
-4. `/wiki-tokenise weekly-refresh` runs `run all` → `notebooklm-sync all`
-   → `wiki-refresh`. This is the cron entry point.
+4. `/wiki-tokenise weekly-refresh` runs `run all` → `status` →
+   `wiki-refresh` (NotebookLM sync retired 9 August 2026; manual only).
+   The scheduled entry point is the launchd job `com.lundons.wiki-weekly`
+   (Sunday 06:00 NZ), which runs each channel as its own headless
+   `claude -p` process. Engine source: `~/code/coding-tools/wiki-engine`.
 
 ## Do not edit by hand
 

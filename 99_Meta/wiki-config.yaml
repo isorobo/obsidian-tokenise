@@ -3,7 +3,7 @@
 # Mirrors the convention used in the sibling vault wiki-ai-thinkers.
 
 vault_name: wiki-tokenise
-vault_root: C:\Users\Simon\Documents\wiki-tokenise
+vault_root: ~/obsidian/wiki-tokenise
 date: 2026-05-24
 
 folders:

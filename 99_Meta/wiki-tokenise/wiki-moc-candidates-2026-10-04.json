@@ -2,27 +2,359 @@
   "mode": "suggest",
   "moc_dir": "50_MOCs",
   "writes": "none (hand-curated MOCs are user-owned)",
-  "considered": 2,
-  "already_linked": 1,
-  "candidates": 2,
+  "considered": 23,
+  "already_linked": 0,
+  "candidates": 40,
   "groups": {
-    "MOC - Law": [
+    "MOC - Agentic-AI": [
       {
-        "path": "10_Sources/Industry-Press/Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act.md",
-        "link": "[[Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act]]",
+        "path": "10_Sources/Academia/arXiv-2604-03733-SoK-Blockchain-Agent-to-Agent-Payments.md",
+        "link": "[[arXiv-2604-03733-SoK-Blockchain-Agent-to-Agent-Payments]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2609-30940-Financial-Fragility-Societies-LLM-Agents.md",
+        "link": "[[arXiv-2609-30940-Financial-Fragility-Societies-LLM-Agents]]",
+        "topics": [
+          "topic/agentic-ai"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ESMA-New-Supervisory-Priority-Digital-Innovation-2027.md",
+        "link": "[[ESMA-New-Supervisory-Priority-Digital-Innovation-2027]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/agentic-ai",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-Speech-2026-09-Katz-AI-Future-Payments-Policy.md",
+        "link": "[[IMF-Speech-2026-09-Katz-AI-Future-Payments-Policy]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/finance/stablecoins",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/MAS-Chia-Building-Financial-System-Future-GFF-2026.md",
+        "link": "[[MAS-Chia-Building-Financial-System-Future-GFF-2026]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/tokenisation"
+        ]
+      }
+    ],
+    "MOC - Blockchain-Settlement": [
+      {
+        "path": "10_Sources/Academia/arXiv-2604-03733-SoK-Blockchain-Agent-to-Agent-Payments.md",
+        "link": "[[arXiv-2604-03733-SoK-Blockchain-Agent-to-Agent-Payments]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/BIS-WP1377-Hidden-Complexity-Measuring-Stablecoin-DeFi-Ecosystems.md",
+        "link": "[[BIS-WP1377-Hidden-Complexity-Measuring-Stablecoin-DeFi-Ecosystems]]",
         "topics": [
           "topic/finance/stablecoins",
-          "topic/law"
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ESMA-TRV-2026-Geopolitical-Vulnerabilities-Crypto-Tokenisation.md",
+        "link": "[[ESMA-TRV-2026-Geopolitical-Vulnerabilities-Crypto-Tokenisation]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/HKMA-Fourth-Digital-Green-Bonds-Offering-Tokenised-Deposits-2026.md",
+        "link": "[[HKMA-Fourth-Digital-Green-Bonds-Offering-Tokenised-Deposits-2026]]",
+        "topics": [
+          "topic/finance/tokenised-deposits",
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-Speech-2026-08-Georgieva-Financially-More-Fluid-World.md",
+        "link": "[[IMF-Speech-2026-08-Georgieva-Financially-More-Fluid-World]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/JRFM-2026-Liquidity-Microstructure-Tokenized-Carbon-Assets.md",
+        "link": "[[JRFM-2026-Liquidity-Microstructure-Tokenized-Carbon-Assets]]",
+        "topics": [
+          "topic/carbon-credits",
+          "topic/blockchain-settlement",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/npj-2026-CATchain-R-Blockchain-Carbon-Registry-Transportation.md",
+        "link": "[[npj-2026-CATchain-R-Blockchain-Carbon-Registry-Transportation]]",
+        "topics": [
+          "topic/carbon-credits",
+          "topic/blockchain-settlement"
+        ]
+      }
+    ],
+    "MOC - Carbon-Credits": [
+      {
+        "path": "10_Sources/Academia/JRFM-2026-Liquidity-Microstructure-Tokenized-Carbon-Assets.md",
+        "link": "[[JRFM-2026-Liquidity-Microstructure-Tokenized-Carbon-Assets]]",
+        "topics": [
+          "topic/carbon-credits",
+          "topic/blockchain-settlement",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/JRFM-2026-Tokenisation-Opportunities-Voluntary-Carbon-Markets-Sectoral-Diagnostic.md",
+        "link": "[[JRFM-2026-Tokenisation-Opportunities-Voluntary-Carbon-Markets-Sectoral-Diagnostic]]",
+        "topics": [
+          "topic/carbon-credits",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/npj-2026-CATchain-R-Blockchain-Carbon-Registry-Transportation.md",
+        "link": "[[npj-2026-CATchain-R-Blockchain-Carbon-Registry-Transportation]]",
+        "topics": [
+          "topic/carbon-credits",
+          "topic/blockchain-settlement"
+        ]
+      }
+    ],
+    "MOC - Finance": [
+      {
+        "path": "10_Sources/Academia/arXiv-2510-10469-Risk-Mitigation-Model-Monetary-Ecosystem-Stablecoins.md",
+        "link": "[[arXiv-2510-10469-Risk-Mitigation-Model-Monetary-Ecosystem-Stablecoins]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2609-15797-Prelude-Theory-RWA-Tokenization.md",
+        "link": "[[arXiv-2609-15797-Prelude-Theory-RWA-Tokenization]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/market-infrastructure",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ESMA-New-Supervisory-Priority-Digital-Innovation-2027.md",
+        "link": "[[ESMA-New-Supervisory-Priority-Digital-Innovation-2027]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/agentic-ai",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ESMA-TRV-2026-Geopolitical-Vulnerabilities-Crypto-Tokenisation.md",
+        "link": "[[ESMA-TRV-2026-Geopolitical-Vulnerabilities-Crypto-Tokenisation]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/FEDS-Note-2026-09-New-Forms-Money-US-Monetary-Aggregates.md",
+        "link": "[[FEDS-Note-2026-09-New-Forms-Money-US-Monetary-Aggregates]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/tokenised-deposits",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/HKMA-Fourth-Digital-Green-Bonds-Offering-Tokenised-Deposits-2026.md",
+        "link": "[[HKMA-Fourth-Digital-Green-Bonds-Offering-Tokenised-Deposits-2026]]",
+        "topics": [
+          "topic/finance/tokenised-deposits",
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/HKMA-Treasury-Markets-Summit-2026-Digital-Native-Bond-Market.md",
+        "link": "[[HKMA-Treasury-Markets-Summit-2026-Digital-Native-Bond-Market]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-Annual-Report-2026-New-Frontiers-Digital-Finance.md",
+        "link": "[[IMF-Annual-Report-2026-New-Frontiers-Digital-Finance]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/cbdc",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/JRFM-2026-Liquidity-Microstructure-Tokenized-Carbon-Assets.md",
+        "link": "[[JRFM-2026-Liquidity-Microstructure-Tokenized-Carbon-Assets]]",
+        "topics": [
+          "topic/carbon-credits",
+          "topic/blockchain-settlement",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/UNIDROIT-Centenary-Financial-Markets-Technology-Workshop-2026.md",
+        "link": "[[UNIDROIT-Centenary-Financial-Markets-Technology-Workshop-2026]]",
+        "topics": [
+          "topic/law/digital-assets",
+          "topic/finance"
+        ]
+      }
+    ],
+    "MOC - Law": [
+      {
+        "path": "10_Sources/Central-Banks/ESMA-Calls-Changes-MiCA-Clearer-Safer-Emerging-Services-2026.md",
+        "link": "[[ESMA-Calls-Changes-MiCA-Clearer-Safer-Emerging-Services-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/securities",
+          "topic/law/digital-assets"
+        ]
+      }
+    ],
+    "MOC - Private-Law-Convergence": [
+      {
+        "path": "10_Sources/Central-Banks/ESMA-Calls-Changes-MiCA-Clearer-Safer-Emerging-Services-2026.md",
+        "link": "[[ESMA-Calls-Changes-MiCA-Clearer-Safer-Emerging-Services-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/securities",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/UNIDROIT-Centenary-Financial-Markets-Technology-Workshop-2026.md",
+        "link": "[[UNIDROIT-Centenary-Financial-Markets-Technology-Workshop-2026]]",
+        "topics": [
+          "topic/law/digital-assets",
+          "topic/finance"
         ]
       }
     ],
     "MOC - Stablecoins": [
       {
-        "path": "10_Sources/Industry-Press/Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act.md",
-        "link": "[[Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act]]",
+        "path": "10_Sources/Academia/arXiv-2507-13883-Stablecoins-Fundamentals-Emerging-Issues-Open-Challenges.md",
+        "link": "[[arXiv-2507-13883-Stablecoins-Fundamentals-Emerging-Issues-Open-Challenges]]",
+        "topics": [
+          "topic/finance/stablecoins"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2508-02403-SoK-Stablecoins-Digital-Transformation-RWA.md",
+        "link": "[[arXiv-2508-02403-SoK-Stablecoins-Digital-Transformation-RWA]]",
         "topics": [
           "topic/finance/stablecoins",
-          "topic/law"
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2510-10469-Risk-Mitigation-Model-Monetary-Ecosystem-Stablecoins.md",
+        "link": "[[arXiv-2510-10469-Risk-Mitigation-Model-Monetary-Ecosystem-Stablecoins]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2609-15797-Prelude-Theory-RWA-Tokenization.md",
+        "link": "[[arXiv-2609-15797-Prelude-Theory-RWA-Tokenization]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/market-infrastructure",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/BIS-WP1377-Hidden-Complexity-Measuring-Stablecoin-DeFi-Ecosystems.md",
+        "link": "[[BIS-WP1377-Hidden-Complexity-Measuring-Stablecoin-DeFi-Ecosystems]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ESMA-Calls-Changes-MiCA-Clearer-Safer-Emerging-Services-2026.md",
+        "link": "[[ESMA-Calls-Changes-MiCA-Clearer-Safer-Emerging-Services-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/securities",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/FEDS-Note-2026-08-Decade-US-Cross-Border-Payments-Efforts.md",
+        "link": "[[FEDS-Note-2026-08-Decade-US-Cross-Border-Payments-Efforts]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/FEDS-Note-2026-09-New-Forms-Money-US-Monetary-Aggregates.md",
+        "link": "[[FEDS-Note-2026-09-New-Forms-Money-US-Monetary-Aggregates]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/tokenised-deposits",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-Annual-Report-2026-New-Frontiers-Digital-Finance.md",
+        "link": "[[IMF-Annual-Report-2026-New-Frontiers-Digital-Finance]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/cbdc",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-Speech-2026-08-Georgieva-Financially-More-Fluid-World.md",
+        "link": "[[IMF-Speech-2026-08-Georgieva-Financially-More-Fluid-World]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-Speech-2026-09-Katz-AI-Future-Payments-Policy.md",
+        "link": "[[IMF-Speech-2026-09-Katz-AI-Future-Payments-Policy]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/finance/stablecoins",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/MAS-Stablecoin-Legislative-Amendments-Consultation-2026.md",
+        "link": "[[MAS-Stablecoin-Legislative-Amendments-Consultation-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/tokenisation"
         ]
       }
     ]

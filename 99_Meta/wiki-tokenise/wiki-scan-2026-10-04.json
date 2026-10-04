@@ -1,6 +1,6 @@
 {
   "vault": "/Users/bernie/obsidian/wiki-tokenise",
-  "scanned_at": "2026-10-04T02:46:09Z",
+  "scanned_at": "2026-10-04T03:29:09Z",
   "config": {
     "engine": "wiki-tokenise",
     "vault_name": "Tokenise",
@@ -255,10 +255,10 @@
     }
   },
   "stats": {
-    "total_notes": 308,
-    "fresh": 4,
-    "modified": 1,
-    "unchanged": 303,
+    "total_notes": 331,
+    "fresh": 26,
+    "modified": 0,
+    "unchanged": 305,
     "orphans": 0,
     "quarantined": 0,
     "unique_topics": 14,
@@ -280,6 +280,41 @@
       "body_preview": "# Blockchain-based voluntary carbon market: strategic insights into network structure\n\n## Citation\n\nBassi, Eleonóra, Michael Lustenberger, and Srebrenka Letina. \"Blockchain-based voluntary carbon market: strategic insights into network structure\". *Frontiers in Blockchain*, Vol. 8, 2025-07-21. https://doi.org/10.3389/fbloc.2025.1603695.\n\n## One-line summary\n\nNetwork analysis of the blockchain-based voluntary carbon market finds a sparse, fragmented ecosystem where legacy tokenisation approaches ",
       "action": null,
       "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Academia/JRFM-2026-Liquidity-Microstructure-Tokenized-Carbon-Assets.md",
+      "hash": "bfb0d6d54315680e9ef0a3c1a219204495adaea20e39237e873c920bcea72a27",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/carbon-credits",
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2879,
+      "body_preview": "# Liquidity and Market Microstructure of Tokenized Carbon Assets Trading in Blockchain-Based Voluntary Carbon Markets: A Mean-Centered MMRM with HAC Corrections\n\n## Citation\n\nSukmawati Sukamulya and Veronica Tri Kusuma. \"Liquidity and Market Microstructure of Tokenized Carbon Assets Trading in Blockchain-Based Voluntary Carbon Markets: A Mean-Centered MMRM with HAC Corrections\". Journal of Risk and Financial Management, 3 May 2026. https://doi.org/10.3390/jrfm19050331.\n\n## One-line summary\n\nOn-c",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Academia/JRFM-2026-Tokenisation-Opportunities-Voluntary-Carbon-Markets-Sectoral-Diagnostic.md",
+      "hash": "dea5764092f3413afa83268cbecbf71391e1fd5206e0accd06a4f45fd1176200",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/carbon-credits",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2791,
+      "body_preview": "# Tokenisation Opportunities in Voluntary Carbon Markets: A Sectoral Diagnostic\n\n## Citation\n\nAuthor names not captured from the fetched text (single-author affiliation: ISM University of Management and Economics, Vilnius). \"Tokenisation Opportunities in Voluntary Carbon Markets: A Sectoral Diagnostic\". Journal of Risk and Financial Management, 1 January 2026. https://doi.org/10.3390/jrfm19010028.\n\n## One-line summary\n\nThe paper builds a sector tokenisation opportunity matrix from registry proje",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
       "stub": false
     },
     {
@@ -421,6 +456,56 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Academia/arXiv-2507-13883-Stablecoins-Fundamentals-Emerging-Issues-Open-Challenges.md",
+      "hash": "b329dff9a9cbe95a014b271bd60faa41651860a1614ca4f40d8c9bf788266923",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1833,
+      "body_preview": "# Stablecoins: Fundamentals, Emerging Issues, and Open Challenges\n\n## Citation\n\nAhmed Mahrous, Maurantonio Caprolu and Roberto Di Pietro. \"Stablecoins: Fundamentals, Emerging Issues, and Open Challenges\". arXiv (econ.GN), 18 July 2025. https://arxiv.org/abs/2507.13883.\n\n## One-line summary\n\nA structured literature survey of stablecoin research covering stability, novel designs and regulation, with a list of open research gaps.\n\n## Key claims\n\n- Stablecoin capitalisation exceeded USD200 billion a",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2508-02403-SoK-Stablecoins-Digital-Transformation-RWA.md",
+      "hash": "b16e40286c5a0e5599eb23e5a689f1c1ef5bd1dc94329e3f71dacfe3bde0ad5a",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1802,
+      "body_preview": "# SoK: Stablecoins for Digital Transformation -- Design, Metrics, and Application with Real World Asset Tokenization as a Case Study\n\n## Citation\n\nLuyao Zhang. \"SoK: Stablecoins for Digital Transformation -- Design, Metrics, and Application with Real World Asset Tokenization as a Case Study\". arXiv (econ.GN), 4 August 2025. https://arxiv.org/abs/2508.02403.\n\n## One-line summary\n\nA systematisation of knowledge that unifies fragmented stablecoin research in a taxonomy and benchmarking framework, w",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2510-10469-Risk-Mitigation-Model-Monetary-Ecosystem-Stablecoins.md",
+      "hash": "aa8a0e8cc37bb4a0bdfddff5ab90d38df8477d71af829f532740c8db342d832e",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/finance"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1920,
+      "body_preview": "# A Risk Mitigation Model of Monetary Ecosystem with Stablecoins\n\n## Citation\n\nHongzhe Wen and R.S.M. Lau. \"A Risk Mitigation Model of Monetary Ecosystem with Stablecoins\". arXiv (q-fin.RM), 12 October 2025. https://arxiv.org/abs/2510.10469.\n\n## One-line summary\n\nA hybrid monetary design combining full reserve backing, interoperable redemption and central bank liquidity support is shown, on the 2023 USDC depeg, to damp stablecoin run dynamics.\n\n## Key claims\n\n- Stablecoin market capitalisation p",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
       "path": "10_Sources/Academia/arXiv-2601-04583-Autonomous-Agents-Blockchains.md",
       "hash": "4d448e2c723ee1eb2b7a51ba08e4a0cb8d7929a5e3772a9dc83b326aca60c0f4",
       "role": "wiki",
@@ -437,6 +522,23 @@
       "body_preview": "# Autonomous Agents on Blockchains: Standards, Execution Models, and Trust Boundaries (arXiv 2601.04583)\n\n**Source:** [https://arxiv.org/abs/2601.04583](https://arxiv.org/abs/2601.04583)\n**NotebookLM:** `a5a899b0-ee99-4e6a-bbc1-4441e7dce791` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM source_describe returned an internal error on two retries. The source itself is present in the note",
       "action": null,
       "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2604-03733-SoK-Blockchain-Agent-to-Agent-Payments.md",
+      "hash": "48ba54608aa53f021a4fc689d8e90f17650057d92fbe8c791e8082fd75fc46fe",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/agentic-ai",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2151,
+      "body_preview": "# SoK: Blockchain Agent-to-Agent Payments\n\n## Citation\n\nYuanzhe Zhang, Yuexin Xiang, Yuchen Lei, Qin Wang, Tian Qiu, Yujing Sun, Spiridon Zarkov, Tsz Hon Yuen, Andreas Deppeler, Jiangshan Yu and Kwok-Yan Lam. \"SoK: Blockchain Agent-to-Agent Payments\". arXiv (q-fin.GN), 4 April 2026. https://arxiv.org/abs/2604.03733.\n\n## One-line summary\n\nA systematisation of blockchain-based payments between autonomous AI agents, organised in a four-stage lifecycle with the main trust and security gaps identifie",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
       "stub": false
     },
     {
@@ -678,6 +780,40 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Academia/arXiv-2609-15797-Prelude-Theory-RWA-Tokenization.md",
+      "hash": "f6c630202cc0301b8740d2bf1933d7872517020a878c4b0688d3d7d305ee6445",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2216,
+      "body_preview": "# A prelude to the theory of Real-World Asset (RWA) Tokenization\n\n## Citation\n\nWenpin Tang. \"A prelude to the theory of Real-World Asset (RWA) Tokenization\". arXiv (econ.GN), 14 September 2026. https://arxiv.org/abs/2609.15797.\n\n## One-line summary\n\nA theory paper that classifies RWA tokenisation by the role of the underlying asset and builds two models, one on security design under asymmetric information and one on Digital Asset Treasuries.\n\n## Key claims\n\n- The paper introduces RWA tokenisatio",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2609-30940-Financial-Fragility-Societies-LLM-Agents.md",
+      "hash": "575bafd661e97c71da9e8136aa1dadb543e29f34976724d6b9992e9812686f46",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/agentic-ai"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 1928,
+      "body_preview": "# Financial Fragility in Societies of LLM Agents\n\n## Citation\n\nZhenhao Fu, Ruipeng Xu and Qibing Ren. \"Financial Fragility in Societies of LLM Agents\". arXiv (cs.AI; q-fin.GN), 25 September 2026. https://arxiv.org/abs/2609.30940.\n\n## One-line summary\n\nExperiments with the FRAIL framework show that societies of individually capable LLM agents often produce bank runs and debt-rollover failures, and that early broad commitment is the key stabiliser.\n\n## Key claims\n\n- Individually rational LLM agent",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
       "path": "10_Sources/Academia/arXiv-Agent-Economy-Blockchain-Foundation.md",
       "hash": "16105552990ab518a810697f502e208d1bfa03c7fc4c3dd37d085ae2d7a9639f",
       "role": "wiki",
@@ -711,6 +847,23 @@
       "body_preview": "# Decentralised Multi-Manager Fund Framework\n\n## Citation\n\nAbgaryan, Arman, Utkarsh Sharma, and Joshua Tobkin. \"Decentralised Multi-Manager Fund Framework\". arXiv q-fin.GN, 2025-07-01. https://arxiv.org/abs/2507.00978.\n\n## One-line summary\n\nA four-layer on-chain framework enables permissionless multi-strategy capital allocation through tokenised vaults that issue V-Tokens as fractional ownership claims, accommodating both human and AI participants as capital allocators and strategy developers.\n\n",
       "action": null,
       "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Academia/npj-2026-CATchain-R-Blockchain-Carbon-Registry-Transportation.md",
+      "hash": "4c142068497864de66fe4f34020c5b87e8b1ec52eeacb26a561bedf548d9ab53",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/carbon-credits",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2713,
+      "body_preview": "# A blockchain-based carbon registry platform for credible climate action in transportation\n\n## Citation\n\nXinlai Liu, Tolkien Bagchi, Charlle Lee Sy and H. Oliver Gao. \"A blockchain-based carbon registry platform for credible climate action in transportation\". npj Climate Action, 13 February 2026. https://www.nature.com/articles/s44168-026-00342-w.\n\n## One-line summary\n\nThe paper proposes CATchain-R, a blockchain carbon registry that uses smart contracts and registry-mediated auditor selection, ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
       "stub": false
     },
     {
@@ -796,6 +949,60 @@
       "body_preview": "# Stablecoins and the Emerging Hybrid Monetary Ecosystems\n\n## Citation\n\nWen, Hongzhe, Songbai Li, R. S. M. Lau, and Jamie Zhang. \"Stablecoins and the Emerging Hybrid Monetary Ecosystems\". arXiv q-fin.GN, 2025-05-16. https://arxiv.org/abs/2505.10997.\n\n## One-line summary\n\nEconometric modelling of the $250 billion stablecoin market demonstrates strong peg stability and supports a two-layer hybrid monetary architecture where private stablecoin issuers hold central bank reserves, with the 2023 SVB-U",
       "action": null,
       "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Central-Banks/ESMA-Calls-Changes-MiCA-Clearer-Safer-Emerging-Services-2026.md",
+      "hash": "f13675ff5fc4d1157aa5ea7b866fab2799ab7d247118226132d48e373c756a68",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/law/securities",
+        "topic/law/digital-assets"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2756,
+      "body_preview": "# ESMA calls for changes to make MiCA clearer, safer and ready for emerging services\n\n## Citation\n\nEuropean Securities and Markets Authority. \"ESMA calls for changes to make MiCA clearer, safer and ready for emerging services\". ESMA News, 30 September 2026. https://www.esma.europa.eu/press-news/esma-news/esma-calls-changes-make-mica-clearer-safer-and-ready-emerging-services.\n\n## One-line summary\n\nESMA's response to the European Commission's MiCA review consultation asks for tighter marketing rul",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Central-Banks/ESMA-New-Supervisory-Priority-Digital-Innovation-2027.md",
+      "hash": "9bcb9e0d0307e648a0e09cc377121f4f1430e6c6fc287ade484e45f4f213d5bf",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/market-infrastructure",
+        "topic/agentic-ai",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2204,
+      "body_preview": "# ESMA sets new supervisory priority on digital innovation from 2027\n\n## Citation\n\nEuropean Securities and Markets Authority. \"ESMA sets new supervisory priority on digital innovation from 2027\". ESMA News, 23 September 2026. https://www.esma.europa.eu/press-news/esma-news/esma-sets-new-supervisory-priority-digital-innovation-2027.\n\n## One-line summary\n\nESMA launches a Union Strategic Supervisory Priority on digital innovation from 2027, with an initial supervisory focus on how firms use artific",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Central-Banks/ESMA-TRV-2026-Geopolitical-Vulnerabilities-Crypto-Tokenisation.md",
+      "hash": "eebb9e2f76a76e745c34c24691d189798e1ce14cc54ab736c3c1526fac010458",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2433,
+      "body_preview": "# Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism\n\n## Citation\n\nEuropean Securities and Markets Authority. \"Ongoing geopolitical and economic vulnerabilities masked by strong investor optimism\". ESMA News, 10 September 2026. https://www.esma.europa.eu/press-news/esma-news/ongoing-geopolitical-and-economic-vulnerabilities-masked-strong-investor.\n\n## One-line summary\n\nESMA's risk monitoring release flags growing links between vulnerable crypto-asset markets and",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
       "stub": false
     },
     {
@@ -932,6 +1139,41 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Central-Banks/FEDS-Note-2026-08-Decade-US-Cross-Border-Payments-Efforts.md",
+      "hash": "3184cc9813602664e01993a6ebdacbf1aafa8de46cec7e48dcd89af9efbc78f1",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2448,
+      "body_preview": "# A Decade of U.S. Cross-Border Payments Efforts\n\n## Citation\n\nElena Falcettoni. \"A Decade of U.S. Cross-Border Payments Efforts\". FEDS Notes, 26 August 2026. https://www.federalreserve.gov/econres/notes/feds-notes/a-decade-of-u-s-cross-border-payments-efforts-20260826.html.\n\n## One-line summary\n\nA Federal Reserve Board staff note reviews ten years of U.S. cross-border payments work and treats stablecoins and tokenisation as emerging channels that may change speed and cost.\n\n## Key claims\n\n- The",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Central-Banks/FEDS-Note-2026-09-New-Forms-Money-US-Monetary-Aggregates.md",
+      "hash": "7c29404aa0de492ce27095e959bc139a1edd376c1f029240696eca0a526e37f7",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/finance/tokenised-deposits",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2935,
+      "body_preview": "# New Forms of Money and the U.S. Monetary Aggregates\n\n## Citation\n\nKristen Payne and Mary-Frances Styczynski. \"New Forms of Money and the U.S. Monetary Aggregates\". FEDS Notes, 4 September 2026. https://www.federalreserve.gov/econres/notes/feds-notes/new-forms-of-money-and-the-u-s-monetary-aggregates-20260904.html.\n\n## One-line summary\n\nA Federal Reserve Board staff note sets out how tokenised deposits, tokenised money market funds and payment stablecoins could be classified and measured within",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
       "path": "10_Sources/Central-Banks/Fed-Tokenization-Financial-Stability.md",
       "hash": "fa818136e7d375a81efd77ab78674771abee2197ddc1091e699058f03549c124",
       "role": "wiki",
@@ -1006,6 +1248,24 @@
       "body_preview": "# HKMA unveils Fintech Promotion Blueprint: From adoption to advancement\n\n## Citation\n\nHong Kong Monetary Authority. \"HKMA unveils Fintech Promotion Blueprint: From adoption to advancement\". HKMA Press Releases, 3 February 2026. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/02/20260203-3/.\n\n## One-line summary\n\nThe HKMA released the Fintech Promotion Blueprint, a multi-pillar plan under the Fintech 2030 strategy targeting DLT and AI applications, quantum preparedness, and fintec",
       "action": null,
       "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Central-Banks/HKMA-Fourth-Digital-Green-Bonds-Offering-Tokenised-Deposits-2026.md",
+      "hash": "c141538852898ba8d01c59f9d17b9fc4c698415f85bda1ca22a044958d574853",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/tokenised-deposits",
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3506,
+      "body_preview": "# HKSAR Government's Fourth Digital Green Bonds Offering\n\n## Citation\n\nHong Kong Monetary Authority. \"HKSAR Government's Fourth Digital Green Bonds Offering\". HKMA Press Releases, 29 September 2026. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260929-6/.\n\n## One-line summary\n\nThe HKSAR Government priced about HK$20 billion of digital green bonds in four currencies, a record for a digital bond offering, and for the first time settled the HKD tranche's primary issuance with ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
       "stub": false
     },
     {
@@ -1085,6 +1345,23 @@
       "stub": false
     },
     {
+      "path": "10_Sources/Central-Banks/HKMA-Treasury-Markets-Summit-2026-Digital-Native-Bond-Market.md",
+      "hash": "179b8368f870fd0b92591e6dce50b2ff5a8ffa44d19f26fc6ac5cf45eaae164c",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2661,
+      "body_preview": "# Treasury Markets Summit 2026\n\n## Citation\n\nHong Kong Monetary Authority. \"Treasury Markets Summit 2026\". HKMA Press Releases, 23 September 2026. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/09/20260923-4/.\n\n## One-line summary\n\nAt the Treasury Markets Summit on 23 September 2026, HKMA Chief Executive Eddie Yue set out market infrastructure initiatives to support a digital-native Hong Kong bond market, with detail on tokenisation left to his keynote speech.\n\n## Key claims\n\n- T",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
       "path": "10_Sources/Central-Banks/HKMC-Digital-Bond-HK12B-2026.md",
       "hash": "bd0c19f2b73198233979578f19570b3fafbffe854fa8e3442c647baa50a4dc5e",
       "role": "wiki",
@@ -1099,6 +1376,23 @@
       "body_preview": "# HKMC's HK$12 billion inaugural public digital bond issuance\n\n## Citation\n\nHong Kong Mortgage Corporation Limited / Hong Kong Monetary Authority. \"HKMC's HK$12 billion inaugural public digital bond issuance\". HKMA Press Releases, 11 June 2026. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/06/20260611-3/.\n\n## One-line summary\n\nThe Hong Kong Mortgage Corporation Limited priced HK$12 billion equivalent in inaugural digital bonds across three tranches, setting a record as the large",
       "action": null,
       "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Central-Banks/MAS-Chia-Building-Financial-System-Future-GFF-2026.md",
+      "hash": "452ef2a454983c6d9211d990d65cf42c373350cc8f61f65f84819f066e7826fc",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/agentic-ai",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2712,
+      "body_preview": "# Building the Financial System of the Future: Trusted, Connected and Resilient\n\n## Citation\n\nChia Der Jiun. \"Building the Financial System of the Future: Trusted, Connected and Resilient\". MAS Speeches, 11 September 2026 (special address, Global FinTech Fest 2026, Mumbai). https://www.mas.gov.sg/news/speeches/2026/building-the-financial-system-of-the-future---trusted-connected-and-resilient-by-md-for-gff-2026.\n\n## One-line summary\n\nThe MAS Managing Director sets out MAS's approach to AI governa",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
       "stub": false
     },
     {
@@ -1139,6 +1433,23 @@
       "body_preview": "# Project Guardian (Monetary Authority of Singapore)\n\n**Source:** [https://www.mas.gov.sg/schemes-and-initiatives/project-guardian](https://www.mas.gov.sg/schemes-and-initiatives/project-guardian)\n**NotebookLM:** `4e481add-faae-45e3-be73-8e2a9b8a6c4a` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\n(NotebookLM captured a service-unavailable notice from mas.gov.sg rather than the Project Guardian pa",
       "action": null,
       "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/Central-Banks/MAS-Stablecoin-Legislative-Amendments-Consultation-2026.md",
+      "hash": "9477b46326bdc4bedd5d693380e2dc4e412f077329a27b0d9fde74058ede1cae",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3286,
+      "body_preview": "# MAS Consults on Legislative Amendments to Implement Stablecoin Regulatory Framework\n\n## Citation\n\nMonetary Authority of Singapore. \"MAS Consults on Legislative Amendments to Implement Stablecoin Regulatory Framework\". MAS Media Releases, 1 September 2026. https://www.mas.gov.sg/news/media-releases/2026/mas-consults-on-legislative-amendments-to-implement-stablecoin-regulatory-framework.\n\n## One-line summary\n\nMAS has published a consultation paper (responses due 16 October 2026) proposing Paymen",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
       "stub": false
     },
     {
@@ -1477,7 +1788,7 @@
       "path": "10_Sources/Central-Banks/hkma-digital-green-bond-2025.md",
       "hash": "82efdee21a2d25a53934ce79e181c80ced05fcf37c74b5ab9c0df36c46a95d49",
       "role": "wiki",
-      "state": "modified",
+      "state": "unchanged",
       "existing_topics": [
         "topic/finance/cbdc",
         "topic/blockchain-settlement"
@@ -1485,11 +1796,11 @@
       "existing_subjects": [
         "subject/hkma"
       ],
-      "existing_hash": "9ecb1d99184452873b300a42c8ebdc95c82d6e9d75216d39e8da85ccee3ee8e7",
+      "existing_hash": "82efdee21a2d25a53934ce79e181c80ced05fcf37c74b5ab9c0df36c46a95d49",
       "body_chars": 2677,
       "body_preview": "# HKSAR Government's Third Digital Green Bonds Offering\n\n## Citation\n\nHong Kong Monetary Authority. \"HKSAR Government's Third Digital Green Bonds Offering\". HKMA Press Releases, 11 November 2025. https://www.hkma.gov.hk/eng/news-and-media/press-releases/2025/11/20251111-6/.\n\n## One-line summary\n\nHong Kong issued the world's largest digital bond at approximately HK$10 billion across four currencies, integrating e-HKD and e-CNY tokenised central bank money in settlement for the first time globally",
-      "action": "tag",
-      "action_reason": "modified; already carries topics (confirm, top up or re-stamp)",
+      "action": null,
+      "action_reason": null,
       "stub": false
     },
     {
@@ -2921,17 +3232,17 @@
       "path": "10_Sources/Industry-Press/Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act.md",
       "hash": "b60055cd95e63a9cedcc7a6352d7594c5d16d0a4cced3a7e41b194dd18d98608",
       "role": "wiki",
-      "state": "fresh",
+      "state": "unchanged",
       "existing_topics": [
         "topic/finance/stablecoins",
         "topic/law"
       ],
       "existing_subjects": [],
-      "existing_hash": null,
+      "existing_hash": "b60055cd95e63a9cedcc7a6352d7594c5d16d0a4cced3a7e41b194dd18d98608",
       "body_chars": 3053,
       "body_preview": "# Treasury publishes state stablecoin certification procedures under the GENIUS Act\n\n## Citation\n\nLedger Insights staff. \"Treasury publishes state stablecoin certification procedures under the GENIUS Act\". Ledger Insights, 1 October 2026. https://www.ledgerinsights.com/treasury-publishes-state-stablecoin-certification-procedures-under-the-genius-act/.\n\n## One-line summary\n\nThe US Treasury-led Stablecoin Certification Review Committee has issued interim procedural rules, effective 30 September 20",
-      "action": "tag",
-      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "action": null,
+      "action_reason": null,
       "stub": false
     },
     {
@@ -3362,6 +3673,23 @@
       "stub": false
     },
     {
+      "path": "10_Sources/International-Agencies/BIS-WP1377-Hidden-Complexity-Measuring-Stablecoin-DeFi-Ecosystems.md",
+      "hash": "a6f519cdd60565b2c6376c0c393941e0d507204615f5e434f7cc8edb6f7acb33",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 3068,
+      "body_preview": "# Hidden by complexity? Measuring stablecoin, crypto and decentralised finance ecosystems\n\n## Citation\n\nAerts, Timothy; Heijmans, Ronald; Paulick, Jan; Vuletic, Violeta. \"Hidden by complexity? Measuring stablecoin, crypto and decentralised finance ecosystems\". BIS Working Papers No 1377, 15 September 2026. https://www.bis.org/publications/working-paper-1377-hidden-complexity-measuring-stablecoin-crypto-and-decentralised-finance-ecosystems.\n\n## One-line summary\n\nOn-chain indicators of crypto, DeF",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
       "path": "10_Sources/International-Agencies/FSB-Annual-Report-2025.md",
       "hash": "3e768522efe98814d338a816ef293995e4e1ca26311dc3e0df6123d5c3e01360",
       "role": "wiki",
@@ -3550,6 +3878,24 @@
       "stub": false
     },
     {
+      "path": "10_Sources/International-Agencies/IMF-Annual-Report-2026-New-Frontiers-Digital-Finance.md",
+      "hash": "6704f939918a0cdc326176df2add3b568fda9471b827cbcbaa9bf5e7831e5e51",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/finance/cbdc",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2876,
+      "body_preview": "# New Frontiers for Digital Finance\n\n## Citation\n\nInternational Monetary Fund. \"New Frontiers for Digital Finance\". IMF Annual Report 2026: Navigating a Precarious World, In Focus, 23 September 2026. https://www.imf.org/annual-report/2026/in-focus/new-frontiers-for-digital-finance/.\n\n## One-line summary\n\nThe IMF's 2026 Annual Report spotlight chapter on digital finance says stablecoins are expanding in cross-border payments and remittances, that tokenisation may matter more over the long term, a",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
       "path": "10_Sources/International-Agencies/IMF-DP-2025-09-Understanding-Stablecoins.md",
       "hash": "cc64064ee421747e0d88044830576cc91a7ac1edac3badd14c63e9ae87e22c21",
       "role": "wiki",
@@ -3664,6 +4010,23 @@
       "stub": false
     },
     {
+      "path": "10_Sources/International-Agencies/IMF-Speech-2026-08-Georgieva-Financially-More-Fluid-World.md",
+      "hash": "d64da1f3c2ba0cf8edd02342d78676a4e02aa408be647160d484979823e007b6",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/finance/stablecoins",
+        "topic/blockchain-settlement"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2704,
+      "body_preview": "# Navigating a Financially More Fluid World\n\n## Citation\n\nGeorgieva, Kristalina. \"Navigating a Financially More Fluid World\". IMF Speeches (Jackson Hole Economic Policy Symposium), 28 August 2026. https://www.imf.org/en/news/articles/2026/08/28/sp082826-md-navigating-a-financially-more-fluid-world.\n\n## One-line summary\n\nThe IMF Managing Director argues that stablecoins and tokenisation could \"fluidify\" global finance, which calls for internationally coordinated regulation and leaves emerging mar",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
+      "stub": false
+    },
+    {
       "path": "10_Sources/International-Agencies/IMF-Speech-2026-08-Katz-Stablecoins-Emerging-Markets.md",
       "hash": "42df8fd2537bad45ee19f98ef3cfb7b824c1f6dcab59792d3f8176c22fcfe165",
       "role": "wiki",
@@ -3680,6 +4043,24 @@
       "body_preview": "# Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets\n\n## Citation\n\nKatz, Dan. \"Stablecoins: Promise, Risks, and Policy Choices for Emerging Markets.\" Remarks at the University of Cape Town, International Monetary Fund, 2026-08-07. https://www.imf.org/en/news/articles/2026/08/07/sp080726-stablecoins-emerging-markets-dan-katz.\n\n## One-line summary\n\nThe IMF's First Deputy Managing Director warns that domestic stablecoin launches in emerging markets can paradoxically deepen demand ",
       "action": null,
       "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-Speech-2026-09-Katz-AI-Future-Payments-Policy.md",
+      "hash": "d9e2734fff6f0985a78767ebcaaffcbb656d2263a34f3eaacec9ef0826fbcb9a",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/agentic-ai",
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2815,
+      "body_preview": "# AI and the Future of Payments Policy\n\n## Citation\n\nKatz, Dan. \"AI and the Future of Payments Policy\". IMF Speeches (Sibos 2026), 28 September 2026. https://www.imf.org/en/news/articles/2026/09/28/sp092826-ai-and-the-future-of-payments-policy.\n\n## One-line summary\n\nThe IMF First Deputy Managing Director argues that AI agents will reshape payments, that tokenised and programmable infrastructure suits them, and that regulation should be proportionate, targeted at demonstrated market failures and ",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
       "stub": false
     },
     {
@@ -3812,6 +4193,23 @@
       "body_preview": "# What Is Tokenization? (IMF)\n\n**Source:** [https://www.imf.org/](https://www.imf.org/)\n**NotebookLM:** `993dcf87-f111-44f8-bf91-a65a7b7b7d74` in [tokenise](https://notebooklm.google.com/notebook/d9fa07bb-4802-4626-8855-ba899655ab2b)\n**Register entry:** [[SOURCE-REGISTER]]\n\n## Annotation\n\nThis article explores how **tokenisation** aims to modernise the financial system by creating **programmable digital representations** of assets on shared ledgers. By integrating **code and automated execution*",
       "action": null,
       "action_reason": null,
+      "stub": false
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-Centenary-Financial-Markets-Technology-Workshop-2026.md",
+      "hash": "7a4c6c48e53511145aeff41af40f5e83e8b8714d9575af8ab8831be6e25dbcea",
+      "role": "wiki",
+      "state": "fresh",
+      "existing_topics": [
+        "topic/law/digital-assets",
+        "topic/finance"
+      ],
+      "existing_subjects": [],
+      "existing_hash": null,
+      "body_chars": 2886,
+      "body_preview": "# UNIDROIT Holds Centenary Financial Markets and Technology Workstream Workshop\n\n## Citation\n\nCatherine High. \"UNIDROIT Holds Centenary Financial Markets and Technology Workstream Workshop\". UNIDROIT News, 17 September 2026 (listing date; workshop held 11 September 2026). https://www.unidroit.org/unidroit-holds-centenary-financial-markets-and-technology-workstream-workshop/.\n\n## One-line summary\n\nUNIDROIT's Financial Markets and Technology Committee presented a draft White Paper at a centenary w",
+      "action": "tag",
+      "action_reason": "fresh; already carries topics (confirm, top up or re-stamp)",
       "stub": false
     },
     {
@@ -5765,8 +6163,29 @@
   "off_vocabulary_notes": [],
   "targets": {
     "tag": [
-      "10_Sources/Central-Banks/hkma-digital-green-bond-2025.md",
-      "10_Sources/Industry-Press/Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act.md"
+      "10_Sources/Academia/JRFM-2026-Liquidity-Microstructure-Tokenized-Carbon-Assets.md",
+      "10_Sources/Academia/JRFM-2026-Tokenisation-Opportunities-Voluntary-Carbon-Markets-Sectoral-Diagnostic.md",
+      "10_Sources/Academia/arXiv-2507-13883-Stablecoins-Fundamentals-Emerging-Issues-Open-Challenges.md",
+      "10_Sources/Academia/arXiv-2508-02403-SoK-Stablecoins-Digital-Transformation-RWA.md",
+      "10_Sources/Academia/arXiv-2510-10469-Risk-Mitigation-Model-Monetary-Ecosystem-Stablecoins.md",
+      "10_Sources/Academia/arXiv-2604-03733-SoK-Blockchain-Agent-to-Agent-Payments.md",
+      "10_Sources/Academia/arXiv-2609-15797-Prelude-Theory-RWA-Tokenization.md",
+      "10_Sources/Academia/arXiv-2609-30940-Financial-Fragility-Societies-LLM-Agents.md",
+      "10_Sources/Academia/npj-2026-CATchain-R-Blockchain-Carbon-Registry-Transportation.md",
+      "10_Sources/Central-Banks/ESMA-Calls-Changes-MiCA-Clearer-Safer-Emerging-Services-2026.md",
+      "10_Sources/Central-Banks/ESMA-New-Supervisory-Priority-Digital-Innovation-2027.md",
+      "10_Sources/Central-Banks/ESMA-TRV-2026-Geopolitical-Vulnerabilities-Crypto-Tokenisation.md",
+      "10_Sources/Central-Banks/FEDS-Note-2026-08-Decade-US-Cross-Border-Payments-Efforts.md",
+      "10_Sources/Central-Banks/FEDS-Note-2026-09-New-Forms-Money-US-Monetary-Aggregates.md",
+      "10_Sources/Central-Banks/HKMA-Fourth-Digital-Green-Bonds-Offering-Tokenised-Deposits-2026.md",
+      "10_Sources/Central-Banks/HKMA-Treasury-Markets-Summit-2026-Digital-Native-Bond-Market.md",
+      "10_Sources/Central-Banks/MAS-Chia-Building-Financial-System-Future-GFF-2026.md",
+      "10_Sources/Central-Banks/MAS-Stablecoin-Legislative-Amendments-Consultation-2026.md",
+      "10_Sources/International-Agencies/BIS-WP1377-Hidden-Complexity-Measuring-Stablecoin-DeFi-Ecosystems.md",
+      "10_Sources/International-Agencies/IMF-Annual-Report-2026-New-Frontiers-Digital-Finance.md",
+      "10_Sources/International-Agencies/IMF-Speech-2026-08-Georgieva-Financially-More-Fluid-World.md",
+      "10_Sources/International-Agencies/IMF-Speech-2026-09-Katz-AI-Future-Payments-Policy.md",
+      "10_Sources/International-Agencies/UNIDROIT-Centenary-Financial-Markets-Technology-Workshop-2026.md"
     ],
     "restamp": []
   },

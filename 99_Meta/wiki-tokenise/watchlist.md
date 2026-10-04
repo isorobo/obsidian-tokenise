@@ -42,7 +42,7 @@ runs on each weekly refresh. The orchestrator reads this table on every
 | fed-staff-papers | Federal Reserve Staff Working Papers | Central-Banks | monthly | 4 | active |
 | esma-news | ESMA News and Reports | Central-Banks | weekly | 5 | active |
 | arxiv-q-fin-rwa | arXiv q-fin filtered for tokenisation / RWA | Academia | weekly | 6 | active |
-| verra-policy | Verra Crypto and Tokenisation Policy | Private-Sector | irregular | 3 | active |
+| verra-policy | Verra Crypto and Tokenisation Policy | Private-Sector | monthly | 3 | active |
 | ledger-insights | Ledger Insights (RWA + tokenisation tags) | Industry-Press | daily | 8 | active |
 
 ## Promote to active
@@ -54,15 +54,15 @@ error, promote `imf-fintech-notes` and `mas-news` together.
 
 ## Channel surface notes
 
-- **bis-working-papers** — base URL: `https://www.bis.org/publ/work*.htm`. Filter on titles containing `token`, `unified ledger`, `stablecoin`, `CBDC`, `tokenisation`.
-- **imf-fintech-notes** — base URL: `https://www.imf.org/en/Publications/fintech-notes`. Filter on titles containing `token` or `stablecoin`.
+- **bis-working-papers** — base URL: `https://www.bis.org/publ/work*.htm`. Filter on titles containing `token`, `unified ledger`, `stablecoin`, `CBDC`, `tokenisation`. Fallbacks (monitor recommendation, 4 October 2026): the listing renders client-side and `work1372+` URLs 404 under a new pattern, so discover through the RSS feeds under `https://www.bis.org/doclist/` (e.g. `bis_fsi_publs.rss`), `https://ideas.repec.org/s/bis/biswps.html`, and direct `work<NNNN>.htm` probes.
+- **imf-fintech-notes** — base URL: `https://www.imf.org/en/Publications/fintech-notes`. Filter on titles containing `token` or `stablecoin`. Fallbacks (4 October 2026): imf.org returns 403 to direct fetch; use the RePEc IMF series listings and WebSearch `site:imf.org`.
 - **fsb-publications** — base URL: `https://www.fsb.org/publications/`. Filter on titles containing `token`, `stablecoin`, `crypto`, `digital`.
 - **iosco-publications** — base URL: `https://www.iosco.org/library/`. Filter on titles containing `token`, `crypto`, `digital`.
-- **unidroit-news** — base URL: `https://www.unidroit.org/news-and-events/`. Filter on titles containing `digital assets`, `tokenisation`, `private law`.
-- **mas-news** — base URL: `https://www.mas.gov.sg/news`. Filter on `Project Guardian`, `tokenis`, `digital asset`, `stablecoin`.
-- **hkma-press** — base URL: `https://www.hkma.gov.hk/eng/news-and-media/press-releases/`. Filter on `Project Ensemble`, `tokenis`, `stablecoin`, `e-HKD`.
+- **unidroit-news** — base URL: `https://www.unidroit.org/news-and-events/`. Filter on titles containing `digital assets`, `tokenisation`, `private law`. Fallbacks (4 October 2026): `/news-and-events/` returns 404; use the Digital Assets and Private Law and Verified Carbon Credits work-in-progress pages and WebSearch `site:unidroit.org`.
+- **mas-news** — base URL: `https://www.mas.gov.sg/news`. Filter on `Project Guardian`, `tokenis`, `digital asset`, `stablecoin`. Fallbacks (4 October 2026): `/news` returns only a page shell; use WebSearch `site:mas.gov.sg` (media releases, consultation papers, parliamentary replies, a productive vein) and secondary coverage.
+- **hkma-press** — base URL: `https://www.hkma.gov.hk/eng/news-and-media/press-releases/`. Filter on `Project Ensemble`, `tokenis`, `stablecoin`, `e-HKD`. Fallbacks (4 October 2026): pages often return empty content; also sweep HKMA speeches (`/eng/news-and-media/speeches/`), which sit outside the press-release path (filter gap), and info.gov.hk mirrors.
 - **fed-staff-papers** — base URL: `https://www.federalreserve.gov/econres/feds/`. Filter on titles containing `token`, `stablecoin`, `CBDC`, `DLT`.
 - **esma-news** — base URL: `https://www.esma.europa.eu/news`. Filter on `MiCA`, `DLT Pilot`, `tokenis`.
-- **arxiv-q-fin-rwa** — query: `cat:q-fin.GN AND (abs:"tokenisation" OR abs:"tokenization" OR abs:"real-world asset")`. Sort: submittedDate desc.
+- **arxiv-q-fin-rwa** — query: `cat:q-fin.GN AND (abs:"tokenisation" OR abs:"tokenization" OR abs:"real-world asset")`. Sort: submittedDate desc. Pacing (4 October 2026): export.arxiv.org rate-limits (HTTP 429); space API calls and prefer one broad query per round.
 - **verra-policy** — base URL: `https://verra.org/news/`. Filter on `crypto`, `token`.
-- **ledger-insights** — base URL: `https://www.ledgerinsights.com/category/tokenisation/`. Take the latest items above `last_run_at`.
+- **ledger-insights** — base URL: `https://www.ledgerinsights.com/category/tokenisation/`. Take the latest items above `last_run_at`. Fallbacks (4 October 2026): the category URL returns 404; use `https://www.ledgerinsights.com/feed/`, `/tag/tokenization/`, `/tag/stablecoin/` and the homepage.

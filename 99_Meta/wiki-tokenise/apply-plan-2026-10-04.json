@@ -1,0 +1,28 @@
+{
+  "vault": "/Users/bernie/obsidian/wiki-tokenise",
+  "generated_by": "wiki_tool.py tk-plan",
+  "generated_at": "2026-10-04T02:46:10Z",
+  "scan": "/Users/bernie/obsidian/wiki-tokenise/99_Meta/wiki-tokenise/wiki-scan-2026-10-04.json",
+  "changes": [
+    {
+      "path": "10_Sources/Central-Banks/hkma-digital-green-bond-2025.md",
+      "topic": [],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "82efdee21a2d25a53934ce79e181c80ced05fcf37c74b5ab9c0df36c46a95d49",
+      "wiki_indexed": "2026-10-04T02:46:10Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "b60055cd95e63a9cedcc7a6352d7594c5d16d0a4cced3a7e41b194dd18d98608",
+      "wiki_indexed": "2026-10-04T02:46:10Z"
+    }
+  ],
+  "off_vocabulary": []
+}

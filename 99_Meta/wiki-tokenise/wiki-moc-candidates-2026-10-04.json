@@ -1,0 +1,46 @@
+{
+  "mode": "suggest",
+  "moc_dir": "50_MOCs",
+  "writes": "none (hand-curated MOCs are user-owned)",
+  "considered": 2,
+  "already_linked": 1,
+  "candidates": 2,
+  "groups": {
+    "MOC - Law": [
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act.md",
+        "link": "[[Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law"
+        ]
+      }
+    ],
+    "MOC - Stablecoins": [
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act.md",
+        "link": "[[Ledger-Insights-Treasury-State-Stablecoin-Certification-GENIUS-Act]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law"
+        ]
+      }
+    ]
+  },
+  "unmapped": [],
+  "map": {
+    "configured": {
+      "topic/finance": "MOC - Finance",
+      "topic/finance/stablecoins": "MOC - Stablecoins",
+      "topic/law": "MOC - Law",
+      "topic/law/property-rights": "MOC - Property-Rights",
+      "topic/law/digital-assets": "MOC - Private-Law-Convergence",
+      "topic/blockchain-settlement": "MOC - Blockchain-Settlement",
+      "topic/agentic-ai": "MOC - Agentic-AI",
+      "topic/carbon-credits": "MOC - Carbon-Credits",
+      "topic/real-estate": "MOC - Real-Estate"
+    },
+    "derived_from_moc_frontmatter": {},
+    "ambiguous": []
+  }
+}

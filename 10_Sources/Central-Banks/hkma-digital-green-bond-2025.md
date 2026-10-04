@@ -44,8 +44,8 @@ topic:
 - topic/blockchain-settlement
 subject:
 - subject/hkma
-wiki_indexed: '2026-07-12T00:00:00Z'
-wiki_hash: 9ecb1d99184452873b300a42c8ebdc95c82d6e9d75216d39e8da85ccee3ee8e7
+wiki_indexed: '2026-10-04T02:46:14Z'
+wiki_hash: 82efdee21a2d25a53934ce79e181c80ced05fcf37c74b5ab9c0df36c46a95d49
 wiki_role: wiki
 ---
 

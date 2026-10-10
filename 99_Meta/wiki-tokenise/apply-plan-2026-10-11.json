@@ -1,0 +1,213 @@
+{
+  "vault": "/Users/bernie/obsidian/wiki-tokenise",
+  "generated_by": "wiki_tool.py tk-plan",
+  "generated_at": "2026-10-10T17:43:20Z",
+  "scan": "/Users/bernie/obsidian/wiki-tokenise/99_Meta/wiki-tokenise/wiki-scan-2026-10-11.json",
+  "changes": [
+    {
+      "path": "10_Sources/Academia/arXiv-2604-17167-Hidden-Plumbing-Stablecoins-GENIUS-Act-Era.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "bf3364c10a76fefa23cb9f1510dc7cca3f9f82bd8fe833d5195f3fe2ee3fa296",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2605-00071-Compliance-Aware-Agentic-Payments-Stablecoin-Rails.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/agentic-ai"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "cfa069ef745040e3e85863b6d1c933e1c369fe615b229a1511b14821debe58a9",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2608-30519-Authority-Inference-Separation-Agentic-Finance.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "580ab8693420d9fb63182e383ffad6dc47e2608630f8ca113dd209c051aa5a86",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2609-18949-StableEval-Arena-Stablecoin-Stability-Benchmark.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/agentic-ai"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "504414b2cd8a314f1d8418198fac7ef557015f06ea4c29140bac47d7d08bb761",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2610-02435-SoK-Stablecoins-Quantum-Era.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "655f1ca66d357322cac17b48fe6e553073d382d67d703a8c35ba497ff9951d95",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2610-03841-Dexy-Algorithmic-Central-Bank-Stablecoin.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "f70803c88f31ed0d0f79d5a919bdf335bf6e0d4a37995601a5689e0a9f8cbfee",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/ESMA-Call-Evidence-Tokenised-Collateral-Central-Clearing-2026.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [
+        "subject/esma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "f034e30343aec307bfc66a73892412f14ccfc880daec465d76d86b4d3f34a178",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/ESMA-Opinion-Services-Non-MiCA-Compliant-Stablecoins-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/digital-assets"
+      ],
+      "subject": [
+        "subject/esma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "e7e777d7e3b5f7997c48631bfe904bbc76f89233996ca316715076e0e19cc298",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/HKMA-Bank-Negara-Malaysia-Cooperation-Stablecoin-Tokenisation-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "73842aa714f704373923bcf15d4219cd36b774ddee0fb5f9934a6d65dc3b2d1b",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/MAS-Guidelines-AI-Risk-Management-Financial-Institutions-2026.md",
+      "topic": [
+        "topic/agentic-ai"
+      ],
+      "subject": [
+        "subject/mas"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "bb90bd0852d394cdacac70de64d0b8424381c349937302972c6ed018ad6dca1f",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Ant-International-Tokenized-Deposits-HSBC-OCBC.md",
+      "topic": [
+        "topic/finance/tokenised-deposits",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "4135f9ae770eaa8b9ff31d41f6c84b67f305045465aa696f3471fee9e87890cf",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-CBMT-Sandbox-DNB-Commercial-Bank-Dubai.md",
+      "topic": [
+        "topic/finance/tokenised-deposits",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "918f0d5b5c56ffac341a4f81e8a133548bf59fa7229cc7847ea19dbd58cd56bc",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-CFTC-FAQ-Tokenized-MMF-Treasuries-Customer-Funds.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/law/property-rights"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "348a04997bd4ca8f62454aff552019042b6939c36e4af2f9efab55bef75c13ae",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Clearstream-Tokenization-Settlement-Custody-Collateral.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "5e5cbf4870acfccd21bc296e68a7dc5a0625edc4c65544919cdc7d2154f9f249",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Korea-FSC-Draft-Tokenization-Rules.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "bedde3805141c92ce52d1aa1d3bbe3a37d1309e9542118028a3e123e52a2c788",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Securitize-Tokenized-US-Stocks-Entitlements.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "edb18cd638c5eb017a89f0f5932b64ab57b43afe07a0a6743dad41b4de64e418",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-StanChart-Singapore-Digital-Asset-Custody.md",
+      "topic": [
+        "topic/law/property-rights",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "77fde310ac201475a25db80e46773db7bd4621077607edd45e3fa22907cd7ea3",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    },
+    {
+      "path": "30_Areas/Synthesis — Stablecoin Sources 2026.md",
+      "topic": [
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "0a32ef4ffa9ddf0aa059864b0afd4ff3d1993b950391c79cb333e87da1ec1e8e",
+      "wiki_indexed": "2026-10-10T17:43:20Z"
+    }
+  ],
+  "off_vocabulary": []
+}

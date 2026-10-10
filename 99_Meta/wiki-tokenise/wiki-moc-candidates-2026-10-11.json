@@ -1,0 +1,262 @@
+{
+  "mode": "suggest",
+  "moc_dir": "50_MOCs",
+  "writes": "none (hand-curated MOCs are user-owned)",
+  "considered": 18,
+  "already_linked": 0,
+  "candidates": 28,
+  "groups": {
+    "MOC - Agentic-AI": [
+      {
+        "path": "10_Sources/Academia/arXiv-2605-00071-Compliance-Aware-Agentic-Payments-Stablecoin-Rails.md",
+        "link": "[[arXiv-2605-00071-Compliance-Aware-Agentic-Payments-Stablecoin-Rails]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/agentic-ai"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2608-30519-Authority-Inference-Separation-Agentic-Finance.md",
+        "link": "[[arXiv-2608-30519-Authority-Inference-Separation-Agentic-Finance]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2609-18949-StableEval-Arena-Stablecoin-Stability-Benchmark.md",
+        "link": "[[arXiv-2609-18949-StableEval-Arena-Stablecoin-Stability-Benchmark]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/agentic-ai"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/MAS-Guidelines-AI-Risk-Management-Financial-Institutions-2026.md",
+        "link": "[[MAS-Guidelines-AI-Risk-Management-Financial-Institutions-2026]]",
+        "topics": [
+          "topic/agentic-ai"
+        ]
+      }
+    ],
+    "MOC - Blockchain-Settlement": [
+      {
+        "path": "10_Sources/Academia/arXiv-2608-30519-Authority-Inference-Separation-Agentic-Finance.md",
+        "link": "[[arXiv-2608-30519-Authority-Inference-Separation-Agentic-Finance]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Clearstream-Tokenization-Settlement-Custody-Collateral.md",
+        "link": "[[Ledger-Insights-Clearstream-Tokenization-Settlement-Custody-Collateral]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement"
+        ]
+      }
+    ],
+    "MOC - Finance": [
+      {
+        "path": "10_Sources/Academia/arXiv-2604-17167-Hidden-Plumbing-Stablecoins-GENIUS-Act-Era.md",
+        "link": "[[arXiv-2604-17167-Hidden-Plumbing-Stablecoins-GENIUS-Act-Era]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ESMA-Call-Evidence-Tokenised-Collateral-Central-Clearing-2026.md",
+        "link": "[[ESMA-Call-Evidence-Tokenised-Collateral-Central-Clearing-2026]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Ant-International-Tokenized-Deposits-HSBC-OCBC.md",
+        "link": "[[Ledger-Insights-Ant-International-Tokenized-Deposits-HSBC-OCBC]]",
+        "topics": [
+          "topic/finance/tokenised-deposits",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-CBMT-Sandbox-DNB-Commercial-Bank-Dubai.md",
+        "link": "[[Ledger-Insights-CBMT-Sandbox-DNB-Commercial-Bank-Dubai]]",
+        "topics": [
+          "topic/finance/tokenised-deposits",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-CFTC-FAQ-Tokenized-MMF-Treasuries-Customer-Funds.md",
+        "link": "[[Ledger-Insights-CFTC-FAQ-Tokenized-MMF-Treasuries-Customer-Funds]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/law/property-rights"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Clearstream-Tokenization-Settlement-Custody-Collateral.md",
+        "link": "[[Ledger-Insights-Clearstream-Tokenization-Settlement-Custody-Collateral]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Korea-FSC-Draft-Tokenization-Rules.md",
+        "link": "[[Ledger-Insights-Korea-FSC-Draft-Tokenization-Rules]]",
+        "topics": [
+          "topic/law/securities",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Securitize-Tokenized-US-Stocks-Entitlements.md",
+        "link": "[[Ledger-Insights-Securitize-Tokenized-US-Stocks-Entitlements]]",
+        "topics": [
+          "topic/law/securities",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-StanChart-Singapore-Digital-Asset-Custody.md",
+        "link": "[[Ledger-Insights-StanChart-Singapore-Digital-Asset-Custody]]",
+        "topics": [
+          "topic/law/property-rights",
+          "topic/finance/market-infrastructure"
+        ]
+      }
+    ],
+    "MOC - Law": [
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Korea-FSC-Draft-Tokenization-Rules.md",
+        "link": "[[Ledger-Insights-Korea-FSC-Draft-Tokenization-Rules]]",
+        "topics": [
+          "topic/law/securities",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Securitize-Tokenized-US-Stocks-Entitlements.md",
+        "link": "[[Ledger-Insights-Securitize-Tokenized-US-Stocks-Entitlements]]",
+        "topics": [
+          "topic/law/securities",
+          "topic/finance/market-infrastructure"
+        ]
+      }
+    ],
+    "MOC - Private-Law-Convergence": [
+      {
+        "path": "10_Sources/Central-Banks/ESMA-Opinion-Services-Non-MiCA-Compliant-Stablecoins-2026.md",
+        "link": "[[ESMA-Opinion-Services-Non-MiCA-Compliant-Stablecoins-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      }
+    ],
+    "MOC - Property-Rights": [
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-CFTC-FAQ-Tokenized-MMF-Treasuries-Customer-Funds.md",
+        "link": "[[Ledger-Insights-CFTC-FAQ-Tokenized-MMF-Treasuries-Customer-Funds]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/law/property-rights"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-StanChart-Singapore-Digital-Asset-Custody.md",
+        "link": "[[Ledger-Insights-StanChart-Singapore-Digital-Asset-Custody]]",
+        "topics": [
+          "topic/law/property-rights",
+          "topic/finance/market-infrastructure"
+        ]
+      }
+    ],
+    "MOC - Stablecoins": [
+      {
+        "path": "10_Sources/Academia/arXiv-2604-17167-Hidden-Plumbing-Stablecoins-GENIUS-Act-Era.md",
+        "link": "[[arXiv-2604-17167-Hidden-Plumbing-Stablecoins-GENIUS-Act-Era]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2605-00071-Compliance-Aware-Agentic-Payments-Stablecoin-Rails.md",
+        "link": "[[arXiv-2605-00071-Compliance-Aware-Agentic-Payments-Stablecoin-Rails]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/agentic-ai"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2609-18949-StableEval-Arena-Stablecoin-Stability-Benchmark.md",
+        "link": "[[arXiv-2609-18949-StableEval-Arena-Stablecoin-Stability-Benchmark]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/agentic-ai"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2610-02435-SoK-Stablecoins-Quantum-Era.md",
+        "link": "[[arXiv-2610-02435-SoK-Stablecoins-Quantum-Era]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2610-03841-Dexy-Algorithmic-Central-Bank-Stablecoin.md",
+        "link": "[[arXiv-2610-03841-Dexy-Algorithmic-Central-Bank-Stablecoin]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ESMA-Opinion-Services-Non-MiCA-Compliant-Stablecoins-2026.md",
+        "link": "[[ESMA-Opinion-Services-Non-MiCA-Compliant-Stablecoins-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/HKMA-Bank-Negara-Malaysia-Cooperation-Stablecoin-Tokenisation-2026.md",
+        "link": "[[HKMA-Bank-Negara-Malaysia-Cooperation-Stablecoin-Tokenisation-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "30_Areas/Synthesis — Stablecoin Sources 2026.md",
+        "link": "[[Synthesis — Stablecoin Sources 2026]]",
+        "topics": [
+          "topic/finance/stablecoins"
+        ]
+      }
+    ]
+  },
+  "unmapped": [],
+  "map": {
+    "configured": {
+      "topic/finance": "MOC - Finance",
+      "topic/finance/stablecoins": "MOC - Stablecoins",
+      "topic/law": "MOC - Law",
+      "topic/law/property-rights": "MOC - Property-Rights",
+      "topic/law/digital-assets": "MOC - Private-Law-Convergence",
+      "topic/blockchain-settlement": "MOC - Blockchain-Settlement",
+      "topic/agentic-ai": "MOC - Agentic-AI",
+      "topic/carbon-credits": "MOC - Carbon-Credits",
+      "topic/real-estate": "MOC - Real-Estate"
+    },
+    "derived_from_moc_frontmatter": {},
+    "ambiguous": []
+  }
+}

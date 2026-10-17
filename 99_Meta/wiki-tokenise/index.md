@@ -1,7 +1,7 @@
 ---
 title: wiki-tokenise Status Index
 type: metadata
-date: 2026-10-11
+date: 2026-10-18
 tags:
   - metadata
   - monitor-status
@@ -17,27 +17,27 @@ Auto-maintained by `/wiki-tokenise status`. Do not edit by hand.
 
 | channel | status | total_sources | new_since_last_run | rounds_without_yield | last_run_at |
 |---|---|---|---|---|---|
-| ledger-insights | active | 71 | 7 | 0 | 2026-10-11 |
-| arxiv-q-fin-rwa | active | 34 | 6 | 0 | 2026-10-11 |
-| esma-news | active | 18 | 2 | 0 | 2026-10-11 |
-| hkma-press | active | 18 | 1 | 0 | 2026-10-11 |
+| ledger-insights | active | 77 | 6 | 0 | 2026-10-18 |
+| arxiv-q-fin-rwa | active | 40 | 6 | 0 | 2026-10-18 |
+| hkma-press | active | 19 | 1 | 0 | 2026-10-18 |
+| esma-news | active | 18 | 0 | 2 | 2026-10-18 |
 | imf-fintech-notes | active | 16 | 3 | 3 | 2026-10-04 |
+| mas-news | active | 15 | 1 | 0 | 2026-10-18 |
 | fed-staff-papers | active | 14 | 2 | 0 | 2026-10-04 |
-| mas-news | active | 14 | 1 | 0 | 2026-10-11 |
-| unidroit-news | active | 13 | 1 | 0 | 2026-10-04 |
-| bis-working-papers | active | 11 | 0 | 1 | 2026-10-11 |
+| unidroit-news | active | 14 | 1 | 0 | 2026-10-18 |
+| bis-working-papers | active | 12 | 1 | 0 | 2026-10-18 |
 | fsb-publications | active | 7 | 0 | 5 | 2026-10-04 |
 | verra-policy | active | 6 | 3 | 0 | 2026-10-04 |
 | iosco-publications | active | 5 | 0 | 6 | 2026-10-04 |
 
-**Totals:** 12 active channels, 227 sources tracked, 17 added in the 11 October run.
+**Totals:** 12 active channels, 243 sources tracked, 16 added in the 18 October run.
 
 ## Last run
 
-Latest run date: 11 October 2026 (6 of 12 active channels last ran on that date).
+Latest run date: 18 October 2026 (7 of 12 active channels last ran on that date).
 
-- 17 new sources written (Industry-Press 7, Academia 6, Central-Banks 4).
-- Dry channels (1): bis-working-papers.
+- 16 new sources written (Academia 6, Industry-Press 6, Central-Banks 2, International-Agencies 2).
+- Dry channels (1): esma-news.
 
 ## Monitor flags for the orchestrator
 
@@ -50,4 +50,4 @@ Latest run date: 11 October 2026 (6 of 12 active channels last ran on that date)
 
 ## Next scheduled run
 
-Sunday 18 October 2026 via launchd (`com.lundons.wiki-weekly`).
+Sunday 25 October 2026 via launchd (`com.lundons.wiki-weekly`).

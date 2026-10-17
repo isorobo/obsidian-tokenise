@@ -1,0 +1,194 @@
+{
+  "vault": "/Users/bernie/obsidian/wiki-tokenise",
+  "generated_by": "wiki_tool.py tk-plan",
+  "generated_at": "2026-10-17T17:28:33Z",
+  "scan": "/Users/bernie/obsidian/wiki-tokenise/99_Meta/wiki-tokenise/wiki-scan-2026-10-18.json",
+  "changes": [
+    {
+      "path": "10_Sources/Academia/arXiv-2509-12957-xRWA-Cross-Chain-Interoperability-Real-World-Assets.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "eaca0cdc7ac81711f420325acf63d39697a789cea53704bf3ef515e075d72b0b",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2510-12821-ARTeX-Anonymity-RWA-Token-Exchange.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "a5a589b85f89f35944292b9f09dacdd59defe37d38150f1db2042486f41537d4",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2606-26704-Fungible-Reserve-Standard-Carrying-Costs-Asset-Backed-Tokens.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "005116e5aaeefb15e03e7bf0d2ecafd70d2c59f486ee881aea71cc415dfaac18",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2609-27632-Compliant-AI-Infrastructure-Regulated-Finance.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "4da4506d024b8e564cff4efe8146f8d95600fda5dd742f5184634835063f586d",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2609-33058-Evolution-Market-Microstructure-Age-of-AI.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "024218c6f7cf219090b0a14347d546ad107ac3c45a3791f966a6fb204816d310",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2610-05873-Token-Transfers-Do-Not-Mean-Liquidity-Tokenized-RWA.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "7f26b18a8688a64add02469fa888c22d5ddba84d9e4329c4b77bf76860c6d7d2",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/HKMA-ART-Framework-Responsible-AI-Agentic-2026.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance"
+      ],
+      "subject": [
+        "subject/hkma"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "b4ae01413bdade45e8202000df892761698c5a10cf53f532696f52a679a910e1",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/MAS-Chia-Building-Trusted-Foundations-Digital-Finance-2026.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/finance/stablecoins",
+        "topic/agentic-ai"
+      ],
+      "subject": [
+        "subject/mas"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "9d03cf69933e2cac68058fd7a6b70517225c6899c52433741c8ee7383120232f",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-BNY-Tokenized-Treasury-Triparty-Repo.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "8fe1cfecb1a153c06bc08a9b35db31298a09eed7c8f19de7b2396a4c319093fa",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Brazil-CVM-Simulated-Tokenization-Pilots.md",
+      "topic": [
+        "topic/law/securities",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "18ae8a89fa4e8b1091b2384fdac524c83dbad08a1c716f705ffeb8bdcd81db92",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-EBA-USDC-Significant-EMT-MiCA.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/digital-assets"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "0e159479fd7652f6204ee18cb1e906f6d35489a3900fb25376964a3dff7f8e16",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-EU-Council-ESMA-Supervision-Significant-CASPs.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/law/digital-assets"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "235d6414d6ddf92a1a93605fc4c1e4d5cbb4efbbd5f829b9dfd14da62daf4322",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-FAB-Digital-Green-Bond-Euroclear-DFMI.md",
+      "topic": [
+        "topic/blockchain-settlement",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "3dd94986e3fa57e3682b90fd51fbf60ebfaf69a3c85964c1b0636273cb549bb4",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Mastercard-BVNK-Global-Money-Platform.md",
+      "topic": [
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "d470a727f4179d6fdb662cce6b3f108a9ebdf08affe3673fd3ebaa47cc664351",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/BIS-WP1382-Are-Stablecoins-Bank-Deposits-Substitutes.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance"
+      ],
+      "subject": [
+        "subject/bis"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "25d594dd60de0005828c0ee3ff1672d962cbaa264bc8b795bb7783ea0fd2d850",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/UNIDROIT-VCC-WG10-Doc3-Public-Consultation-Feedback.md",
+      "topic": [
+        "topic/carbon-credits",
+        "topic/law/property-rights",
+        "topic/tokenisation"
+      ],
+      "subject": [
+        "subject/unidroit"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "d58c7d193c28338de4c0bb9280a8c4420d1b695c7a3b8b24aba967421389a1d2",
+      "wiki_indexed": "2026-10-17T17:28:33Z"
+    }
+  ],
+  "off_vocabulary": []
+}

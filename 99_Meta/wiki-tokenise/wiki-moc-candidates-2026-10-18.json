@@ -1,0 +1,270 @@
+{
+  "mode": "suggest",
+  "moc_dir": "50_MOCs",
+  "writes": "none (hand-curated MOCs are user-owned)",
+  "considered": 16,
+  "already_linked": 0,
+  "candidates": 28,
+  "groups": {
+    "MOC - Agentic-AI": [
+      {
+        "path": "10_Sources/Academia/arXiv-2609-27632-Compliant-AI-Infrastructure-Regulated-Finance.md",
+        "link": "[[arXiv-2609-27632-Compliant-AI-Infrastructure-Regulated-Finance]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2609-33058-Evolution-Market-Microstructure-Age-of-AI.md",
+        "link": "[[arXiv-2609-33058-Evolution-Market-Microstructure-Age-of-AI]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/HKMA-ART-Framework-Responsible-AI-Agentic-2026.md",
+        "link": "[[HKMA-ART-Framework-Responsible-AI-Agentic-2026]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/MAS-Chia-Building-Trusted-Foundations-Digital-Finance-2026.md",
+        "link": "[[MAS-Chia-Building-Trusted-Foundations-Digital-Finance-2026]]",
+        "topics": [
+          "topic/finance/cbdc",
+          "topic/finance/stablecoins",
+          "topic/agentic-ai"
+        ]
+      }
+    ],
+    "MOC - Blockchain-Settlement": [
+      {
+        "path": "10_Sources/Academia/arXiv-2509-12957-xRWA-Cross-Chain-Interoperability-Real-World-Assets.md",
+        "link": "[[arXiv-2509-12957-xRWA-Cross-Chain-Interoperability-Real-World-Assets]]",
+        "topics": [
+          "topic/blockchain-settlement",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2606-26704-Fungible-Reserve-Standard-Carrying-Costs-Asset-Backed-Tokens.md",
+        "link": "[[arXiv-2606-26704-Fungible-Reserve-Standard-Carrying-Costs-Asset-Backed-Tokens]]",
+        "topics": [
+          "topic/blockchain-settlement",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2609-27632-Compliant-AI-Infrastructure-Regulated-Finance.md",
+        "link": "[[arXiv-2609-27632-Compliant-AI-Infrastructure-Regulated-Finance]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-BNY-Tokenized-Treasury-Triparty-Repo.md",
+        "link": "[[Ledger-Insights-BNY-Tokenized-Treasury-Triparty-Repo]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-FAB-Digital-Green-Bond-Euroclear-DFMI.md",
+        "link": "[[Ledger-Insights-FAB-Digital-Green-Bond-Euroclear-DFMI]]",
+        "topics": [
+          "topic/blockchain-settlement",
+          "topic/finance/market-infrastructure"
+        ]
+      }
+    ],
+    "MOC - Carbon-Credits": [
+      {
+        "path": "10_Sources/International-Agencies/UNIDROIT-VCC-WG10-Doc3-Public-Consultation-Feedback.md",
+        "link": "[[UNIDROIT-VCC-WG10-Doc3-Public-Consultation-Feedback]]",
+        "topics": [
+          "topic/carbon-credits",
+          "topic/law/property-rights",
+          "topic/tokenisation"
+        ]
+      }
+    ],
+    "MOC - Finance": [
+      {
+        "path": "10_Sources/Academia/arXiv-2510-12821-ARTeX-Anonymity-RWA-Token-Exchange.md",
+        "link": "[[arXiv-2510-12821-ARTeX-Anonymity-RWA-Token-Exchange]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2609-33058-Evolution-Market-Microstructure-Age-of-AI.md",
+        "link": "[[arXiv-2609-33058-Evolution-Market-Microstructure-Age-of-AI]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2610-05873-Token-Transfers-Do-Not-Mean-Liquidity-Tokenized-RWA.md",
+        "link": "[[arXiv-2610-05873-Token-Transfers-Do-Not-Mean-Liquidity-Tokenized-RWA]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/BIS-WP1382-Are-Stablecoins-Bank-Deposits-Substitutes.md",
+        "link": "[[BIS-WP1382-Are-Stablecoins-Bank-Deposits-Substitutes]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/HKMA-ART-Framework-Responsible-AI-Agentic-2026.md",
+        "link": "[[HKMA-ART-Framework-Responsible-AI-Agentic-2026]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-BNY-Tokenized-Treasury-Triparty-Repo.md",
+        "link": "[[Ledger-Insights-BNY-Tokenized-Treasury-Triparty-Repo]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Brazil-CVM-Simulated-Tokenization-Pilots.md",
+        "link": "[[Ledger-Insights-Brazil-CVM-Simulated-Tokenization-Pilots]]",
+        "topics": [
+          "topic/law/securities",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-EU-Council-ESMA-Supervision-Significant-CASPs.md",
+        "link": "[[Ledger-Insights-EU-Council-ESMA-Supervision-Significant-CASPs]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-FAB-Digital-Green-Bond-Euroclear-DFMI.md",
+        "link": "[[Ledger-Insights-FAB-Digital-Green-Bond-Euroclear-DFMI]]",
+        "topics": [
+          "topic/blockchain-settlement",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/MAS-Chia-Building-Trusted-Foundations-Digital-Finance-2026.md",
+        "link": "[[MAS-Chia-Building-Trusted-Foundations-Digital-Finance-2026]]",
+        "topics": [
+          "topic/finance/cbdc",
+          "topic/finance/stablecoins",
+          "topic/agentic-ai"
+        ]
+      }
+    ],
+    "MOC - Law": [
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Brazil-CVM-Simulated-Tokenization-Pilots.md",
+        "link": "[[Ledger-Insights-Brazil-CVM-Simulated-Tokenization-Pilots]]",
+        "topics": [
+          "topic/law/securities",
+          "topic/finance/market-infrastructure"
+        ]
+      }
+    ],
+    "MOC - Private-Law-Convergence": [
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-EBA-USDC-Significant-EMT-MiCA.md",
+        "link": "[[Ledger-Insights-EBA-USDC-Significant-EMT-MiCA]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-EU-Council-ESMA-Supervision-Significant-CASPs.md",
+        "link": "[[Ledger-Insights-EU-Council-ESMA-Supervision-Significant-CASPs]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/law/digital-assets"
+        ]
+      }
+    ],
+    "MOC - Property-Rights": [
+      {
+        "path": "10_Sources/International-Agencies/UNIDROIT-VCC-WG10-Doc3-Public-Consultation-Feedback.md",
+        "link": "[[UNIDROIT-VCC-WG10-Doc3-Public-Consultation-Feedback]]",
+        "topics": [
+          "topic/carbon-credits",
+          "topic/law/property-rights",
+          "topic/tokenisation"
+        ]
+      }
+    ],
+    "MOC - Stablecoins": [
+      {
+        "path": "10_Sources/International-Agencies/BIS-WP1382-Are-Stablecoins-Bank-Deposits-Substitutes.md",
+        "link": "[[BIS-WP1382-Are-Stablecoins-Bank-Deposits-Substitutes]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-EBA-USDC-Significant-EMT-MiCA.md",
+        "link": "[[Ledger-Insights-EBA-USDC-Significant-EMT-MiCA]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Mastercard-BVNK-Global-Money-Platform.md",
+        "link": "[[Ledger-Insights-Mastercard-BVNK-Global-Money-Platform]]",
+        "topics": [
+          "topic/finance/stablecoins"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/MAS-Chia-Building-Trusted-Foundations-Digital-Finance-2026.md",
+        "link": "[[MAS-Chia-Building-Trusted-Foundations-Digital-Finance-2026]]",
+        "topics": [
+          "topic/finance/cbdc",
+          "topic/finance/stablecoins",
+          "topic/agentic-ai"
+        ]
+      }
+    ]
+  },
+  "unmapped": [],
+  "map": {
+    "configured": {
+      "topic/finance": "MOC - Finance",
+      "topic/finance/stablecoins": "MOC - Stablecoins",
+      "topic/law": "MOC - Law",
+      "topic/law/property-rights": "MOC - Property-Rights",
+      "topic/law/digital-assets": "MOC - Private-Law-Convergence",
+      "topic/blockchain-settlement": "MOC - Blockchain-Settlement",
+      "topic/agentic-ai": "MOC - Agentic-AI",
+      "topic/carbon-credits": "MOC - Carbon-Credits",
+      "topic/real-estate": "MOC - Real-Estate"
+    },
+    "derived_from_moc_frontmatter": {},
+    "ambiguous": []
+  }
+}

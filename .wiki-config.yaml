@@ -52,6 +52,9 @@ role_by_prefix: {"30_Concepts/": concept}
 topic_moc_map:
   topic/finance: "MOC - Finance"
   topic/finance/stablecoins: "MOC - Stablecoins"
+  topic/finance/cbdc: "MOC - CBDC"
+  topic/finance/monetary-hierarchy: "MOC - Monetary-Hierarchy"
+  topic/finance/seigniorage-reserves: "MOC - Seigniorage-and-Reserves"
   topic/law: "MOC - Law"
   topic/law/property-rights: "MOC - Property-Rights"
   topic/law/digital-assets: "MOC - Private-Law-Convergence"
@@ -144,6 +147,9 @@ mapper:
     "MOC - Law": topic/law
     "MOC - Blockchain-Settlement": topic/blockchain-settlement
     "MOC - Stablecoins": topic/finance/stablecoins
+    "MOC - CBDC": topic/finance/cbdc
+    "MOC - Monetary-Hierarchy": topic/finance/monetary-hierarchy
+    "MOC - Seigniorage-and-Reserves": topic/finance/seigniorage-reserves
     "MOC - Real-Estate": topic/real-estate
   # Institutional issuers -> publisher subject. Press and aggregators excluded.
   org_subject:

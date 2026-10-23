@@ -19,11 +19,14 @@ created: 2026-05-24
 - [[MOC - Stablecoins]]
 - [[MOC - Agentic-AI]]
 - [[MOC - Blockchain-Settlement]]
+- [[MOC - CBDC]]
 
 ## Cross-cutting MOCs
 
 - [[MOC - Private-Law-Convergence]] - UCC Article 12 (US), Property (Digital Assets etc) Act 2025 (UK), UNIDROIT Principles 2023, civil-law treatments. Three jurisdictions converge through different doctrines.
 - [[MOC - Agent-Ledger-Interface]] - the engineering bridge between the finance/law core and the agentic-AI rim. Stochastic agents on deterministic ledgers.
+- [[MOC - Monetary-Hierarchy]] - where private money sits against sovereign money, the unit of account and bank deposits; dollarisation and monetary control.
+- [[MOC - Seigniorage-and-Reserves]] - reserve assets, Treasury bill effects, issuer charters, run risk and yield limits.
 - [[MOC - Realised-vs-Projected]] - the bull-case sizing reports (Standard Chartered USD 30.1T, BCG USD 16T) tested against realised AUM (BlackRock BUIDL USD 2.5B) and sceptical counterweights (Oraclizer).
 
 ## Reading paths

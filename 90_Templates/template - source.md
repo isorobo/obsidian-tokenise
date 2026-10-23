@@ -44,7 +44,7 @@ instrument: []               # finance sources only: tokenised-fund | tokenised-
                              # stablecoin-algorithmic | cbdc-wholesale | cbdc-retail |
                              # e-money-token | asset-referenced-token | nft | security-token
 
-# --- Topic vocabulary: CLOSED SET OF 14. Copy values verbatim. ---
+# --- Topic vocabulary: CLOSED SET OF 16. Copy values verbatim. ---
 # Never invent a topic. If none fits, use the nearest and raise it in the run report.
 #   topic/finance                        topic/law
 #   topic/finance/stablecoins            topic/law/securities
@@ -53,6 +53,7 @@ instrument: []               # finance sources only: tokenised-fund | tokenised-
 #   topic/finance/cbdc                   topic/tokenisation
 #   topic/blockchain-settlement          topic/carbon-credits
 #   topic/agentic-ai                     topic/real-estate
+#   topic/finance/monetary-hierarchy     topic/finance/seigniorage-reserves
 topic: []
 
 # --- Cross-references ---

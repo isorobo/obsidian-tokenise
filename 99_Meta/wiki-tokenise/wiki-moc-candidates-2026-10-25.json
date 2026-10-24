@@ -1,0 +1,540 @@
+{
+  "mode": "suggest",
+  "moc_dir": "50_MOCs",
+  "writes": "none (hand-curated MOCs are user-owned)",
+  "considered": 36,
+  "already_linked": 0,
+  "candidates": 62,
+  "groups": {
+    "MOC - Agentic-AI": [
+      {
+        "path": "10_Sources/Academia/arXiv-2604-19026-ClawCoin-Agentic-AI-Native-Cryptocurrency.md",
+        "link": "[[arXiv-2604-19026-ClawCoin-Agentic-AI-Native-Cryptocurrency]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2610-22522-Agentic-AI-Automated-Markets.md",
+        "link": "[[arXiv-2610-22522-Agentic-AI-Automated-Markets]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Academia/arXiv-2610-26324-Control-Layer-Rule-Following-Trading-Agents.md",
+        "link": "[[arXiv-2610-26324-Control-Layer-Rule-Following-Trading-Agents]]",
+        "topics": [
+          "topic/agentic-ai"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/FSB-Sound-Practices-AI-Adoption-Final-Report-2026.md",
+        "link": "[[FSB-Sound-Practices-AI-Adoption-Final-Report-2026]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/finance"
+        ]
+      }
+    ],
+    "MOC - Blockchain-Settlement": [
+      {
+        "path": "10_Sources/Academia/arXiv-2604-19026-ClawCoin-Agentic-AI-Native-Cryptocurrency.md",
+        "link": "[[arXiv-2604-19026-ClawCoin-Agentic-AI-Native-Cryptocurrency]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/blockchain-settlement"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ECB-Blog-2026-Highway-Europe-Digital-Finance-Appia.md",
+        "link": "[[ECB-Blog-2026-Highway-Europe-Digital-Finance-Appia]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/UST-TBAC-Minutes-2026-08-04-Intraday-Repo-Tokenization.md",
+        "link": "[[UST-TBAC-Minutes-2026-08-04-Intraday-Repo-Tokenization]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement"
+        ]
+      }
+    ],
+    "MOC - CBDC": [
+      {
+        "path": "10_Sources/Central-Banks/ECB-Blog-2025-Digital-Euro-for-Digital-Age.md",
+        "link": "[[ECB-Blog-2025-Digital-Euro-for-Digital-Age]]",
+        "topics": [
+          "topic/finance/cbdc",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ECB-Blog-2026-Digital-Euro-Opportunity-for-Banks.md",
+        "link": "[[ECB-Blog-2026-Digital-Euro-Opportunity-for-Banks]]",
+        "topics": [
+          "topic/finance/cbdc",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-FTN-2025-007-CBDC-Payments-Competition.md",
+        "link": "[[IMF-FTN-2025-007-CBDC-Payments-Competition]]",
+        "topics": [
+          "topic/finance/cbdc",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-FTN-2025-008-CBDC-Financial-Stability.md",
+        "link": "[[IMF-FTN-2025-008-CBDC-Financial-Stability]]",
+        "topics": [
+          "topic/finance/cbdc"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-FTN-2025-009-Payment-Resilience-Fragile-States-CBDC.md",
+        "link": "[[IMF-FTN-2025-009-Payment-Resilience-Fragile-States-CBDC]]",
+        "topics": [
+          "topic/finance/cbdc"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-FTN-2025-Financial-Integrity-Retail-CBDC.md",
+        "link": "[[IMF-FTN-2025-Financial-Integrity-Retail-CBDC]]",
+        "topics": [
+          "topic/finance/cbdc"
+        ]
+      }
+    ],
+    "MOC - Finance": [
+      {
+        "path": "10_Sources/Academia/arXiv-2610-22522-Agentic-AI-Automated-Markets.md",
+        "link": "[[arXiv-2610-22522-Agentic-AI-Automated-Markets]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/BIS-WP1385-Competing-Rails-Crossborder-Payments-Stablecoins.md",
+        "link": "[[BIS-WP1385-Competing-Rails-Crossborder-Payments-Stablecoins]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/BoE-Breeden-Modernising-Money-and-Markets-2026.md",
+        "link": "[[BoE-Breeden-Modernising-Money-and-Markets-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/tokenised-deposits",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/BoE-Sterling-Denominated-Systemic-Stablecoins-Policy-Statement-2026.md",
+        "link": "[[BoE-Sterling-Denominated-Systemic-Stablecoins-Policy-Statement-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/BoE-SWP1174-Model-of-Monetary-Singleness.md",
+        "link": "[[BoE-SWP1174-Model-of-Monetary-Singleness]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/tokenised-deposits"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ECB-Blog-2025-Digital-Euro-for-Digital-Age.md",
+        "link": "[[ECB-Blog-2025-Digital-Euro-for-Digital-Age]]",
+        "topics": [
+          "topic/finance/cbdc",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ECB-Blog-2025-From-Hype-to-Hazard-Stablecoins-Europe.md",
+        "link": "[[ECB-Blog-2025-From-Hype-to-Hazard-Stablecoins-Europe]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ECB-Blog-2026-Digital-Euro-Opportunity-for-Banks.md",
+        "link": "[[ECB-Blog-2026-Digital-Euro-Opportunity-for-Banks]]",
+        "topics": [
+          "topic/finance/cbdc",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ECB-Blog-2026-Highway-Europe-Digital-Finance-Appia.md",
+        "link": "[[ECB-Blog-2026-Highway-Europe-Digital-Finance-Appia]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/FSB-Sound-Practices-AI-Adoption-Final-Report-2026.md",
+        "link": "[[FSB-Sound-Practices-AI-Adoption-Final-Report-2026]]",
+        "topics": [
+          "topic/agentic-ai",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/IMF-FTN-2025-007-CBDC-Payments-Competition.md",
+        "link": "[[IMF-FTN-2025-007-CBDC-Payments-Competition]]",
+        "topics": [
+          "topic/finance/cbdc",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Ant-HSBC-Tokenized-Deposits-BENJI-Sweep.md",
+        "link": "[[Ledger-Insights-Ant-HSBC-Tokenized-Deposits-BENJI-Sweep]]",
+        "topics": [
+          "topic/finance/tokenised-deposits",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-BLOOM-Adds-Malaysia-Thailand-Central-Banks.md",
+        "link": "[[Ledger-Insights-BLOOM-Adds-Malaysia-Thailand-Central-Banks]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/tokenised-deposits"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-Jack-Henry-Google-Universal-Ledger-Tokenized-Deposits.md",
+        "link": "[[Ledger-Insights-Jack-Henry-Google-Universal-Ledger-Tokenized-Deposits]]",
+        "topics": [
+          "topic/finance/tokenised-deposits",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-MEP-Navarrete-Scale-Tokenization-Europe.md",
+        "link": "[[Ledger-Insights-MEP-Navarrete-Scale-Tokenization-Europe]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-SoFi-Retail-Tokenized-Deposits-SOFIE.md",
+        "link": "[[Ledger-Insights-SoFi-Retail-Tokenized-Deposits-SOFIE]]",
+        "topics": [
+          "topic/finance/tokenised-deposits",
+          "topic/finance/stablecoins"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/NYFed-LSE-Stablecoins-NonCrypto-Shocks-2026-Update.md",
+        "link": "[[NYFed-LSE-Stablecoins-NonCrypto-Shocks-2026-Update]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/UST-TBAC-Minutes-2025-04-29-Stablecoins-Charge.md",
+        "link": "[[UST-TBAC-Minutes-2025-04-29-Stablecoins-Charge]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/market-infrastructure",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/UST-TBAC-Minutes-2026-02-03-Stablecoin-Demand-Bills.md",
+        "link": "[[UST-TBAC-Minutes-2026-02-03-Stablecoin-Demand-Bills]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/UST-TBAC-Minutes-2026-08-04-Intraday-Repo-Tokenization.md",
+        "link": "[[UST-TBAC-Minutes-2026-08-04-Intraday-Repo-Tokenization]]",
+        "topics": [
+          "topic/finance/market-infrastructure",
+          "topic/blockchain-settlement"
+        ]
+      }
+    ],
+    "MOC - Law": [
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-OCC-Final-GENIUS-Act-Stablecoin-Rules.md",
+        "link": "[[Ledger-Insights-OCC-Final-GENIUS-Act-Stablecoin-Rules]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-State-Regulators-Stablecoin-Safe-Harbor-GENIUS.md",
+        "link": "[[Ledger-Insights-State-Regulators-Stablecoin-Safe-Harbor-GENIUS]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law"
+        ]
+      }
+    ],
+    "MOC - Private-Law-Convergence": [
+      {
+        "path": "10_Sources/Central-Banks/BCB-Resolution-521-Virtual-Assets-Foreign-Exchange-2025.md",
+        "link": "[[BCB-Resolution-521-Virtual-Assets-Foreign-Exchange-2025]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/BCB-Resolution-561-eFX-Providers-Crypto-Settlement-Ban-2026.md",
+        "link": "[[BCB-Resolution-561-eFX-Providers-Crypto-Settlement-Ban-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Law-Regulation/Fed-FR-2026-19860-Board-GENIUS-Act-Proposed-Rule.md",
+        "link": "[[Fed-FR-2026-19860-Board-GENIUS-Act-Proposed-Rule]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Law-Regulation/OCC-Bulletin-2026-50-GENIUS-Act-Regulations-Final-Rule.md",
+        "link": "[[OCC-Bulletin-2026-50-GENIUS-Act-Regulations-Final-Rule]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Law-Regulation/OCC-Bulletin-2026-51-GENIUS-Act-Waivers-Application-Guidance.md",
+        "link": "[[OCC-Bulletin-2026-51-GENIUS-Act-Waivers-Application-Guidance]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Law-Regulation/Treasury-GENIUS-Act-Section-3-NPRM-Press-Release-2026.md",
+        "link": "[[Treasury-GENIUS-Act-Section-3-NPRM-Press-Release-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      }
+    ],
+    "MOC - Stablecoins": [
+      {
+        "path": "10_Sources/Central-Banks/BCB-Resolution-521-Virtual-Assets-Foreign-Exchange-2025.md",
+        "link": "[[BCB-Resolution-521-Virtual-Assets-Foreign-Exchange-2025]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/BCB-Resolution-561-eFX-Providers-Crypto-Settlement-Ban-2026.md",
+        "link": "[[BCB-Resolution-561-eFX-Providers-Crypto-Settlement-Ban-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/BIS-WP1385-Competing-Rails-Crossborder-Payments-Stablecoins.md",
+        "link": "[[BIS-WP1385-Competing-Rails-Crossborder-Payments-Stablecoins]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/BoE-Breeden-Modernising-Money-and-Markets-2026.md",
+        "link": "[[BoE-Breeden-Modernising-Money-and-Markets-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/tokenised-deposits",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/BoE-Sterling-Denominated-Systemic-Stablecoins-Policy-Statement-2026.md",
+        "link": "[[BoE-Sterling-Denominated-Systemic-Stablecoins-Policy-Statement-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/BoE-SWP1174-Model-of-Monetary-Singleness.md",
+        "link": "[[BoE-SWP1174-Model-of-Monetary-Singleness]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/tokenised-deposits"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/ECB-Blog-2025-From-Hype-to-Hazard-Stablecoins-Europe.md",
+        "link": "[[ECB-Blog-2025-From-Hype-to-Hazard-Stablecoins-Europe]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      },
+      {
+        "path": "10_Sources/Law-Regulation/Fed-FR-2026-19860-Board-GENIUS-Act-Proposed-Rule.md",
+        "link": "[[Fed-FR-2026-19860-Board-GENIUS-Act-Proposed-Rule]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/International-Agencies/FSB-Global-Stablecoin-Arrangements-Cross-Border-Vulnerabilities-2026.md",
+        "link": "[[FSB-Global-Stablecoin-Arrangements-Cross-Border-Vulnerabilities-2026]]",
+        "topics": [
+          "topic/finance/stablecoins"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-BLOOM-Adds-Malaysia-Thailand-Central-Banks.md",
+        "link": "[[Ledger-Insights-BLOOM-Adds-Malaysia-Thailand-Central-Banks]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/tokenised-deposits"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-HSBC-RedCoin-Retail-Stablecoin-Live.md",
+        "link": "[[Ledger-Insights-HSBC-RedCoin-Retail-Stablecoin-Live]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-OCC-Final-GENIUS-Act-Stablecoin-Rules.md",
+        "link": "[[Ledger-Insights-OCC-Final-GENIUS-Act-Stablecoin-Rules]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-SoFi-Retail-Tokenized-Deposits-SOFIE.md",
+        "link": "[[Ledger-Insights-SoFi-Retail-Tokenized-Deposits-SOFIE]]",
+        "topics": [
+          "topic/finance/tokenised-deposits",
+          "topic/finance/stablecoins"
+        ]
+      },
+      {
+        "path": "10_Sources/Industry-Press/Ledger-Insights-State-Regulators-Stablecoin-Safe-Harbor-GENIUS.md",
+        "link": "[[Ledger-Insights-State-Regulators-Stablecoin-Safe-Harbor-GENIUS]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/NYFed-LSE-Stablecoins-NonCrypto-Shocks-2026-Update.md",
+        "link": "[[NYFed-LSE-Stablecoins-NonCrypto-Shocks-2026-Update]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/market-infrastructure"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/NYFed-SR1202-Stablecoins-Meet-Mundell-Fleming-Trilemma.md",
+        "link": "[[NYFed-SR1202-Stablecoins-Meet-Mundell-Fleming-Trilemma]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Law-Regulation/OCC-Bulletin-2026-50-GENIUS-Act-Regulations-Final-Rule.md",
+        "link": "[[OCC-Bulletin-2026-50-GENIUS-Act-Regulations-Final-Rule]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Law-Regulation/OCC-Bulletin-2026-51-GENIUS-Act-Waivers-Application-Guidance.md",
+        "link": "[[OCC-Bulletin-2026-51-GENIUS-Act-Waivers-Application-Guidance]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Law-Regulation/Treasury-GENIUS-Act-Section-3-NPRM-Press-Release-2026.md",
+        "link": "[[Treasury-GENIUS-Act-Section-3-NPRM-Press-Release-2026]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/law/digital-assets"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/UST-TBAC-Minutes-2025-04-29-Stablecoins-Charge.md",
+        "link": "[[UST-TBAC-Minutes-2025-04-29-Stablecoins-Charge]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance/market-infrastructure",
+          "topic/tokenisation"
+        ]
+      },
+      {
+        "path": "10_Sources/Central-Banks/UST-TBAC-Minutes-2026-02-03-Stablecoin-Demand-Bills.md",
+        "link": "[[UST-TBAC-Minutes-2026-02-03-Stablecoin-Demand-Bills]]",
+        "topics": [
+          "topic/finance/stablecoins",
+          "topic/finance"
+        ]
+      }
+    ]
+  },
+  "unmapped": [],
+  "map": {
+    "configured": {
+      "topic/finance": "MOC - Finance",
+      "topic/finance/stablecoins": "MOC - Stablecoins",
+      "topic/finance/cbdc": "MOC - CBDC",
+      "topic/finance/monetary-hierarchy": "MOC - Monetary-Hierarchy",
+      "topic/finance/seigniorage-reserves": "MOC - Seigniorage-and-Reserves",
+      "topic/law": "MOC - Law",
+      "topic/law/property-rights": "MOC - Property-Rights",
+      "topic/law/digital-assets": "MOC - Private-Law-Convergence",
+      "topic/blockchain-settlement": "MOC - Blockchain-Settlement",
+      "topic/agentic-ai": "MOC - Agentic-AI",
+      "topic/carbon-credits": "MOC - Carbon-Credits",
+      "topic/real-estate": "MOC - Real-Estate"
+    },
+    "derived_from_moc_frontmatter": {},
+    "ambiguous": []
+  }
+}

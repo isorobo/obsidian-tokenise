@@ -1,0 +1,419 @@
+{
+  "vault": "/Users/bernie/obsidian/wiki-tokenise",
+  "generated_by": "wiki_tool.py tk-plan",
+  "generated_at": "2026-10-24T17:17:55Z",
+  "scan": "/Users/bernie/obsidian/wiki-tokenise/99_Meta/wiki-tokenise/wiki-scan-2026-10-25.json",
+  "changes": [
+    {
+      "path": "10_Sources/Academia/arXiv-2604-19026-ClawCoin-Agentic-AI-Native-Cryptocurrency.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "80fdf99c566b32847037f4f614014c672beb3bea00600d541bd142071c21f42e",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2610-22522-Agentic-AI-Automated-Markets.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "1fa4be81f0894b71568c08683a16c3ae204a1e2d2eaa7330767b098554d9cd96",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Academia/arXiv-2610-26324-Control-Layer-Rule-Following-Trading-Agents.md",
+      "topic": [
+        "topic/agentic-ai"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "12867c26a305016bd48348d55f972f0b500c88582e275a1a098e4074e05b78df",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/BCB-Resolution-521-Virtual-Assets-Foreign-Exchange-2025.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/digital-assets"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "48e32e5c101c6446ea8d4babd73bedca02f6908ddc99971767516952726c8b9b",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/BCB-Resolution-561-eFX-Providers-Crypto-Settlement-Ban-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/digital-assets"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "07e95a9272e351d90bdd2ebed579c59a7cc051220bf896367f70feffa7ea9d0b",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/BoE-Breeden-Modernising-Money-and-Markets-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/tokenised-deposits",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "638ad15b6bff206cd7cad67fa15bd60be92fb3ed9b1993757a190941134ad527",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/BoE-SWP1174-Model-of-Monetary-Singleness.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "ed2f08f03a8271e23d17cccf7dc49c0f6422fb78c31952fa1035d7070db8c518",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/BoE-Sterling-Denominated-Systemic-Stablecoins-Policy-Statement-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "fca05e336d28b3e056c5e4a6b067c1f059858abc8bb9b4e564b4ad7ad6fd2c56",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/ECB-Blog-2025-Digital-Euro-for-Digital-Age.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "0376fe0506e56ad4e059bd496b7948fcae4e04614f5186c779ea3875facad129",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/ECB-Blog-2025-From-Hype-to-Hazard-Stablecoins-Europe.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "4c64bf27705e3bdebc2e1649babc68a9b27827a590213d6ff455142efee1283e",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/ECB-Blog-2026-Digital-Euro-Opportunity-for-Banks.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "e5fd85fda0ec33d0101e6796f3482cf5605c1ca1c01bc62385c98bdcbbc4cf48",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/ECB-Blog-2026-Highway-Europe-Digital-Finance-Appia.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "b49dc5047d346df600a53c41d551675523d367148985d97e7cd9317349a579da",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/NYFed-LSE-Stablecoins-NonCrypto-Shocks-2026-Update.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "8c24b52fa4cb3b12c37ad2fd531fb67b32fbf46345f4acea1d2c89e84d7afce3",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/NYFed-SR1202-Stablecoins-Meet-Mundell-Fleming-Trilemma.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "080f8d28bb863d1f3c732b045999b96fa45984858cf15f978d34bb935c2e9e6e",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/UST-TBAC-Minutes-2025-04-29-Stablecoins-Charge.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "77bfbcc82f77641001888b9071bdcd097ad3be892b3dd7467b56b1cf57e187da",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/UST-TBAC-Minutes-2026-02-03-Stablecoin-Demand-Bills.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "dfdf10d960293a3cb7623e43432af45dd8506fd214989a50f415f236d15ac7b0",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Central-Banks/UST-TBAC-Minutes-2026-08-04-Intraday-Repo-Tokenization.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/blockchain-settlement"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "eeeb560bd1c2d32c29fc963d43f6737b45f19561c683a6f926dd020729de4d9d",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Ant-HSBC-Tokenized-Deposits-BENJI-Sweep.md",
+      "topic": [
+        "topic/finance/tokenised-deposits",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "7e83dc9335abd65b516aaa8b42957423d39db469f2aabcc90241e4c44ba339ba",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-BLOOM-Adds-Malaysia-Thailand-Central-Banks.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance/tokenised-deposits"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "c12403aa30e75e98cfaf3d780ab2c6ed95cf60839c0ec4a39d80c8c3ae29782a",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-HSBC-RedCoin-Retail-Stablecoin-Live.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "2f9212e2cd78b8709b7c39c89ad17063c1048c5925af239b11805f9d2cec1279",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-Jack-Henry-Google-Universal-Ledger-Tokenized-Deposits.md",
+      "topic": [
+        "topic/finance/tokenised-deposits",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "cfc134a5e7381e4590df8bb833b915d1350cf439762bd3f9a063d4cb2ef08398",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-MEP-Navarrete-Scale-Tokenization-Europe.md",
+      "topic": [
+        "topic/finance/market-infrastructure",
+        "topic/tokenisation"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "7cadfab8aad128d1509197b35535f4fb242837ee75f11281c612b4e0176ea7c8",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-OCC-Final-GENIUS-Act-Stablecoin-Rules.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "e89aaf34059eba6b2005c42008967a4559946945e2c3f7444440f848a6880e1b",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-SoFi-Retail-Tokenized-Deposits-SOFIE.md",
+      "topic": [
+        "topic/finance/tokenised-deposits",
+        "topic/finance/stablecoins"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "9fd9f7a2a48d6d8b907156d448c874b1a85b908394328f2843c1dc000dc0abfd",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Industry-Press/Ledger-Insights-State-Regulators-Stablecoin-Safe-Harbor-GENIUS.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "76036309a0d54644130ae8d1b4e005bb4baa07d15d85ed3b318f50f97262ec61",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/BIS-WP1385-Competing-Rails-Crossborder-Payments-Stablecoins.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/finance"
+      ],
+      "subject": [
+        "subject/bis"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "76f91efdfbf22fec375a0e132805b956a4c1aa420d1c8f59dac9912f2eded22e",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/FSB-Global-Stablecoin-Arrangements-Cross-Border-Vulnerabilities-2026.md",
+      "topic": [
+        "topic/finance/stablecoins"
+      ],
+      "subject": [
+        "subject/fsb"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "1ca92eb284054f5d2742dd33d6dde29b5efd47a85a046a68f0a471d61d984ef4",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/FSB-Sound-Practices-AI-Adoption-Final-Report-2026.md",
+      "topic": [
+        "topic/agentic-ai",
+        "topic/finance"
+      ],
+      "subject": [
+        "subject/fsb"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "f14125968ae6b2280b27601c5eae1f08a7521644fd118fabfa7327052f29d5e6",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-FTN-2025-007-CBDC-Payments-Competition.md",
+      "topic": [
+        "topic/finance/cbdc",
+        "topic/finance/market-infrastructure"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "5f6a822dbfaef4d3c2e5ff47cd0cda3bf41b9ad7b18c0a0c9b0c66a65e998c31",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-FTN-2025-008-CBDC-Financial-Stability.md",
+      "topic": [
+        "topic/finance/cbdc"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "25e5a7dc32e5cacaa3a3630850d54e7240aa0c26795d5aec9bbc55810155be29",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-FTN-2025-009-Payment-Resilience-Fragile-States-CBDC.md",
+      "topic": [
+        "topic/finance/cbdc"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "97a42b4fe5a26ed516484d0ca55034aa429366780a233deeac7287d115f5dc24",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/International-Agencies/IMF-FTN-2025-Financial-Integrity-Retail-CBDC.md",
+      "topic": [
+        "topic/finance/cbdc"
+      ],
+      "subject": [
+        "subject/imf"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "5170e482b9899428b7b1502660f259e3e35a0174a48c74c6a738a2ed6b8bf4ba",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Law-Regulation/Fed-FR-2026-19860-Board-GENIUS-Act-Proposed-Rule.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/digital-assets"
+      ],
+      "subject": [
+        "subject/federal-reserve"
+      ],
+      "wiki_role": "wiki",
+      "wiki_hash": "85d0a061229879fbbcd5aa3f336894864ec7de202166d628de2ebfc190538571",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Law-Regulation/OCC-Bulletin-2026-50-GENIUS-Act-Regulations-Final-Rule.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/digital-assets"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "a458b0569a2ef50724d3a7440aa1015676baa701db7221ae1be6a8e4ad6c6168",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Law-Regulation/OCC-Bulletin-2026-51-GENIUS-Act-Waivers-Application-Guidance.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/digital-assets"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "393a1b665aaae10e78ecfa5407b0f5da4c2cd60ca1640f3e8528bf6def6e65f3",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    },
+    {
+      "path": "10_Sources/Law-Regulation/Treasury-GENIUS-Act-Section-3-NPRM-Press-Release-2026.md",
+      "topic": [
+        "topic/finance/stablecoins",
+        "topic/law/digital-assets"
+      ],
+      "subject": [],
+      "wiki_role": "wiki",
+      "wiki_hash": "37ae351375b2c6fb6cf0746f01550e116e27cdc3d46409df107de573958b4068",
+      "wiki_indexed": "2026-10-24T17:17:55Z"
+    }
+  ],
+  "off_vocabulary": []
+}

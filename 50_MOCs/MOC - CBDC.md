@@ -10,6 +10,10 @@ created: 2026-10-24
 
 > Central bank digital currencies and tokenised central-bank money, restored as a live MOC on 24 October 2026 (an earlier version is archived under `_archived_wiki-old-structure/`). Covers retail and wholesale CBDC, tokenised reserves, and how central banks position them against stablecoins.
 
+## Concept
+
+- [[CBDC]] - draft concept note, 27 October 2026.
+
 ## Law and policy
 
 - [[IMF-FTN-2025-006-Selected-Legal-CBDC]] - IMF, 2025.

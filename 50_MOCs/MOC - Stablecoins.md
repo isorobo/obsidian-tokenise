@@ -17,6 +17,11 @@ created: 2026-05-24
 - [[Tokenised-Deposit]]
 - [[Singleness-of-Money]] (BIS framing)
 
+## Theory (added 27 October 2026)
+
+- [[Gorton-Zhang-Taming-Wildcat-Stablecoins-2023]] - University of Chicago Law Review, 2023.
+- [[Hierarchy-of-Money]], [[Seigniorage-vs-Reserve-Carry]], [[Singleness-of-Money]] - concept notes.
+
 ## Instruments and regimes (40_Domains/Sub-Topic/Stablecoins/)
 
 - [[USDC]]

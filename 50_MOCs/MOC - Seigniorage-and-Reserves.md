@@ -11,6 +11,10 @@ created: 2026-10-24
 
 > **Cross-cutting MOC.** What stands behind stablecoins and who earns the return: reserve composition, Treasury bill holdings and market effects, issuer charters and reserve funds, run risk, and the statutory limits on yield. Neutral source map only. Added 24 October 2026. Note: "seigniorage" is used loosely in the literature; an issuer's reserve income is carry on its reserve assets, not issuance profit on a zero-interest liability.
 
+## Concept
+
+- [[Seigniorage-vs-Reserve-Carry]] - draft, 27 October 2026. No vault source uses the word "seigniorage".
+
 ## Statute and rules
 
 - [[US-GENIUS-Act-2025-Comprehensive]] - US GENIUS Act, 2025.

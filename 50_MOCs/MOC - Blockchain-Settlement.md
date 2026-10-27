@@ -122,6 +122,11 @@ Sources held since May 2026 that carried no MOC link. Mapped by `topic`.
 - [[Ledger-Insights-ECB-Project-Pontes-Go-Live]]
 - [[Ledger-Insights-SBI-Nodeinfra-Project-Musubi-PvP]]
 
+## Foundational (added 27 October 2026)
+
+- [[Nakamoto-Bitcoin-Peer-to-Peer-Electronic-Cash-System-2008]] - the 2008 white paper. Text read through a proxy; see the note.
+- [[Programmable-Money]] - concept note.
+
 ## Added 25 October 2026
 
 - [[arXiv-2604-19026-ClawCoin-Agentic-AI-Native-Cryptocurrency]] - arXiv, 2026. An agent-native cryptocurrency design.

@@ -17,6 +17,10 @@ created: 2026-10-24
 - [[Stablecoin]]
 - [[Tokenised-Deposit]]
 - [[Programmable-Money]]
+- [[Hierarchy-of-Money]] (draft, 27 October 2026)
+- [[Eurodollar]] (draft; no source uses the word)
+- [[CBDC]]
+- [[Seigniorage-vs-Reserve-Carry]]
 
 ## Dollarisation and monetary control
 
@@ -58,9 +62,19 @@ created: 2026-10-24
 - [[BIS-WP1385-Competing-Rails-Crossborder-Payments-Stablecoins]] - BIS, 2026.
 - [[FSB-Global-Stablecoin-Arrangements-Cross-Border-Vulnerabilities-2026]] - FSB, 2026.
 
+## Theory and background (added 27 October 2026)
+
+Named by hand as theory background for the concept notes; each rests on the abstract or on text read through a proxy, see the note's reading statement.
+
+- [[Gabor-Vestergaard-Towards-Theory-Shadow-Money-2016]] - INET working paper, 2016. Shadow money and collateral.
+- [[Murau-Van-Klooster-Rethinking-Monetary-Sovereignty-2022]] - Perspectives on Politics, 2022 (issue 2023). Effective monetary sovereignty.
+- [[Gorton-Zhang-Taming-Wildcat-Stablecoins-2023]] - University of Chicago Law Review, 2023. Stablecoins as private money.
+- [[Eichengreen-NBER-WP25426-Commodity-Fiat-Crypto-2019]] - NBER, 2019. Abstract only.
+- [[BIS-WP291-US-Dollar-Shortage-Global-Banking-Policy-Response]] - BIS, 2009. Dollar funding and swap lines. Abstract only.
+
 ## Coverage gaps
 
-The vault holds no note on the Eurodollar market, no source on the hierarchy of money, and only five notes that mention Bitcoin (as at 24 October 2026). The watchlist channels added the same day are meant to close part of this; theory sources have to be added by hand.
+No vault source uses the word "Eurodollar" and the Eurodollar market's history and size are not covered; the foundational hierarchy-of-money texts (Mehrling and others) are not in the vault and sit on the private reading list; and Bitcoin coverage remains thin (the Nakamoto white paper was added on 27 October 2026). See [[Hierarchy-of-Money]] and [[Eurodollar]] for the open points.
 
 ## Related
 

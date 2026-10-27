@@ -177,6 +177,17 @@ Sources held since May 2026 that carried no MOC link. Mapped by `topic`.
 - [[Ledger-Insights-Treasury-TBAC-DLT-Intraday-Repo]]
 - [[Ledger-Insights-Wells-Fargo-Tokenized-Deposit]]
 
+## Added 25 October 2026
+
+- [[Ledger-Insights-Ant-HSBC-Tokenized-Deposits-BENJI-Sweep]] - Ledger Insights, 2026.
+- [[Ledger-Insights-Jack-Henry-Google-Universal-Ledger-Tokenized-Deposits]] - Ledger Insights, 2026.
+- [[Ledger-Insights-SoFi-Retail-Tokenized-Deposits-SOFIE]] - Ledger Insights, 2026.
+- [[Ledger-Insights-MEP-Navarrete-Scale-Tokenization-Europe]] - Ledger Insights, 2026.
+- [[ECB-Blog-2026-Highway-Europe-Digital-Finance-Appia]] - ECB blog, 2026.
+- [[UST-TBAC-Minutes-2026-08-04-Intraday-Repo-Tokenization]] - US Treasury TBAC minutes, 4 August 2026. Tokenisation and intraday repo liquidity.
+- [[arXiv-2610-22522-Agentic-AI-Automated-Markets]] - arXiv, 2026.
+- [[BoE-Breeden-Modernising-Money-and-Markets-2026]] - Bank of England (Breeden), 2026.
+
 ## See also
 
 - [[MOC - Law]]

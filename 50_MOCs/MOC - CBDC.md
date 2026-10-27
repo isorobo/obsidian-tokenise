@@ -30,9 +30,18 @@ created: 2026-10-24
 - [[hkma-ehkd-pilot-programme-complete-2025]] - HKMA, 2025.
 - [[HKMA-HKEX-eHKD-Derivatives-Margin-Pilot-2026]] - HKMA and HKEX, 2026.
 
+## Added 25 October 2026
+
+- [[ECB-Blog-2025-Digital-Euro-for-Digital-Age]] - ECB blog, 2025.
+- [[ECB-Blog-2026-Digital-Euro-Opportunity-for-Banks]] - ECB blog, 2026.
+- [[IMF-FTN-2025-007-CBDC-Payments-Competition]] - IMF FinTech Note, 2025.
+- [[IMF-FTN-2025-008-CBDC-Financial-Stability]] - IMF FinTech Note, 2025.
+- [[IMF-FTN-2025-009-Payment-Resilience-Fragile-States-CBDC]] - IMF FinTech Note, 2025.
+- [[IMF-FTN-2025-Financial-Integrity-Retail-CBDC]] - IMF FinTech Note, 2025.
+
 ## Coverage gaps
 
-No note authored by the Bank of England; the digital euro appears only in one news item on an ECB speech (as at 24 October 2026). The ecb-publications and boe-publications watchlist channels are added to fill this.
+Two ECB blog posts on the digital euro were added on 25 October 2026. Still no Bank of England digital pound material and no Federal Reserve retail CBDC position beyond the Anti-CBDC bill (as at 27 October 2026).
 
 ## Related
 

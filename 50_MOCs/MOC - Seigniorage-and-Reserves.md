@@ -47,6 +47,16 @@ created: 2026-10-24
 - [[Synthesis — Stablecoin Architecture Evolution]]
 - [[Thesis — Stablecoins as Liquidity Risk 2026-07-27]] (unverified draft; do not cite)
 
+## Added 25 October 2026
+
+- [[UST-TBAC-Minutes-2025-04-29-Stablecoins-Charge]] - US Treasury TBAC minutes, 29 April 2025.
+- [[UST-TBAC-Minutes-2026-02-03-Stablecoin-Demand-Bills]] - US Treasury TBAC minutes, 3 February 2026. Stablecoin demand for bills.
+- [[Ledger-Insights-OCC-Final-GENIUS-Act-Stablecoin-Rules]] - Ledger Insights, 2026. Press coverage of the OCC final rule.
+- [[Fed-FR-2026-19860-Board-GENIUS-Act-Proposed-Rule]] - Federal Reserve Board proposed rule, 2026.
+- [[OCC-Bulletin-2026-50-GENIUS-Act-Regulations-Final-Rule]] - OCC Bulletin 2026-50, final rule.
+- [[NYFed-LSE-Stablecoins-NonCrypto-Shocks-2026-Update]] - NY Fed Liberty Street Economics, 2026.
+- [[BoE-Sterling-Denominated-Systemic-Stablecoins-Policy-Statement-2026]] - Bank of England, 2026. Policy statement and draft Code of Practice.
+
 ## Coverage gaps
 
 No note on issuer attestations or audited reserve reports; no source on Fed remittances to Treasury; Gross and Senner (IMF WP/26/005) is cited in the liquidity draft but absent from the vault.

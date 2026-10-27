@@ -106,6 +106,17 @@ Sources held since May 2026 that carried no MOC link. Mapped by `topic`.
 
 - [[mas-parliamentary-reply-vasp-aml-2026]]
 
+## Added 25 October 2026
+
+- [[Fed-FR-2026-19860-Board-GENIUS-Act-Proposed-Rule]] - Federal Reserve Board proposed rule, 2026.
+- [[OCC-Bulletin-2026-50-GENIUS-Act-Regulations-Final-Rule]] - OCC Bulletin 2026-50, final rule.
+- [[OCC-Bulletin-2026-51-GENIUS-Act-Waivers-Application-Guidance]] - OCC Bulletin 2026-51.
+- [[Treasury-GENIUS-Act-Section-3-NPRM-Press-Release-2026]] - US Treasury press release, 2026.
+- [[BCB-Resolution-521-Virtual-Assets-Foreign-Exchange-2025]] - Banco Central do Brasil, 2025.
+- [[BCB-Resolution-561-eFX-Providers-Crypto-Settlement-Ban-2026]] - Banco Central do Brasil, 2026.
+- [[Ledger-Insights-OCC-Final-GENIUS-Act-Stablecoin-Rules]] - Ledger Insights, 2026. Press coverage of the OCC final rule.
+- [[Ledger-Insights-State-Regulators-Stablecoin-Safe-Harbor-GENIUS]] - Ledger Insights, 2026.
+
 ## See also
 
 - [[MOC - Private-Law-Convergence]]

@@ -159,6 +159,37 @@ Sources held since May 2026 that carried no MOC link. Mapped by `topic`.
 - [[Ledger-Insights-SBI-Nodeinfra-Project-Musubi-PvP]]
 - [[Ledger-Insights-Wells-Fargo-Tokenized-Deposit]]
 
+## Added 25 October 2026
+
+### Regulation and supervision
+
+- [[Fed-FR-2026-19860-Board-GENIUS-Act-Proposed-Rule]] - Federal Reserve Board proposed rule, 2026.
+- [[OCC-Bulletin-2026-50-GENIUS-Act-Regulations-Final-Rule]] - OCC Bulletin 2026-50, final rule.
+- [[OCC-Bulletin-2026-51-GENIUS-Act-Waivers-Application-Guidance]] - OCC Bulletin 2026-51.
+- [[Treasury-GENIUS-Act-Section-3-NPRM-Press-Release-2026]] - US Treasury press release, 2026.
+- [[Ledger-Insights-OCC-Final-GENIUS-Act-Stablecoin-Rules]] - Ledger Insights, 2026. Press coverage of the OCC final rule.
+- [[Ledger-Insights-State-Regulators-Stablecoin-Safe-Harbor-GENIUS]] - Ledger Insights, 2026.
+- [[BoE-Sterling-Denominated-Systemic-Stablecoins-Policy-Statement-2026]] - Bank of England, 2026. Policy statement and draft Code of Practice.
+- [[BCB-Resolution-521-Virtual-Assets-Foreign-Exchange-2025]] - Banco Central do Brasil, 2025.
+- [[BCB-Resolution-561-eFX-Providers-Crypto-Settlement-Ban-2026]] - Banco Central do Brasil, 2026.
+- [[FSB-Global-Stablecoin-Arrangements-Cross-Border-Vulnerabilities-2026]] - FSB, 2026.
+
+### Analysis and research
+
+- [[BIS-WP1385-Competing-Rails-Crossborder-Payments-Stablecoins]] - BIS, 2026.
+- [[NYFed-LSE-Stablecoins-NonCrypto-Shocks-2026-Update]] - NY Fed Liberty Street Economics, 2026.
+- [[NYFed-SR1202-Stablecoins-Meet-Mundell-Fleming-Trilemma]] - NY Fed Staff Report 1202, 2026.
+- [[ECB-Blog-2025-From-Hype-to-Hazard-Stablecoins-Europe]] - ECB blog, 2025.
+- [[BoE-Breeden-Modernising-Money-and-Markets-2026]] - Bank of England (Breeden), 2026.
+- [[UST-TBAC-Minutes-2025-04-29-Stablecoins-Charge]] - US Treasury TBAC minutes, 29 April 2025.
+- [[UST-TBAC-Minutes-2026-02-03-Stablecoin-Demand-Bills]] - US Treasury TBAC minutes, 3 February 2026. Stablecoin demand for bills.
+
+### Market developments
+
+- [[Ledger-Insights-HSBC-RedCoin-Retail-Stablecoin-Live]] - Ledger Insights, 2026.
+- [[Ledger-Insights-BLOOM-Adds-Malaysia-Thailand-Central-Banks]] - Ledger Insights, 2026. Singapore BLOOM adds two central banks.
+- [[Ledger-Insights-SoFi-Retail-Tokenized-Deposits-SOFIE]] - Ledger Insights, 2026.
+
 ## See also
 
 - [[MOC - Law]] (GENIUS Act, MiCA)

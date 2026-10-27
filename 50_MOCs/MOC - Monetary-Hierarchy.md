@@ -49,6 +49,15 @@ created: 2026-10-24
 - [[FEDS-Note-2026-08-Decade-US-Cross-Border-Payments-Efforts]] - Federal Reserve, 2026.
 - [[FEDS-2026-011-Contrasting-Ledgers-Interbank-Payment-Systems]] - Federal Reserve, 2026.
 
+## Added 25 October 2026
+
+- [[BoE-SWP1174-Model-of-Monetary-Singleness]] - Bank of England staff working paper 1174, 2026.
+- [[NYFed-SR1202-Stablecoins-Meet-Mundell-Fleming-Trilemma]] - NY Fed Staff Report 1202, 2026.
+- [[BoE-Breeden-Modernising-Money-and-Markets-2026]] - Bank of England (Breeden), 2026.
+- [[ECB-Blog-2025-From-Hype-to-Hazard-Stablecoins-Europe]] - ECB blog, 2025.
+- [[BIS-WP1385-Competing-Rails-Crossborder-Payments-Stablecoins]] - BIS, 2026.
+- [[FSB-Global-Stablecoin-Arrangements-Cross-Border-Vulnerabilities-2026]] - FSB, 2026.
+
 ## Coverage gaps
 
 The vault holds no note on the Eurodollar market, no source on the hierarchy of money, and only five notes that mention Bitcoin (as at 24 October 2026). The watchlist channels added the same day are meant to close part of this; theory sources have to be added by hand.

@@ -80,6 +80,13 @@ Sources held since May 2026 that carried no MOC link. Mapped by `topic`.
 - [[arXiv-2608-01341-402Pilot-x402-Agent-Micropayments]]
 - [[arXiv-2608-02311-AI-Governance-Institutional-Readiness-Finance]]
 
+## Added 25 October 2026
+
+- [[arXiv-2604-19026-ClawCoin-Agentic-AI-Native-Cryptocurrency]] - arXiv, 2026. An agent-native cryptocurrency design.
+- [[arXiv-2610-22522-Agentic-AI-Automated-Markets]] - arXiv, 2026.
+- [[arXiv-2610-26324-Control-Layer-Rule-Following-Trading-Agents]] - arXiv, 2026.
+- [[FSB-Sound-Practices-AI-Adoption-Final-Report-2026]] - FSB, 2026. Final report.
+
 ## See also
 
 - [[MOC - Agent-Ledger-Interface]]

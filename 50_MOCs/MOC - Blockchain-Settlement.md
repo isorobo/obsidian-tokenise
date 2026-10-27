@@ -122,6 +122,12 @@ Sources held since May 2026 that carried no MOC link. Mapped by `topic`.
 - [[Ledger-Insights-ECB-Project-Pontes-Go-Live]]
 - [[Ledger-Insights-SBI-Nodeinfra-Project-Musubi-PvP]]
 
+## Added 25 October 2026
+
+- [[arXiv-2604-19026-ClawCoin-Agentic-AI-Native-Cryptocurrency]] - arXiv, 2026. An agent-native cryptocurrency design.
+- [[ECB-Blog-2026-Highway-Europe-Digital-Finance-Appia]] - ECB blog, 2026.
+- [[UST-TBAC-Minutes-2026-08-04-Intraday-Repo-Tokenization]] - US Treasury TBAC minutes, 4 August 2026. Tokenisation and intraday repo liquidity.
+
 ## See also
 
 - [[MOC - Finance]]

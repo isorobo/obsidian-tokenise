@@ -37,7 +37,6 @@ watchlist_channel: law-regulation
 topic:
 - topic/finance/cbdc
 - topic/law
-- topic/finance
 - topic/tokenisation
 subject:
 - subject/congress
